@@ -1,0 +1,7 @@
+total 164
+-rwxrwxr-x 1 alu0101546377 alu0101546377 127184 dic  8 18:40 a.out
+drwxrwxr-x 2 alu0101546377 alu0101546377   4096 dic  8 18:44 files
+-rw-rw-r-- 1 alu0101546377 alu0101546377   2267 dic  8 18:17 netcp.cc
+-rw-rw-r-- 1 alu0101546377 alu0101546377  13705 dic  8 18:42 netcp_tools.h
+drwxrwxr-x 2 alu0101546377 alu0101546377   4096 dic  3 16:23 signal_code
+-rw-rw-r-- 1 alu0101546377 alu0101546377   6598 dic  7 13:09 Subprocess_class.h

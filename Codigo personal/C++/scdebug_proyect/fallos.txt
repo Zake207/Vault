@@ -1,0 +1,14 @@
+ERROR: No se detectan parametros
+ATENCIÓN: no se pudo leer ningun programa a monitorizar
+ERROR: no se pudo hacer la traza de ~~  ~~
+ATENCIÓN: no se pudo leer ningun programa a monitorizar
+ERROR: no se pudo hacer la traza de ~~  ~~
+ATENCIÓN: no se pudo leer ningun programa a monitorizar
+ERROR: no se pudo hacer la traza de ~~  ~~
+ERROR: no se detectó ningun registro de traza del comando -a
+ERROR: No se detectan parametros
+FATAL ERROR: NO PUDO SER ELIMINADO, NO SE PERMITE
+ATENCIÓN: no se pudo leer ningun programa a monitorizar
+ERROR: no se pudo hacer la traza de ~~  ~~
+ERROR: no se detectó ningun registro de traza del comando -vall
+ERROR: no se pudo hacer la traza de ~~ ps -v -vall  ~~
