@@ -1,0 +1,19 @@
+/* Set node colors in graph view */
+.theme-dark .graph-view.color-fill {
+  color: green;
+}
+.theme-dark .graph-view.color-fill-unresolved {
+  color: red;
+}
+.theme-dark .graph-view.color-fill-tag {
+  color: blue;
+}
+.theme-light .graph-view.color-fill {
+  color: green;
+}
+.theme-light .graph-view.color-fill-unresolved {
+    color: red;
+}
+.theme-light .graph-view.color-fill-tag {
+  color: blue;
+}

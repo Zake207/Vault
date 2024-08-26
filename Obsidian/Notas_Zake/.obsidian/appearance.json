@@ -1,0 +1,12 @@
+{
+  "accentColor": "#bb00ff",
+  "cssTheme": "Encore",
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard_wideview"
+  ],
+  "interfaceFontFamily": "Courier New",
+  "textFontFamily": "Courier New",
+  "monospaceFontFamily": "Courier New",
+  "theme": "obsidian"
+}

@@ -1,0 +1,18 @@
+{
+  "newFileLocation": "current",
+  "newFileFolderPath": "Notas",
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./Anexos",
+  "readableLineLength": true,
+  "propertiesInDocument": "hidden",
+  "defaultViewMode": "preview",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

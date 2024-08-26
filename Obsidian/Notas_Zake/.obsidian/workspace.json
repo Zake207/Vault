@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "d5b6b99b2bc42dec",
+    "type": "split",
+    "children": [
+      {
+        "id": "27a91c2048f71c56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92b7cc62a020887a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "50bf260b0caca71b",
+    "type": "split",
+    "children": [
+      {
+        "id": "98e9ab56f4f179a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f37c8b3f2f141f89",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9cf846f188421546",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Gym",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c219deb02f122943",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "2993c93774cc0969",
+    "type": "split",
+    "children": [
+      {
+        "id": "300eca23f4e2f8a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52c487da35b5a591",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "58c920782850ca8c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Recursos/Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "220149ba702389c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Recursos/Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "70925cceb4ad8590",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Recursos/Home.md"
+              }
+            }
+          },
+          {
+            "id": "67ee34c098c76c94",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Abrir la nota de hoy": false,
+      "switcher:Abrir selector rápido": true,
+      "templates:Insertar plantilla": false,
+      "canvas:Crear nuevo lienzo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "92b7cc62a020887a",
+  "lastOpenFiles": [
+    "Carrera/Redes/Capa Física.md",
+    "Carrera/Redes/Redes.md",
+    "Recursos/Home.md",
+    "Notas/Eventos/2024-08-28 Playa Fadi.md",
+    "Notas/Eventos/2024-08-22 Gym Pierna.md",
+    "Notas/Eventos/2024-08-20 Gym Pecho.md",
+    "Notas/Eventos/2024-08-27 Comer Barranquera.md",
+    "Notas/Eventos/2024-08-24 Gym Femoral.md",
+    "Notas/Eventos/2024-08-25 Gym Femoral.md",
+    "Notas/Eventos/2024-08-24 Playa Fadi.md",
+    "Notas/Eventos/2024-08-23 Gym Brazo.md",
+    "Notas/Eventos/2024-08-22 Gym Pecho.md",
+    "Notas/Eventos/2024-08-20 Gym Pierna.md",
+    "Notas/Eventos/2024-08-20 Quedada Univers.md",
+    "Notas/Eventos/2024-08-21 Gym Espalda.md",
+    "Notas/Eventos/2024-08-21 Cine Fadi.md",
+    "Carrera/FIS/Prueba_de_git.md",
+    "Carrera/FIS/FIS.md",
+    "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
+    "Recursos/Anexos/Pasted image 20240324175124.png",
+    "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
+    "Recursos/Anexos/harry-gillen-t7gbHudO1Xo-unsplash.jpg",
+    "Recursos/gatete.md",
+    "Recursos/Templates/Índice Carpeta.md",
+    "Recursos/Templates/Índice clases.md",
+    "Recursos/Añadir tareas.md",
+    "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
+    "Carrera/AYEDA/AYEDA.md",
+    "Carrera/AYEDA/TEMA 3. ORDENACIÓN.md",
+    "Carrera/Admin/FreeIPA.md",
+    "Carrera/AYEDA/Anexos/Pasted image 20240510233633.png",
+    "Carrera/AYEDA/Anexos/Pasted image 20240510163852.png",
+    "Carrera/Redes/Anexos/Pasted image 20240507212331.png",
+    "Carrera/Redes/Anexos/Pasted image 20240507211905.png",
+    "Carrera/Redes/Anexos/Pasted image 20240505124419.png",
+    "Carrera/Redes/Anexos/Pasted image 20240505124358.png",
+    "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
+    "Carrera/AYEDA/Sin título.canvas",
+    "Tareas",
+    "Carrera/CDyAL/Anexos",
+    "Carrera/Redes/Anexos",
+    "Ocio",
+    "Carrera/Admin/grafo.canvas",
+    "Carrera/Admin/Sin título.canvas",
+    "Carrera/Admin/Anexos",
+    "Carrera/AYEDA/Anexos",
+    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/Tools.h",
+    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/State.h",
+    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/PositionDim.h",
+    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/Position.h"
+  ]
+}
