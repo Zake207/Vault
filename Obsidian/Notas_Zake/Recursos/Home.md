@@ -1,8 +1,6 @@
 ---
-cssclasses: dashboard
 banner: "![[depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp]]"
-banner_y: 0
-banner_x: 0.5
+banner_y: 0.526
 ---
 
 # Tareas

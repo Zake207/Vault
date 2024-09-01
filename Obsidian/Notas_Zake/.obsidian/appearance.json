@@ -8,5 +8,6 @@
   "interfaceFontFamily": "Courier New",
   "textFontFamily": "Courier New",
   "monospaceFontFamily": "Courier New",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "baseFontSizeAction": false
 }
