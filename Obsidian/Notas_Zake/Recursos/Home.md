@@ -7,8 +7,8 @@ banner_x: 0.5
 
 # Tareas
 ```dataview
-TASK
-WHERE !completed
+TASK 
+from "Recursos" WHERE !completed 
 ```
 [[Añadir tareas]]
 # Carrera
@@ -26,10 +26,11 @@ list from "Carrera" and #índice and #carrera_año3
 ``` dataview
 list from "Carrera" and #índice and #carrera_año4 
 ```
-+ Recursos adicionales
-
+## Recursos adicionales
+[[Módulo tkinter]]
 # Proyectos
 + [[Ideas]]
++ [[Aplicación del juego de la vida.]]
 # Ocio
 ``` dataview
 list from "Ocio" and #índice

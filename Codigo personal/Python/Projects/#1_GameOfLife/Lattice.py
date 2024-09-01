@@ -79,6 +79,3 @@ class Lattice:
             for y in range(self.__columns + 1):
                 self.__lattice[x][y].UpdateState()
 
-
-        
-        

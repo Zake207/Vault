@@ -59,3 +59,4 @@ class Cell :
     def UpdateState(self) -> None:
         self.__actual_state = self.__next_state
         self.__next_state = "-"
+        

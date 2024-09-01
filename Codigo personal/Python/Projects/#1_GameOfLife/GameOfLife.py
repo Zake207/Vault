@@ -44,4 +44,4 @@ while True:
   elif option == 2:
     break
   system("clear")
-  
+
