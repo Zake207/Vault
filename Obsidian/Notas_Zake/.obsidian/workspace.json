@@ -4,11 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "27a91c2048f71c56",
+        "id": "f89260795e510c23",
         "type": "tabs",
         "children": [
           {
-            "id": "92b7cc62a020887a",
+            "id": "8e5bd088c16f1c12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ocio/Ideas Fadi.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bba9655c03faa347",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "37838d05f2be69b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Gym",
+                "query": "tag:#índice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,20 +174,25 @@
       "daily-notes:Abrir la nota de hoy": false,
       "switcher:Abrir selector rápido": true,
       "templates:Insertar plantilla": false,
-      "canvas:Crear nuevo lienzo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-book-search-plugin:Create new book note": false,
+      "canvas:Crear nuevo lienzo": false,
       "obsidian42-brat:BRAT": false,
+      "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "92b7cc62a020887a",
+  "active": "bba9655c03faa347",
   "lastOpenFiles": [
+    "Notas/Eventos/2024-09-01 Plan con Fadi.md",
+    "Ocio/Ideas Fadi.md",
+    "Ocio/Juegos.md",
+    "Recursos/Home.md",
+    "Notas/Diario./26-08-2024.md",
+    "Recursos/Añadir tareas.md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
-    "Recursos/Home.md",
-    "Notas/Eventos/2024-08-28 Playa Fadi.md",
+    "Notas/Eventos/2024-08-28 Plan con Fadi.md",
     "Notas/Eventos/2024-08-22 Gym Pierna.md",
     "Notas/Eventos/2024-08-20 Gym Pecho.md",
     "Notas/Eventos/2024-08-27 Comer Barranquera.md",
@@ -187,11 +214,6 @@
     "Recursos/gatete.md",
     "Recursos/Templates/Índice Carpeta.md",
     "Recursos/Templates/Índice clases.md",
-    "Recursos/Añadir tareas.md",
-    "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
-    "Carrera/AYEDA/AYEDA.md",
-    "Carrera/AYEDA/TEMA 3. ORDENACIÓN.md",
-    "Carrera/Admin/FreeIPA.md",
     "Carrera/AYEDA/Anexos/Pasted image 20240510233633.png",
     "Carrera/AYEDA/Anexos/Pasted image 20240510163852.png",
     "Carrera/Redes/Anexos/Pasted image 20240507212331.png",
