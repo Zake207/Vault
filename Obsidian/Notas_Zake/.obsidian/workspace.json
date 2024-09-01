@@ -40,9 +40,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5ac5efed1cfe7692",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Módulo tkinter.md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Módulo tkinter.md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Módulo tkinter.md"
+                "file": "Recursos/Home.md"
               }
             }
           },
@@ -182,10 +195,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "370e613aff52aa5b",
+  "active": "5ac5efed1cfe7692",
   "lastOpenFiles": [
-    "Recursos/Home.md",
     "Recursos/Módulo tkinter.md",
+    "Recursos/Home.md",
     "Carrera/Admin/Administración de Sistemas.md",
     "Recursos/Añadir tareas.md",
     "Recursos/Aplicación del juego de la vida..md",
