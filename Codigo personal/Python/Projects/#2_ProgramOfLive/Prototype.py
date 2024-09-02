@@ -2,7 +2,7 @@ import tkinter
 import tkinter.messagebox
 
 def DisplayInfo() -> None:
-    tkinter.messagebox.showinfo("Additional info", "If you have any problem or questions about this app click the link below:")
+    tkinter.messagebox.showinfo("Additional info", "If you have any problem or questions about this app go to the page below:\n\n[[Insert link]]")
     pass
 
 def NextGen() -> None:
@@ -23,7 +23,7 @@ window.geometry("1000x650")
 window.resizable(0,0) # -> Block the user to change the dimensions of the window
 window.configure(bg = "lightblue", cursor = "tcross")
 # /// Header
-header = tkinter.Label(window, text = "///  GAME OF LIFE  ///", relief = "solid").pack()
+header = tkinter.Label(window, text = "///  GAME OF LIFE  ///", relief = "solid", font = "courier").pack()
 # /// Next Gen Button
 button_next_gen = tkinter.Button(window, text = "Next Gen", fg = "green", bg = "lightgrey", command = NextGen)
 button_next_gen.pack()
