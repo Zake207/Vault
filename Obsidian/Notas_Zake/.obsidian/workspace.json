@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0f40d66bb1ea1702",
+        "id": "46045ffe972d855a",
         "type": "tabs",
         "children": [
           {
-            "id": "7a475cea14b9d32b",
+            "id": "af9f75c217a146ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
+                "file": "Recursos/Home.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2993c93774cc0969",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md"
+                "file": "Recursos/Home.md"
               }
             }
           },
@@ -155,24 +156,30 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false,
       "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "7a475cea14b9d32b",
+  "active": "af9f75c217a146ac",
   "lastOpenFiles": [
-    "Carrera/AYEDA/AYEDA.md",
+    "Carrera/Label.md",
+    "Recursos/Diseño de la app..md",
+    "Carrera/Módulo tkinter.md",
+    "Proyectos/Aplicación del juego de la vida..md",
     "Recursos/Home.md",
+    "Módulo tkinter.md",
+    "Aplicación del juego de la vida..md",
+    "Ocio/Juegos.md",
+    "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
+    "Carrera/AYEDA/AYEDA.md",
     "Recursos/Aplicación del juego de la vida..md",
     "Recursos/Módulo tkinter.md",
     "Carrera/Admin/Administración de Sistemas.md",
     "Recursos/Añadir tareas.md",
-    "Recursos/Diseño de la app..md",
     "Proyectos/Ideas.md",
     "Ocio/Ideas Fadi.md",
     "Notas/Eventos/2024-09-01 Plan con Fadi.md",
-    "Ocio/Juegos.md",
     "Notas/Diario./26-08-2024.md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
@@ -182,12 +189,6 @@
     "Notas/Eventos/2024-08-27 Comer Barranquera.md",
     "Notas/Eventos/2024-08-24 Gym Femoral.md",
     "Notas/Eventos/2024-08-25 Gym Femoral.md",
-    "Notas/Eventos/2024-08-24 Playa Fadi.md",
-    "Notas/Eventos/2024-08-23 Gym Brazo.md",
-    "Notas/Eventos/2024-08-22 Gym Pecho.md",
-    "Notas/Eventos/2024-08-20 Gym Pierna.md",
-    "Notas/Eventos/2024-08-20 Quedada Univers.md",
-    "Notas/Eventos/2024-08-21 Gym Espalda.md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",

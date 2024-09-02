@@ -34,7 +34,7 @@ system("clear")
 option = 0
 while True:
   print("////////////////////////////////////////////////////////     JUEGO DE LA VIDA     ////////////////////////////////////////////////////////")
-  print(main_lattice, end="\n\n")
+  print(main_lattice, end = "\n\n")
   print("1. Show the next generation.")
   print("2. End program.")
   option = int(input("Select one option: "))

@@ -27,8 +27,9 @@ list from "Carrera" and #índice and #carrera_año4
 ## Recursos adicionales
 [[Módulo tkinter]]
 # Proyectos
-+ [[Ideas]]
-+ [[Aplicación del juego de la vida.]]
+``` dataview
+list from "Proyectos"
+```
 # Ocio
 ``` dataview
 list from "Ocio" and #índice

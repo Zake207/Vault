@@ -1,2 +1,0 @@
-## Contenidos
-[[Label]]
