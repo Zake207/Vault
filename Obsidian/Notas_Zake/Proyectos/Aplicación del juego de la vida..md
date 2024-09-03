@@ -3,7 +3,7 @@
 + Aprender python.
 + Desarrollar una versión primitiva del juego de la vida
 + Desarrollar una aplicación de ventana que ejecute el juego de la vida. (Aprender sobre el módulo de tkinter)
-+ Aprender a desplegar la aplicación como multiplataforma.
++ Aprender a desplegar la aplicación como multiplataforma. (opcional)
 + Aprender sobre desarrollo web para crear mi propia página web.
 + Crear mi propia pagina web, tratar de obtener un dominio propio
 + Ofrecer un link de descarga de mi aplicación.
