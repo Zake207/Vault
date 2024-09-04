@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c9915b752a5ee02",
+        "id": "94d911eed9991827",
         "type": "tabs",
         "children": [
           {
-            "id": "65b6cebfa6aedd19",
+            "id": "8853ac8b92b6682d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Diseño de la app..md",
+                "file": "Recursos/Módulos Python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Diseño de la app..md",
+                "file": "Recursos/Módulos Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Diseño de la app..md",
+                "file": "Recursos/Módulos Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Diseño de la app..md"
+                "file": "Recursos/Módulos Python.md"
               }
             }
           },
@@ -161,14 +161,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "65b6cebfa6aedd19",
+  "active": "8853ac8b92b6682d",
   "lastOpenFiles": [
-    "Proyectos/Aplicación del juego de la vida..md",
     "Recursos/Home.md",
+    "Recursos/Módulos Python.md",
+    "Carrera/Redes/Capa Física.md",
+    "Carrera/Redes/Redes.md",
+    "Recursos/Diseño de la app..md",
+    "Proyectos/Aplicación del juego de la vida..md",
     "Carrera/Módulo tkinter.md",
     "Carrera/Ventanas.md",
     "Carrera/Label.md",
-    "Recursos/Diseño de la app..md",
     "Módulo tkinter.md",
     "Aplicación del juego de la vida..md",
     "Ocio/Juegos.md",
@@ -182,13 +185,10 @@
     "Ocio/Ideas Fadi.md",
     "Notas/Eventos/2024-09-01 Plan con Fadi.md",
     "Notas/Diario./26-08-2024.md",
-    "Carrera/Redes/Capa Física.md",
-    "Carrera/Redes/Redes.md",
     "Notas/Eventos/2024-08-28 Plan con Fadi.md",
     "Notas/Eventos/2024-08-22 Gym Pierna.md",
     "Notas/Eventos/2024-08-20 Gym Pecho.md",
     "Notas/Eventos/2024-08-27 Comer Barranquera.md",
-    "Notas/Eventos/2024-08-24 Gym Femoral.md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",

@@ -25,7 +25,7 @@ list from "Carrera" and #índice and #carrera_año3
 list from "Carrera" and #índice and #carrera_año4 
 ```
 ## Recursos adicionales
-[[Módulo tkinter]]
+[[Módulos Python]]
 # Proyectos
 ``` dataview
 list from "Proyectos"
