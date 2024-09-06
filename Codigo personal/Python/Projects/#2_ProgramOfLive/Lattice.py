@@ -10,7 +10,6 @@ import Cell
 class Lattice:
     
     def __init__(self, rows = 1, columns = 1) -> None:
-        print("The Lattice Constructor has been called")
         if rows > 0:
             self.__rows = int(rows)
         if rows > 0:

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2fcc6ff5c29d5801",
+        "id": "e5f7bff367452bf5",
         "type": "tabs",
         "children": [
           {
-            "id": "0f8842c963437e11",
+            "id": "2ba1fbfc0a078062",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Python.md",
-                "mode": "source",
+                "file": "Proyectos/Aplicación del juego de la vida..md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Python.md",
+                "file": "Proyectos/Aplicación del juego de la vida..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Python.md",
+                "file": "Proyectos/Aplicación del juego de la vida..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Python.md"
+                "file": "Proyectos/Aplicación del juego de la vida..md"
               }
             }
           },
@@ -161,14 +161,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "0f8842c963437e11",
+  "active": "2ba1fbfc0a078062",
   "lastOpenFiles": [
     "Recursos/Home.md",
     "Recursos/Python.md",
+    "Proyectos/Aplicación del juego de la vida..md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
     "Recursos/Diseño de la app..md",
-    "Proyectos/Aplicación del juego de la vida..md",
     "Carrera/Módulo tkinter.md",
     "Carrera/Ventanas.md",
     "Carrera/Label.md",
