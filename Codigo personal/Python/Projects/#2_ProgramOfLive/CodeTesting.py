@@ -4,7 +4,7 @@ import tkinter.messagebox
 
 ###############################################################################################################################################
 def DisplayInfo() -> None:
-    pass
+    tkinter.messagebox.showerror(title = "/// ERROR", message = "This option is not implemented")
 ###############################################################################################################################################
 number_of_rows = 20
 number_of_columns = 20
@@ -22,7 +22,11 @@ def NextGen() -> None:
     matrix_label.config(text = main_lattice, font = ("Arial", 15, "bold"), justify = "center")
 ###############################################################################################################################################
 def Configuration() -> None:
-    pass
+    tkinter.messagebox.showerror(title = "/// ERROR", message = "This option is not implemented")
+
+def ClearLattice() -> None:
+    main_lattice.Clear()
+    matrix_label.config(text = main_lattice, font = ("Arial", 15, "bold"), justify = "center")
 ###############################################################################################################################################
 ###############################################################################################################################################
 
@@ -41,10 +45,11 @@ def SubmitPosition() -> None:
     initial_pos_x = stored_initial_pos_x.get()
     initial_pos_y = stored_initial_pos_y.get()
 
-    if (int(initial_pos_x) not in range(0,21)) or (int(initial_pos_y) not in range(0,21)):
+    if (int(initial_pos_x) not in range(20)) or (int(initial_pos_y) not in range(20)):
         tkinter.messagebox.showerror(title = "/// ERROR", message = "You submitted the wrong coordinates.\nThey must be between 0 and 20.")
     else:
         main_lattice.SetAlive(int(initial_pos_x), int(initial_pos_y))
+        matrix_label.config(text = main_lattice, font = ("Arial", 15, "bold"), justify = "center")
     stored_initial_pos_x.set("")
     stored_initial_pos_y.set("")
 
@@ -53,7 +58,7 @@ pos_x_entry = tkinter.Entry(initial_window, textvariable = stored_initial_pos_x)
 pos_y_entry_label = tkinter.Label(initial_window, text = "Coordinate Y:", bg = "lightblue").pack()
 pos_y_entry = tkinter.Entry(initial_window, textvariable = stored_initial_pos_y).pack()
 
-submit_coordinates_button = tkinter.Button(initial_window, command = SubmitPosition, text = "Submit").pack()
+submit_coordinates_button = tkinter.Button(initial_window, command = SubmitPosition, text = "Submit", bg = "lightgrey", width = 7).pack()
 
 ###############################################################################################################################################
 ###############################################################################################################################################
@@ -90,54 +95,7 @@ button_configuration = tkinter.Button(window, text = "Configuration", fg = "blue
 button_configuration.pack()
 button_configuration.place(x=50, y=50)
 
+button_clear_lattice = tkinter.Button(initial_window, text = "Clear", bg = "lightgrey", width = 7, command = ClearLattice)
+button_clear_lattice.pack()
+
 window.mainloop()
-
-
-
-
-
-
-
-
-
-
-# # Función para reemplazar el contenido
-# def reemplazar_contenido():
-#     # Almacena los widgets actuales
-#     global widgets_anteriores
-#     widgets_anteriores = root.winfo_children()
-
-#     # Oculta los widgets actuales en lugar de destruirlos
-#     for widget in widgets_anteriores:
-#         widget.pack_forget()
-
-#     # Agrega nuevos widgets
-#     nuevo_label = tk.Label(root, text="Este es el nuevo contenido")
-#     nuevo_label.pack(padx=20, pady=20)
-
-#     boton_volver = tk.Button(root, text="Volver", command=restaurar_contenido)
-#     boton_volver.pack(padx=20, pady=20)
-
-# # Función para restaurar el contenido anterior
-# def restaurar_contenido():
-#     # Oculta los widgets actuales
-#     for widget in root.winfo_children():
-#         widget.pack_forget()
-
-#     # Vuelve a mostrar los widgets anteriores
-#     for widget in widgets_anteriores:
-#         widget.pack()
-
-# # Crear la ventana principal
-# root = tk.Tk()
-# root.title("Ventana Principal")
-
-# # Crear el contenido original
-# label_original = tk.Label(root, text="Contenido original de la ventana")
-# label_original.pack(padx=20, pady=20)
-
-# btn_reemplazar = tk.Button(root, text="Reemplazar Contenido", command=reemplazar_contenido)
-# btn_reemplazar.pack(padx=20, pady=20)
-
-# # Iniciar el bucle principal
-# root.mainloop()

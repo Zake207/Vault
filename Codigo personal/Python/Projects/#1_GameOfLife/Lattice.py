@@ -8,6 +8,9 @@ RESPONSABILIDADES DEL RETÍCULO:
 import Cell
     
 class Lattice:
+    __rows = 0
+    __columns = 0
+    __lattice = []
     
     def __init__(self, rows = 1, columns = 1) -> None:
         print("The Lattice Constructor has been called")
@@ -17,8 +20,8 @@ class Lattice:
             self.__columns = int(columns)
         self.__lattice = []
         aux_list = []
-        for i in range(-1, rows):
-            for j in range(-1, columns):
+        for i in range(0, rows):
+            for j in range(0, columns):
                 aux_cell = Cell.Cell("-", i, j)
                 aux_list.append(aux_cell)
             self.__lattice.append(aux_list)
@@ -36,30 +39,44 @@ class Lattice:
                 break
             self.__lattice[int(coor_x)][int(coor_y)].SetState("x")
             
-    def __PrintLattice(self) -> None:
-        for row in range(0,self.__rows + 1):
-            for column in range(0,self.__columns + 1):
-                print(self.__lattice[row][column], end=" ")
-            print()
-            
     def __str__(self) -> str:
-        self.__PrintLattice()
-        empty = ""
-        return empty
+        lattice = ""
+        for row in range(self.__rows):
+            for column in range(self.__columns):
+                lattice += self.__lattice[row][column].GetState() + " "
+            lattice += "\n"
+        return lattice
     
     def SetAlive(self, x, y):
         self.__lattice[x][y].SetState("x")
+
+    def IsAlive(self, cor_x, cor_y) -> int:
+        return self.__lattice[cor_x][cor_y].IsAlive()
     
     def CalculateNextGeneration(self) -> None:
         living_cells = 0
-        
-        for x in range(self.__rows + 1):
-            if x + 1 > self.__rows:
-                x = -1
-            for y in range(self.__columns + 1):
-                if y + 1 > self.__columns:
-                    y = -1
-                living_cells = self.__lattice[x - 1][y - 1].IsAlive() + self.__lattice[x - 1][y].IsAlive() + self.__lattice[x - 1][y + 1].IsAlive() + self.__lattice[x][y - 1].IsAlive() + self.__lattice[x][y + 1].IsAlive() + self.__lattice[x + 1][y - 1].IsAlive() + self.__lattice[x + 1][y].IsAlive() + self.__lattice[x + 1][y + 1].IsAlive()
+        # Calculate the next state of the cell based on the cells around
+        for x in range(self.__rows):
+            for y in range(self.__columns):
+                if x == self.__rows - 1:
+                    # x -> limite       y -> limite
+                    if y == self.__columns - 1:
+                        # print(f"d   ({x}, {y})  {living_cells}")
+                        living_cells = self.IsAlive(x-1,y-1) + self.IsAlive(x-1,y) + self.IsAlive(x-1,0) + self.IsAlive(x,y-1) + self.IsAlive(x,0) + self.IsAlive(0,y-1) + self.IsAlive(0,y) + self.IsAlive(0,0)
+                    # x -> limite       y -> no limite
+                    else:
+                        # print(f"c   ({x}, {y})  {living_cells}")
+                        living_cells = self.IsAlive(x-1,y-1) + self.IsAlive(x-1,y) + self.IsAlive(x-1,y+1) + self.IsAlive(x,y-1) + self.IsAlive(x,y+1) + self.IsAlive(0,y-1) + self.IsAlive(0,y) + self.IsAlive(0,y+1)
+                else:
+                    # x -> no limite       y -> limite
+                    if y == self.__columns - 1:
+                        # print(f"b   ({x}, {y})  {living_cells}")
+                        living_cells = self.IsAlive(x-1,y-1) + self.IsAlive(x-1,y) + self.IsAlive(x-1,0) + self.IsAlive(x,y-1) + self.IsAlive(x,0) + self.IsAlive(x+1,y-1) + self.IsAlive(x+1,y) + self.IsAlive(x+1,0)
+                    # x -> no limite       y -> no limite
+                    else:
+                        # print(f"a   ({x}, {y})  {living_cells}")
+                        living_cells = self.IsAlive(x-1,y-1) + self.IsAlive(x-1,y) + self.IsAlive(x-1,y+1) + self.IsAlive(x,y-1) + self.IsAlive(x,y+1) + self.IsAlive(x+1,y-1) + self.IsAlive(x+1,y) + self.IsAlive(x+1,y+1)
+                # Decide the next state the cell
                 match self.__lattice[x][y].IsAlive():
                     case 1:
                         if living_cells in range(2,4):
@@ -72,10 +89,11 @@ class Lattice:
                         else:
                             self.__lattice[x][y].SetNextState("-")
                 living_cells = 0
-            
+
+                    
                     
     def UpdateGeneration(self) -> None:
-        for x in range(self.__rows + 1):
-            for y in range(self.__columns + 1):
+        for x in range(self.__rows):
+            for y in range(self.__columns):
                 self.__lattice[x][y].UpdateState()
 

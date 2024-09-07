@@ -12,10 +12,9 @@ REGLAS A SEGUIR:
 """
 
 import Lattice
-import Cell
 from os import system
 
-system("clear")
+system("clr")
 print("////////////////////////////////////////////////////////     JUEGO DE LA VIDA     ////////////////////////////////////////////////////////")
 print("//// Write the size of the lattice")
 rows = 0
@@ -30,7 +29,7 @@ while columns < 1:
     print("The number introduced is not valid, must be at lest 1")
     
 main_lattice = Lattice.Lattice(rows, columns)
-system("clear")
+system("clr")
 option = 0
 while True:
   print("////////////////////////////////////////////////////////     JUEGO DE LA VIDA     ////////////////////////////////////////////////////////")
@@ -43,5 +42,5 @@ while True:
     main_lattice.UpdateGeneration()
   elif option == 2:
     break
-  system("clear")
+  system("clr")
 

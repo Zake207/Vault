@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e5f7bff367452bf5",
+        "id": "a3ecb1d5dc14c97d",
         "type": "tabs",
         "children": [
           {
-            "id": "2ba1fbfc0a078062",
+            "id": "5c78915f14493d04",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -161,11 +161,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "2ba1fbfc0a078062",
+  "active": "5c78915f14493d04",
   "lastOpenFiles": [
     "Recursos/Home.md",
-    "Recursos/Python.md",
+    "Recursos/Añadir tareas.md",
     "Proyectos/Aplicación del juego de la vida..md",
+    "Recursos/Python.md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
     "Recursos/Diseño de la app..md",
@@ -180,7 +181,6 @@
     "Recursos/Aplicación del juego de la vida..md",
     "Recursos/Módulo tkinter.md",
     "Carrera/Admin/Administración de Sistemas.md",
-    "Recursos/Añadir tareas.md",
     "Proyectos/Ideas.md",
     "Ocio/Ideas Fadi.md",
     "Notas/Eventos/2024-09-01 Plan con Fadi.md",
