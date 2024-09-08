@@ -1,3 +1,3 @@
-- [ ] Curso de Python🐍
-- [ ] Curso de Tkinter
+- [x] Curso de Python🐍
+- [x] Curso de Tkinter
 - [ ] Aplicación del juego de la vida

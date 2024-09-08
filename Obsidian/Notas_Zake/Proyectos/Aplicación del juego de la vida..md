@@ -8,8 +8,10 @@
 + Crear mi propia pagina web, tratar de obtener un dominio propio
 + Ofrecer un link de descarga de mi aplicación.
 + Aprender a tracear las descargas de mi aplicación (opcional)
-# Ideas.
+# Desarrollo.
 [[Diseño de la app.]]
+[[Diseño de la página web]]
+
 # Enlaces de interes
 ### Python
 Python: Documentación

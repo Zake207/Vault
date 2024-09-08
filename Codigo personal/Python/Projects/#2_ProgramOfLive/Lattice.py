@@ -5,8 +5,14 @@ RESPONSABILIDADES DE LA CÉLULA:
 """
 
 class Cell :
-    
-    # CONSTRUCTOR DE LA CLASE
+    #   /// ATRIBUTES
+    __coordinate_x = 0
+    __coordinate_y = 0
+    __actual_state = "-"
+    __next_state = "-"
+
+    #   /// METHODS
+    # CONSTRUCTOR
     def __init__(self, state = "-", coordinate_x = 0, coordinate_y = 0) -> None:
         # Comprobar si el estado es válido
         if state in "-x":
@@ -64,10 +70,12 @@ RESPONSABILIDADES DEL RETÍCULO:
 """
 
 class Lattice:
+    #   /// ATRIBUTES
     __rows = 0
     __columns = 0
     __lattice = []
     
+    #   /// METHODS
     def __init__(self, rows = 1, columns = 1) -> None:
         if rows > 0:
             self.__rows = int(rows)
@@ -90,8 +98,11 @@ class Lattice:
             lattice += "\n"
         return lattice
     
-    def SetAlive(self, x, y):
-        self.__lattice[x][y].SetState("x")
+    def SwitchState(self, x, y):
+        if self.__lattice[x][y].GetState() == "-":
+            self.__lattice[x][y].SetState("x")
+        else:
+            self.__lattice[x][y].SetState("-")
 
     def IsAlive(self, cor_x, cor_y) -> int:
         return self.__lattice[cor_x][cor_y].IsAlive()
