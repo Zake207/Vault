@@ -1,0 +1,12 @@
+El Juego de la Vida de John Conway es un automata celular que simula la evolucion de patrones en una cuadricula. 
+Cada celula esta viva o muerta, y su estado en la siguiente generacion depende de reglas simples basadas en sus vecinas
+
+    - Nace -> Si hay 3 celulas vivas a su alrededor
+    - Vive -> Si hay 2 o 3 celulas vivas a su alrededor
+    - Muere -> Si hay tiene mas de 3 o menos de dos celulas vivas a su alrededor
+    
+    - Una celula viva se representa con 'x' y una muerta con '-'
+    
+    - La frontera funciona devolviendo la celula del extremo opuesto,
+      es decir, si al comprobar pocisiones se sale por la derecha comprueba la
+      celula de extremo opuesto.

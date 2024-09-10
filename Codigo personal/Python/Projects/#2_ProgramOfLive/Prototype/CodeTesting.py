@@ -48,7 +48,7 @@ def SubmitPosition() -> None:
     initial_pos_y = stored_initial_pos_y.get()
 
     if (int(initial_pos_x) not in range(20)) or (int(initial_pos_y) not in range(20)):
-        tkinter.messagebox.showerror(title = "/// ERROR", message = "You submitted the wrong coordinates.\nThey must be between 0 and 20.")
+        tkinter.messagebox.showerror(title = "/// ERROR", message = "You submitted the wrong coordinates.\nThey must be between 0 and 19.")
     else:
         main_lattice.SwitchState(int(initial_pos_x), int(initial_pos_y))
         matrix_label.config(text = main_lattice, font = ("Arial", 15, "bold"), justify = "center")
