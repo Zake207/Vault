@@ -155,4 +155,3 @@ class Lattice:
         for x in range(self.__rows):
             for y in range(self.__columns):
                 self.__lattice[x][y].UpdateState()
-

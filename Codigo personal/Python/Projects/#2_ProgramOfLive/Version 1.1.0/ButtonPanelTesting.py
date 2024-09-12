@@ -25,19 +25,30 @@ class MatrixButton:
         return self.__coor_y
     
     def Activate(self) -> None:
-        print(f"{self.__coor_x}-{self.__coor_y}")
-    
+        print(f"{self.__coor_x} - {self.__coor_y}")
+
+# PROBAR A ALMACENAR UNA SERIE DE LAMBDAS EN UNA MATRIZ Y ASIGNARSELAS A CADA BOTON
+
 buttons = []
 for i in range(20):
     aux_list = []
     for j in range(20):
-        aux_button = MatrixButton(i, j)
+        aux_button = tkinter.Button(window, text = f"{i}-{j}", width = 4)
         aux_list.append(aux_button)
     buttons.append(aux_list)
     aux_list = []
 
-for i in buttons:
-    for j in i:
-        print(type(j))
+# buttons = []
+# for i in range(20):
+#     aux_list = []
+#     for j in range(20):
+#         aux_button = MatrixButton(i, j)
+#         aux_list.append(aux_button)
+#     buttons.append(aux_list)
+#     aux_list = []
+
+for i in range(20):
+    for j in range(20):
+        buttons[i][j].grid(row = i, column = j)
 
 window.mainloop()
