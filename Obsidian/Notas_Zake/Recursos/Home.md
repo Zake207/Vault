@@ -2,40 +2,51 @@
 banner: "![[depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp]]"
 banner_y: 0.526
 ---
-
-# Tareas
+# Carrera
 ```dataview
 TASK 
-from "Recursos" WHERE !completed 
+from "Recursos/task_clases" WHERE !completed
 ```
-[[Añadir tareas]]
-# Carrera
-
-- 2 año
+[[ADD TASK (CLASES)]]
+### 2 año
 ``` dataview
 list from "Carrera" and #índice and #carrera_año2 
 ```
 
-+ 3 año
+### 3 año
 ``` dataview
 list from "Carrera" and #índice and #carrera_año3 
 ```
-+ 4 año
+### 4 año
 ``` dataview
 list from "Carrera" and #índice and #carrera_año4 
 ```
-## Recursos adicionales
-[[Python]]
-# Proyectos
-``` dataview
-list from "Proyectos"
-```
 # Ocio
+``` dataview
+TASK
+from "Recursos/task_ocio" WHERE !completed
+```
+[[ADD TASK (OCIO)]]
+## Libros
+``` dataview
+list from "Libros"
+```
+## Ideas
 ``` dataview
 list from "Ocio" and #índice
 ```
 
-# Libros
-``` dataview
-list from "Libros"
+___
+# Proyectos
+## Tareas
+```dataview
+TASK
+from "Recursos/task_proyectos" WHERE !completed
 ```
+[[ADD TASK (PROYECTOS)]]
+## Documentos
+``` dataview
+list from "Proyectos"
+```
+## Recursos adicionales
+[[Python]]

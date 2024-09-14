@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0fce122ce9cb6303",
+        "id": "41733b58341a5067",
         "type": "tabs",
         "children": [
           {
-            "id": "e5b31ce912944453",
+            "id": "4f06119b146081c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
+                "file": "Proyectos/Página Web.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#índice",
+                "query": "tag:#task_proyects",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2993c93774cc0969",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Proyectos/Página Web.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Proyectos/Página Web.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "Proyectos/Página Web.md"
               }
             }
           },
@@ -150,24 +149,43 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templates:Insertar plantilla": false,
       "obsidian-book-search-plugin:Create new book note": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "switcher:Abrir selector rápido": false,
+      "canvas:Crear nuevo lienzo": false,
       "obsidian42-brat:BRAT": false,
+      "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "e5b31ce912944453",
+  "active": "4f06119b146081c2",
   "lastOpenFiles": [
-    "Recursos/Diseño de la app..md",
-    "Proyectos/Aplicación del juego de la vida..md",
     "Recursos/Home.md",
-    "Recursos/Añadir tareas.md",
+    "Proyectos/Página Web.md",
+    "Proyectos/Portafolio.md",
+    "Proyectos/Aplicación del juego de la vida..md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/GPI/Gestión de proyectos informáticos.md",
+    "Carrera/Estadística/Estadística.md",
+    "Carrera/CYA/CYA.md",
+    "Carrera/SIPC",
+    "Sin nombre",
+    "Carrera/Estadística",
+    "Carrera/CYA",
+    "Carrera/IA",
+    "Carrera/GPI",
+    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Recursos/task_ocio/ADD TASK (OCIO).md",
     "Recursos/Python.md",
+    "Recursos/task_proyectos",
+    "Recursos/task_ocio",
+    "Recursos/task_clases",
+    "Task_clases",
+    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
+    "Recursos/Diseño de la app..md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
     "Carrera/Módulo tkinter.md",
@@ -180,15 +198,6 @@
     "Carrera/AYEDA/AYEDA.md",
     "Recursos/Aplicación del juego de la vida..md",
     "Recursos/Módulo tkinter.md",
-    "Carrera/Admin/Administración de Sistemas.md",
-    "Proyectos/Ideas.md",
-    "Ocio/Ideas Fadi.md",
-    "Notas/Eventos/2024-09-01 Plan con Fadi.md",
-    "Notas/Diario./26-08-2024.md",
-    "Notas/Eventos/2024-08-28 Plan con Fadi.md",
-    "Notas/Eventos/2024-08-22 Gym Pierna.md",
-    "Notas/Eventos/2024-08-20 Gym Pecho.md",
-    "Notas/Eventos/2024-08-27 Comer Barranquera.md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
@@ -201,17 +210,7 @@
     "Carrera/Redes/Anexos/Pasted image 20240505124358.png",
     "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
     "Carrera/AYEDA/Sin título.canvas",
-    "Tareas",
-    "Carrera/CDyAL/Anexos",
-    "Carrera/Redes/Anexos",
-    "Ocio",
     "Carrera/Admin/grafo.canvas",
-    "Carrera/Admin/Sin título.canvas",
-    "Carrera/Admin/Anexos",
-    "Carrera/AYEDA/Anexos",
-    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/Tools.h",
-    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/State.h",
-    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/PositionDim.h",
-    "Codigo personal/GameOfLifeProject/UnifiedGameOfLife/lib/Position.h"
+    "Carrera/Admin/Sin título.canvas"
   ]
 }
