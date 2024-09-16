@@ -2,10 +2,19 @@ import Lattice
 import tkinter
 import tkinter.messagebox
 
+"""
+Ideas: hace una clase que tenga como atributos:
+    + Coordenadas
+    + Lambda que llame a la funcion Submit position con sus coordenadas
+    + El boton en cuestión     
+"""
+
 ###                                                         /// GLOBAL VARIABLES ///
 gen_number = 0
 main_lattice = Lattice.Lattice(20, 20)
 instructions_of_the_game = open("instrucciones.txt").read()
+button_list = list()
+        
 # /// TKINTER WINDOWS
 window = tkinter.Tk()
 initial_window = tkinter.Tk()
@@ -33,11 +42,17 @@ def ClearLattice() -> None:
     main_lattice.Clear()
     matrix_label.config(text = main_lattice, font = ("Arial", 15, "bold"), justify = "center")
 
-def SubmitPosition() -> None:
-    initial_pos_x = 0
-    initial_pos_y = 0
-    main_lattice.SwitchState(initial_pos_x, initial_pos_y)
+def SubmitPosition(x, y) -> None:
+    main_lattice.SwitchState(x, y)
     matrix_label.config(text = main_lattice, font = ("Arial", 15, "bold"), justify = "center")
+
+def ButtonCreator(window, button_list) :
+    button_list = []
+    for i in range(20):
+        for j in range(20):
+            aux_button = MatrixButton(i,j)
+            button_list.append(aux_button)
+
 
 
 ###                                                         /// TKINTER ELEMENTS ///
@@ -60,3 +75,18 @@ button_clear_lattice = tkinter.Button(initial_window, text = "Clear", bg = "ligh
 button_configuration = tkinter.Button(window, text = "Configuration", fg = "blue", bg = "lightgrey", command = Configuration)
 button_help = tkinter.Button(window, text = "Help", fg = "red", bg = "lightgrey", command = DisplayInfo)
 button_next_gen = tkinter.Button(window, text = "Next Gen", fg = "green", bg = "lightgrey", command = NextGen)
+
+###                                                         /// CLASSES ///
+class MatrixButton:
+    __coor_x = 0
+    __coor_y = 0
+    __button_func = 0
+    __button = 0
+    
+    def __init__(self, x, y) -> None:
+        self.__coor_x = x
+        self.__coor_y = y
+        self.__button_func = lambda: SubmitPosition(self.__coor_x, self.__coor_y)
+        self.__button = tkinter.Button(initial_window, text = f"{self.__coor_x}-{self.__coor_y}", width = 1, height = 1, command = self.__button_func)
+        self.__button.grid(row = x, column = y)  
+        pass
