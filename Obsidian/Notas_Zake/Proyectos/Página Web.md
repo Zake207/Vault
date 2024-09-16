@@ -11,3 +11,7 @@ Si a la hora de hacer 'from fastapi import FastAPI' da un error de importación 
 
 En el caso de mi aplicación usare un entorno virtual llamado .venv
 INVESTIGAR SI SE PUEDE EVITAR TRABAJAR CON ESTE ENTORNO VIRTUAL
+
+## Recursos adicionales
+Tutoriales de mouredev.
+[Backend desde cero](https://www.youtube.com/watch?v=_y9qQZXE24A&list=PLNdFk2_brsRdgQXLIlKBXQDeRf3qvXVU_&index=19)

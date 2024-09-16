@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "41733b58341a5067",
+        "id": "d964d825b15e7468",
         "type": "tabs",
         "children": [
           {
-            "id": "4f06119b146081c2",
+            "id": "c4825bcd7c0143a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -160,9 +160,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4f06119b146081c2",
+  "active": "c4825bcd7c0143a0",
   "lastOpenFiles": [
     "Recursos/Home.md",
+    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
+    "Ocio/Juegos.md",
+    "Ocio/Ideas.md",
     "Proyectos/Página Web.md",
     "Proyectos/Portafolio.md",
     "Proyectos/Aplicación del juego de la vida..md",
@@ -184,7 +187,6 @@
     "Recursos/task_ocio",
     "Recursos/task_clases",
     "Task_clases",
-    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
     "Recursos/Diseño de la app..md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
@@ -193,11 +195,9 @@
     "Carrera/Label.md",
     "Módulo tkinter.md",
     "Aplicación del juego de la vida..md",
-    "Ocio/Juegos.md",
     "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
     "Carrera/AYEDA/AYEDA.md",
     "Recursos/Aplicación del juego de la vida..md",
-    "Recursos/Módulo tkinter.md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
