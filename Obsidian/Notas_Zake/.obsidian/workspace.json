@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "753809a376a178e3",
+        "id": "66ed49c595b9f076",
         "type": "tabs",
         "children": [
           {
-            "id": "e007b18b0986fddd",
+            "id": "9d45b58aaee554fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
+                "file": "Carrera/IA/Módulo_I.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/IA/Módulo_I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/IA/Módulo_I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "Carrera/IA/Módulo_I.md"
               }
             }
           },
@@ -160,17 +160,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e007b18b0986fddd",
+  "active": "9d45b58aaee554fe",
   "lastOpenFiles": [
-    "Proyectos/Página Web.md",
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Módulo_I.md",
+    "Carrera/IA/Modulo_M.md",
     "Recursos/Home.md",
+    "Libros/Fulgrim.md",
+    "Recursos/gatete.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Recursos/Diseño de la app..md",
+    "Proyectos/Aplicación del juego de la vida..md",
+    "Proyectos/Página Web.md",
     "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
     "Ocio/Juegos.md",
     "Ocio/Ideas.md",
     "Proyectos/Portafolio.md",
-    "Proyectos/Aplicación del juego de la vida..md",
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/IA/Inteligencia Artificial.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
     "Carrera/Estadística/Estadística.md",
     "Carrera/CYA/CYA.md",
@@ -187,17 +192,12 @@
     "Recursos/task_ocio",
     "Recursos/task_clases",
     "Task_clases",
-    "Recursos/Diseño de la app..md",
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
     "Carrera/Módulo tkinter.md",
     "Carrera/Ventanas.md",
     "Carrera/Label.md",
     "Módulo tkinter.md",
-    "Aplicación del juego de la vida..md",
-    "Carrera/AYEDA/TEMA 2. BÚSQUEDA.md",
-    "Carrera/AYEDA/AYEDA.md",
-    "Recursos/Aplicación del juego de la vida..md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
