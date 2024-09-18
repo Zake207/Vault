@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "3c5da69c990be944",
+        "id": "7b37d08659e38ce9",
         "type": "tabs",
         "children": [
           {
-            "id": "3cd203fc8659470a",
+            "id": "4b90276a5b3fe342",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/task_clases/ADD TASK (CLASES).md",
+                "file": "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1e217097dd2d82c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/task_clases/ADD TASK (CLASES).md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/task_clases/ADD TASK (CLASES).md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/task_clases/ADD TASK (CLASES).md"
+                "file": "Recursos/Home.md"
               }
             }
           },
@@ -161,30 +175,31 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3cd203fc8659470a",
+  "active": "b1e217097dd2d82c",
   "lastOpenFiles": [
+    "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
+    "Carrera/CYA/Anexos/Pasted image 20240918163717.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918163702.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918163652.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918163639.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918163338.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918163318.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918162952.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918162943.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918161540.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918161446.png",
+    "Carrera/CYA/CYA.md",
     "Recursos/Home.md",
+    "Recursos/task_clases/ADD TASK (CLASES).md",
     "Proyectos/Página Web.md",
     "Proyectos/Aplicación del juego de la vida..md",
     "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
-    "Carrera/CYA/Anexos/Pasted image 20240918121957.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918121932.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918121513.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918121113.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918120401.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918120339.png",
-    "Carrera/CYA/CYA.md",
     "Carrera/IA/Búsqueda.md",
-    "Carrera/IA/Anexos/Pasted image 20240918111856.png",
     "Carrera/IA/Anexos",
     "Carrera/IA/Inteligencia Artificial.md",
     "Carrera/IA/Módulo_I.md",
-    "Carrera/CYA/Anexos/Pasted image 20240918102556.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918095024.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918094510.png",
     "Carrera/CYA/Anexos",
     "Carrera/Estadística/Estadística.md",
-    "Recursos/task_clases/ADD TASK (CLASES).md",
     "Recursos/task_ocio/ADD TASK (OCIO).md",
     "Recursos/Templates/Índice clases.md",
     "Carrera/SIPC/Sistemas de interacción.md",
@@ -207,7 +222,6 @@
     "Recursos/Python.md",
     "Recursos/task_proyectos",
     "Recursos/task_ocio",
-    "Carrera/Redes/Capa Física.md",
     "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
     "Carrera/AYEDA/Sin título.canvas",
     "Carrera/Admin/grafo.canvas",

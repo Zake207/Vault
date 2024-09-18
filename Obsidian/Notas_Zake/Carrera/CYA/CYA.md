@@ -3,6 +3,7 @@ ___
 ### Teoría:
 [[Tema 1 (Alfabetos, cadenas y lenguajes)]]
 
+[[Teoría de conjuntos, lógica simbólica.]]
 ### Prácticas:
 ___
 ### Evaluación:
