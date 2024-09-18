@@ -33,11 +33,38 @@ w = abra
 z = cadabra
 wz = abracadabra
 **ε** es la identidad de la concatenación **ε**\*w = w\***ε** = w
+
 ### Repeticiones
 Consiste en concatenar una cadena consigo misma n veces
 ![[Pasted image 20240918102556.png]]
+
 ### Igualdad
 Se da cuando dos cadenas son de la misma longitud con los mismo símbolos en el mismo orden.
+
 ### Prefijos y sufijos.
 w,x perteecientes **Σ**\*
-x es prefijo de 
+x es prefijo de de w si 
+![[Pasted image 20240918120401.png]]
++ Toda cadena puede considerarse prefijo de si misma y **ε** es prefijo de cualquier cadena.
++ Los prefijos propios son aquellos que no son iguales a la cadena.
+
+### Subcadenas
+Sean x, y, z, w cadenas pertenecientes a **Σ**\*
+w sera subcadena de z si existen x e y tan que z = xwy
+![[Pasted image 20240918121113.png]]
+
+### Subsecuencias
+Sean x, y cadenas pertenecientes a **Σ**\*
+Se dice que x es subsecuencia de y si contiene símbolos de y, respetando su orden aunque no sea contiguos (se puede saltar símbolos)
+
+Sea w = 123456789
+una subsecuencia sería y = 257 ó y = 19 ó 3489
+
++ Toda subcadena es subsecuencia, su recíproco es falso
++ **ε** es subsecuencia de toda cadena
+### Inversa
+Siendo w una cadena que pertenece a **Σ**\*.
+Su inversa se define como:
+![[Pasted image 20240918121932.png]]
+Ejemplo
+![[Pasted image 20240918121957.png]]

@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "61d31c7671644b1a",
+        "id": "3c5da69c990be944",
         "type": "tabs",
         "children": [
           {
-            "id": "b2382077649a8b84",
+            "id": "3cd203fc8659470a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bbc65cbec3761dec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/IA/Búsqueda.md",
+                "file": "Recursos/task_clases/ADD TASK (CLASES).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Carrera/IA/Búsqueda.md",
+                "file": "Recursos/task_clases/ADD TASK (CLASES).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Carrera/IA/Búsqueda.md",
+                "file": "Recursos/task_clases/ADD TASK (CLASES).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Carrera/IA/Búsqueda.md"
+                "file": "Recursos/task_clases/ADD TASK (CLASES).md"
               }
             }
           },
@@ -175,22 +161,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "bbc65cbec3761dec",
+  "active": "3cd203fc8659470a",
   "lastOpenFiles": [
+    "Recursos/Home.md",
+    "Proyectos/Página Web.md",
+    "Proyectos/Aplicación del juego de la vida..md",
+    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
+    "Carrera/CYA/Anexos/Pasted image 20240918121957.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918121932.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918121513.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918121113.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918120401.png",
+    "Carrera/CYA/Anexos/Pasted image 20240918120339.png",
+    "Carrera/CYA/CYA.md",
+    "Carrera/IA/Búsqueda.md",
     "Carrera/IA/Anexos/Pasted image 20240918111856.png",
     "Carrera/IA/Anexos",
     "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/IA/Búsqueda.md",
     "Carrera/IA/Módulo_I.md",
-    "Recursos/Home.md",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
     "Carrera/CYA/Anexos/Pasted image 20240918102556.png",
-    "Carrera/CYA/CYA.md",
     "Carrera/CYA/Anexos/Pasted image 20240918095024.png",
     "Carrera/CYA/Anexos/Pasted image 20240918094510.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918092533.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918091925.png",
-    "Carrera/CYA/Anexos/Pasted image 20240918091854.png",
     "Carrera/CYA/Anexos",
     "Carrera/Estadística/Estadística.md",
     "Recursos/task_clases/ADD TASK (CLASES).md",
@@ -202,8 +193,6 @@
     "Libros/Fulgrim.md",
     "Recursos/gatete.md",
     "Recursos/Diseño de la app..md",
-    "Proyectos/Aplicación del juego de la vida..md",
-    "Proyectos/Página Web.md",
     "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
     "Ocio/Juegos.md",
     "Ocio/Ideas.md",
@@ -219,10 +208,6 @@
     "Recursos/task_proyectos",
     "Recursos/task_ocio",
     "Carrera/Redes/Capa Física.md",
-    "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
-    "Recursos/Anexos/Pasted image 20240324175124.png",
-    "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
-    "Recursos/Anexos/harry-gillen-t7gbHudO1Xo-unsplash.jpg",
     "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
     "Carrera/AYEDA/Sin título.canvas",
     "Carrera/Admin/grafo.canvas",

@@ -31,6 +31,9 @@ https://www.geeksforgeeks.org/python-tkinter-tutorial/
 Video 5 horas de freecodecamp
 https://www.youtube.com/watch?v=YXPyB4XeYLA
 
+Tutorial recomendado
+https://www.youtube.com/watch?v=jwA1Efuq48Q&list=PLtfK3a_2fHLKJk8tcvjX_vfhGXW3Pr8Et
+
 ___
 ### Página web.
 Compra de dominios
