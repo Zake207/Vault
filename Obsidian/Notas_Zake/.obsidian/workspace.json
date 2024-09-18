@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "feccbdfd0f6afe70",
+        "id": "61d31c7671644b1a",
         "type": "tabs",
         "children": [
           {
-            "id": "1a58c7f679db93e1",
+            "id": "b2382077649a8b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bbc65cbec3761dec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/IA/Búsqueda.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
+                "file": "Carrera/IA/Búsqueda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
+                "file": "Carrera/IA/Búsqueda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md"
+                "file": "Carrera/IA/Búsqueda.md"
               }
             }
           },
@@ -161,25 +175,29 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "1a58c7f679db93e1",
+  "active": "bbc65cbec3761dec",
   "lastOpenFiles": [
+    "Carrera/IA/Anexos/Pasted image 20240918111856.png",
+    "Carrera/IA/Anexos",
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Búsqueda.md",
+    "Carrera/IA/Módulo_I.md",
+    "Recursos/Home.md",
+    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
+    "Carrera/CYA/Anexos/Pasted image 20240918102556.png",
+    "Carrera/CYA/CYA.md",
     "Carrera/CYA/Anexos/Pasted image 20240918095024.png",
     "Carrera/CYA/Anexos/Pasted image 20240918094510.png",
     "Carrera/CYA/Anexos/Pasted image 20240918092533.png",
     "Carrera/CYA/Anexos/Pasted image 20240918091925.png",
     "Carrera/CYA/Anexos/Pasted image 20240918091854.png",
     "Carrera/CYA/Anexos",
-    "Carrera/CYA/CYA.md",
-    "Recursos/Home.md",
     "Carrera/Estadística/Estadística.md",
     "Recursos/task_clases/ADD TASK (CLASES).md",
     "Recursos/task_ocio/ADD TASK (OCIO).md",
     "Recursos/Templates/Índice clases.md",
     "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
     "Carrera/CYA/(Tema 1) Alfabetos, cadenas y lenguajes.md",
-    "Carrera/IA/Módulo_I.md",
     "Carrera/IA/Modulo_M.md",
     "Libros/Fulgrim.md",
     "Recursos/gatete.md",
@@ -200,15 +218,11 @@
     "Recursos/Python.md",
     "Recursos/task_proyectos",
     "Recursos/task_ocio",
-    "Recursos/task_clases",
     "Carrera/Redes/Capa Física.md",
-    "Carrera/Redes/Redes.md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
     "Recursos/Anexos/harry-gillen-t7gbHudO1Xo-unsplash.jpg",
-    "Carrera/AYEDA/Anexos/Pasted image 20240510233633.png",
-    "Carrera/AYEDA/Anexos/Pasted image 20240510163852.png",
     "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
     "Carrera/AYEDA/Sin título.canvas",
     "Carrera/Admin/grafo.canvas",
