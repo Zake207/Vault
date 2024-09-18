@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "66ed49c595b9f076",
+        "id": "376c59bf82c01667",
         "type": "tabs",
         "children": [
           {
-            "id": "9d45b58aaee554fe",
+            "id": "779a3d80384edf5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/IA/Módulo_I.md",
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Carrera/IA/Módulo_I.md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Carrera/IA/Módulo_I.md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Carrera/IA/Módulo_I.md"
+                "file": "Recursos/Home.md"
               }
             }
           },
@@ -160,15 +160,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9d45b58aaee554fe",
+  "active": "779a3d80384edf5c",
   "lastOpenFiles": [
+    "Carrera/CYA/CYA.md",
+    "Carrera/Estadística/Estadística.md",
+    "Recursos/Home.md",
+    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Recursos/task_ocio/ADD TASK (OCIO).md",
+    "Recursos/Templates/Índice clases.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
     "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
+    "Carrera/CYA/(Tema 1) Alfabetos, cadenas y lenguajes.md",
     "Carrera/IA/Módulo_I.md",
     "Carrera/IA/Modulo_M.md",
-    "Recursos/Home.md",
     "Libros/Fulgrim.md",
     "Recursos/gatete.md",
-    "Carrera/SIPC/Sistemas de interacción.md",
     "Recursos/Diseño de la app..md",
     "Proyectos/Aplicación del juego de la vida..md",
     "Proyectos/Página Web.md",
@@ -177,16 +184,12 @@
     "Ocio/Ideas.md",
     "Proyectos/Portafolio.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/Estadística/Estadística.md",
-    "Carrera/CYA/CYA.md",
     "Carrera/SIPC",
     "Sin nombre",
     "Carrera/Estadística",
     "Carrera/CYA",
     "Carrera/IA",
     "Carrera/GPI",
-    "Recursos/task_clases/ADD TASK (CLASES).md",
-    "Recursos/task_ocio/ADD TASK (OCIO).md",
     "Recursos/Python.md",
     "Recursos/task_proyectos",
     "Recursos/task_ocio",
@@ -195,9 +198,6 @@
     "Carrera/Redes/Capa Física.md",
     "Carrera/Redes/Redes.md",
     "Carrera/Módulo tkinter.md",
-    "Carrera/Ventanas.md",
-    "Carrera/Label.md",
-    "Módulo tkinter.md",
     "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
     "Recursos/Anexos/Pasted image 20240324175124.png",
     "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
