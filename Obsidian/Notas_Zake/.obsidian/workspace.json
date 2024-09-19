@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bfa86d0a991588ee",
+        "id": "cf346a54ec667559",
         "type": "tabs",
         "children": [
           {
-            "id": "fd9040fd25461044",
+            "id": "1504bf95890515fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
+                "file": "Carrera/CYA/CYA.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/CYA/CYA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/CYA/CYA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "Carrera/CYA/CYA.md"
               }
             }
           },
@@ -161,8 +161,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fd9040fd25461044",
+  "active": "1504bf95890515fa",
   "lastOpenFiles": [
+    "Recursos/Home.md",
+    "Carrera/CDyAL/CDyAL.md",
     "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
     "Carrera/CYA/Anexos/Pasted image 20240918163717.png",
     "Carrera/CYA/Anexos/Pasted image 20240918163702.png",
@@ -175,7 +177,6 @@
     "Carrera/CYA/Anexos/Pasted image 20240918161540.png",
     "Carrera/CYA/Anexos/Pasted image 20240918161446.png",
     "Carrera/CYA/CYA.md",
-    "Recursos/Home.md",
     "Recursos/task_clases/ADD TASK (CLASES).md",
     "Proyectos/Página Web.md",
     "Proyectos/Aplicación del juego de la vida..md",

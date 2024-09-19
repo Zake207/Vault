@@ -5,6 +5,7 @@ ___
 
 [[Teoría de conjuntos, lógica simbólica.]]
 ### Prácticas:
+contraseña: fadima
 ___
 ### Evaluación:
 CF = 0,2 \* PR + \* 0,2 C + 0,6 \* EX
