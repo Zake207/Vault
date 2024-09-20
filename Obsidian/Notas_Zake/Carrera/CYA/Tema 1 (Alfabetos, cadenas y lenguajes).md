@@ -68,3 +68,59 @@ Su inversa se define como:
 ![[Pasted image 20240918121932.png]]
 Ejemplo
 ![[Pasted image 20240918121957.png]]
+## Operaciones con lenguajes
+#### Concatenación
+Produce como resultado un conjunto con todas las posibles concatenaciones de ambos lenguajes, no es conmutativo
+![[Pasted image 20240920164049.png]]
+Ejemplo:
+![[Pasted image 20240920164115.png]]
++ Si los lenguajes a concatenar son sobre diferentes alfabetos la concatenación será sobre la union de dichos alfabetos.
++ Concatenar un lenguaje cualquiera con un lenguaje que solo contenga la cadena vacía resulta en el lenguaje original.
+#### Potencia
+Sea L⊆Σ*
+Se define su potencia como:
+![[Pasted image 20240920164519.png]]
+Ejemplo:
+![[Pasted image 20240920164558.png]]
++ La potencia 0 del lenguaje vacío resulta en el lenguaje que contiene únicamente la cadena vacía.
++ La enésima potencia del lenguaje vacío para cualquier n mayor que 1 es igual al lenguaje vacío.
+![[Pasted image 20240920164824.png]]
+#### Unión e Intersección.
+Sean L$_1$ ⊆ Σ* , L$_2$ ⊆ Σ*
+![[Pasted image 20240920165408.png]]
+La Unión cumple la propiedad distributiva de la siguiente manera.
+![[Pasted image 20240920165514.png]]
+#### Sublenguajes e igualdad
+Un lenguaje es sublenguaje de otro si todas sus cadenas están en este otro lenguaje, se dice que todo lenguaje sobre el alfabeto Σ son sublenguajes de Σ*.
+
+Se dice que son iguales si contienen las misma cadenas y, por tanto, están contenidos el uno en el otro.
+#### Diferencia
+Sean L$_1$ y L$_2$ lenguajes de un alfabeto Σ la diferencia será
+![[Pasted image 20240920173117.png]]
+Ejemplo:
+![[Pasted image 20240920173213.png]]
+#### Complementario
+Se L un lenguaje sobre un alfabeto Σ su complementario será.
+![[Pasted image 20240920173404.png]]
+Un ejemplo de esto.
+![[Pasted image 20240920173523.png]]
+#### Inversa
+Se L un lenguaje sobre un alfabeto Σ su inverso será.
+![[Pasted image 20240920173645.png]]
+Ejemplo:
+![[Pasted image 20240920173832.png]]
+## Cierre de Kleene y Cierre positivo
+Sea L ⊆ Σ*
+![[Pasted image 20240920170416.png]]
+Sea L ⊆ Σ*
+![[Pasted image 20240920170554.png]]
+Ejemplo:
+![[Pasted image 20240920170719.png]]
+#### Propiedades
+![[Pasted image 20240920170818.png]]
+#### Teoremas
+![[Pasted image 20240920170918.png]]
+#### Demostración
+![[Pasted image 20240920172142.png]]
+La demostración es la siguiente.
+![[Pasted image 20240920172340.png]]![[Pasted image 20240920172644.png]]
