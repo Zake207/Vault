@@ -4,6 +4,7 @@ ___
 [[Tema 1 (Alfabetos, cadenas y lenguajes)]]
 
 [[Teoría de conjuntos, lógica simbólica.]]
+[[Propiedades de conjuntos]]
 ___
 ### Prácticas:
 contraseña máquina virtual: fadima

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b79749d15b500e8b",
+        "id": "7168422ecd4a4924",
         "type": "tabs",
         "children": [
           {
-            "id": "8f8f74cb28297f23",
+            "id": "10f879c662a362d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -152,22 +152,26 @@
     "hiddenItems": {
       "command-palette:Abrir paleta de comandos": false,
       "templates:Insertar plantilla": false,
-      "obsidian-book-search-plugin:Create new book note": false,
       "daily-notes:Abrir la nota de hoy": false,
       "switcher:Abrir selector rápido": false,
       "canvas:Crear nuevo lienzo": false,
-      "obsidian42-brat:BRAT": false,
       "obsidian-full-calendar:Open Full Calendar": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "8f8f74cb28297f23",
+  "active": "10f879c662a362d7",
   "lastOpenFiles": [
-    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Carrera/CYA/Propiedades de conjuntos.md",
+    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
+    "Carrera/CYA/CYA.md",
+    "Recursos/Fechas importantes.md",
     "Recursos/Home.md",
+    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
     "Carrera/Estadística/Tema 1.md",
     "Carrera/Estadística/Estadística.md",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
     "Carrera/CYA/Anexos/Pasted image 20240920173832.png",
     "Carrera/CYA/Anexos/Pasted image 20240920173645.png",
     "Carrera/CYA/Anexos/Pasted image 20240920173523.png",
@@ -178,9 +182,7 @@
     "Carrera/CYA/Anexos/Pasted image 20240920172340.png",
     "Carrera/CYA/Anexos/Pasted image 20240920172142.png",
     "Carrera/CYA/Anexos/Pasted image 20240920170918.png",
-    "Carrera/CYA/CYA.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
     "Carrera/CDyAL/CDyAL.md",
     "Proyectos/Página Web.md",
     "Proyectos/Aplicación del juego de la vida..md",
@@ -199,8 +201,6 @@
     "Recursos/Diseño de la app..md",
     "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
     "Ocio/Juegos.md",
-    "Ocio/Ideas.md",
-    "Proyectos/Portafolio.md",
     "Carrera/SIPC",
     "Sin nombre",
     "Carrera/Estadística",

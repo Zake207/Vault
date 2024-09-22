@@ -110,9 +110,9 @@ Se L un lenguaje sobre un alfabeto Σ su inverso será.
 Ejemplo:
 ![[Pasted image 20240920173832.png]]
 ## Cierre de Kleene y Cierre positivo
-Sea L ⊆ Σ*
+Sea L ⊆ Σ\*
 ![[Pasted image 20240920170416.png]]
-Sea L ⊆ Σ*
+Sea L ⊆ Σ\*
 ![[Pasted image 20240920170554.png]]
 Ejemplo:
 ![[Pasted image 20240920170719.png]]
