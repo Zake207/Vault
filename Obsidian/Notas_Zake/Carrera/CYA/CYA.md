@@ -2,6 +2,8 @@
 ___
 ### Teoría:
 [[Tema 1 (Alfabetos, cadenas y lenguajes)]]
+[[Tema 2 (Expresiones regulares y automatas)]]
+
 
 [[Teoría de conjuntos, lógica simbólica.]]
 [[Propiedades de conjuntos]]

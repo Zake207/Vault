@@ -19,15 +19,11 @@ ___
 + email: pgarcia@ull.es
 + Tutorías:
 + Despacho:
-Belén Melián
+#### Belén Melián
 + email: mbmelian@ull.edu.es
 + Tutorías:
 + Despacho:
 #### J. Marcos Moreno Vega
 + email: jmmoreno@ull.edu.es
-+ Tutorías:
-+ Despacho:
-#### Dionisio Pérez Brito
-+ email: Dionisio P ́erez Brito
 + Tutorías:
 + Despacho:

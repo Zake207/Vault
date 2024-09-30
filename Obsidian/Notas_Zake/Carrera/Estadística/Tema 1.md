@@ -26,3 +26,46 @@ Se determinan de un tamaño fijo el cual viene dado por el recorrido dividido la
 La marca de clase(m$_i$) se denota por ser el punto medio de este
 
 Para no expandir mucho la tabla podemos combinar las clases creando intervalos mayores
+
+## Medidas Numéricas
+#### Media Aritmética
+![[Pasted image 20240930123324.png]]
+#### Mediana
+-Caso Discreto-
++ Si n/2 está en la grafica de las frecuencias acumuladas, si no está, estará entre dos valores, se elegirá al mayor de estos:
+  ![[Pasted image 20240930123646.png]]
++ Por otro lado, si coincide con una de los valores de N$_i$ ![[Pasted image 20240930124118.png]]
+-Caso Continuo-
++ Si coincide con uno de los valores:
+  ![[Pasted image 20240930124449.png]]
++ Si no
+  ![[Pasted image 20240930124540.png]]
+#### Moda
+Aquel valor que tiene la máxima frecuencia absoluta o relativa.
+Para calcularlo en el caso de las variables continuas la moda se calcula de la siguiente manera.
+![[Pasted image 20240930124831.png]]
+#### Cuartiles.
+Hay tres y cada uno deja un cuarto, la mitad y tres cuartos de la observaciones detrás de ellos.
+
+#### Varianza
+![[Pasted image 20240930125156.png]]
+A medida que aumenta la representatividad de la media disminuye
+#### Desviación típica
+![[Pasted image 20240930125228.png]]
+Si es menor que la media, se considera a esta representativa.
+
+También existe la desviación absoluta media la cual se calcula respecto a p siendo p lo sieguiente:
+![[Pasted image 20240930130249.png]]
+#### CV
+![[Pasted image 20240930125400.png]]
+Un CV mayor que otro indica que hay mayor dispersión
+#### Momentos de orden r
+![[Pasted image 20240930130743.png]]
+
+## Simetría
+Moda = Mediana = Media --> Simetrico
+Moda <= Mediana <= Media --> Asimetría a la derecha
+Moda >= Mediana >= Media --> Asimetría a la izquierda
+
+![[Pasted image 20240930131042.png]]
+![[Pasted image 20240930131101.png]]

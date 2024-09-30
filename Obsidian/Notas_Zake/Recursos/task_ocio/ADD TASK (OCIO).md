@@ -1,3 +1,3 @@
 #task_ocio
 + [ ] Ser feliz :)
-+ [ ] Establecer alarmas de cumpleaños y fechas importantes
++ [x] Establecer alarmas de cumpleaños y fechas importantes ✅ 2024-09-27
