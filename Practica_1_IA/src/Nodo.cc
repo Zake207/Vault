@@ -1,6 +1,6 @@
-#include "Nodo.h"
+#include "../lib/Nodo.h"
 
-    Nodo::Nodo(int id = -1, const vector<pair<int, double>> &children = vector<pair<int, double>>(), const vector<pair<int, double>> &parents = vector<pair<int, double>>()) {
+    Nodo::Nodo(int id, const vector<pair<int, double>> &children, const vector<pair<int, double>> &parents) {
         id_ = id;
         children_;
         parents_;

@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
     int nodeNumber = 0;
     int numero_aristas = 0;
     try {
-        ifstream input_file("files/" + file);
+        ifstream input_file(file);
         if (!input_file) {
             cerr << "File does not exist" << endl;
             return 1;

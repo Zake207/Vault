@@ -1,4 +1,4 @@
-#include "Grafo.h"
+#include "../lib/Grafo.h"
 
     Grafo::Grafo(vector<Nodo>& node_list) {
         node_list_ = node_list;
