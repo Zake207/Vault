@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "68ab6296b62b350b",
+        "id": "3615907d74433e2d",
         "type": "tabs",
         "children": [
           {
-            "id": "0e3bf966c1533c3f",
+            "id": "10f68caec1a8ab6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/Estadística/Tema 1.md",
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -67,11 +67,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "40db9add54c578eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aa4ce24b2346584",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 230
   },
   "right": {
     "id": "2993c93774cc0969",
@@ -82,20 +95,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "52c487da35b5a591",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "58c920782850ca8c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Carrera/Estadística/Tema 1.md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Carrera/Estadística/Tema 1.md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Carrera/Estadística/Tema 1.md"
+                "file": "Recursos/Home.md"
               }
             }
           },
@@ -141,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -161,8 +166,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "0e3bf966c1533c3f",
+  "active": "10f68caec1a8ab6e",
   "lastOpenFiles": [
+    "Carrera/GPI/Hola.md",
+    "Carrera/GPI/Anexos/Pasted image 20241004185332.png",
+    "Carrera/GPI/Anexos",
+    "Recursos/Home.md",
+    "Carrera/Estadística/Tema 1.md",
+    "Carrera/Estadística/Estadística.md",
+    "Carrera/IA/Búsqueda.md",
+    "Carrera/IA/Anexos/Pasted image 20241001111914.png",
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Módulo_I.md",
+    "Carrera/SIPC/(SIPC) Tema 1.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
     "Carrera/Estadística/Anexos/Pasted image 20240930131101.png",
     "Carrera/Estadística/Anexos/Pasted image 20240930131042.png",
     "Carrera/Estadística/Anexos/Pasted image 20240930130743.png",
@@ -171,25 +188,14 @@
     "Carrera/Estadística/Anexos/Pasted image 20240930125228.png",
     "Carrera/Estadística/Anexos/Pasted image 20240930125156.png",
     "Carrera/Estadística/Anexos/Pasted image 20240930124831.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930124540.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930124449.png",
-    "Recursos/Home.md",
-    "Carrera/Estadística/Tema 1.md",
     "Carrera/Estadística/Sin título.md",
-    "Carrera/Estadística/Anexos/Pasted image 20240930124118.png",
     "Carrera/Estadística/Anexos",
-    "Carrera/Estadística/Estadística.md",
     "Recursos/task_clases/ADD TASK (CLASES).md",
     "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/CYA.md",
     "Recursos/task_ocio/ADD TASK (OCIO).md",
     "Carrera/GPI/Tema 1 (Bases de la asignatura).md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/SIPC/(SIPC) Tema 1.md",
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/IA/Búsqueda.md",
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/IA/Módulo_I.md",
     "Carrera/Redes/Redes.md",
     "Carrera/Redes/Capa de red.md",
     "Carrera/Redes/Sistemas distribuidos.md",
@@ -199,7 +205,6 @@
     "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
     "Carrera/CDyAL/CDyAL.md",
     "Proyectos/Página Web.md",
-    "Proyectos/Aplicación del juego de la vida..md",
     "Carrera/IA/Anexos",
     "Carrera/CYA/Anexos",
     "Carrera/SIPC",
@@ -208,7 +213,6 @@
     "Carrera/CYA",
     "Carrera/IA",
     "Carrera/GPI",
-    "Recursos/task_proyectos",
     "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
     "Carrera/AYEDA/Sin título.canvas",
     "Carrera/Admin/grafo.canvas",

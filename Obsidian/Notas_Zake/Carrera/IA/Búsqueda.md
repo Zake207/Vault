@@ -50,3 +50,18 @@ Expande el árbol por el nodo más profundo disponible
 + complejidad en espacio O(bm)
 #### B. profundidad limitada
 Se hace una búsqueda en profundidad de forma iterativa que aumenta poco a poco la profundidad
+## Búsquedas informadas
+Usa conocimientos adicionales al mero planteamiento del problema.
+Se usa una función f(n) de evaluación, en la cual se usa h(n) como estimador de cuanto queda para llegar al final.
+
+Por ejemplo la distancia en linea recta de un nodo al final, seleccionando aquellos nodos que tengan menor distancia (por ejemplo).
+Siempre se tarda más o lo mismo que la estimación, o lo que es lo mismo, h(n) debe ser menor o igual al valor real que queda. Es interesante que se aproxime lo máximo posible al valor final.
+
+La función g(n) es la función que calcula lo que se tarda en ir del origen hasta el nodo actual, se usa con h(n).
+
+#### Búsqueda A*
+Para el algoritmo cuando se selecciona el nodo final para inspeccionar, mientras escoge el que tiene un valor f(n) = h(n) + g(n) más pequeño.
+![[Pasted image 20241001111914.png]]
+En este ejemplo h(n) puede ser el numero de casillas bien colocadas o el numero de movimientos que requieren cada casilla para colocarse bien.
+
+Los problemas relajados permiten que algunas restricciones del problema real no existan, para facilitar el problema.

@@ -1,5 +1,4 @@
 [
-  "calendar",
   "obsidian-full-calendar",
   "dataview",
   "obsidian-banners",
@@ -8,5 +7,6 @@
   "obsidian-book-search-plugin",
   "obsidian42-brat",
   "git-sync",
-  "multi-column-markdown"
+  "multi-column-markdown",
+  "calendar"
 ]

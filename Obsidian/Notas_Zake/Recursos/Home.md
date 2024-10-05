@@ -1,6 +1,6 @@
 ---
 banner: "![[depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp]]"
-banner_y: 0.526
+banner_y: 0.26
 ---
 # Carrera
 ```dataview
