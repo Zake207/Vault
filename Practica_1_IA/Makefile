@@ -1,4 +1,4 @@
 main:
-	g++ -o main src/main.cc -std=c++11
+	g++ -o main src/main.cc src/Grafo.cc src/Nodo.cc -std=c++17
 clean:
 	rm main
