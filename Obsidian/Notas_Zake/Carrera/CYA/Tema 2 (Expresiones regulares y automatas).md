@@ -46,3 +46,58 @@ Los estados finales son aquellos de los cuales no se puede salir sea cual sea la
 
 La función se puede extender sobre las cadenas formadas por símbolos del alfabeto.
 ![[Pasted image 20240928230315.png]]
+
+#### Leguaje aceptado por un DFA
+Sea M un DFA definido por (Q, Σ, δ, q0, F)
+L(M) es el lenguaje aceptado por el DFA. Este es el conjunto de todas las cadenas aceptadas por el DFA. Si dos DFA reconocen el mismo lenguaje se dice que son equivalentes
+
+## Minimizar DFA
+Dos estados son equivalentes si:
+![[Pasted image 20241006202155.png]]
+Son distinguibles si:
+![[Pasted image 20241006202226.png]]
+
+Un DFA es mínimo si todos los pares de estados son distinguibles.
+![[Pasted image 20241006202433.png]]
+
+El algoritmo de minimizar DFA comienza con dos conjuntos: El de los estados de aceptación y de estados de no aceptación.
+A partir de ahi se itera con todos los símbolos del conjunto para cada partición. 
++ Si con todos los símbolos los elementos de cada partición iteran dentro de la misma partición, el conjunto se conserva.
++ Si hubiera un símbolo que provoque que los estados de una partición transiten a estados de otra partición se divide el conjunto.
++ Cuando no se pueda dividir de nuevo se tendrán todas las particiones de nodos diferentes, cada una contiene nodos de comportamiento equivalente. 
++ Basta con quedarnos con uno y redirigir las entradas de los eliminados a este.
+## NFA
+Es un autómata que para un estado se pueden hacer cero, una o mas de una transiciones con dicho símbolo.
+Estos contienen los siguientes elementos:
+![[Pasted image 20241006203507.png]]
+
+La única diferencia se ubica en la función de transición, la cual ahora produce una partición de los estados del autómata, o lo que es lo mismo, para un símbolo de entrada, la función devuelve un conjunto de estados.
+![[Pasted image 20241006203738.png]]
+
+Las tablas de transición son ahora de la siguiente forma.
+![[Pasted image 20241006203823.png]]
+La función de transición funciona ahora con conjuntos de estados.
+![[Pasted image 20241006203955.png]]
+#### ε − transicion
+Es una transición que no consume símbolos de la entrada.
+Por tanto se puede decir que un estado (q0) con una ε − transicion a otro estado (q1) implica que al estar en q0 también se está en q1, si de este hubiera una ε − transicion a q2, estando en q0 se estaría tambien en q1 y q2
+
+Para obtener todos los estados accesibles desde un estado sin consumir símbolo de la entrada se hace la ε − clausura.
+![[Pasted image 20241006205308.png]]
+Por lo tanto la función de transición se define ahora como:
+![[Pasted image 20241006205232.png]]
+![[Pasted image 20241006205524.png]]
+
+Un ejemplo de esta nueva función sería:
+![[Pasted image 20241006205558.png]]
+
+La definición y equivalencia de los NFA y los lenguajes reconocidos no varía de la de un DFA o un NFA.
+
+Un DFA es un caso particular de NFA, dado un NFA es posible definir un DFA.
+Se utiliza el siguiente algoritmo para pasar de un NFA M ≡ (Q, Σ, δ, q0, F) a un DFA M′ ≡ (Q′, Σ, δ′, q′0, F′).
+![[Pasted image 20241006210004.png]]
+
+#### Ejemplo
+![[Pasted image 20241006210103.png]]
+![[Pasted image 20241006210131.png]]![[Pasted image 20241006210148.png]]
+![[Pasted image 20241006210207.png]]

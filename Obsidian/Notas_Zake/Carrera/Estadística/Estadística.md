@@ -2,6 +2,8 @@
 ___
 ### Teoría:
 [[Tema 1]]
+[[Tema 2]]
+
 ### Prácticas:
 ___
 ### Evaluación:
