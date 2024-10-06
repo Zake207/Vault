@@ -1,7 +1,8 @@
 ---
-banner: "![[depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp]]"
-banner_y: 0.26
+banner: "![[Pasted image 20241006174625.png]]"
+banner_y: 0
 ---
+
 # Carrera
 ```dataview
 TASK 
@@ -39,15 +40,21 @@ list from "Ocio" and #índice
 
 ___
 # Proyectos
-## Tareas
+## Ideas
 ```dataview
 TASK
 from "Recursos/task_proyectos" WHERE !completed
 ```
 [[ADD TASK (PROYECTOS)]]
-## Documentos
+
+[[Ideas a largo plazo|Ideas a largo plazo]]
+## Proyectos
 ``` dataview
-list from "Proyectos"
+list from "Proyectos/Registros"
 ```
 ## Recursos adicionales
-[[Python]]
+```dataview
+list from "Proyectos/Documentación"
+```
+
+

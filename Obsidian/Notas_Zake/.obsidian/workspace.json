@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3615907d74433e2d",
+        "id": "859a2ea2209269fa",
         "type": "tabs",
         "children": [
           {
-            "id": "10f68caec1a8ab6e",
+            "id": "98c4603dd57c68d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/Estadística/Estadística.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -32,6 +32,7 @@
       {
         "id": "98e9ab56f4f179a6",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "f37c8b3f2f141f89",
@@ -71,6 +72,7 @@
       {
         "id": "40db9add54c578eb",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "9aa4ce24b2346584",
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/Estadística/Estadística.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/Estadística/Estadística.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "Carrera/Estadística/Estadística.md"
               }
             }
           },
@@ -161,17 +163,41 @@
       "switcher:Abrir selector rápido": false,
       "canvas:Crear nuevo lienzo": false,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "obsidian42-brat:BRAT": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "10f68caec1a8ab6e",
+  "active": "98c4603dd57c68d8",
   "lastOpenFiles": [
+    "Recursos/Home.md",
+    "Recursos/Banner.md",
+    "Recursos/Anexos/Pasted image 20241006174625.png",
+    "Recursos/Anexos/Pasted image 20241006174007.png",
+    "Recursos/Anexos/retro-synthwave-neon-palm-sunset-desktop-wallpaper-cover.jpg",
+    "Recursos/Anexos/retro-synthwave-neon-palm-sunset-desktop-wallpaper-cover 1.jpg",
+    "Recursos/Anexos/Pasted image 20240324175124.png",
+    "Recursos/Anexos/maxim-berg-kE8-rUKjtQU-unsplash.jpg",
+    "Recursos/Anexos/harry-gillen-t7gbHudO1Xo-unsplash.jpg",
+    "Recursos/Anexos/depositphotos_323952574-stock-illustration-synthwave-sunset-background-80s-sun.webp",
+    "Ocio/Fechas importantes.md",
+    "Proyectos/Diseño de la app..md",
+    "Proyectos/Ideas a largo plazo.md",
+    "Proyectos/Python.md",
+    "Proyectos/Registros/Página Web.md",
+    "Proyectos/Registros/Aplicación del juego de la vida..md",
+    "Proyectos/Registros",
+    "Proyectos/Documentación",
+    "Proyectos/Página Web.md",
+    "Proyectos/Aplicación del juego de la vida..md",
+    "Proyectos/Principios Solid.md",
+    "Ocio/Objetivos.md",
+    "Ocio/No man's sky.md",
+    "Ocio/Juegos.md",
+    "Ocio/Corto plazo.md",
+    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
+    "Recursos/task_clases/ADD TASK (CLASES).md",
     "Carrera/GPI/Hola.md",
     "Carrera/GPI/Anexos/Pasted image 20241004185332.png",
     "Carrera/GPI/Anexos",
-    "Recursos/Home.md",
     "Carrera/Estadística/Tema 1.md",
     "Carrera/Estadística/Estadística.md",
     "Carrera/IA/Búsqueda.md",
@@ -180,39 +206,13 @@
     "Carrera/IA/Módulo_I.md",
     "Carrera/SIPC/(SIPC) Tema 1.md",
     "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/Estadística/Anexos/Pasted image 20240930131101.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930131042.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930130743.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930130249.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930125400.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930125228.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930125156.png",
-    "Carrera/Estadística/Anexos/Pasted image 20240930124831.png",
-    "Carrera/Estadística/Sin título.md",
     "Carrera/Estadística/Anexos",
-    "Recursos/task_clases/ADD TASK (CLASES).md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/CYA.md",
-    "Recursos/task_ocio/ADD TASK (OCIO).md",
-    "Carrera/GPI/Tema 1 (Bases de la asignatura).md",
-    "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/Redes/Redes.md",
-    "Carrera/Redes/Capa de red.md",
-    "Carrera/Redes/Sistemas distribuidos.md",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
-    "Carrera/CYA/Propiedades de conjuntos.md",
-    "Recursos/Fechas importantes.md",
-    "Carrera/CYA/Teoría de conjuntos, lógica simbólica..md",
-    "Carrera/CDyAL/CDyAL.md",
-    "Proyectos/Página Web.md",
     "Carrera/IA/Anexos",
     "Carrera/CYA/Anexos",
     "Carrera/SIPC",
     "Sin nombre",
     "Carrera/Estadística",
     "Carrera/CYA",
-    "Carrera/IA",
-    "Carrera/GPI",
     "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
     "Carrera/AYEDA/Sin título.canvas",
     "Carrera/Admin/grafo.canvas",
