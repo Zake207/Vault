@@ -1,2 +1,0 @@
-[[Objetivos]]
-[[ Corto plazo]]
