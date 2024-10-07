@@ -17,7 +17,7 @@ Anaconda permite controlar los paquetes que se utilizan en cada proyecto de pyth
 
 ## Apps de escritorio
 + tkinter (basica)
-+ PyQT
++ PyQT (preferente)
 + WxPython (preferente)
 + DearPyGUI (preferente)
 + Flet
