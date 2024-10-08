@@ -1,5 +1,5 @@
 #task_proyects
-- [ ] Curso de Tkinter, mirar tkinter 
+- [ ] Curso de Tkinter. 
 - [ ] Aplicación del juego de la vida.
 - [ ] Pagina web con FastAPI.
 - [ ] Aprender principios Solid.

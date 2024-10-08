@@ -98,7 +98,7 @@ from "Recursos/task_proyectos" WHERE !completed
 [[Ideas a largo plazo|Ideas a largo plazo]]
 ## Proyectos
 ``` dataview
-list from "Proyectos/Registros"
+list from "Proyectos/Registros" and #project
 ```
 ## Recursos adicionales
 ```dataview

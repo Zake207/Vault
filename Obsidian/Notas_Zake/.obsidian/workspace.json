@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "95ad2db767d21ffb",
+        "id": "a7c2d8f879db7eea",
         "type": "tabs",
         "children": [
           {
-            "id": "fcc52110bf5da1e6",
+            "id": "48becb93aed291ae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +142,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Recursos/Home.md"
+              }
             }
           }
         ]
@@ -156,9 +165,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "fcc52110bf5da1e6",
+  "active": "48becb93aed291ae",
   "lastOpenFiles": [
+    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
     "Recursos/Home.md",
+    "Proyectos/Registros/Página Web.md",
+    "Proyectos/Registros/Portafolio.md",
+    "Proyectos/Registros/Aplicación del juego de la vida..md",
+    "Proyectos/Registros/Diseño de la app..md",
     "Ocio/Juegos/Videojuegos.md",
     "Ocio/Juegos/Terraria.md",
     "Ocio/Juegos/Minecraft.md",
@@ -187,8 +201,6 @@
     "Carrera/CYA/Anexos/Pasted image 20241008182728.png",
     "Carrera/CYA/Anexos/Pasted image 20241008180434.png",
     "Carrera/CYA/Anexos/Pasted image 20241008180359.png",
-    "Carrera/SIPC/(SIPC) Tema 1.md",
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Recursos/task_clases/ADD TASK (CLASES).md"
+    "Carrera/SIPC/(SIPC) Tema 1.md"
   ]
 }
