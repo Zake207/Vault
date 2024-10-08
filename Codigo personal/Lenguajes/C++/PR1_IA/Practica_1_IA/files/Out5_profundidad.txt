@@ -1,0 +1,14 @@
+Numero de nodos: 15
+Numero de aristas: 15
+Nodo de inicio: 8
+Nodo de fin: 6
+//////////////////////////////////////////////
+Iteracion: 1
+	Nodo: 8
+	Nodos generados: 12 11 6 
+	Nodos visitados: 8 
+Iteracion: 2
+	Nodo: 6
+//////////////////////////////////////////////
+Ruta encontrada: 8 6
+Coste: 7

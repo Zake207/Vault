@@ -1,0 +1,38 @@
+Numero de nodos: 15
+Numero de aristas: 15
+Nodo de inicio: 7
+Nodo de fin: 5
+//////////////////////////////////////////////
+Iteracion: 1
+	Nodo: 7
+	Nodos generados: 1 2 14 
+	Nodos visitados: 7 
+Iteracion: 2
+	Nodo: 1
+	Nodos generados: 1 2 14 4 6 
+	Nodos visitados: 7 1 
+Iteracion: 3
+	Nodo: 2
+	Nodos generados: 1 2 14 4 6 
+	Nodos visitados: 7 1 2 
+Iteracion: 4
+	Nodo: 14
+	Nodos generados: 1 2 14 4 6 
+	Nodos visitados: 7 1 2 14 
+Iteracion: 5
+	Nodo: 4
+	Nodos generados: 1 2 14 4 6 3 5 
+	Nodos visitados: 7 1 2 14 4 
+Iteracion: 6
+	Nodo: 6
+	Nodos generados: 1 2 14 4 6 3 5 5 8 10 13 
+	Nodos visitados: 7 1 2 14 4 6 
+Iteracion: 7
+	Nodo: 3
+	Nodos generados: 1 2 14 4 6 3 5 5 8 10 13 
+	Nodos visitados: 7 1 2 14 4 6 3 
+Iteracion: 8
+	Nodo: 5
+//////////////////////////////////////////////
+Ruta encontrada: 7 1 4 5
+Coste: 15

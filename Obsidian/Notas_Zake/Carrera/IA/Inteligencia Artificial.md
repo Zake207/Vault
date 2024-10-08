@@ -7,6 +7,8 @@ ___
 [[Módulo_IV]]
 
 [[Búsqueda]]
+[[Estrategias de búsqueda en juegos]]
+
 
 ### Prácticas:
 ___

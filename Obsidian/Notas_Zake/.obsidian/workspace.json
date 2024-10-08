@@ -1,32 +1,20 @@
 {
   "main": {
-    "id": "d5b6b99b2bc42dec",
+    "id": "8542b6462bb10619",
     "type": "split",
     "children": [
       {
-<<<<<<< Updated upstream
-        "id": "a427df18b4dd87f8",
+        "id": "baaa553aba9cd466",
         "type": "tabs",
         "children": [
           {
-            "id": "e00d3791cc446072",
-=======
-        "id": "3b4e5cc3983cc27e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7906671f4453e5cd",
->>>>>>> Stashed changes
+            "id": "7f5fc7e696d5d5b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Ocio/Social/Fechas importantes.md",
-=======
-                "file": "Proyectos/Documentación/Python.md",
->>>>>>> Stashed changes
-                "mode": "preview",
+                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -38,16 +26,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "50bf260b0caca71b",
+    "id": "a41ffafca9a6994d",
     "type": "split",
     "children": [
       {
-        "id": "98e9ab56f4f179a6",
+        "id": "5d47ec0c2126d747",
         "type": "tabs",
-        "dimension": 44.01154401154401,
+        "dimension": 48.414985590778095,
         "children": [
           {
-            "id": "f37c8b3f2f141f89",
+            "id": "bfafc284c9226ffb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,12 +45,12 @@
             }
           },
           {
-            "id": "9cf846f188421546",
+            "id": "295b11c55103d9d9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#task_proyects",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,7 +60,7 @@
             }
           },
           {
-            "id": "c219deb02f122943",
+            "id": "a58c2b30f72b290e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -82,12 +70,12 @@
         ]
       },
       {
-        "id": "40db9add54c578eb",
+        "id": "5bdccf13ca92489a",
         "type": "tabs",
-        "dimension": 55.98845598845599,
+        "dimension": 51.5850144092219,
         "children": [
           {
-            "id": "9aa4ce24b2346584",
+            "id": "9f14a308eaca7842",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -98,28 +86,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "2993c93774cc0969",
+    "id": "10dedcbe603fc0d6",
     "type": "split",
     "children": [
       {
-        "id": "300eca23f4e2f8a3",
+        "id": "41fed715e29f4f9f",
         "type": "tabs",
         "children": [
           {
-            "id": "58c920782850ca8c",
+            "id": "1bd23f1d928d0088",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Ocio/Social/Fechas importantes.md",
-=======
-                "file": "Proyectos/Documentación/Python.md",
->>>>>>> Stashed changes
+                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,44 +114,36 @@
             }
           },
           {
-            "id": "220149ba702389c7",
+            "id": "bb10acecc4627161",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< Updated upstream
-                "file": "Ocio/Social/Fechas importantes.md",
-=======
-                "file": "Proyectos/Documentación/Python.md",
->>>>>>> Stashed changes
+                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "70925cceb4ad8590",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-<<<<<<< Updated upstream
-                "file": "Ocio/Social/Fechas importantes.md"
-=======
-                "file": "Proyectos/Documentación/Python.md"
->>>>>>> Stashed changes
-              }
-            }
-          },
-          {
-            "id": "67ee34c098c76c94",
+            "id": "5cc0d9087ac28f9e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "d300753c79167adb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md"
               }
             }
           }
@@ -176,77 +151,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:Abrir paleta de comandos": false,
-      "templates:Insertar plantilla": false,
-      "daily-notes:Abrir la nota de hoy": false,
+      "homepage:Open homepage": false,
       "switcher:Abrir selector rápido": false,
-      "canvas:Crear nuevo lienzo": false,
       "graph:Abrir vista gráfica": false,
-      "homepage:Open homepage": false
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "e00d3791cc446072",
+  "active": "7f5fc7e696d5d5b3",
   "lastOpenFiles": [
-    "Recursos/Home.md",
-=======
-  "active": "7906671f4453e5cd",
-  "lastOpenFiles": [
-    "Recursos/Home.md",
-    "Proyectos/Documentación/Planificación de Proyectos Software.md",
->>>>>>> Stashed changes
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/CYA.md",
-    "Recursos/Templates/Índice clases.md",
-    "Carrera/Estadística/Sin título.md",
-    "Carrera/CYA/(Tema 1) Alfabetos, cadenas y lenguajes.md",
-    "Carrera/Label.md",
-    "Carrera/Ventanas.md",
-    "Carrera/GPI/Hola.md",
-    "Carrera/IA/Modulo_M.md",
-    "Recursos/Templates/Índice Carpeta.md",
-    "Ocio/Eventos",
-    "Recursos/task_clases/ADD TASK (CLASES).md",
-    "Ocio/Juegos/Objetivos.md",
-    "Ocio/Juegos/Juegos de mesa.md",
-    "Ocio/Juegos/Warhammer40K.md",
-    "Ocio/Juegos/Munchkin.md",
-    "Ocio/Juegos/Videojuegos.md",
-    "Ocio/Juegos/No man's sky.md",
-    "Ocio/Juegos/Corto plazo.md",
-    "Ocio/Social/Ideas.md",
-    "Ocio/Social/Fechas importantes.md",
-    "Ocio/Social",
-    "Ocio/Nueva carpeta",
-    "Ocio/Juegos",
-    "Carrera/CYA/Anexos/Pasted image 20241006210207.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006210148.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006210131.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006210103.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006210004.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006205558.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006205524.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006205308.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006205232.png",
-    "Carrera/CYA/Anexos/Pasted image 20241006203955.png",
-    "Carrera/Estadística/Estadística.md",
-    "Carrera/Estadística/Tema 2.md",
-    "Carrera/Estadística/Tema 1.md",
-    "Recursos/Banner.md",
-    "Proyectos/Registros",
-    "Proyectos/Documentación",
-    "Carrera/GPI/Anexos",
-    "Carrera/Estadística/Anexos",
-    "Carrera/IA/Anexos",
-    "Carrera/CYA/Anexos",
-    "Carrera/CDyAL/Mapa Conceptual. Tema 4.canvas",
-    "Carrera/AYEDA/Sin título.canvas",
-    "Carrera/Admin/grafo.canvas",
-    "Carrera/Admin/Sin título.canvas"
+    "Recursos/Home.md",
+    "Carrera/IA/Estrategias de búsqueda en juegos.md",
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Módulo_I.md",
+    "Carrera/SIPC/(SIPC) Tema 1.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Recursos/task_clases/ADD TASK (CLASES).md"
   ]
 }

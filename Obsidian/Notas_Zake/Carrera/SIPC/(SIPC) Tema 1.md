@@ -8,3 +8,6 @@ Se pueden diferenciar UI (interfaz de usuario) y UX (como se sienten al usar la 
 
 $a <=> b$ si y solo si $españa$
 
+Material Design
+Diseño de una interfaz que imite el comportamiento de materiales de la vida real
+
