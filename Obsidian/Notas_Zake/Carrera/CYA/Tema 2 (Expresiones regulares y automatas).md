@@ -101,3 +101,42 @@ Se utiliza el siguiente algoritmo para pasar de un NFA M ≡ (Q, Σ, δ, q0, F) 
 ![[Pasted image 20241006210103.png]]
 ![[Pasted image 20241006210131.png]]![[Pasted image 20241006210148.png]]
 ![[Pasted image 20241006210207.png]]
+
+## Autómatas y Expresiones
+Si hay dos expresiones regulares y dos autómatas que reconocen cada una de ellas.
+![[Pasted image 20241008180359.png]]
+![[Pasted image 20241008180434.png]]
+
+La construcción de Thompson sobre una expresion regular (R) permite hacer la disyuncion, concatenación y asterisco.
+Tienen las siguientes características:
++ Tiene a lo sumo el doble de estados que de símbolos que en R
++ Tiene un único estado de aceptación el cual no tiene transiciones salientes
++ Cada estado tiene a lo sumo dos transiciones salientes.
+
+#### Teorema de Kleene
+Si tengo un autómata finito M existe una expresión regular R tal que: L(M) = L(R).
+Un lenguaje es regular si existe un autómata finito que lo acepta.
+
+Cualquier lenguaje finito es regular porque: se puede representar como la disyunción de REVISAR!!!
+
+#### Lema del Bombeo
+![[Pasted image 20241008182728.png]]
+
+Para demostrarlo:
++ L es regular, por ende existe un DFA mínimo M(Q, Σ, δ, q0, F) tal que L(M) = L.
++ Sea n = |Q| el numero de estados.
++ Sea z ∈ L tal que |z| = m >= n
++ El DFA acepta z, por tanto pasa por m + 1
++ Esto implica que algún nodo se repite
+	![[Pasted image 20241008200329.png]]
++ Comprobamos que δ(q$_i$, v) = q$_i$ = q$_j$
++ Por ende: z′ = a1 a2...ai aj+1...am ∈ L
+![[Pasted image 20241008200757.png]]
+Si un lenguaje es regular se cumple el lema del bombeo.
+Si no lo cumple no es regular.
+Para demostrar que L no cumple el Lema del Bombeo:
++ Identificar el lenguaje L que se pretende demostrar que no es regular
++ Se elige una cadena z que cumpla z ∈ L y también |z| ≥ n. Al desconocer n la cadena debe ser en función de n.
++ Dividimos la cadena en z = uvw tal que 1 <= |uv| <= n
++ Basta con demostrar que, para cualquier n, se puede encontrar una cadena z y que, para cualquier forma de descomponer z = uvw existe un i tal que uv$^i$w !∈ L
+![[Pasted image 20241008201342.png]]

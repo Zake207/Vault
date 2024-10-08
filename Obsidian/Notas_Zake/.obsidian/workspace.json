@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "baaa553aba9cd466",
+        "id": "586b60e11dc49f35",
         "type": "tabs",
         "children": [
           {
-            "id": "7f5fc7e696d5d5b3",
+            "id": "15c093a419bc6c12",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -32,7 +32,7 @@
       {
         "id": "5d47ec0c2126d747",
         "type": "tabs",
-        "dimension": 48.414985590778095,
+        "dimension": 48.4149855907781,
         "children": [
           {
             "id": "bfafc284c9226ffb",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md"
+                "file": "Recursos/Home.md"
               }
             }
           }
@@ -156,22 +156,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
+      "command-palette:Abrir paleta de comandos": false,
       "switcher:Abrir selector rápido": false,
-      "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "graph:Abrir vista gráfica": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "7f5fc7e696d5d5b3",
+  "active": "15c093a419bc6c12",
   "lastOpenFiles": [
-    "Carrera/CYA/CYA.md",
-    "Recursos/Home.md",
     "Carrera/IA/Estrategias de búsqueda en juegos.md",
+    "Carrera/IA/Anexos/Pasted image 20241008222501.png",
+    "Carrera/IA/Anexos/Pasted image 20241008221756.png",
     "Carrera/IA/Inteligencia Artificial.md",
     "Carrera/IA/Módulo_I.md",
+    "Recursos/Home.md",
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+    "Carrera/CYA/Anexos/Pasted image 20241008201342.png",
+    "Carrera/CYA/Anexos/Pasted image 20241008201319.png",
+    "Carrera/CYA/Anexos/Pasted image 20241008200757.png",
+    "Carrera/CYA/Anexos/Pasted image 20241008200329.png",
+    "Carrera/CYA/Anexos/Pasted image 20241008182728.png",
+    "Carrera/CYA/Anexos/Pasted image 20241008180434.png",
+    "Carrera/CYA/Anexos/Pasted image 20241008180359.png",
+    "Carrera/CYA/CYA.md",
     "Carrera/SIPC/(SIPC) Tema 1.md",
     "Carrera/SIPC/Sistemas de interacción.md",
     "Recursos/task_clases/ADD TASK (CLASES).md"

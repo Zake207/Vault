@@ -1,11 +1,6 @@
 #índice #carrera_año3 
 ___
 ### Teoría:
-[[Módulo_I]]
-[[Módulo_II]]
-[[Módulo_III]]
-[[Módulo_IV]]
-
 [[Búsqueda]]
 [[Estrategias de búsqueda en juegos]]
 
