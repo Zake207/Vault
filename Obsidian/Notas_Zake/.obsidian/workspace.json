@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "586b60e11dc49f35",
+        "id": "95ad2db767d21ffb",
         "type": "tabs",
         "children": [
           {
-            "id": "15c093a419bc6c12",
+            "id": "fcc52110bf5da1e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -32,7 +27,7 @@
       {
         "id": "5d47ec0c2126d747",
         "type": "tabs",
-        "dimension": 48.4149855907781,
+        "dimension": 48.41498559077811,
         "children": [
           {
             "id": "bfafc284c9226ffb",
@@ -72,7 +67,7 @@
       {
         "id": "5bdccf13ca92489a",
         "type": "tabs",
-        "dimension": 51.5850144092219,
+        "dimension": 51.58501440922189,
         "children": [
           {
             "id": "9f14a308eaca7842",
@@ -102,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Recursos/Home.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -165,15 +156,30 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "15c093a419bc6c12",
+  "active": "fcc52110bf5da1e6",
   "lastOpenFiles": [
+    "Recursos/Home.md",
+    "Ocio/Juegos/Videojuegos.md",
+    "Ocio/Juegos/Terraria.md",
+    "Ocio/Juegos/Minecraft.md",
+    "Ocio/Juegos/Ark.md",
+    "Recursos/task_ocio/ADD TASK (OCIO).md",
+    "Ocio/Juegos/Juegos de mesa.md",
+    "Ocio/Juegos/Warhammer40K.md",
+    "Ocio/Juegos/Listas.md",
+    "Ocio/Juegos/Reglas de juego.md",
+    "Ocio/Juegos/Lista de deseos.md",
+    "Ocio/Juegos/Munchkin.md",
+    "Ocio/Juegos/Versiones.md",
+    "Ocio/Juegos/Reglas.md",
+    "Ocio/Juegos/Extensiones.md",
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+    "Carrera/CYA/CYA.md",
     "Carrera/IA/Estrategias de búsqueda en juegos.md",
     "Carrera/IA/Anexos/Pasted image 20241008222501.png",
     "Carrera/IA/Anexos/Pasted image 20241008221756.png",
     "Carrera/IA/Inteligencia Artificial.md",
     "Carrera/IA/Módulo_I.md",
-    "Recursos/Home.md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/Anexos/Pasted image 20241008201342.png",
     "Carrera/CYA/Anexos/Pasted image 20241008201319.png",
     "Carrera/CYA/Anexos/Pasted image 20241008200757.png",
@@ -181,7 +187,6 @@
     "Carrera/CYA/Anexos/Pasted image 20241008182728.png",
     "Carrera/CYA/Anexos/Pasted image 20241008180434.png",
     "Carrera/CYA/Anexos/Pasted image 20241008180359.png",
-    "Carrera/CYA/CYA.md",
     "Carrera/SIPC/(SIPC) Tema 1.md",
     "Carrera/SIPC/Sistemas de interacción.md",
     "Recursos/task_clases/ADD TASK (CLASES).md"

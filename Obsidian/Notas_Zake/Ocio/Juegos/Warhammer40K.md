@@ -1,3 +1,3 @@
 [[Lista de deseos]]
-[[Reglas]]
+[[Reglas de juego]]
 [[Listas]]
