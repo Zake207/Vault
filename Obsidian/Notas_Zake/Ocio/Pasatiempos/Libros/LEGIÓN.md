@@ -1,6 +1,6 @@
 
 ## Datos
-**Autor:** 
+**Autor:** Dan Abnett 
 **Fecha:** 
 **Estado:** 
 ## Resumen

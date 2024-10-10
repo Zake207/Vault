@@ -72,13 +72,9 @@ TASK
 from "Recursos/task_ocio" WHERE !completed
 ```
 [[ADD TASK (OCIO)]]
-## Juegos
+## Pasatiempos
 ``` dataview
-list from "Ocio/Juegos" and #índice
-```
-## Libros
-``` dataview
-list from "Ocio/Libros"
+list from "Ocio/Pasatiempos" and #índice
 ```
 ## Social
 ``` dataview

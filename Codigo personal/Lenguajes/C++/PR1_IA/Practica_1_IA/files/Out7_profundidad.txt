@@ -1,0 +1,2 @@
+Numero de nodos: 15
+Numero de aristas: 13

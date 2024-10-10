@@ -1,7 +1,6 @@
-
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Graham McNeill
+**Fecha:** 2007
 **Estado:** 
 ## Resumen
 

@@ -1,6 +1,5 @@
-
 ## Datos
-**Autor:** 
+**Autor:** Graham McNeill
 **Fecha:** 
 **Estado:** 
 ## Resumen

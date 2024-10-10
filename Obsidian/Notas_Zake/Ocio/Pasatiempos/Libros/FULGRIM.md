@@ -1,4 +1,3 @@
-#libro
 ## Datos
 **Autor:** Graham McNeill
 **Fecha:** 2008
@@ -37,6 +36,3 @@ Para este punto, el primarca vuelve en sí y comienza a lamentarse por lo que ac
 La caída de la legión y su primarca, quienes perseguían la perfección absoluta, comienza con la conquista de los laer, una raza influenciada por entidades del caos, concretamente, demonios de Slanesh, los cuales guardaban una espada que contenía un fragmento del alma de un gran demonio de este dios.
 La influencia de este demonio y del caos en sí comienzan a mermar los valores de la legión y en especial a su primarca, estos comienzan a comportarse de una manera más soberbia ante el resto de legiones, tratando de aparentar superioridad hasta con sus hermanos más amados, esto se ve sobre todo en las modificaciones genéticas propuestas por el apotecario Fabius Bill, las cuales sugerían modificar la gran obra del emperador, sin embargo esto no le importo a un ya corrupto Fulgrim quien perseguía la perfección sobre todas las cosas.
 Poco a poco los ideales de la legión fueron cambiando hacía experimentar las sensaciones más exquisitas, las cuales iban degradando más y más en actos grotescos y desproporcionados. A lo largo de la obra se puede ver como Fulgrim a veces recupera la cordura para pensar por sí mismo, pero la influencia del demonio hace que finalmente acabe uniéndose al bando traidor.
-
-
-

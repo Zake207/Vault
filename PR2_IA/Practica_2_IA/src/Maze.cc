@@ -101,18 +101,30 @@ vector<Nodo *> Maze::CalculateChildren(const int kCoor_x, const int kCoor_y) {
   return actual_children;
 }
 void Maze::Updateheuristic() {
-  for (int i = 0; i < rows_; i++) {
-    for (int j = 0; j < colums_; j++) {
-      if (maze_[i][j].getVal() != 1)
-        maze_[i][j].SetHeuristic(
-            (abs(i - end_coor_.first) + abs(j - end_coor_.second)) * 3);
-      else
-        maze_[i][j].SetHeuristic(-1);
+  // cout << "La heurística es: " << getHeuristic() << endl;
+  if (getHeuristic() == 0) {
+    for (int i = 0; i < rows_; i++) {
+      for (int j = 0; j < colums_; j++) {
+        if (maze_[i][j].getVal() != 1)
+          maze_[i][j].SetHeuristic(
+              (abs(i - end_coor_.first) + abs(j - end_coor_.second)) * 3);
+        else
+          maze_[i][j].SetHeuristic(-1);
+      }
+    }
+  } else {
+    for (int i = 0; i < rows_; i++) {
+      for (int j = 0; j < colums_; j++) {
+        if (maze_[i][j].getVal() != 1)
+          maze_[i][j].SetHeuristic(
+              sqrt(pow(i - end_coor_.first, 2) + pow(j - end_coor_.second, 2)));
+        else
+          maze_[i][j].SetHeuristic(-1);
+      }
     }
   }
 }
-void Maze::SelectDefChildren(Nodo *current_node, vector<Nodo *> &children,
-                       vector<Nodo *> &closed, vector<Nodo *> &open) {
+void Maze::SelectDefChildren(Nodo *current_node, vector<Nodo *> &children, vector<Nodo *> &closed, vector<Nodo *> &open) {
   for (int i = 0; i < children.size(); i++) {
     // Si no está en cerrados compruebo si está en abiertos
     if (find(closed.begin(), closed.end(), children[i]) == closed.end()) {
@@ -123,8 +135,7 @@ void Maze::SelectDefChildren(Nodo *current_node, vector<Nodo *> &children,
         // Si está en abiertos
       } else {
         // Si el coste es menor lo actualizo
-        Nodo *node =
-            open[find(open.begin(), open.end(), children[i]) - open.begin()];
+        Nodo *node = open[find(open.begin(), open.end(), children[i]) - open.begin()];
         if (node->getRoadCost() > children[i]->getRoadCost()) {
           node->SetRoadCost(children[i]->getRoadCost());
           node->SetParent(children[i]->getParent());
@@ -144,20 +155,20 @@ Nodo *Maze::SelectMinorF(vector<Nodo *> open) {
   return minor;
 }
 void Maze::PrintIteration(int it, vector<Nodo *> open, vector<Nodo *> close,
-                    Nodo *current) {
-  cout << "Iteración " << it << endl;
-  cout << "\tActual: " << current->getId().first << "-"
+                    Nodo *current, ofstream &file_out) {
+  file_out << "Iteración " << it << endl;
+  file_out << "\tActual: " << current->getId().first << "-"
        << current->getId().second << endl;
-  cout << "\tAbiertos: ";
+  file_out << "\tAbiertos: ";
   for (int i = 0; i < open.size(); i++) {
-    cout << open[i]->getId().first << "-" << open[i]->getId().second << " ";
+    file_out << open[i]->getId().first << "-" << open[i]->getId().second << " ";
   }
-  cout << endl;
-  cout << "\tCerrados: ";
+  file_out << endl;
+  file_out << "\tCerrados: ";
   for (int i = 0; i < close.size(); i++) {
-    cout << close[i]->getId().first << "-" << close[i]->getId().second << " ";
+    file_out << close[i]->getId().first << "-" << close[i]->getId().second << " ";
   }
-  cout << endl;
+  file_out << endl;
 }
 void Maze::Print() {
   cout << "Rows: " << rows_ << endl;
@@ -195,7 +206,8 @@ void Maze::PrintHeuristic() {
     cout << endl;
   }
 }
-Nodo *Maze::RecorridoAEstrella() {
+void Maze::RecorridoAEstrella(string &file_out_name) {
+  ofstream file_out(file_out_name);
   Nodo *current_node = &at(start_coor_.first, start_coor_.second);
   Nodo nodo_final_ = at(end_coor_.first, end_coor_.second);
   vector<Nodo *> open_nodes;
@@ -207,13 +219,14 @@ Nodo *Maze::RecorridoAEstrella() {
   SelectDefChildren(current_node, children, closed_nodes, open_nodes);
   closed_nodes.emplace_back(open_nodes[0]);
   open_nodes.erase(open_nodes.begin());
-  PrintIteration(0, open_nodes, closed_nodes, current_node);
+  PrintIteration(0, open_nodes, closed_nodes, current_node, file_out);
   // Itero hasta que encuentre el destino o no haya solución
   int iter = 1;
   while (true) {
     // Si no hay nodos abiertos posibles a visitar, no hay solución
     if (open_nodes.size() == 0) {
-      cout << "No se ha encontrado solución" << endl;
+      file_out << "No se ha encontrado solución" << endl;
+      return;
       break;
     }
     // Elijo al de menor coste de los abiertos posibles a visitar, si estuvieran
@@ -222,10 +235,26 @@ Nodo *Maze::RecorridoAEstrella() {
     current_node = SelectMinorF(open_nodes);
     // Compruebo si es el destino
     if (current_node->getId() == nodo_final_.getId()) {
-      cout << "Camino encontrado al nodo salida (posición: "
-           << current_node->getId().first << current_node->getId().second << ")"
-           << endl;
-      return current_node;
+      file_out << "Camino encontrado al nodo salida."<< endl;
+      file_out << "Coste total: " << current_node->getRoadCost() << endl;
+      file_out << "Camino mínimo encontrado: " << endl;
+      while (current_node->getParent() != nullptr) {
+        file_out << current_node->getId().first << "-" << current_node->getId().second << " <- ";
+        if (current_node->getVal() != 3 && current_node->getVal() != 4) current_node->SetVal(5);
+        
+        current_node = current_node->getParent();
+      }
+      file_out << current_node->getId().first << "-" << current_node->getId().second;
+      file_out << endl;
+      file_out << endl;
+      for (int i = 0; i < rows_; i++) {
+        for (int j = 0; j < colums_; j++) {
+          if (maze_[i][j].getVal() == 5) file_out << "* ";
+          else file_out << maze_[i][j].getVal() << " ";
+        }
+        file_out << endl;
+      }
+      return;
       break;
     }
     // Cierro el nodo actual sacandolo de abiertos y metiendolo en cerrados
@@ -236,7 +265,7 @@ Nodo *Maze::RecorridoAEstrella() {
     children = CalculateChildren(current_node->getId().first, current_node->getId().second);
     SelectDefChildren(current_node, children, closed_nodes, open_nodes);
     // Imprimo la iteración
-    PrintIteration(iter, open_nodes, closed_nodes, current_node);
+    PrintIteration(iter, open_nodes, closed_nodes, current_node, file_out);
     ++iter;
   }
 }

@@ -4,16 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a7c2d8f879db7eea",
+        "id": "558a88245646ce95",
         "type": "tabs",
         "children": [
           {
-            "id": "48becb93aed291ae",
+            "id": "7d492caaeff23ae6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Ocio/Pasatiempos/Libros/Libros.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "47764a61735ffebe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da41720f12884ac4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pivote.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -50,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#libro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "pivote.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "pivote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "pivote.md"
               }
             }
           }
@@ -165,42 +184,42 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "48becb93aed291ae",
+  "active": "da41720f12884ac4",
   "lastOpenFiles": [
-    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
+    "Ocio/Pasatiempos/Libros/Libros.md",
+    "pivote.md",
+    "Carrera/SIPC/(SIPC) Tema 1.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
     "Recursos/Home.md",
-    "Proyectos/Registros/Página Web.md",
-    "Proyectos/Registros/Portafolio.md",
-    "Proyectos/Registros/Aplicación del juego de la vida..md",
-    "Proyectos/Registros/Diseño de la app..md",
-    "Ocio/Juegos/Videojuegos.md",
-    "Ocio/Juegos/Terraria.md",
-    "Ocio/Juegos/Minecraft.md",
-    "Ocio/Juegos/Ark.md",
-    "Recursos/task_ocio/ADD TASK (OCIO).md",
-    "Ocio/Juegos/Juegos de mesa.md",
-    "Ocio/Juegos/Warhammer40K.md",
-    "Ocio/Juegos/Listas.md",
-    "Ocio/Juegos/Reglas de juego.md",
-    "Ocio/Juegos/Lista de deseos.md",
-    "Ocio/Juegos/Munchkin.md",
-    "Ocio/Juegos/Versiones.md",
-    "Ocio/Juegos/Reglas.md",
-    "Ocio/Juegos/Extensiones.md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/CYA.md",
-    "Carrera/IA/Estrategias de búsqueda en juegos.md",
+    "Ocio/Pasatiempos/Libros/CUENTOS DE LA HEREJÍA.md",
+    "Ocio/Pasatiempos/Libros/MECHANICUM.md",
+    "Ocio/Pasatiempos/Libros/BATALLA POR EL ABISMO.md",
+    "Ocio/Pasatiempos/Libros/LEGIÓN.md",
+    "Ocio/Pasatiempos/Libros/EL DESCENSO DE LOS ÁNGELES.md",
+    "Ocio/Pasatiempos/Libros/FULGRIM.md",
+    "Ocio/Pasatiempos/Libros/LA HUIDA DE LA EISENSTEIN.md",
+    "Ocio/Pasatiempos/Libros/LA GALAXIA EN LLAMAS.md",
+    "Ocio/Pasatiempos/Libros/FALSOS DIOSES.md",
+    "Ocio/Pasatiempos/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "Ocio/Pasatiempos/Juegos de mesa.md",
+    "Ocio/Pasatiempos/Libros/LA DAGA ENTERRADA.md",
+    "Ocio/Pasatiempos/Libros/MUERTE TITÁNICA.md",
+    "Ocio/Pasatiempos/Libros/HERALDOS DEL ASEDIO.md",
+    "Ocio/Pasatiempos/Libros/ESCLAVOS DE LA OSCURIDAD.md",
+    "Ocio/Pasatiempos/Libros/NACIDOS DEL FUEGO.md",
+    "Ocio/Pasatiempos/Libros/LA PERDICIÓN DEL LOBO.md",
+    "Ocio/Pasatiempos/Libros/EL PESO DE LA LEALTAD.md",
+    "Ocio/Pasatiempos/Libros/VIEJA TIERRA.md",
+    "Ocio/Pasatiempos/Libros/TORMENTA DE RUINA.md",
+    "Ocio/Pasatiempos/Libros/TALLARN.md",
     "Carrera/IA/Anexos/Pasted image 20241008222501.png",
     "Carrera/IA/Anexos/Pasted image 20241008221756.png",
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/IA/Módulo_I.md",
     "Carrera/CYA/Anexos/Pasted image 20241008201342.png",
     "Carrera/CYA/Anexos/Pasted image 20241008201319.png",
     "Carrera/CYA/Anexos/Pasted image 20241008200757.png",
     "Carrera/CYA/Anexos/Pasted image 20241008200329.png",
     "Carrera/CYA/Anexos/Pasted image 20241008182728.png",
     "Carrera/CYA/Anexos/Pasted image 20241008180434.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008180359.png",
-    "Carrera/SIPC/(SIPC) Tema 1.md"
+    "Carrera/CYA/Anexos/Pasted image 20241008180359.png"
   ]
 }

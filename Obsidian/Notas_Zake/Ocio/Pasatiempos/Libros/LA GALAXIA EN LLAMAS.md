@@ -1,7 +1,6 @@
-
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Ben Counter 
+**Fecha:** 2007
 **Estado:** 
 ## Resumen
 

@@ -11,25 +11,42 @@ using namespace std;
 
 int main(int argc, char* argv[]) {
     system("clear");
-    if (argc < 2) {
-        cerr << "/// Error: el numero de argumentos es incorrecto, debe indicar la ruta del fichero laberinto" << endl;
-        return 1;
+    if (argc != 3) {
+        string param_1{argv[1]};
+        if (argc == 2 && param_1 == "--help") {
+            fstream help_file;
+            try {
+                help_file.open("../files/HelpFile.txt");
+            }
+            catch(const exception& e) {
+                cout << "/// Error: No se pudo abrir el fichero HelpFile.txt" << endl;
+                return 2;
+            }
+            string line;
+            while (getline(help_file, line))
+                cout << line << endl;
+            return 1;
+        } else {
+            cout << "/// Error: el numero de argumentos es incorrecto, use la opcion --help para más información" << endl;
+            return 1;
+        }
     }
-    string file_name = argv[1];
-    fstream file;
+    string file_in_name = argv[1];
+    string file_out_name = argv[2];
+    fstream file_in;
     try {
-        file.open(file_name);
+        file_in.open(file_in_name);
     } catch (const exception &e) {
         cerr << "/// Error: " << e.what() << endl;
         return 1;
     }
-    Maze maze(file);
+    Maze maze(file_in);
     maze.Updateheuristic();
     int option{0};
+    int heuristic{0};
     int s_coor_x{0}, s_coor_y{0};
     int e_coor_x{0}, e_coor_y{0};
     while(true) {
-        // system("clear");
         cout << "~~~  MENÚ  ~~~" << endl;
         cout << "[1] Imprimir laberinto." << endl;
         cout << "[2] Imprimir coordenadas." << endl;
@@ -37,7 +54,8 @@ int main(int argc, char* argv[]) {
         cout << "[4] Cambiar punto de inicio." << endl;
         cout << "[5] Cambiar punto de destino." << endl;
         cout << "[6] Calcular camino mínimo con A*." << endl;
-        cout << "[7] Salir." << endl;
+        cout << "[7] Cambiar heurística." << endl;
+        cout << "[8] Salir." << endl;
         cout << "Seleccione opción: ";
         cin >> option;
         cout << endl;
@@ -65,31 +83,20 @@ int main(int argc, char* argv[]) {
                 maze.SetEnd(e_coor_x, e_coor_y);
                 break;
             case 6:
-                result = maze.RecorridoAEstrella();
-                cout << "Coste total: " << result->getRoadCost() << endl;
-                cout << "Camino mínimo encontrado: " << endl;
-                while (result->getParent() != nullptr) {
-                    path.push_back(result);
-                    maze.at(result->getId().first, result->getId().second).SetVal(5);
-                    result = result->getParent();
-                }
-                result = path[path.size() - 1]->getParent();
-                path.push_back(result);
-                for (int i = path.size() - 1; i >= 0; i--) {
-                    cout << path[i]->getId().first << "-" << path[i]->getId().second << " ";
-                    if (i != 0) cout << "-> ";
-                }
-                cout << endl;
-                maze.Print();
+                maze.RecorridoAEstrella(file_out_name);
                 break;
             case 7:
+                cout << "Introduzca la heurística a utilizar (0 o 1): ";
+                cin >> heuristic;
+                maze.SetHeuristic(heuristic);
+                maze.Updateheuristic();
+                break;
+            case 8:
                 cout << "/// FINALIZANDO PROGRAMA." << endl;
                 return 0;
                 break;
             default:
                 cout << "///Error: La opción seleccionada es errónea, debe introducir alguna de las opciones disponibles" << endl;
-                cout << "/// PROGRAMA FINALIZADO." << endl;
-                return 0;
                 break;
         }
         cout << endl;

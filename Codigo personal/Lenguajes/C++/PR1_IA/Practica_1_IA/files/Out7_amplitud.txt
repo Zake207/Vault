@@ -1,0 +1,74 @@
+Numero de nodos: 15
+Numero de aristas: 13
+Nodo de inicio: 0
+Nodo de fin: 8
+//////////////////////////////////////////////
+Iteracion: 1
+	Nodo: 0
+	Nodos generados: 2 3 
+	Nodos visitados: 0 
+Iteracion: 2
+	Nodo: 2
+	Nodos generados: 2 3 
+	Nodos visitados: 0 2 
+Iteracion: 3
+	Nodo: 3
+	Nodos generados: 2 3 4 5 
+	Nodos visitados: 0 2 3 
+Iteracion: 4
+	Nodo: 4
+	Nodos generados: 2 3 4 5 1 6 
+	Nodos visitados: 0 2 3 4 
+Iteracion: 5
+	Nodo: 5
+	Nodos generados: 2 3 4 5 1 6 6 10 13 
+	Nodos visitados: 0 2 3 4 5 
+Iteracion: 6
+	Nodo: 1
+	Nodos generados: 2 3 4 5 1 6 6 10 13 
+	Nodos visitados: 0 2 3 4 5 1 
+Iteracion: 7
+	Nodo: 6
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 
+	Nodos visitados: 0 2 3 4 5 1 6 
+Iteracion: 8
+	Nodo: 6
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 
+	Nodos visitados: 0 2 3 4 5 1 6 6 
+Iteracion: 9
+	Nodo: 10
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 
+Iteracion: 10
+	Nodo: 13
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 
+Iteracion: 11
+	Nodo: 5
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 
+Iteracion: 12
+	Nodo: 4
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 4 
+Iteracion: 13
+	Nodo: 9
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 4 9 
+Iteracion: 14
+	Nodo: 10
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 4 9 10 
+Iteracion: 15
+	Nodo: 13
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 9 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 4 9 10 13 
+Iteracion: 16
+	Nodo: 1
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 9 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 
+Iteracion: 17
+	Nodo: 9
+	Nodos generados: 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 9 
+	Nodos visitados: 0 2 3 4 5 1 6 6 10 13 5 4 9 10 13 1 9 
+No se ha encontrado una ruta entre los nodos 0 y 8
