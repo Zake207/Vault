@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Mike Lee
+**Fecha:** 2010
 **Estado:** 
 ## Resumen
 

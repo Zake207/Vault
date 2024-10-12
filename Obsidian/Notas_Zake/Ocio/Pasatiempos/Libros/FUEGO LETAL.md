@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Nick Kyme
+**Fecha:** 2018
 **Estado:** 
 ## Resumen
 

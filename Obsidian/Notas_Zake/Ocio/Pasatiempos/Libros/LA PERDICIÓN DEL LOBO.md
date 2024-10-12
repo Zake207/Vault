@@ -1,7 +1,6 @@
-
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Guy Haley
+**Fecha:** 2022
 **Estado:** 
 ## Resumen
 

@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Guy Haley
+**Fecha:** 2018
 **Estado:** 
 ## Resumen
 

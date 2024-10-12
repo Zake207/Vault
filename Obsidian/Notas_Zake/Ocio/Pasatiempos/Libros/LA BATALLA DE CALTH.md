@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Dan Abnett
+**Fecha:** 2012
 **Estado:** 
 ## Resumen
 

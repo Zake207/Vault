@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Chris Wraight
+**Fecha:** 2017
 **Estado:** 
 ## Resumen
 

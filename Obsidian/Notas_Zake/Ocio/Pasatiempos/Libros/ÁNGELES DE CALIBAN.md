@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Gav Thorpe
+**Fecha:** 2019
 **Estado:** 
 ## Resumen
 

@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Graham McNeill
+**Fecha:** 2020
 **Estado:** 
 ## Resumen
 

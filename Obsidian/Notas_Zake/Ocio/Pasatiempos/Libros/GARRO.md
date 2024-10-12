@@ -1,7 +1,6 @@
-
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** James Swallow
+**Fecha:** 2020
 **Estado:** 
 ## Resumen
 

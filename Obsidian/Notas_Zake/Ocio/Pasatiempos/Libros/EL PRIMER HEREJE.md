@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** Aaron Dembski-Bowden
+**Fecha:** 2011
 **Estado:** 
 ## Resumen
 

@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** David Annandale
+**Fecha:** 2017
 **Estado:** 
 ## Resumen
 

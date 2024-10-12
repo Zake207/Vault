@@ -1,7 +1,7 @@
 
 ## Datos
-**Autor:** 
-**Fecha:** 
+**Autor:** John French
+**Fecha:** 2022
 **Estado:** 
 ## Resumen
 
