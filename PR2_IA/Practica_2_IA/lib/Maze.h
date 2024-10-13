@@ -51,15 +51,9 @@ class Maze {
 	/// @param kCoor_x Entero que representa la coordenada x del nodo
 	/// @param kCoor_y Entero que representa la coordenada y del nodo
 	/// @return Vector de punteros a los nodos hijos
-	vector<Nodo*> CalculateChildren(const int kCoor_x, const int kCoor_y);
+	void CalculateChildren(const int kCoor_x, const int kCoor_y, vector<Nodo*>& open, vector<Nodo*>& closed);
 	/// @brief Método que actualiza la heurística de los nodos
 	void Updateheuristic();
-	/// @brief Método que selecciona los nodos hijos que no estén en la lista de cerrados y actualiza los nodos abiertos
-	/// @param current_node Puntero al nodo actual
-	/// @param children Referencia al vector de punteros a los nodos hijos
-	/// @param closed Referencia al vector de punteros a los nodos cerrados
-	/// @param open Referencia al vector de punteros a los nodos abiertos
-	void SelectDefChildren(Nodo* current_node, vector<Nodo*>& children, vector<Nodo*>& closed, vector<Nodo*>& open);
 	/// @brief Método que selecciona el nodo con menor valor de f de la lista de abiertos
 	/// @param open Referencia al vector de punteros a los nodos abiertos
 	/// @return El puntero al nodo con menor valor de f

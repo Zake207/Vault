@@ -52,54 +52,148 @@ const Nodo &Maze::at(const int kCoor_x, const int kCoor_y) const {
 Nodo &Maze::at(const int kCoor_x, const int kCoor_y) {
   return maze_[kCoor_x][kCoor_y];
 }
-vector<Nodo *> Maze::CalculateChildren(const int kCoor_x, const int kCoor_y) {
-  vector<Nodo *> actual_children;
+void Maze::CalculateChildren(const int kCoor_x, const int kCoor_y, vector<Nodo *> &open, vector<Nodo *> &closed) {
+  int origin_cost = at(kCoor_x, kCoor_y).getRoadCost();
   if (kCoor_x - 1 >= 0 && at(kCoor_x - 1, kCoor_y).getVal() != 1) {
-    at(kCoor_x - 1, kCoor_y)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 5);
-    actual_children.push_back(&at(kCoor_x - 1, kCoor_y));
+    Nodo *nodo = &at(kCoor_x - 1, kCoor_y);
+    int new_g = origin_cost + 5;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
   if (kCoor_x + 1 < rows_ && at(kCoor_x + 1, kCoor_y).getVal() != 1) {
-    at(kCoor_x + 1, kCoor_y)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 5);
-    actual_children.push_back(&at(kCoor_x + 1, kCoor_y));
+    Nodo *nodo = &at(kCoor_x + 1, kCoor_y);
+    int new_g = origin_cost + 5;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
   if (kCoor_y - 1 >= 0 && at(kCoor_x, kCoor_y - 1).getVal() != 1) {
-    at(kCoor_x, kCoor_y - 1)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 5);
-    actual_children.push_back(&at(kCoor_x, kCoor_y - 1));
+    Nodo *nodo = &at(kCoor_x, kCoor_y - 1);
+    int new_g = origin_cost + 5;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
   if (kCoor_y + 1 < colums_ && at(kCoor_x, kCoor_y + 1).getVal() != 1) {
-    at(kCoor_x, kCoor_y + 1)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 5);
-    actual_children.push_back(&at(kCoor_x, kCoor_y + 1));
+    Nodo *nodo = &at(kCoor_x, kCoor_y + 1);
+    int new_g = origin_cost + 5;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
-  if (kCoor_x - 1 >= 0 && kCoor_y - 1 >= 0 &&
-      at(kCoor_x - 1, kCoor_y - 1).getVal() != 1) {
-    at(kCoor_x - 1, kCoor_y - 1)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 7);
-    actual_children.push_back(&at(kCoor_x - 1, kCoor_y - 1));
+  if (kCoor_x - 1 >= 0 && kCoor_y - 1 >= 0 && at(kCoor_x - 1, kCoor_y - 1).getVal() != 1) {
+    Nodo *nodo = &at(kCoor_x - 1, kCoor_y - 1);
+    int new_g = origin_cost + 7;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      int new_g = origin_cost + 7;
+      int new_road_cost = new_g + nodo->getHeuristic();
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
-  if (kCoor_x - 1 >= 0 && kCoor_y + 1 < colums_ &&
-      at(kCoor_x - 1, kCoor_y + 1).getVal() != 1) {
-    at(kCoor_x - 1, kCoor_y + 1)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 7);
-    actual_children.push_back(&at(kCoor_x - 1, kCoor_y + 1));
+  if (kCoor_x - 1 >= 0 && kCoor_y + 1 < colums_ && at(kCoor_x - 1, kCoor_y + 1).getVal() != 1) {
+    Nodo *nodo = &at(kCoor_x - 1, kCoor_y + 1);
+    int new_g = origin_cost + 7;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
-  if (kCoor_x + 1 < rows_ && kCoor_y - 1 >= 0 &&
-      at(kCoor_x + 1, kCoor_y - 1).getVal() != 1) {
-    at(kCoor_x + 1, kCoor_y - 1)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 7);
-    actual_children.push_back(&at(kCoor_x + 1, kCoor_y - 1));
+  if (kCoor_x + 1 < rows_ && kCoor_y - 1 >= 0 && at(kCoor_x + 1, kCoor_y - 1).getVal() != 1) {
+    Nodo *nodo = &at(kCoor_x + 1, kCoor_y - 1);
+    int new_g = origin_cost + 7;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
-  if (kCoor_x + 1 < rows_ && kCoor_y + 1 < colums_ &&
-      at(kCoor_x + 1, kCoor_y + 1).getVal() != 1) {
-    at(kCoor_x + 1, kCoor_y + 1)
-        .SetRoadCost(at(kCoor_x, kCoor_y).getRoadCost() + 7);
-    actual_children.push_back(&at(kCoor_x + 1, kCoor_y + 1));
+  if (kCoor_x + 1 < rows_ && kCoor_y + 1 < colums_ && at(kCoor_x + 1, kCoor_y + 1).getVal() != 1) {
+    Nodo *nodo = &at(kCoor_x + 1, kCoor_y + 1);
+    int new_g = origin_cost + 7;
+    int new_road_cost = new_g + nodo->getHeuristic();
+    if (find(closed.begin(), closed.end(), nodo) == closed.end()) {
+      if (find(open.begin(), open.end(), nodo) == open.end()) {
+        nodo->SetRoadCost(new_g);
+        nodo->SetParent(&at(kCoor_x, kCoor_y));
+        open.emplace_back(nodo);
+      } else {
+        if (new_road_cost < nodo->getRoadCost() + nodo->getHeuristic()) {
+          nodo->SetRoadCost(new_g);
+          nodo->SetParent(&at(kCoor_x, kCoor_y));
+        }
+      }
+    }
   }
-  return actual_children;
 }
+
 void Maze::Updateheuristic() {
   // cout << "La heurística es: " << getHeuristic() << endl;
   if (getHeuristic() == 0) {
@@ -124,26 +218,6 @@ void Maze::Updateheuristic() {
     }
   }
 }
-void Maze::SelectDefChildren(Nodo *current_node, vector<Nodo *> &children, vector<Nodo *> &closed, vector<Nodo *> &open) {
-  for (int i = 0; i < children.size(); i++) {
-    // Si no está en cerrados compruebo si está en abiertos
-    if (find(closed.begin(), closed.end(), children[i]) == closed.end()) {
-      // Si no está en abiertos
-      if (find(open.begin(), open.end(), children[i]) == open.end()) {
-        children[i]->SetParent(current_node);
-        open.emplace_back(children[i]);
-        // Si está en abiertos
-      } else {
-        // Si el coste es menor lo actualizo
-        Nodo *node = open[find(open.begin(), open.end(), children[i]) - open.begin()];
-        if (node->getRoadCost() > children[i]->getRoadCost()) {
-          node->SetRoadCost(children[i]->getRoadCost());
-          node->SetParent(children[i]->getParent());
-        }
-      }
-    }
-  }
-}
 Nodo *Maze::SelectMinorF(vector<Nodo *> open) {
   Nodo *minor = open[0];
   for (int i = 1; i < open.size(); i++) {
@@ -161,7 +235,7 @@ void Maze::PrintIteration(int it, vector<Nodo *> open, vector<Nodo *> close,
        << current->getId().second << endl;
   file_out << "\tAbiertos: ";
   for (int i = 0; i < open.size(); i++) {
-    file_out << open[i]->getId().first << "-" << open[i]->getId().second << " ";
+    file_out << open[i]->getId().first << "-" << open[i]->getId().second << "(" << open[i]->getRoadCost() + open[i]->getHeuristic() << ") ";
   }
   file_out << endl;
   file_out << "\tCerrados: ";
@@ -214,9 +288,7 @@ void Maze::RecorridoAEstrella(string &file_out_name) {
   vector<Nodo *> closed_nodes;
   open_nodes.emplace_back(current_node);
   // Trato el primer nodo que es el de salida
-  vector<Nodo *> children = CalculateChildren(current_node->getId().first,
-                                              current_node->getId().second);
-  SelectDefChildren(current_node, children, closed_nodes, open_nodes);
+  CalculateChildren(current_node->getId().first, current_node->getId().second, open_nodes, closed_nodes);
   closed_nodes.emplace_back(open_nodes[0]);
   open_nodes.erase(open_nodes.begin());
   PrintIteration(0, open_nodes, closed_nodes, current_node, file_out);
@@ -241,7 +313,6 @@ void Maze::RecorridoAEstrella(string &file_out_name) {
       while (current_node->getParent() != nullptr) {
         file_out << current_node->getId().first << "-" << current_node->getId().second << " <- ";
         if (current_node->getVal() != 3 && current_node->getVal() != 4) current_node->SetVal(5);
-        
         current_node = current_node->getParent();
       }
       file_out << current_node->getId().first << "-" << current_node->getId().second;
@@ -262,8 +333,7 @@ void Maze::RecorridoAEstrella(string &file_out_name) {
     closed_nodes.emplace_back(current_node);
     // Genero a los hijos que se pueden visitar y que no hayan sido cerrados, si
     // ya estan en abiertos y el coste es menor lo actualizo
-    children = CalculateChildren(current_node->getId().first, current_node->getId().second);
-    SelectDefChildren(current_node, children, closed_nodes, open_nodes);
+    CalculateChildren(current_node->getId().first, current_node->getId().second, open_nodes, closed_nodes);
     // Imprimo la iteración
     PrintIteration(iter, open_nodes, closed_nodes, current_node, file_out);
     ++iter;
