@@ -1,7 +1,8 @@
 #task_class
 - [x] SOBREVIVIR
-- [x] CYA: Hacer apuntes
+- [ ] CYA: Hacer apuntes
 - [x] CYA: Hacer ejercicios
-- [x] EST: Hacer apuntes
-- [ ] PRÁCTICA | IA: MEMORIA, COMENTAR Y SEPARAR EN FICHEROS.
+- [ ] EST: Hacer apuntes
+- [x] PRÁCTICA | IA: MEMORIA, COMENTAR Y SEPARAR EN FICHEROS. ✅ 2024-10-13
+- [ ] PRACTICA | SIPC: Acabar y grabar video
 

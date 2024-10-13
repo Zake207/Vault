@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "58ceed51c03a8c57",
+        "id": "aaaf8a40a2364453",
         "type": "tabs",
         "children": [
           {
-            "id": "566404f0f5d2408d",
+            "id": "cb4e4ee88d1ef021",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Recursos/Home.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -165,8 +165,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "566404f0f5d2408d",
+  "active": "cb4e4ee88d1ef021",
   "lastOpenFiles": [
+    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Recursos/Home.md",
     "Ocio/Pasatiempos/Libros/Libros.md",
     "Ocio/Pasatiempos/Libros/FULGRIM.md",
     "Ocio/Pasatiempos/Libros/LA DAGA ENTERRADA.md",
@@ -191,8 +193,6 @@
     "Ocio/Pasatiempos/Libros/El SENDERO DEL CIELO.md",
     "Ocio/Pasatiempos/Libros/EL OJO DE TERRA.md",
     "Ocio/Pasatiempos/Libros/PHAROS.md",
-    "Ocio/Pasatiempos/Libros/LA GUERRA SIN FIN.md",
-    "Ocio/Pasatiempos/Libros/FUEGO LETAL.md",
     "Carrera/IA/Anexos/Pasted image 20241008222501.png",
     "Carrera/IA/Anexos/Pasted image 20241008221756.png",
     "Carrera/CYA/Anexos/Pasted image 20241008201342.png",
