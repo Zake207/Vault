@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "aaaf8a40a2364453",
+        "id": "8020f14c1d0a534d",
         "type": "tabs",
         "children": [
           {
-            "id": "cb4e4ee88d1ef021",
+            "id": "9c95f7a31d66e9ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Recursos/Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "10dedcbe603fc0d6",
@@ -165,13 +166,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cb4e4ee88d1ef021",
+  "active": "9c95f7a31d66e9ee",
   "lastOpenFiles": [
-    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Ocio/Pasatiempos/Juegos de mesa.md",
+    "Ocio/Pasatiempos/Warhammer40K.md",
+    "Ocio/Pasatiempos/Munchkin.md",
     "Recursos/Home.md",
     "Ocio/Pasatiempos/Libros/Libros.md",
-    "Ocio/Pasatiempos/Libros/FULGRIM.md",
     "Ocio/Pasatiempos/Libros/LA DAGA ENTERRADA.md",
+    "Recursos/Templates/Plantilla Libros.md",
+    "Ocio/Pasatiempos/Libros/Guerra.md",
+    "Ocio/Pasatiempos/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "Recursos/task_clases/ADD TASK (CLASES).md",
+    "Ocio/Pasatiempos/Libros/FULGRIM.md",
     "Ocio/Pasatiempos/Libros/MUERTE TITÁNICA.md",
     "Ocio/Pasatiempos/Libros/HERALDOS DEL ASEDIO.md",
     "Ocio/Pasatiempos/Libros/ESCLAVOS DE LA OSCURIDAD.md",
@@ -187,12 +194,6 @@
     "Ocio/Pasatiempos/Libros/GARRO.md",
     "Ocio/Pasatiempos/Libros/EL SEÑOR DE LA HUMANIDAD.md",
     "Ocio/Pasatiempos/Libros/CORAX.md",
-    "Ocio/Pasatiempos/Libros/PRETORIANO DE DORN.md",
-    "Ocio/Pasatiempos/Libros/ÁNGELES DE CALIBAN.md",
-    "Ocio/Pasatiempos/Libros/LA GUERRA SILENCIOSA.md",
-    "Ocio/Pasatiempos/Libros/El SENDERO DEL CIELO.md",
-    "Ocio/Pasatiempos/Libros/EL OJO DE TERRA.md",
-    "Ocio/Pasatiempos/Libros/PHAROS.md",
     "Carrera/IA/Anexos/Pasted image 20241008222501.png",
     "Carrera/IA/Anexos/Pasted image 20241008221756.png",
     "Carrera/CYA/Anexos/Pasted image 20241008201342.png",
