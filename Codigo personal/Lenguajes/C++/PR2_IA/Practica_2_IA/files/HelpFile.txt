@@ -1,0 +1,9 @@
+///////////////////////////////////////
+MODO DE EMPLEO:
+        ./main <fichero_entrada> <fichero_salida>
+    
+    El fichero de entrada debe ser del formato:
+        Primera linea numero de filas
+        Segunda linea numero de columnas
+        El resto del fichero debe contener el laberinto válido
+///////////////////////////////////////

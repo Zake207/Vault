@@ -132,6 +132,7 @@ Para demostrarlo:
 + Comprobamos que δ(q$_i$, v) = q$_i$ = q$_j$
 + Por ende: z′ = a1 a2...ai aj+1...am ∈ L
 ![[Pasted image 20241008200757.png]]
+
 Si un lenguaje es regular se cumple el lema del bombeo.
 Si no lo cumple no es regular.
 Para demostrar que L no cumple el Lema del Bombeo:

@@ -3,8 +3,7 @@ ___
 ### Teoría:
 [[Búsqueda]]
 [[Estrategias de búsqueda en juegos]]
-
-
+[[Agentes Lógicos]]
 ### Prácticas:
 ___
 ### Evaluación:

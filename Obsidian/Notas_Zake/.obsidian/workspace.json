@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8020f14c1d0a534d",
+        "id": "1af5b0380e5f6bb3",
         "type": "tabs",
         "children": [
           {
-            "id": "9c95f7a31d66e9ee",
+            "id": "42ade955f8e223f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,7 +17,9 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -41,7 +43,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
             }
           },
           {
@@ -56,7 +60,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
             }
           },
           {
@@ -64,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
             }
           }
         ]
@@ -79,15 +87,16 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "10dedcbe603fc0d6",
@@ -111,7 +120,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Home"
             }
           },
           {
@@ -120,10 +131,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/SIPC/Sistemas de interacción.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Sistemas de interacción"
             }
           },
           {
@@ -135,7 +148,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
             }
           },
           {
@@ -144,8 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
-              }
+                "file": "Carrera/SIPC/Sistemas de interacción.md"
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Sistemas de interacción"
             }
           }
         ]
@@ -166,42 +183,49 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9c95f7a31d66e9ee",
+  "active": "42ade955f8e223f3",
   "lastOpenFiles": [
-    "Ocio/Pasatiempos/Juegos de mesa.md",
-    "Ocio/Pasatiempos/Warhammer40K.md",
-    "Ocio/Pasatiempos/Munchkin.md",
     "Recursos/Home.md",
-    "Ocio/Pasatiempos/Libros/Libros.md",
-    "Ocio/Pasatiempos/Libros/LA DAGA ENTERRADA.md",
-    "Recursos/Templates/Plantilla Libros.md",
-    "Ocio/Pasatiempos/Libros/Guerra.md",
-    "Ocio/Pasatiempos/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "Recursos/Trabajo.md",
+    "Carrera/TFG.md",
+    "Carrera/CYA/Tema 3 (Gramáticas).md",
+    "Carrera/CYA/Anexos/Pasted image 20241018184617.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018184118.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018183535.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018182555.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018175405.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018174351.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018173213.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018172804.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018172705.png",
+    "Carrera/CYA/Anexos/Pasted image 20241018170150.png",
+    "Carrera/CYA/CYA.md",
+    "Proyectos/Documentación/C++.md",
+    "Proyectos/Documentación/Leguajes.md",
+    "Proyectos/Documentación/Python.md",
+    "Recursos/task_proyectos/ADD TASK (PROYECTOS).md",
+    "Proyectos/Ideas a largo plazo.md",
+    "Proyectos/Documentación/Sin título.md",
+    "Proyectos/Documentación/Conceptos.md",
+    "Proyectos/Documentación/HTMX.md",
+    "Proyectos/Documentación/Planificación de Proyectos Software.md",
+    "Proyectos/Documentación/CSS.md",
+    "Carrera/CDyAL/CDyAL.md",
     "Recursos/task_clases/ADD TASK (CLASES).md",
-    "Ocio/Pasatiempos/Libros/FULGRIM.md",
-    "Ocio/Pasatiempos/Libros/MUERTE TITÁNICA.md",
-    "Ocio/Pasatiempos/Libros/HERALDOS DEL ASEDIO.md",
-    "Ocio/Pasatiempos/Libros/ESCLAVOS DE LA OSCURIDAD.md",
-    "pivote.md",
-    "Ocio/Pasatiempos/Libros/NACIDOS DEL FUEGO.md",
-    "Ocio/Pasatiempos/Libros/LA PERDICIÓN DEL LOBO.md",
-    "Ocio/Pasatiempos/Libros/EL PESO DE LA LEALTAD.md",
-    "Ocio/Pasatiempos/Libros/VIEJA TIERRA.md",
-    "Ocio/Pasatiempos/Libros/TORMENTA DE RUINA.md",
-    "Ocio/Pasatiempos/Libros/TALLARN.md",
-    "Ocio/Pasatiempos/Libros/EL REY CARMESÍ.md",
-    "Ocio/Pasatiempos/Libros/LEGIONES QUEBRADAS.md",
-    "Ocio/Pasatiempos/Libros/GARRO.md",
-    "Ocio/Pasatiempos/Libros/EL SEÑOR DE LA HUMANIDAD.md",
-    "Ocio/Pasatiempos/Libros/CORAX.md",
-    "Carrera/IA/Anexos/Pasted image 20241008222501.png",
-    "Carrera/IA/Anexos/Pasted image 20241008221756.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008201342.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008201319.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008200757.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008200329.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008182728.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008180434.png",
-    "Carrera/CYA/Anexos/Pasted image 20241008180359.png"
+    "Ocio/Pasatiempos/Warhammer40000/Historia.md",
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Ocio/Pasatiempos/Cocina/Mousse de tres chocolates.md",
+    "Ocio/Pasatiempos/Cocina/Postres.md",
+    "Ocio/Pasatiempos/Cocina/Tarta de zanahoria.md",
+    "Ocio/Pasatiempos/Cocina/Tarta de requesón con arándanos.md",
+    "Ocio/Pasatiempos/Cocina/Cocina.md",
+    "Ocio/Pasatiempos/Cocina",
+    "Ocio/Pasatiempos/Warhammer40000/Miniaturas",
+    "Ocio/Pasatiempos/Warhammer40000/Libros",
+    "Ocio/Pasatiempos/Warhammer40000",
+    "Ocio/Pasatiempos/Juegos de Mesa",
+    "Ocio/Pasatiempos/Juegos"
   ]
 }

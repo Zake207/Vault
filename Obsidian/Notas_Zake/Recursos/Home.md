@@ -1,5 +1,6 @@
 ---
 banner: "![[Pasted image 20241006174625.png]]"
+banner_x: 0.40875
 ---
 
 ```contributionGraph
@@ -91,14 +92,14 @@ TASK
 from "Recursos/task_proyectos" WHERE !completed
 ```
 [[ADD TASK (PROYECTOS)]]
-[[Ideas a largo plazo|Ideas a largo plazo]]
 ## Proyectos
 ``` dataview
 list from "Proyectos/Registros" and #project
 ```
 ## Recursos adicionales
 ```dataview
-list from "Proyectos/Documentación"
+list from "Proyectos/Documentación" and #índice 
 ```
 
+## [[Trabajo]]
 

@@ -1,0 +1,62 @@
+Iteración 0
+	Actual: 4-4
+	Abiertos: 3-4 4-3 3-3 
+	Cerrados: 4-4 
+Iteración 1
+	Actual: 3-3
+	Abiertos: 3-4 4-3 3-2 2-4 
+	Cerrados: 4-4 3-3 
+Iteración 2
+	Actual: 3-4
+	Abiertos: 4-3 3-2 2-4 
+	Cerrados: 4-4 3-3 3-4 
+Iteración 3
+	Actual: 4-3
+	Abiertos: 3-2 2-4 
+	Cerrados: 4-4 3-3 3-4 4-3 
+Iteración 4
+	Actual: 3-2
+	Abiertos: 2-4 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 
+Iteración 5
+	Actual: 2-4
+	Abiertos: 1-4 1-3 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 
+Iteración 6
+	Actual: 1-3
+	Abiertos: 1-4 0-3 0-2 0-4 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 
+Iteración 7
+	Actual: 1-4
+	Abiertos: 0-3 0-2 0-4 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 1-4 
+Iteración 8
+	Actual: 0-2
+	Abiertos: 0-3 0-4 0-1 1-1 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 1-4 0-2 
+Iteración 9
+	Actual: 0-3
+	Abiertos: 0-4 0-1 1-1 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 1-4 0-2 0-3 
+Iteración 10
+	Actual: 1-1
+	Abiertos: 0-4 0-1 1-0 2-0 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 1-4 0-2 0-3 1-1 
+Iteración 11
+	Actual: 0-4
+	Abiertos: 0-1 1-0 2-0 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 1-4 0-2 0-3 1-1 0-4 
+Iteración 12
+	Actual: 0-1
+	Abiertos: 1-0 2-0 
+	Cerrados: 4-4 3-3 3-4 4-3 3-2 2-4 1-3 1-4 0-2 0-3 1-1 0-4 0-1 
+Camino encontrado al nodo salida.
+Coste total: 36
+Camino mínimo encontrado: 
+1-0 <- 1-1 <- 0-2 <- 1-3 <- 2-4 <- 3-4 <- 4-4
+
+1 0 * 0 0 
+4 * 1 * 0 
+0 1 1 1 * 
+0 1 0 0 * 
+0 1 1 0 3 

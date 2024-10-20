@@ -1,7 +1,5 @@
 #task_proyects
 - [ ] Curso de Tkinter. 
-- [ ] Aplicación del juego de la vida.
-- [ ] Pagina web con FastAPI.
+- [ ] Curso de FastAPI
+- [x] Aplicación del juego de la vida. ✅ 2024-10-18
 - [ ] Aprender principios Solid.
-- [x] Aprender a Orgnaizar proyectos.
-- [ ] Aprender ciberseguridad y hacking ético

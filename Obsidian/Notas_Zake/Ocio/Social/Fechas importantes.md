@@ -1,3 +1,6 @@
+7 septiembre: CUMPLE PAPA
+24 octubre: CUMPLE MAMA
+
 14 enero: CUMPLE FADI
 3 de cada mes: ANIVERSARIO DE MES
 ___

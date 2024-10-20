@@ -1,13 +1,11 @@
-**REVISAR ESTE DOCUMENTO Y CONTRASTARLO CON DATOS ACTUALES**
-
-Anaconda permite controlar los paquetes que se utilizan en cada proyecto de python de tipo machine learning o ciencia de datos
-
-# Módulos
-## General
+## Documentación
+[Documentación oficial](https://docs.python.org/es/3/tutorial/)
+## Librerias
+### General
 + math
 + collections (deque, counter, chainmaps)
 
-## Scrypting
+### Scrypting
 + reptortlab
 + PyFPDF --> (crear documentos pdf)
 + openpyxl --> (trabajar con documentos excel)
@@ -15,7 +13,7 @@ Anaconda permite controlar los paquetes que se utilizan en cada proyecto de pyth
 + pyaotugui --> (controla el teclado y raton de forma automatica)
 + Fabric (automatiza la ejecución de comandos)
 
-## Apps de escritorio
+### Apps de escritorio
 + tkinter (basica)
 + PyQT (preferente)
 + WxPython (preferente)
@@ -23,12 +21,12 @@ Anaconda permite controlar los paquetes que se utilizan en cada proyecto de pyth
 + Flet
 + panda3d
 
-## Backend
+### Backend
 + Django
 + Flash
 + fastAPI
 
-## Seguridad informática
+### Seguridad informática
 + scrapy --> (extraer información de la web)
 + socket --> (trabajar con sockets)
 + os --> (trabajar con comandos del sistema)
@@ -37,7 +35,7 @@ Anaconda permite controlar los paquetes que se utilizan en cada proyecto de pyth
 + nmap --> (escaneo en puertos abiertos en determinada red)
 + ftplib, paramiko --> (montar servidor ftp)
 
-## Machine learning
+### Machine learning
 + Pytorch
 + scikit learn
 + keras
