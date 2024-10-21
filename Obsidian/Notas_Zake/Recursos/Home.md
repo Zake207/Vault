@@ -1,6 +1,5 @@
 ---
 banner: "![[Pasted image 20241006174625.png]]"
-banner_x: 0.40875
 ---
 
 ```contributionGraph
@@ -45,61 +44,21 @@ cellStyle:
   minHeight: 9px
 
 ```
-# Carrera
-```dataview
-TASK 
-from "Recursos/task_clases" WHERE !completed
-```
-[[ADD TASK (CLASES)]]
-### 2 año
-``` dataview
-list from "Carrera" and #índice and #carrera_año2 
-```
-### 3 año
-``` dataview
-list from "Carrera" and #índice and #carrera_año3 
-```
-### 4 año
-``` dataview
-list from "Carrera" and #índice and #carrera_año4 
+
+--- start-multi-column: ID_soga
+```column-settings
+Number of Columns: 3
+Largest Column: standard
 ```
 
+# [[Carrera]]
 
-___
+--- column-break ---
 
-# Ocio
-``` dataview
-TASK
-from "Recursos/task_ocio" WHERE !completed
-```
-[[ADD TASK (OCIO)]]
-## Pasatiempos
-``` dataview
-list from "Ocio/Pasatiempos" and #índice
-```
-## Social
-``` dataview
-list from "Ocio/Social"
-```
+# [[Ocio]]
 
+--- column-break ---
 
-___
+# [[Projectos]]
 
-# Proyectos
-## Ideas
-```dataview
-TASK
-from "Recursos/task_proyectos" WHERE !completed
-```
-[[ADD TASK (PROYECTOS)]]
-## Proyectos
-``` dataview
-list from "Proyectos/Registros" and #project
-```
-## Recursos adicionales
-```dataview
-list from "Proyectos/Documentación" and #índice 
-```
-
-## [[Trabajo]]
-
+--- end-multi-column
