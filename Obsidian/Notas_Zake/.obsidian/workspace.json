@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ef9909d1bbab71ed",
+        "id": "ef38cda61c6ee7ed",
         "type": "tabs",
         "children": [
           {
-            "id": "244db8fa7182f729",
+            "id": "4b0d1bf2af234569",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 255
   },
   "right": {
     "id": "10dedcbe603fc0d6",
@@ -157,14 +157,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Tareas.md"
+                "file": "Recursos/Home.md"
               },
               "icon": "lucide-list",
-              "title": "Esquema de Tareas"
+              "title": "Esquema de Home"
             }
           },
           {
-            "id": "61034e7102456cc8",
+            "id": "a2cad905a1d0c112",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -193,7 +193,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recursos/Tareas.md",
+                "file": "Recursos/Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -221,14 +221,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Tareas"
+              "title": "Gráfico de Home"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 408
+    "width": 279
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,10 +241,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "61034e7102456cc8",
+  "active": "4b0d1bf2af234569",
   "lastOpenFiles": [
-    "Recursos/Home.md",
     "Recursos/Tareas.md",
+    "Recursos/Home.md",
     "Carrera/Redes/Redes.md",
     "Recursos/Carrera.md",
     "Recursos/Task_urgent.md",
