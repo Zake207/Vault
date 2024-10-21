@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e4803a44bbdd5513",
+        "id": "ef9909d1bbab71ed",
         "type": "tabs",
         "children": [
           {
-            "id": "3cfc34af9154082b",
+            "id": "244db8fa7182f729",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -74,8 +74,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "1950bb4bc63c28dc",
@@ -165,8 +164,9 @@
             }
           },
           {
-            "id": "cb9480624fdc4730",
+            "id": "61034e7102456cc8",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -175,6 +175,7 @@
                 "backlinks": false,
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "Tareas"
             }
@@ -240,7 +241,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "cb9480624fdc4730",
+  "active": "61034e7102456cc8",
   "lastOpenFiles": [
     "Recursos/Home.md",
     "Recursos/Tareas.md",
