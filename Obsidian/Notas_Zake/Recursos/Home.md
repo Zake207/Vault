@@ -1,6 +1,6 @@
 ---
 banner: "![[Pasted image 20241006174625.png]]"
----
+banner_x: 0.5
 ---
 
 ```contributionGraph
@@ -63,3 +63,5 @@ Largest Column: standard
 # [[Projectos]]
 
 --- end-multi-column
+### [Añadir tareas](Tareas.md)
+

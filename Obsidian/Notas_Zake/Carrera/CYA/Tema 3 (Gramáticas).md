@@ -76,4 +76,5 @@ Para eliminar símbolos y producciones inútiles se siguen dos etapas.
 
 ![[Pasted image 20241018184617.png]]
 
-Una modificación es vacía si es de la forma A → ε.
+Una producción es vacía si es de la forma A → ε.
+

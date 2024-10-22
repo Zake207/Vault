@@ -1,28 +1,8 @@
-### --- Urgente ---
-```dataview
-TASK 
-from "Recursos" and #task_urgent  WHERE !completed
-```
-[ADD TASK](Task_urgent)
+[< Volver](Home)
+### [Urgente](Urgente)
+### [Clases](Clases.md)
+### [Proyectos](Proyecto.md)
+### [Ocio](Freetime)
 
-### --- Carrera ---
-```dataview
-TASK 
-from "Recursos" and #task_class  WHERE !completed
-```
-[ADD TASK](Task_Clases.md)
 
-### --- Ocio ---
-``` dataview
-TASK
-from "Recursos" and #task_ocio  WHERE !completed
-```
-[ADD TASK](Task_ocio.md)
-
-### --- Proyectos ---
-```dataview
-TASK
-from "Recursos" and #task_proyects WHERE !completed
-```
-[ADD TASK](Task_projects)
 

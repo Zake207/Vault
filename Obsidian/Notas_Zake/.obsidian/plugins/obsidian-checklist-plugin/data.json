@@ -1,0 +1,24 @@
+{
+  "todoPageName": "todo",
+  "showChecked": false,
+  "showAllTodos": true,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "a->z",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [
+    "Recursos/Tareas proyecto.md",
+    "Recursos/Tareas Carrera.md",
+    "Recursos/Tareas.md",
+    "Recursos/Tareas urgentes.md",
+    "Recursos/Urgente.md",
+    "Recursos/FreeTime.md",
+    "Recursos/Proyecto.md",
+    "Recursos/Clases.md"
+  ],
+  "_hiddenTags": []
+}

@@ -1,1 +1,9 @@
-{}
+{
+  "editor": false,
+  "file-explorer": false,
+  "properties": false,
+  "bookmarks": false,
+  "outline": false,
+  "graph": false,
+  "search": false
+}

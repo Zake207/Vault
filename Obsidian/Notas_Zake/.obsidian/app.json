@@ -16,5 +16,6 @@
     "downscalePercent": 100
   },
   "foldHeading": true,
-  "showIndentGuide": false
+  "showIndentGuide": false,
+  "promptDelete": false
 }
