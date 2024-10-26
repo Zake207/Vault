@@ -1,6 +1,7 @@
 #índice #carrera_año3 
 ___
 ### Teoría:
+[[Espacio de estados]]
 [[Búsqueda]]
 [[Estrategias de búsqueda en juegos]]
 [[Agentes Lógicos]]
