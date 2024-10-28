@@ -5,7 +5,8 @@ Cada nodo debe conocer:
 + Nodo padre
 + Costo desde el inicio hasta el nodo
 + Profundidad del nodo en el árbol
-+ La acción aplicada al padre para llegar al 
++ La acción aplicada al padre para llegar al este. 
+
 La eficiencia del algoritmo será mayor si generamos y/o inspeccionamos menos nodos.
 
 Un problema viene dado por
@@ -13,11 +14,13 @@ Un problema viene dado por
 + Operador (función sucesor)
 + Prueba de meta
 + Función de costo
+
 El rendimiento viene dado por
 + Completitud
 + Optimización
 + Complejidad en tiempo
 + Complejidad en espacio
+
 La complejidad viene dada por:
 + ramificación (b)
 + profundidad de la solución óptima (d) 
@@ -42,7 +45,14 @@ Expande el árbol por el nodo más profundo disponible, una vez un nodo a sido e
 + Complejidad en tiempo O($b^m$)
 + Complejidad en espacio O(bm)
 ___
-#### B. profundidad limitada
+#### B. profundidad (limitada)
+Se hace una búsqueda en profundidad con una profundidad h fija. Esto da problemas si h < d.
++ No es completa
++ No es óptima
++ Complejidad en tiempo: $O(b^h)$
++ Complejidad en espacio: $O(bh)$
+___
+#### B. profundidad (iterativa)
 Se hace una búsqueda en profundidad de forma iterativa que aumenta poco a poco la profundidad.
 + Es completa
 + Es óptima

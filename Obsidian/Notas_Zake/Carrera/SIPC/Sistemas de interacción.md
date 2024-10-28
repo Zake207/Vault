@@ -7,7 +7,6 @@ ___
 [[Tema 4 (Diseño de interfaces interactivas)]]
 ___
 ### Prácticas:
-[[Guion]]
 ___
 ### Evaluación:
 ___

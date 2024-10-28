@@ -9,7 +9,9 @@ Se coloca al usuario en el centro del desarrollo.
 Una persona permite representar segmentos de la población, para tratar de entender como se puede desarrollar una solución para el problema.
 + Empatizar con el usuario
 + Dan información e ideas para proponer soluciones e innovar
+
 Para diseñarlas hay que incluir:
+
 + Todos los datos demográficos.
 + Conductas propias de cada usuario.
 + Grado de habilidades tecnológicas.

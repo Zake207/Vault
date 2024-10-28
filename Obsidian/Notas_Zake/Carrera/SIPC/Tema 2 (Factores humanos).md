@@ -15,6 +15,7 @@ Las sensaciones se pueden alterar si la persona tienen problemas visuales, segú
 + El crear un sistema de color permite dar sensaciones concretas, esto también pasa con el sistema auditivo y el tactil. 
 + Es importante que el feedback esté cerca del foco de atención.
 + Hay que tener en cuenta factores culturales a la hora de crear sensaciones con la interfaz.
+
 Se esta intentando ahondar en los sistemas de comunicación olfativos.
 ## Percepción
 Al interpretar un estímulo este esta sujeto a una serie de sesgos que se basan a experiencias previas. A la hora de diseñar interfaces se debe tener en cuenta lo siguiente:
@@ -22,7 +23,9 @@ Al interpretar un estímulo este esta sujeto a una serie de sesgos que se basan 
 + Importancia de los test con usuarios reales.
 + Considerar el diseño.
 + Entender los objetivos del usuario.
+
 Las leyes de UX son las siguientes:
+
 + Un diseño agradable es percibido como útil
 + La productividad cuando entre usuario y ordenador no se deben esperar uno al otro.
 + El tiempo de conseguir un objetivo depende de la distancia y el tamaño de este
@@ -50,6 +53,7 @@ También se usa para que el usuario realice acciones que no tenía planeadas.
 Influyen en la resolución de problemas, memorización y atención.
 + Emociones negativas: focaliza la atención en una situación para llegar a una solución
 + Emociones positivas: mejoran el aprendizaje y creatividad, son provocadas con objetos atractivos.
+
 La computación afectiva permite emular las emociones humanas, interpretarlas y adaptar las interfaces en base a eso.
 
 Actualmente se desarrollan las maneras en las que debería responder un robot de una manera emocionalmente correcta.

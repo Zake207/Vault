@@ -22,6 +22,13 @@
       }
     },
     {
+      "query": "path:Ocio/Pasatiempos/Warhammer40000  ",
+      "color": {
+        "a": 1,
+        "rgb": 16540414
+      }
+    },
+    {
       "query": "path:Proyectos  ",
       "color": {
         "a": 1,
@@ -42,9 +49,9 @@
   "nodeSizeMultiplier": 1.5516632016632,
   "lineSizeMultiplier": 2.73336798336798,
   "collapse-forces": false,
-  "centerStrength": 0.479166666666667,
-  "repelStrength": 6.77083333333333,
-  "linkStrength": 0.410602910602911,
+  "centerStrength": 0.489583333333333,
+  "repelStrength": 6.875,
+  "linkStrength": 0.65625,
   "linkDistance": 30,
   "scale": 0.3250640860064575,
   "close": false

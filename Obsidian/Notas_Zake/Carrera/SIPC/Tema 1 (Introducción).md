@@ -41,4 +41,5 @@ Mecanismo a escala de pensamiento en la que un humano trata de deducir como func
 + No son precisos
 + Basados en experiencias previas
 + Están en constante evolución
+
 Un diseñador debe tratar de que su modelo mental coincida con la de los usuarios para no repercutir negativamente en la interfaz.

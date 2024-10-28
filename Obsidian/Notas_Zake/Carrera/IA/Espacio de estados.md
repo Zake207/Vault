@@ -5,9 +5,12 @@ La búsqueda conecta el estado inicial con el estado final, tras encontrar la so
 Todo problema tiene:
 + Un estado inicial
 + Una función sucesor que calcula las posibles acciones a realizar. 
+
 Estos dos forman el espacio de estados, en el mismo hay un camino que une el estado inicial con el final.
+
 + Un test objetivo que determina si ya se ha llegado al estado final.
 + Una función de costo que calcula el coste de cada camino.
+
 Un problema tiene solución si desde el estado inicial se puede llegar al estado final, será óptima si es la que tiene menor coste.
 
 Para representar un problema se crean los grafos.
