@@ -18,18 +18,18 @@
             }
           },
           {
-            "id": "a36ec38f7cb5f58e",
+            "id": "d150edfa057efa0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/IA/Espacio de estados.md",
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Espacio de estados"
+              "title": "Home"
             }
           }
         ],
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Carrera/IA/Espacio de estados.md",
+                "file": "Recursos/Home.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -221,12 +221,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3051947938342872,
+                  "scale": 0.20005469001069237,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Espacio de estados"
+              "title": "Gráfico de Home"
             }
           }
         ]
@@ -248,12 +248,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a36ec38f7cb5f58e",
+  "active": "d150edfa057efa0a",
   "lastOpenFiles": [
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/IA/Espacio de estados.md",
-    "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Recursos/Carrera.md",
+    "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
+    "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
+    "Carrera/SIPC/Tema 2 (Factores humanos).md",
+    "Carrera/SIPC/Tema 1 (Introducción).md",
+    "Carrera/SIPC/Anexos/Pasted image 20241027182619.png",
+    "Carrera/SIPC/Anexos/Pasted image 20241027182356.png",
+    "Carrera/SIPC/Anexos",
+    "Carrera/SIPC/Guion.md",
+    "Recursos/Tareas.md",
+    "Recursos/Clases.md",
+    "Carrera/IA/Estrategias de búsqueda en juegos.md",
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Búsqueda informadas.md",
+    "Carrera/IA/Búsquedas no informadas.md",
+    "Carrera/IA/Anexos/Pasted image 20241026171731.png",
+    "Carrera/IA/Espacio de estados.md",
     "Recursos/Alertas/2024-11-05 IA EXAMEN.md",
     "Recursos/Alertas/2024-11-01 IA EXAMEN.md",
     "Recursos/Alertas/2024-11-01 SIPC EXAMEN.md",
@@ -265,17 +280,6 @@
     "Recursos/Alertas/2024-11-02 IA EXAMEN.md",
     "Recursos/Alertas/2024-11-02 SIPC EXAMEN.md",
     "Recursos/Alertas/2024-11-03 GYM PIERNA.md",
-    "Recursos/Alertas/2024-11-02 GYM BRAZO.md",
-    "Recursos/Alertas/2024-10-30 SIPC EXAMEN.md",
-    "Recursos/Alertas/2024-10-29 GYM ESPALDA.md",
-    "Recursos/Alertas/2024-10-28 GYM PECHO.md",
-    "Recursos/Alertas/2024-10-30 PE CYA.md",
-    "Recursos/Alertas/2024-10-29 PE IA.md",
-    "Recursos/Tareas.md",
-    "Carrera/Redes/Capa Física.md",
-    "Carrera/Redes/Redes.md",
-    "Recursos/Alertas/2024-10-28 PE CYA Siguiente.md",
-    "Notas/Diario./24-10-2024.md",
     "Notas/Diario.",
     "Notas",
     "Recursos/Alertas",
@@ -288,13 +292,9 @@
     "Carrera/CYA/Anexos/Pasted image 20241018182555.png",
     "Carrera/CYA/Anexos/Pasted image 20241018175405.png",
     "Carrera/CYA/Anexos/Pasted image 20241018174351.png",
-    "Carrera/CYA/Anexos/Pasted image 20241018173213.png",
-    "Carrera/CYA/Anexos/Pasted image 20241018172804.png",
-    "Carrera/CYA/Anexos/Pasted image 20241018172705.png",
     "Ocio/Pasatiempos/Cocina",
     "Ocio/Pasatiempos/Warhammer40000/Miniaturas",
     "Ocio/Pasatiempos/Warhammer40000/Libros",
-    "Ocio/Pasatiempos/Warhammer40000",
-    "Ocio/Pasatiempos/Juegos de Mesa"
+    "Ocio/Pasatiempos/Warhammer40000"
   ]
 }

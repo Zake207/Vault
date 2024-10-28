@@ -2,7 +2,8 @@
 ___
 ### Teoría:
 [[Espacio de estados]]
-[[Búsqueda]]
+[[Búsquedas no informadas]]
+[[Búsqueda informadas]]
 [[Estrategias de búsqueda en juegos]]
 [[Agentes Lógicos]]
 ### Prácticas:
