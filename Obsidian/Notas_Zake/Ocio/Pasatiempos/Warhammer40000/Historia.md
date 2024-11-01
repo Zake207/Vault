@@ -23,5 +23,8 @@ Tras [[La Gran Fisura]] la Mente Enjambre se vió afectada pues el Caos devoraba
 
 ## Cuarta Guerra Tiránida.
 El conflicto más reciente, en este dos zarcillos de la [[Flota Enjambre Leviatán]] atacaron con una trayectoria que se dirigía hacia [[Terra]].
-Tras el avisar urgente tres [[Adeptus Custodes]] que viajaron lo mas rápido posible a [[Terra]] a [[Trajan Valoris]], este decidió actuar ante la amenaza con un ataque. En este participaron regimientos del [[Astra Militarum]], [[Adeptas Sororitas]] y [[Adeptus Astartes]], además de [[Caballeros imperiales]] y fuerzas del [[Mecanicus]].
+Tras el avisar urgente tres [[Adeptus Custodes]] que viajaron lo mas rápido posible a [[Terra]] a [[Trajan Valoris]], este decidió actuar ante la amenaza con un ataque. En este participaron regimientos del [[Astra Militarum]], [[Adeptas Sororitas]] y [[Adeptus Astartes]], además de [[Caballeros imperiales]] y fuerzas del [[Mecanicus]]. Estas fuerzas de respuesta rápida se llamaron los **Filos Solares**. Los cuales eran dirigidos por el [[Lord Solar Leontus]] y [[Trajan Valoris]] con sus [[Adeptus Custodes]]. Los [[Tiránidos]] causaron estragos en el [[Segmentum Pacificus]]. Para reforzar su posición ante el Gran Devorador se designaron Mundos Puntal, los cuales eran de vital importancia.
+Tras casi mermar a los dos zarcillos, un tercero apareció devorando múltiples localizaciones, dejando el mundo puntal de Sanctum, del sistema Formidyre solo contra el enjambre.
+
+
 

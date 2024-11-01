@@ -6,6 +6,7 @@ ___
 [[Búsqueda informadas]]
 [[Estrategias de búsqueda en juegos]]
 [[Agentes Lógicos]]
+[[Lógica Preposicional]]
 ### Prácticas:
 ___
 ### Evaluación:

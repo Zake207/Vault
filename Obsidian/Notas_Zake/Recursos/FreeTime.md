@@ -4,3 +4,4 @@
 
 - [ ] Ser feliz :)
 - [ ] Practicar postres
+- [ ] Limpiar PS4
