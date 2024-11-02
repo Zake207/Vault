@@ -8,36 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af4d8350bccdde81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/CYA/CYA.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CYA"
-            }
-          },
-          {
-            "id": "644f666e860a9d9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
             "id": "a6e4e087240a2983",
             "type": "leaf",
             "state": {
@@ -45,6 +15,21 @@
               "state": {},
               "icon": "calendar-glyph",
               "title": "Calendar"
+            }
+          },
+          {
+            "id": "de184e7fe5a2660e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/IA/Estrategias de búsqueda en juegos.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Estrategias de búsqueda en juegos"
             }
           }
         ],
@@ -60,7 +45,7 @@
       {
         "id": "5d47ec0c2126d747",
         "type": "tabs",
-        "dimension": 47.69452449567723,
+        "dimension": 47.694524495677236,
         "children": [
           {
             "id": "bfafc284c9226ffb",
@@ -215,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/IA/Estrategias de búsqueda en juegos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -243,7 +228,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Home"
+              "title": "Gráfico de Estrategias de búsqueda en juegos"
             }
           }
         ]
@@ -265,18 +250,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "644f666e860a9d9a",
+  "active": "de184e7fe5a2660e",
   "lastOpenFiles": [
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Búsqueda informadas.md",
+    "Recursos/Carrera.md",
+    "Carrera/IA/Búsquedas no informadas.md",
+    "Carrera/IA/Espacio de estados.md",
+    "Recursos/Home.md",
     "Carrera/CYA/CYA.md",
     "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
     "Recursos/Tareas.md",
     "Recursos/Clases.md",
     "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Ocio/Pasatiempos/Warhammer40000/Historia.md",
-    "Carrera/IA/Búsquedas no informadas.md",
-    "Carrera/IA/Inteligencia Artificial.md",
     "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
     "Ocio/Pasatiempos/Warhammer40000/Lore.md",
     "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
@@ -291,8 +278,6 @@
     "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
     "Carrera/SIPC/Sistemas de interacción.md",
     "Carrera/IA/Estrategias de búsqueda en juegos.md",
-    "Carrera/IA/Búsqueda informadas.md",
-    "Carrera/IA/Espacio de estados.md",
     "Recursos/Apremiante.md",
     "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
     "Carrera/SIPC/Anexos/Pasted image 20241027182619.png",

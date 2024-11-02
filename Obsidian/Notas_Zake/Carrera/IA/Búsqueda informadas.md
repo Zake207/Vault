@@ -16,4 +16,5 @@ Para el algoritmo cuando se selecciona el nodo final para inspeccionar, mientras
 Una función heurística es admisible si nunca sobreestima el costo de llegar al destino desde n.
 + Es Completa
 + Es óptima si h(n) es admisible
+
 Una heurística puede ser admisible si se relaja el problema, alterando las reglas para que esta pueda serlo. Además de esto la solución del problema relajado no será mayor a la solución del problema original.
