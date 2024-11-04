@@ -18,18 +18,30 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "39bfec22af422658",
+=======
+            "id": "de184e7fe5a2660e",
+>>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Recursos/Home.md",
+=======
+                "file": "Carrera/IA/Estrategias de búsqueda en juegos.md",
+>>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Home"
+=======
+              "title": "Estrategias de búsqueda en juegos"
+>>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
             }
           }
         ],
@@ -200,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/IA/Estrategias de búsqueda en juegos.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -228,7 +240,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Home"
+              "title": "Gráfico de Estrategias de búsqueda en juegos"
             }
           }
         ]
@@ -250,18 +262,28 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< HEAD
   "active": "39bfec22af422658",
   "lastOpenFiles": [
     "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/CYA.md",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
+=======
+  "active": "de184e7fe5a2660e",
+  "lastOpenFiles": [
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Búsqueda informadas.md",
+    "Recursos/Carrera.md",
+    "Carrera/IA/Búsquedas no informadas.md",
+    "Carrera/IA/Espacio de estados.md",
+    "Recursos/Home.md",
+    "Carrera/CYA/CYA.md",
+>>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
     "Carrera/CYA/Tema 3 (Gramáticas).md",
     "Recursos/Tareas.md",
     "Recursos/Clases.md",
     "Ocio/Pasatiempos/Warhammer40000/Historia.md",
-    "Carrera/IA/Búsquedas no informadas.md",
-    "Carrera/IA/Inteligencia Artificial.md",
     "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
     "Ocio/Pasatiempos/Warhammer40000/Lore.md",
     "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
@@ -276,8 +298,6 @@
     "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
     "Carrera/SIPC/Sistemas de interacción.md",
     "Carrera/IA/Estrategias de búsqueda en juegos.md",
-    "Carrera/IA/Búsqueda informadas.md",
-    "Carrera/IA/Espacio de estados.md",
     "Recursos/Apremiante.md",
     "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
     "Carrera/SIPC/Anexos/Pasted image 20241027182619.png",
