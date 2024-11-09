@@ -2,5 +2,5 @@
 
 [< Volver](Tareas)
 
-- [ ] EXAMEN | IA : REPASAR ⏫ 
+- [x] EXAMEN | IA : REPASAR ⏫ 
 - [ ] EXAMEN | SIPC : REPASAR ⏫

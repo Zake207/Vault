@@ -8,6 +8,8 @@ ___
 [[Agentes Lógicos]]
 [[Lógica Preposicional]]
 ### Prácticas:
+[[Prolog]]
+
 ___
 ### Evaluación:
 + 2 exámenes 30% cada uno con un 4.5 de media

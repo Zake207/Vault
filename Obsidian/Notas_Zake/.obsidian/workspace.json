@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "8542b6462bb10619",
+    "id": "4ddf739061a18999",
     "type": "split",
     "children": [
       {
-        "id": "085939c792bd1c3e",
+        "id": "47a7ca796310d1f3",
         "type": "tabs",
         "children": [
           {
-            "id": "a6e4e087240a2983",
+            "id": "968e2453953990ac",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
@@ -18,49 +18,97 @@
             }
           },
           {
-<<<<<<< HEAD
-            "id": "39bfec22af422658",
-=======
-            "id": "de184e7fe5a2660e",
->>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
+            "id": "ed5c152d21ed507e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Recursos/Home.md",
-=======
-                "file": "Carrera/IA/Estrategias de búsqueda en juegos.md",
->>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
+                "file": "Carrera/SIPC/Sistemas de interacción.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Home"
-=======
-              "title": "Estrategias de búsqueda en juegos"
->>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
+              "title": "Sistemas de interacción"
+            }
+          },
+          {
+            "id": "61b5f1977f07489c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/SIPC/Tema 1 (Introducción).md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 1 (Introducción)"
+            }
+          },
+          {
+            "id": "b34df8e20a1de878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/SIPC/Tema 2 (Factores humanos).md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 2 (Factores humanos)"
+            }
+          },
+          {
+            "id": "ca34ee0958e3c62c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 3 (Diseño centrado al usuario)"
+            }
+          },
+          {
+            "id": "9c6e76b5771ebf89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 4 (Diseño de interfaces interactivas)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a41ffafca9a6994d",
+    "id": "3d2617a4c8b79d2a",
     "type": "split",
     "children": [
       {
-        "id": "5d47ec0c2126d747",
+        "id": "50bc0f5b669a46f9",
         "type": "tabs",
-        "dimension": 47.694524495677236,
+        "dimension": 42.21902017291067,
         "children": [
           {
-            "id": "bfafc284c9226ffb",
+            "id": "2b77098a33e07635",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -72,7 +120,7 @@
             }
           },
           {
-            "id": "295b11c55103d9d9",
+            "id": "8d4b79743d4b52e6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -89,7 +137,7 @@
             }
           },
           {
-            "id": "a58c2b30f72b290e",
+            "id": "709c24e76854aa6b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -101,12 +149,12 @@
         ]
       },
       {
-        "id": "1950bb4bc63c28dc",
+        "id": "1dcc85f787447ec6",
         "type": "tabs",
-        "dimension": 52.305475504322764,
+        "dimension": 57.78097982708934,
         "children": [
           {
-            "id": "9f14a308eaca7842",
+            "id": "fe57ded12b7805e9",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -119,19 +167,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239
+    "width": 231,
+    "collapsed": true
   },
   "right": {
-    "id": "10dedcbe603fc0d6",
+    "id": "87c142452da13a96",
     "type": "split",
     "children": [
       {
-        "id": "41fed715e29f4f9f",
+        "id": "42506f4a862b4e49",
         "type": "tabs",
-        "dimension": 58.96739130434783,
         "children": [
           {
-            "id": "14c0507fa45aa55c",
+            "id": "6f550e3892ec66d0",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -141,12 +189,12 @@
             }
           },
           {
-            "id": "1bd23f1d928d0088",
+            "id": "019865b02cfa9ccb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Tareas.md",
+                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,25 +204,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Tareas"
+              "title": "Enlaces entrantes de Home"
             }
           },
           {
-            "id": "bb10acecc4627161",
+            "id": "2a2460062f32ed8e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Tareas.md",
+                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Tareas"
+              "title": "Enlaces salientes de Home"
             }
           },
           {
-            "id": "5cc0d9087ac28f9e",
+            "id": "582abd6cc9ae0f6c",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -188,7 +236,7 @@
             }
           },
           {
-            "id": "d300753c79167adb",
+            "id": "b109c38a2a549608",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -200,123 +248,61 @@
             }
           }
         ]
-      },
-      {
-        "id": "fb3e3dee53793ff8",
-        "type": "tabs",
-        "dimension": 41.03260869565217,
-        "children": [
-          {
-            "id": "fdf0ef814911761d",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Carrera/IA/Estrategias de búsqueda en juegos.md",
-                "options": {
-                  "collapse-filter": false,
-                  "search": "",
-                  "localJumps": 2,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": false,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.20005469001069237,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Gráfico de Estrategias de búsqueda en juegos"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 253,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:Abrir paleta de comandos": false,
       "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
       "templater-obsidian:Templater": false,
-      "graph:Abrir vista gráfica": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false
     }
   },
-<<<<<<< HEAD
-  "active": "39bfec22af422658",
+  "active": "61b5f1977f07489c",
   "lastOpenFiles": [
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/CYA.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Carrera/SIPC/Tema 2 (Factores humanos).md",
+    "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
+    "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
+    "Carrera/SIPC/Tema 1 (Introducción).md",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
-=======
-  "active": "de184e7fe5a2660e",
-  "lastOpenFiles": [
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/IA/Búsqueda informadas.md",
-    "Recursos/Carrera.md",
-    "Carrera/IA/Búsquedas no informadas.md",
-    "Carrera/IA/Espacio de estados.md",
-    "Recursos/Home.md",
-    "Carrera/CYA/CYA.md",
->>>>>>> 7ef24f051b64c2209540a0331af8ee84737df1f9
-    "Carrera/CYA/Tema 3 (Gramáticas).md",
+    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
+    "Carrera/CYA/Anexos/Pasted image 20241108112049.png",
+    "Carrera/CYA/Anexos/Pasted image 20241108112040.png",
+    "Carrera/CYA/Anexos/Pasted image 20241108111201.png",
     "Recursos/Tareas.md",
     "Recursos/Clases.md",
-    "Ocio/Pasatiempos/Warhammer40000/Historia.md",
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Carrera/CYA/Anexos/Pasted image 20241108104327.png",
+    "Carrera/CYA/Anexos/Pasted image 20241108103958.png",
+    "Carrera/CYA/Anexos/Pasted image 20241108102323.png",
+    "Carrera/CYA/CYA.md",
+    "Recursos/Alertas/2024-11-08 REPASAR SIPC.md",
+    "Recursos/Alertas/2024-11-08 PE CYA.md",
+    "Ocio/Pasatiempos/Gym/6-11-24.md",
+    "Recursos/Templates/Gym-Pecho.md",
+    "Ocio/Pasatiempos/Gym/Gym.md",
+    "Ocio/Pasatiempos/Gym/7-11-24.md",
+    "Recursos/Templates/Gym-Espalda.md",
+    "6/11/24.md",
+    "6/11",
+    "6",
     "Recursos/Ocio.md",
-    "Carrera/IA/Lógica Preposicional.md",
-    "Carrera/IA/Anexos/Pasted image 20241029105721.png",
-    "Carrera/IA/Anexos/Pasted image 20241029105701.png",
-    "Recursos/Fretime.md",
-    "Recursos/FreeTime.md",
-    "Carrera/SIPC/Voiceflow.md",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
     "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/IA/Estrategias de búsqueda en juegos.md",
-    "Recursos/Apremiante.md",
-    "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
-    "Carrera/SIPC/Anexos/Pasted image 20241027182619.png",
-    "Carrera/SIPC/Anexos/Pasted image 20241027182356.png",
-    "Carrera/SIPC/Anexos",
-    "Carrera/IA/Anexos/Pasted image 20241026171731.png",
-    "Notas/Diario.",
-    "Notas",
-    "Recursos/Alertas",
-    "Recursos/Alertas",
-    "Recursos/Anexos/harry-gillen-t7gbHudO1Xo-unsplash.jpg",
-    "Ocio/Pasatiempos/Gym",
-    "Carrera/CYA/Anexos/Pasted image 20241018184617.png",
-    "Carrera/CYA/Anexos/Pasted image 20241018184118.png",
-    "Carrera/CYA/Anexos/Pasted image 20241018183535.png",
-    "Carrera/CYA/Anexos/Pasted image 20241018182555.png",
-    "Ocio/Pasatiempos/Cocina",
-    "Ocio/Pasatiempos/Warhammer40000/Miniaturas",
-    "Ocio/Pasatiempos/Warhammer40000/Libros",
-    "Ocio/Pasatiempos/Warhammer40000"
+    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "EDP.canvas",
+    "Sin título.md",
+    "Carrera/GPI/Gestión de proyectos informáticos.md",
+    "Carrera/IA/Prolog.md"
   ]
 }
