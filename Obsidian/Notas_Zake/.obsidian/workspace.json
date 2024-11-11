@@ -18,67 +18,7 @@
             }
           },
           {
-            "id": "ed5c152d21ed507e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/SIPC/Sistemas de interacción.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sistemas de interacción"
-            }
-          },
-          {
-            "id": "61b5f1977f07489c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/SIPC/Tema 1 (Introducción).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 1 (Introducción)"
-            }
-          },
-          {
-            "id": "b34df8e20a1de878",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/SIPC/Tema 2 (Factores humanos).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 2 (Factores humanos)"
-            }
-          },
-          {
-            "id": "ca34ee0958e3c62c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 3 (Diseño centrado al usuario)"
-            }
-          },
-          {
-            "id": "9c6e76b5771ebf89",
+            "id": "d1e139b42dabcfe0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -90,6 +30,21 @@
               },
               "icon": "lucide-file",
               "title": "Tema 4 (Diseño de interfaces interactivas)"
+            }
+          },
+          {
+            "id": "938308f69decb66a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Carrera/CYA/Tema 3 (Gramáticas).md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tema 3 (Gramáticas)"
             }
           }
         ],
@@ -167,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231,
-    "collapsed": true
+    "width": 325
   },
   "right": {
     "id": "87c142452da13a96",
@@ -177,6 +131,7 @@
       {
         "id": "42506f4a862b4e49",
         "type": "tabs",
+        "dimension": 42.129629629629626,
         "children": [
           {
             "id": "6f550e3892ec66d0",
@@ -248,11 +203,54 @@
             }
           }
         ]
+      },
+      {
+        "id": "48986d7279636c68",
+        "type": "tabs",
+        "dimension": 57.870370370370374,
+        "children": [
+          {
+            "id": "da9d6e2be42e9a66",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Carrera/CYA/Tema 3 (Gramáticas).md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7545958473691461,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de Tema 3 (Gramáticas)"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 253,
-    "collapsed": true
+    "width": 377
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,25 +265,33 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "61b5f1977f07489c",
+  "active": "938308f69decb66a",
   "lastOpenFiles": [
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/SIPC/Tema 2 (Factores humanos).md",
-    "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
+    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
     "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
+    "Carrera/SIPC/Voiceflow.md",
+    "Carrera/SIPC/Tema 2 (Factores humanos).md",
     "Carrera/SIPC/Tema 1 (Introducción).md",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
-    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
+    "Carrera/SIPC/(SIPC) Tema 1.md",
+    "Carrera/CYA/Tema 3 (Gramáticas).md",
+    "Carrera/CYA/Anexos/Pasted image 20241110191140.png",
+    "Carrera/CYA/Anexos/Pasted image 20241110191127.png",
+    "Carrera/CYA/Anexos/Pasted image 20241110190419.png",
+    "Carrera/CYA/Anexos/Pasted image 20241110190402.png",
+    "Carrera/CYA/Anexos/Pasted image 20241110190010.png",
+    "Carrera/CYA/Anexos/Pasted image 20241110185917.png",
+    "Carrera/CYA/Anexos/Pasted image 20241110185901.png",
+    "Carrera/CYA/CYA.md",
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/Anexos/Pasted image 20241108112049.png",
     "Carrera/CYA/Anexos/Pasted image 20241108112040.png",
     "Carrera/CYA/Anexos/Pasted image 20241108111201.png",
     "Recursos/Tareas.md",
     "Recursos/Clases.md",
-    "Carrera/CYA/Anexos/Pasted image 20241108104327.png",
-    "Carrera/CYA/Anexos/Pasted image 20241108103958.png",
-    "Carrera/CYA/Anexos/Pasted image 20241108102323.png",
-    "Carrera/CYA/CYA.md",
     "Recursos/Alertas/2024-11-08 REPASAR SIPC.md",
     "Recursos/Alertas/2024-11-08 PE CYA.md",
     "Ocio/Pasatiempos/Gym/6-11-24.md",
@@ -299,10 +305,6 @@
     "Recursos/Ocio.md",
     "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
     "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md",
-    "EDP.canvas",
-    "Sin título.md",
-    "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/IA/Prolog.md"
+    "EDP.canvas"
   ]
 }

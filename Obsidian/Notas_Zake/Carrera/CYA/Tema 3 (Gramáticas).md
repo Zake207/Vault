@@ -68,13 +68,58 @@ Una gramática es ambigua si existe alguna cadena para la cual hay más de un AA
 Un símbolo X ∈ (Σ ∪ V) si existe una derivación que resulte un una cadena.
 ![[Pasted image 20241018182555.png]]
 
+### Símbolos inútiles
 Para eliminar símbolos y producciones inútiles se siguen dos etapas.
 + Etapa 1: Eliminar no terminales que no deriven en una cadena de Σ* y las producciones en las que aparezca.
-	![[Pasted image 20241018183535.png]]
+![[Pasted image 20241018183535.png]]
 + Etapa 2: Eliminar no terminales los cuales sean inaccesibles.
-	![[Pasted image 20241018184118.png]]
+![[Pasted image 20241018184118.png]]
 
 ![[Pasted image 20241018184617.png]]
 
+### Producciones vacías
 Una producción es vacía si es de la forma A → ε.
+Para eliminarlas se sigue el siguiente algoritmo, eliminando todas las producciones vacías y teniendo en cuenta que si el estado inicial produce la cadena vacía es que esta puede ser generada por la gramática y por tanto es parte del lenguaje.
+1. Primero se calcula el conjunto de variables vacías.
+![[Pasted image 20241110185901.png]]
+2. Después se eliminan las producciones vacías, donde quiera que se vea un no terminal que tubo la cadena vacía se deben crear dos producciones, una en la que no este el símbolo y otra en la que sí.
+![[Pasted image 20241110185917.png]]
+
+Un ejemplo puede ser el siguiente.
+![[Pasted image 20241110190010.png]]
+
+### Producciones unitarias
+Una producción es unitarias si es de la forma A $\implies$ B
+El algoritmo a seguir para eliminarlas es el siguiente.
+![[Pasted image 20241110190402.png]]
+
+![[Pasted image 20241110190419.png]]
+
+### Forma normal de Chomsky
+Para tener una gramática en forma normal de Chomsky primero se debe higienizar la gramática para poder operar con ella, siguiente los pasos anteriores en este orden:
++ Eliminar símbolos inútiles.
++ Eliminar producciones vacías.
++ Eliminar producciones unitarias.
++ Eliminar símbolos inútiles.
+
+Tras esto hay que destacar el concepto de recursividad el cual consiste en que una gramática es recursiva si tiene derivaciones de la forma 
+$A\implies^+aAb$ donde o bien alfa o beta pueden ser cadenas vacías.
+
+Una gramática está en forma normal de Chomsky si todas sus producciones son de la forma:
++ A → BC 
++ A → a 
++ S → ε
+
+![[Pasted image 20241110191127.png]]
+
+![[Pasted image 20241110191140.png]]
+
+#### Propiedades
+Los AAS generados sobre una cadena generada por una gramática en forma normal de Chomsky siempre será un árbol binario.
+
+El camino más largo desde la raíz hasta las hojas tiene m+2 nodos y en el nivel m hay a lo sumo 2$^m$ nodos padre.
+
+$2^m$ es la longitud más larga de la cadena derivada.
+
+Si la longitud de la cadena es mayor a $2^m$ entonces el camino más largo desde la raíz a las hojas a de tener m + 2 nodos.
 
