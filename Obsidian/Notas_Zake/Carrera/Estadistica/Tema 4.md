@@ -20,6 +20,7 @@ Si la suma de las probabilidades de todos los sucesos no es 1, entonces no se tr
 Un espacio probabilístico es equiprobable si todos los sucesos tienen igual probabilidad. Para calcular probabilidades en estos casos se aplica la regla de Laplace.
 ![[Pasted image 20241118123120.png]]
 
+La probabilidad de la unión de dos sucesos se calcula de la siguiente manera: $$P(A∪B)=P(A)+P(B)−P(A∩B)$$
 ### Probabilidad condicionada
 La probabilidad de que ocurra el suceso A sabiendo que a ocurrido el suceso B se mide de la siguiente forma:
 ![[Pasted image 20241118123547.png]]
@@ -34,9 +35,10 @@ Esto no ocurre si dos sucesos son independientes, dándose las siguientes propie
 + P(A $\cap$ B $\cap$ C) = P(A) · P(B) · P(C)
 
 ### Representación en árbol
+Los árboles solo se pueden usar para sucesos dependientes
 ![[Pasted image 20241118124818.png]]
 
-Para calcular probabilidades en un árbol se usa el **Teorema de la Probailidad Total**: P(B) = Ai P(B/Ai) siendo Ai el suceso anterior a B
+Para calcular probabilidades en un árbol se usa el **Teorema de la Probabilidad Total**: P(B) = Ai P(B/Ai) siendo Ai el suceso anterior a B
 
 El **Teorema de Bayes** permite calcular la probabilidad de que sabiendo que ha ocurrido B, haya ocurrido A: $$P(A /B) = \frac{P(A) · P(B/A)}{P(B)}$$
 ## Combinatoria
