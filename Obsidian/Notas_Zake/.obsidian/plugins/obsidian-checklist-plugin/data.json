@@ -16,11 +16,15 @@
     "Recursos/Tareas.md",
     "Recursos/Tareas urgentes.md",
     "Recursos/Urgente.md",
-    "Recursos/Clases.md",
-    "Recursos/Exámenes.md",
+    "Ocio/Pasatiempos/Juegos de Mesa/Extensiones.md",
+    "Ocio/Social/Ideas.md",
+    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
+    "Recursos/Apremiante.md",
     "Recursos/FreeTime.md",
-    "Recursos/Proyecto.md",
-    "Recursos/Apremiante.md"
+    "Recursos/Exámenes.md",
+    "Recursos/Proyecto.md"
   ],
-  "_hiddenTags": []
+  "_hiddenTags": [
+    "t"
+  ]
 }

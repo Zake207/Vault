@@ -123,3 +123,55 @@ $2^m$ es la longitud más larga de la cadena derivada.
 
 Si la longitud de la cadena es mayor a $2^m$ entonces el camino más largo desde la raíz a las hojas a de tener m + 2 nodos.
 
+## Lema del bombeo
+
+Sea L un lenguaje independiente del contexto el cual es generado por una gramática y no contiene la cadena vacía existe un entero $k \in N$ para el cual, teniendo una cadena del lenguaje $z$ cuya longitud es mayor que k tenemos lo siguiente:
+![[Pasted image 20241111150029.png]]
+![[Pasted image 20241111150408.png]]
+
+![[Pasted image 20241111150427.png]]
+
+## Lenguaje vacío
+Hay un algoritmo para determinar si un lenguaje independiente del contexto es vacío. Si en la primera parte del proceso de eliminación de símbolos inútiles se elimina $S$ este lenguaje será vacío.
+
+## Lenguaje finito o infinito
+El lenguaje generado por una gramática es finito o infinito se debe hacer lo siguiente, se escribe esta en forma normal de Chomsky. Se debe construir un grafo dirigido para todos los símbolos no terminales, cada producción que produzca un no terminal es un arco, si no hay ciclos se dice que el lenguaje es finito.
+![[Pasted image 20241111152425.png]]
+
+## Analisis sintático
+Permite determinar si una cadena es parte del lenguaje o no.
+#### Lema
+Dada una cadena del alfabeto $x$ para cualquier estado no terminal y cualquier subcadena de $x$ se puede determinar si $A \implies ^* \ \ w$
+Sea n la longitud de la cadena y $w_{ij}$ la subcadena que comienza en la posicion i y tiene longitud j.
+Hay que demostrar que el lema se cumple para cualquier $w_{ij}$
+![[Pasted image 20241111165303.png]]
+
+Si se particulariza este lema para el estado inicial el lema indica que es posible determinar si $S \implies^*  w_{1n} = x$ 
+determinando que x pertenece al lenguaje.
+
+Con el algoritmo de Cocke Younger Kasami se puede derterminar la pertenencia de una cadena al lenguaje generado por una gramática en forma normal de Chomsky.
+![[Pasted image 20241111170129.png]]
+
+![[Pasted image 20241111171539.png]]
+![[Pasted image 20241111171601.png]]
+
+## Propiedades
+### Unión
+Los lenguajes independientes del contexto son cerrados para la unión.
+![[Pasted image 20241111172153.png]]
+![[Pasted image 20241111172214.png]]
+### Concatenación
+Los lenguajes independientes del contexto son cerrados para la concatenación.
+![[Pasted image 20241111172618.png]]
+Se demuestra de una manera similar a la de la unión
+### Cierre de Kleene
+Los lenguajes independientes del contexto son cerrados para el cierre de Kleene.
+![[Pasted image 20241111172913.png]]
+
+### Intersección
+Los lenguajes independientes del contexto **no son cerrados para la intersección**.
+![[Pasted image 20241111173029.png]]
+### Complementación
+Los lenguajes independientes del contexto **no son cerrados para la complementación**.
+Puesto que para serlo deberían ser cerrados para la intersección y cumplir la siguiente propiedad, cosa que no sucede.
+![[Pasted image 20241111173233.png]]

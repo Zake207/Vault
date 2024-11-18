@@ -1,7 +1,7 @@
 #índice #carrera_año3 
 ___
 ### Teoría:
-[[Tema 1]]
+[[Carrera/Estadística/Tema 1]]
 [[Tema 2]]
 
 ### Prácticas:

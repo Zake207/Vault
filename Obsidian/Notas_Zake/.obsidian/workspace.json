@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "47a7ca796310d1f3",
+        "id": "d1898366eef43c5d",
         "type": "tabs",
         "children": [
           {
@@ -16,39 +16,8 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "d1e139b42dabcfe0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 4 (Diseño de interfaces interactivas)"
-            }
-          },
-          {
-            "id": "938308f69decb66a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/CYA/Tema 3 (Gramáticas).md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 3 (Gramáticas)"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -60,7 +29,7 @@
       {
         "id": "50bc0f5b669a46f9",
         "type": "tabs",
-        "dimension": 42.21902017291067,
+        "dimension": 49.56772334293948,
         "children": [
           {
             "id": "2b77098a33e07635",
@@ -80,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Flota",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +75,7 @@
       {
         "id": "1dcc85f787447ec6",
         "type": "tabs",
-        "dimension": 57.78097982708934,
+        "dimension": 50.43227665706051,
         "children": [
           {
             "id": "fe57ded12b7805e9",
@@ -122,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325
+    "width": 254,
+    "collapsed": true
   },
   "right": {
     "id": "87c142452da13a96",
@@ -131,7 +101,7 @@
       {
         "id": "42506f4a862b4e49",
         "type": "tabs",
-        "dimension": 42.129629629629626,
+        "dimension": 54.7554347826087,
         "children": [
           {
             "id": "6f550e3892ec66d0",
@@ -207,7 +177,7 @@
       {
         "id": "48986d7279636c68",
         "type": "tabs",
-        "dimension": 57.870370370370374,
+        "dimension": 45.2445652173913,
         "children": [
           {
             "id": "da9d6e2be42e9a66",
@@ -215,7 +185,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Carrera/CYA/Tema 3 (Gramáticas).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -243,68 +212,76 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Tema 3 (Gramáticas)"
+              "title": "Vista gráfica"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 377
+    "width": 258
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir selector rápido": false,
+      "command-palette:Abrir paleta de comandos": false,
       "graph:Abrir vista gráfica": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Abrir selector rápido": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "templater-obsidian:Templater": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "938308f69decb66a",
+  "active": "968e2453953990ac",
   "lastOpenFiles": [
-    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/SIPC/Tema 4 (Diseño de interfaces interactivas).md",
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/SIPC/Tema 3 (Diseño centrado al usuario).md",
-    "Carrera/SIPC/Voiceflow.md",
-    "Carrera/SIPC/Tema 2 (Factores humanos).md",
-    "Carrera/SIPC/Tema 1 (Introducción).md",
+    "Carrera/HORARIO TERCERO.pdf",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
-    "Carrera/SIPC/(SIPC) Tema 1.md",
-    "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Carrera/CYA/Anexos/Pasted image 20241110191140.png",
-    "Carrera/CYA/Anexos/Pasted image 20241110191127.png",
-    "Carrera/CYA/Anexos/Pasted image 20241110190419.png",
-    "Carrera/CYA/Anexos/Pasted image 20241110190402.png",
-    "Carrera/CYA/Anexos/Pasted image 20241110190010.png",
-    "Carrera/CYA/Anexos/Pasted image 20241110185917.png",
-    "Carrera/CYA/Anexos/Pasted image 20241110185901.png",
-    "Carrera/CYA/CYA.md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/Anexos/Pasted image 20241108112049.png",
-    "Carrera/CYA/Anexos/Pasted image 20241108112040.png",
-    "Carrera/CYA/Anexos/Pasted image 20241108111201.png",
-    "Recursos/Tareas.md",
-    "Recursos/Clases.md",
-    "Recursos/Alertas/2024-11-08 REPASAR SIPC.md",
-    "Recursos/Alertas/2024-11-08 PE CYA.md",
-    "Ocio/Pasatiempos/Gym/6-11-24.md",
-    "Recursos/Templates/Gym-Pecho.md",
+    "Ocio/Pasatiempos/Gym/16-11-24.md",
     "Ocio/Pasatiempos/Gym/Gym.md",
-    "Ocio/Pasatiempos/Gym/7-11-24.md",
-    "Recursos/Templates/Gym-Espalda.md",
-    "6/11/24.md",
-    "6/11",
-    "6",
     "Recursos/Ocio.md",
+    "Carrera/GPI/Tema 3.md",
+    "Carrera/GPI/Anexos/Pasted image 20241117205348.png",
+    "Carrera/GPI/GPI Tema 3.pdf",
+    "Carrera/GPI/Gestión de proyectos informáticos.md",
+    "Carrera/GPI/GPI Tema 5.pdf",
+    "Carrera/GPI/GPI Tema 4.pdf",
+    "Carrera/GPI/Anexos/Pasted image 20241117203353.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117203223.png",
+    "Carrera/GPI/Tema 2.md",
+    "Carrera/GPI/Anexos/Pasted image 20241117194337.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117194309.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117194203.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117194110.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117194055.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117194043.png",
+    "Carrera/GPI/Anexos/Pasted image 20241117194022.png",
+    "Carrera/GPI/GPI Tema 2.pdf",
+    "Carrera/GPI/Tema 1.md",
+    "Carrera/GPI/GPI Tema 1.pdf",
+    "Carrera/Estadística/Tema 2.md",
+    "Recursos/Proyecto.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Ocio/Pasatiempos/Warhammer40000/Historia.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/FULGRIM.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Leviatán.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Kraken.md",
+    "Ocio/Pasatiempos/Warhammer40000/Genesteeler.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
     "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
+    "Recursos/FreeTime.md",
+    "Recursos/Exámenes.md",
+    "Recursos/Clases.md",
+    "Recursos/Apremiante.md",
+    "Ocio/Pasatiempos/Gym/15-11-24.md",
+    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
+    "Carrera/GPI/GPI Tema 13 Interesados.pdf",
+    "Carrera/IA/Inferencia en Logica de Predicados I.pdf",
+    "Ocio/Pasatiempos/Warhammer40000/Codex/10º edición/DevoradoresDeMundos.pdf",
+    "Ocio/Pasatiempos/Warhammer40000/Codex/10º edición/Angeles Oscuros.pdf",
     "EDP.canvas"
   ]
 }

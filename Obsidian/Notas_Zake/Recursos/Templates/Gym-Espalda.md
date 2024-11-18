@@ -15,6 +15,6 @@
 	+ Series
 	+ Repeticiones
 + **Deltoides Posterior en máquina de apertura
-	+ Peso 60
-	+ Series 3
-	+ Repeticiones 8 8 7
+	+ Peso
+	+ Series
+	+ Repeticiones

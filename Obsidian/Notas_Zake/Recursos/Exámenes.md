@@ -2,5 +2,5 @@
 
 [< Volver](Tareas)
 
-- [x] EXAMEN | IA : REPASAR ⏫ 
-- [ ] EXAMEN | SIPC : REPASAR ⏫
+- [ ] PREPARAR ENERO
+- [x] EXAMEN | SIPC : REPASAR ⏫ ✅ 2024-11-14

@@ -1,10 +1,12 @@
-#todo 
+#todo
 
 [< Volver](Tareas)
 
-- [ ] EST : Hacer apuntes, entender combinatoria, hacer ejercicios
-- [ ] PRACTICA | CYA : Acabar.
-- [ ] CYA : Resumir teoría, empezar ejercicios
-- [ ] IA : Repasar Lógica proposicional, hacer apuntes de lógica preposicional
-- [ ] GPI : Hacer apuntes (temas 1, 2, 3, 4, 5, 13)
-- [ ] PRACTICA | SIPC : Hablar con Yoel, hacer.
+- [x] SIPC : Hacer mockup a papel de campus y asignatura ⏫
+- [x] GPI : Resumir 55 diapos🔼 🔁 every week 
+- [ ] EST : Hacer apuntes, entender tema de propabilidad🔼 
+- [x] PRACTICA | CYA : Repasar guion.
+- [x] CYA : Resumir Tema 4.
+- [ ] CYA : Hacer esquema de contenidos.
+- [ ] CYA : Preparar preguntas de cuestionarios.
+- [x] IA : Hacer apuntes faltantes
