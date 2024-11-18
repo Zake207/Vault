@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254,
-    "collapsed": true
+    "width": 353
   },
   "right": {
     "id": "87c142452da13a96",
@@ -207,7 +206,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7545958473691461,
+                  "scale": 0.3732505343514595,
                   "close": true
                 }
               },
@@ -219,7 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258
+    "width": 361
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,28 +235,35 @@
   },
   "active": "968e2453953990ac",
   "lastOpenFiles": [
-    "Carrera/HORARIO TERCERO.pdf",
+    "Carrera/Estadistica/Tema 4.md",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118131635.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118131612.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118131253.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118130813.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118130612.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118130546.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118130455.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118124818.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118124801.png",
+    "Carrera/Estadistica/Anexos/Pasted image 20241118123547.png",
+    "Carrera/Estadistica/Anexos",
+    "Carrera/Estadística/Estadística.md",
+    "Carrera/Estadistica",
+    "Carrera/GPI/Tema 3.md",
+    "Carrera/Estadística/Tema 4_Probabilidad.pdf",
+    "Carrera/Estadística/Tema 4_Probabilidad.pdf.crdownload",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Ocio/Pasatiempos/Warhammer40000/Historia.md",
+    "Carrera/HORARIO TERCERO.pdf",
     "Ocio/Pasatiempos/Gym/16-11-24.md",
     "Ocio/Pasatiempos/Gym/Gym.md",
     "Recursos/Ocio.md",
-    "Carrera/GPI/Tema 3.md",
-    "Carrera/GPI/Anexos/Pasted image 20241117205348.png",
     "Carrera/GPI/GPI Tema 3.pdf",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
     "Carrera/GPI/GPI Tema 5.pdf",
     "Carrera/GPI/GPI Tema 4.pdf",
-    "Carrera/GPI/Anexos/Pasted image 20241117203353.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117203223.png",
     "Carrera/GPI/Tema 2.md",
-    "Carrera/GPI/Anexos/Pasted image 20241117194337.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117194309.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117194203.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117194110.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117194055.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117194043.png",
-    "Carrera/GPI/Anexos/Pasted image 20241117194022.png",
     "Carrera/GPI/GPI Tema 2.pdf",
     "Carrera/GPI/Tema 1.md",
     "Carrera/GPI/GPI Tema 1.pdf",
@@ -265,7 +271,6 @@
     "Recursos/Proyecto.md",
     "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
     "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-    "Ocio/Pasatiempos/Warhammer40000/Historia.md",
     "Ocio/Pasatiempos/Warhammer40000/Libros/FULGRIM.md",
     "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Leviatán.md",
     "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Kraken.md",
@@ -275,13 +280,6 @@
     "Recursos/FreeTime.md",
     "Recursos/Exámenes.md",
     "Recursos/Clases.md",
-    "Recursos/Apremiante.md",
-    "Ocio/Pasatiempos/Gym/15-11-24.md",
-    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
-    "Carrera/GPI/GPI Tema 13 Interesados.pdf",
-    "Carrera/IA/Inferencia en Logica de Predicados I.pdf",
-    "Ocio/Pasatiempos/Warhammer40000/Codex/10º edición/DevoradoresDeMundos.pdf",
-    "Ocio/Pasatiempos/Warhammer40000/Codex/10º edición/Angeles Oscuros.pdf",
     "EDP.canvas"
   ]
 }

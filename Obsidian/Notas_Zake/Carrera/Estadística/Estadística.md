@@ -1,8 +1,16 @@
 #índice #carrera_año3 
 ___
 ### Teoría:
-[[Carrera/Estadística/Tema 1]]
+[[Carrera/Estadística/Tema 1|Tema 1]]
 [[Tema 2]]
+[[Carrera/Estadistica/Tema 3|Tema 3]]
+[[Carrera/Estadistica/Tema 4|Tema 4]]
++ [[Tema 4_Probabilidad.pdf|PDF]]
+
+[[Carrera/Estadistica/Tema 5|Tema 5]]
+[[Carrera/Estadistica/Tema 6|Tema 6]]
+[[Carrera/Estadistica/Tema 7|Tema 7]]
+
 
 ### Prácticas:
 ___

@@ -1,8 +1,7 @@
 ---
 banner: "![[Pasted image 20241006174625.png]]"
-banner_x: 0.5
-banner_y: 0.774
 ---
+
 
 ```contributionGraph
 title: Contributions
@@ -48,6 +47,7 @@ cellStyle:
 ```
 
 --- start-multi-column: ID_soga
+
 ```column-settings
 Number of Columns: 3
 Largest Column: standard
