@@ -237,6 +237,7 @@
   },
   "active": "167081c5e46b6fcc",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
     "Carrera/CYA/Anexos/Pasted image 20241119201517.png",
     "Carrera/CYA/Anexos/Pasted image 20241119201506.png",
@@ -273,6 +274,19 @@
     "Recursos/Ocio.md",
     "Ocio/Pasatiempos/Juegos/Pokémon.md",
     "Ocio/Pasatiempos/Juegos/Videojuegos.md",
+=======
+    "Ocio/Pasatiempos/Juegos/Tanques.md",
+    "Ocio/Pasatiempos/Juegos/Pokémon.md",
+    "Ocio/Pasatiempos/Juegos/EquipoPKMN_3.md",
+    "Ocio/Pasatiempos/Juegos/EquipoPKMN_2.md",
+    "Ocio/Pasatiempos/Juegos/EquipoPKMN_1.md",
+    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
+    "Recursos/Ocio.md",
+    "Recursos/Home.md",
+    "Carrera/Estadistica/Tema 4.md",
+    "Carrera/Estadística/Estadística.md",
+    "Recursos/Carrera.md",
+>>>>>>> 4bde5a3b6507208a6a1d6f31c36de9da1ed7d27a
     "Ocio/Pasatiempos/Sin nombre",
     "Carrera/Estadistica/Anexos",
     "Carrera/Estadistica",
@@ -282,6 +296,19 @@
     "Ocio/Pasatiempos/Gym/Gym.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
     "Carrera/GPI/Tema 2.md",
+<<<<<<< HEAD
+=======
+    "Carrera/GPI/GPI Tema 2.pdf",
+    "Carrera/GPI/Tema 1.md",
+    "Carrera/Estadística/Tema 2.md",
+    "Recursos/Proyecto.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/FULGRIM.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Leviatán.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Kraken.md",
+    "Ocio/Pasatiempos/Warhammer40000/Genesteeler.md",
+>>>>>>> 4bde5a3b6507208a6a1d6f31c36de9da1ed7d27a
     "EDP.canvas"
   ]
 }
