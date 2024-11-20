@@ -1,3 +1,4 @@
+# Parte I
 La lógica propocicional es declarativa, composicional, permite información parcial/disyuntiva/negada. Además es independiente del contexto y tiene un poder expresivo muy limitado. No es lo mismo que la lógica de predicados.
 
 Por otro lado la lógica de predicados(de primer orden) tiene:
@@ -113,3 +114,41 @@ Por lo que el encadenamiento hacia delante es visto como un problema de empareja
 
 El el último apartado quiere decir que:
 *Cada hecho nuevo inferido en una iteración t debe ser derivado de al menos un hecho nuevo inferido en la iteración t − 1.* 
+# Parte II
+### Encadenamiento hacia detrás
+![[Pasted image 20241119105039.png]]
+### Composición, COMPÓN
+El algoritmo usa composición de sustituciones.
+![[Pasted image 20241119150653.png]]
+### Ejemplo
+![[Pasted image 20241119150714.png]]
+![[Pasted image 20241119150746.png]]
+![[Pasted image 20241119150807.png]]
+![[Pasted image 20241119150920.png]]
+![[Pasted image 20241119150936.png]]
+![[Pasted image 20241119150951.png]]
+![[Pasted image 20241119151005.png]]
+### Propiedades
++ Es un algoritmo de búsqueda en profundidad
++ Es incompleto
++ Ineficiente
++ Muy usado
+
+### Resolución
+Kurt Gödel demostró en 1930 el primer teorema de completitud, por lo que para una sentencia implicada existe una demostración finita.
+
+Un año más tarde demostró el teorema de incompletitud, demostrando que un sistema lógico que incluye un principio de inducción es necesariamente incompleto. 
+### Forma Normal Conjuntiva
+Es necesario seguir una serie de pasos para lograr llegar a un problema en FNC:
+1. Incluir el contrario de lo que se desea demostrar en la BC (incluir ¬P)
+2. Obtener una conjunción de disyunciones
+	+ Eliminar los $\implies$ distribuyendo y anidando las negaciones
+	+ Eliminar cuantificadores $\exists$ y $\forall$:
+		+ $\forall$ Se eliminan a secas
+		+ $\exists$ Se sustituyen por constantes de Skolen
+		+ $\forall x \ \exists y$ se hace la sustitución {$y/F(x)$}
+Una vez hecho eso se aplica la inferencia hasta llegar a un resultado.
+
+El ejemplo anteriormente resuelto equivale a lo siguiente
+![[Pasted image 20241119151216.png]]
+![[Pasted image 20241119151239.png]]

@@ -1,21 +1,22 @@
 #índice #carrera_año3 
 ___
 ### Teoría:
-**[[Espacio de estados]]**
+[[Espacio de estados]]
 
-**[[Búsquedas no informadas]]**
+[[Búsquedas no informadas]]
 
-**[[Búsqueda informadas]]**
+[[Búsqueda informadas]]
 
-**[[Estrategias de búsqueda en juegos]]**
+[[Estrategias de búsqueda en juegos]]
 
-**[[Agentes Lógicos]]**
+[[Agentes Lógicos]]
 
-**[[Lógica Preposicional]]**
-[[Inferencia en Logica de Predicados I.pdf|Parte II]]
+[[Lógica Preposicional]]
++ [[Inferencia en Logica de Predicados I.pdf|Parte I]]
++ [[Inferencia en Logica de Predicados II.pdf|Parte II]]
 
-**[[Aprendizaje Automático]]**
-[[Introducción_sistemas_aprendizaje.pdf]]
+[[Aprendizaje Automático]]
++ [[Introducción_sistemas_aprendizaje.pdf]]
 ### Prácticas:
 [[Prolog]]
 

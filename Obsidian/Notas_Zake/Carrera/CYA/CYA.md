@@ -1,11 +1,15 @@
 #índice #carrera_año3  
 ___
 ### Teoría:
+#### Computabilidad
 [[Tema 1 (Alfabetos, cadenas y lenguajes)]] $\implies$ [[20240917_CyA-Transparencias-T1.pdf|PDF]]
 [[Tema 2 (Expresiones regulares y automatas)]] $\implies$ [[20241011_CyA-Transparencias-T2.pdf|PDF]]
 [[Tema 3 (Gramáticas)]]$\implies$ [[20241025_CyA-Transparencias-T3.pdf|PDF]]
 [[Tema 4 (Máquinas de Turing)]]$\implies$ [[20241112_CyA-Transparencias-T4.pdf|PDF]]
-
+#### Algoritmia
+[[Tema 5 (Introducción a la algoritmia)]] $\implies$ [[CyA - Tema 5 - Intro.pdf|PDF]]
+[[Tema 6 (Análisis de algoritmos)]] $\implies$ [[CyA - Tema 6 - Análisis de Algoritmos.pdf|PDF]]
+#### Recursos adicionales
 [[Teoría de conjuntos, lógica simbólica.]]
 [[Propiedades de conjuntos]]
 ___

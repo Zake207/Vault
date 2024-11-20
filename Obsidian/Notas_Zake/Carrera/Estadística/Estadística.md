@@ -2,9 +2,11 @@
 ___
 ### Teoría:
 [[Carrera/Estadística/Tema 1|Tema 1]]
++ [[PROBLEMAS_RESUELTOS.pdf]]
+
 [[Tema 2]]
 [[Carrera/Estadistica/Tema 3|Tema 3]]
-[[Carrera/Estadistica/Tema 4|Tema 4]]
+[[Carrera/Estadística/Tema 4|Tema 4]]
 + [[Tema 4_Probabilidad.pdf|PDF]]
 
 [[Carrera/Estadistica/Tema 5|Tema 5]]
