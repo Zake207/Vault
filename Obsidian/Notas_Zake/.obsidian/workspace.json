@@ -1,20 +1,25 @@
 {
   "main": {
-    "id": "4ddf739061a18999",
+    "id": "96cca2964ccd56e6",
     "type": "split",
     "children": [
       {
-        "id": "3cd12083a548f088",
+        "id": "dd8e58ea9d0b765d",
         "type": "tabs",
         "children": [
           {
-            "id": "167081c5e46b6fcc",
+            "id": "781519731d8d4bf8",
             "type": "leaf",
             "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home"
             }
           }
         ]
@@ -23,16 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3d2617a4c8b79d2a",
+    "id": "a41172be95546f95",
     "type": "split",
     "children": [
       {
-        "id": "50bc0f5b669a46f9",
+        "id": "bd878950d6345c99",
         "type": "tabs",
-        "dimension": 49.56772334293948,
         "children": [
           {
-            "id": "2b77098a33e07635",
+            "id": "91ba340ae3efbf1c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +48,12 @@
             }
           },
           {
-            "id": "8d4b79743d4b52e6",
+            "id": "1aa887f74d1887f7",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "Flota",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "709c24e76854aa6b",
+            "id": "238d5dcf25774788",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -71,50 +75,22 @@
             }
           }
         ]
-      },
-      {
-        "id": "1dcc85f787447ec6",
-        "type": "tabs",
-        "dimension": 50.43227665706051,
-        "children": [
-          {
-            "id": "fe57ded12b7805e9",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 271,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "87c142452da13a96",
+    "id": "107eb1925dd7ef98",
     "type": "split",
     "children": [
       {
-        "id": "42506f4a862b4e49",
+        "id": "42a77fc238fc7713",
         "type": "tabs",
-        "dimension": 54.7554347826087,
         "children": [
           {
-            "id": "6f550e3892ec66d0",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
-            "id": "019865b02cfa9ccb",
+            "id": "b3491cf6e063fb4f",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -133,7 +109,7 @@
             }
           },
           {
-            "id": "2a2460062f32ed8e",
+            "id": "c17744046ee487ac",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -147,7 +123,7 @@
             }
           },
           {
-            "id": "582abd6cc9ae0f6c",
+            "id": "ebc9ef74d7e8c492",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -161,7 +137,7 @@
             }
           },
           {
-            "id": "b109c38a2a549608",
+            "id": "a308f60740c03f60",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -171,144 +147,84 @@
               "icon": "lucide-list",
               "title": "Esquema de Home"
             }
-          }
-        ]
-      },
-      {
-        "id": "48986d7279636c68",
-        "type": "tabs",
-        "dimension": 45.2445652173913,
-        "children": [
+          },
           {
-            "id": "da9d6e2be42e9a66",
+            "id": "d4fe6ef7a85ac697",
             "type": "leaf",
             "state": {
-              "type": "localgraph",
-              "state": {
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.3732505343514595,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "559671c0c59948e1",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 274,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "command-palette:Abrir paleta de comandos": false,
-      "graph:Abrir vista gráfica": false,
-      "templater-obsidian:Templater": false,
       "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "templater-obsidian:Templater": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "167081c5e46b6fcc",
+  "active": "781519731d8d4bf8",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
-    "Carrera/CYA/Anexos/Pasted image 20241119201517.png",
-    "Carrera/CYA/Anexos/Pasted image 20241119201506.png",
-    "Carrera/CYA/Anexos/Pasted image 20241119200634.png",
-    "Carrera/CYA/Anexos/Pasted image 20241119200623.png",
-    "Carrera/CYA/Anexos/Pasted image 20241119200544.png",
-    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos.pdf",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos .pdf",
     "Carrera/CYA/CYA.md",
-    "Carrera/CYA/Tema 5 (Introducción a la algoritmia).md",
-    "Carrera/CYA/Anexos/Pasted image 20241119194629.png",
-    "Carrera/CYA/Anexos/Pasted image 20241119194621.png",
-    "Carrera/CYA/CyA - Tema 5 - Intro.pdf",
-    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos.pdf.crdownload",
-    "Carrera/CYA/CyA - Tema 5 - Intro.pdf.crdownload",
-    "Carrera/IA/Lógica Preposicional.md",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos.pdf.md",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos (1).pdf",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos (1).pdf.crdownload",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos.pdf",
     "Recursos/Carrera.md",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos.pdf.crdownload",
     "Recursos/Home.md",
+    "Carrera/Admin/Administración de Sistemas.md",
+    "Recursos/Proyecto.md",
     "Recursos/Clases.md",
-    "Carrera/IA/Anexos/Pasted image 20241119151239.png",
-    "Carrera/IA/Anexos/Pasted image 20241119151216.png",
-    "Carrera/IA/Inferencia en Logica de Predicados II.pdf",
-    "Carrera/IA/Anexos/Pasted image 20241119151005.png",
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/Estadística/Estadística.md",
-    "Carrera/IA/Inferencia en Logica de Predicados II.pdf.crdownload",
-    "Carrera/Estadística/PROBLEMAS_RESUELTOS.pdf",
-    "Carrera/Estadística/Tema 2.md",
     "Carrera/Estadística/Tema 4.md",
-    "Carrera/Estadistica/Tema 4.md",
-    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Recursos/Ocio.md",
-    "Ocio/Pasatiempos/Juegos/Pokémon.md",
-    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
-=======
+    "Carrera/Estadística/Tema 4_Probabilidad.pdf",
+    "Carrera/Estadística/Estadística.md",
+    "Carrera/Estadística/Anexos/Pasted image 20241118121403.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118121439.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118123120.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118123547.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118124801.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118124818.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118130455.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118130546.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118130612.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241118130813.png",
+    "Carrera/CYA/Tema 3 (Gramáticas).md",
     "Ocio/Pasatiempos/Juegos/Tanques.md",
     "Ocio/Pasatiempos/Juegos/Pokémon.md",
-    "Ocio/Pasatiempos/Juegos/EquipoPKMN_3.md",
-    "Ocio/Pasatiempos/Juegos/EquipoPKMN_2.md",
-    "Ocio/Pasatiempos/Juegos/EquipoPKMN_1.md",
     "Ocio/Pasatiempos/Juegos/Videojuegos.md",
     "Recursos/Ocio.md",
-    "Recursos/Home.md",
-    "Carrera/Estadistica/Tema 4.md",
-    "Carrera/Estadística/Estadística.md",
-    "Recursos/Carrera.md",
->>>>>>> 4bde5a3b6507208a6a1d6f31c36de9da1ed7d27a
-    "Ocio/Pasatiempos/Sin nombre",
-    "Carrera/Estadistica/Anexos",
-    "Carrera/Estadistica",
-    "Carrera/GPI/Tema 3.md",
-    "Ocio/Pasatiempos/Warhammer40000/Historia.md",
-    "Ocio/Pasatiempos/Gym/16-11-24.md",
-    "Ocio/Pasatiempos/Gym/Gym.md",
-    "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/GPI/Tema 2.md",
-<<<<<<< HEAD
-=======
-    "Carrera/GPI/GPI Tema 2.pdf",
-    "Carrera/GPI/Tema 1.md",
-    "Carrera/Estadística/Tema 2.md",
-    "Recursos/Proyecto.md",
-    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/FULGRIM.md",
-    "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Leviatán.md",
-    "Ocio/Pasatiempos/Warhammer40000/Flota Enjambre Kraken.md",
-    "Ocio/Pasatiempos/Warhammer40000/Genesteeler.md",
->>>>>>> 4bde5a3b6507208a6a1d6f31c36de9da1ed7d27a
-    "EDP.canvas"
+    "Carrera/IA/Inteligencia Artificial.md",
+    "Carrera/IA/Aprendizaje Automático.md",
+    "Carrera/IA/Introducción_IA_generativa.pdf",
+    "Carrera/IA/Introducción_IA_generativa.pdf.crdownload"
   ]
 }

@@ -17,6 +17,7 @@ ___
 
 [[Aprendizaje Automático]]
 + [[Introducción_sistemas_aprendizaje.pdf]]
++ [[Introducción_IA_generativa.pdf]]
 ### Prácticas:
 [[Prolog]]
 

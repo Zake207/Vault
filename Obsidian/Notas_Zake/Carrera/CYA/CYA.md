@@ -8,7 +8,7 @@ ___
 [[Tema 4 (Máquinas de Turing)]]$\implies$ [[20241112_CyA-Transparencias-T4.pdf|PDF]]
 #### Algoritmia
 [[Tema 5 (Introducción a la algoritmia)]] $\implies$ [[CyA - Tema 5 - Intro.pdf|PDF]]
-[[Tema 6 (Análisis de algoritmos)]] $\implies$ [[CyA - Tema 6 - Análisis de Algoritmos.pdf|PDF]]
+[[Tema 6 (Análisis de algoritmos)]] $\implies$ [[CyA - Tema 6 - Análisis de Algoritmos .pdf|PDF]]
 #### Recursos adicionales
 [[Teoría de conjuntos, lógica simbólica.]]
 [[Propiedades de conjuntos]]

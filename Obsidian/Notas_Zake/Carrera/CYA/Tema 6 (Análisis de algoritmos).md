@@ -40,3 +40,7 @@ La eficiencia debe ser encontrada debido a que la elección de una complejidad m
 Véase el siguiente ejemplo:
 ![[Pasted image 20241119201506.png]]
 ![[Pasted image 20241119201517.png]]
+
+## Análisis asintótico
+### Cotas superiores: O
+De todas las cotas superiores se selecciona la menor.

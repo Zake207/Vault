@@ -2,6 +2,8 @@
 
 [< Volver](Tareas)
 
-- [ ] Curso de Tkinter.
-- [ ] Curso de FastAPI
 - [ ] Aprender principios Solid.
+- [ ] Estudiar entornos virtuales.
+- [ ] Estudiar github.
+- [ ] Curso de Tkinter.
+- [ ] Curso de FastAPI.
