@@ -85,3 +85,46 @@ Se realiza haciendo comparaciones con el plano original, evaluando el desempeño
 Los factores ambientales de la empresa comprenden normas de la empresa y tolerancia de riesgos.
 
 Los activos de los procesos son requisitos de comunicación y gestión de incidentes.
+
+#### Destacar de las salidas
+En las actualizaciones del PDP se pueden actualizar aspectos como la línea base y Plan de gestión de Cronograma, requisitos, calidad u otros aspectos.
+
+En las actualizaciones de los documentos del Proyecto se modifican proyecciones, informes y registros de incidentes
+### 5. Control Integrado de cambios
+Revisar todas las solicitudes de cambios, aprobarlos y gestionar los cambios en los entregables y demás aspectos del proyecto. Es aplicado en todo el ciclo de vida del proyecto.
+Se realizan acciones como: 
++ Procesado de solicitudes de cambios
++ Gestionar los aprobados
++ Mantener la integridad de las lineas base 
++ Coordinar el impacto de los mismos
+
+Entre otras actividades.
+Cualquier interesado puede solicitar cambios y deben registrarse por escrito, procesada por las autoridades del proyecto y, en caso de ser aprobadas, se debe revisar las estimaciones de costos, secuencias de actividades, tiempos, recursos, etc...
+
+El **sistema de gestión de la configuración** establecen métodos para identificar y solicitar cambios, proporciona oportunidades de validar y mejorar el proyecto, además de un feedback con los interesados sobre los mismos. 
+
+Se debe identificar la configuración, hacer un informe sobre el estado de la misma y verificarla.
+![[Pasted image 20241125193817.png]]
+
+#### Destacar de las entradas
+Los activos de los procesos de organización comprenden procedimientos de control, para aprobar y emitir autorizaciones de cambios y una base de datos de medición además del histórico de lo aprendido.
+#### Destacar de las herramientas
+Las reuniones se llevan a cabo por un comité de cambios responsable de reunirse y revisar las solicitudes de cambio.
+#### Destacar de las salidas
+Las actualizaciones son la modificación obtenida de los planes subsidiarios afectados por los cambios ejecutados. En el documento del proyecto se lleva un registro de las solicitudes de cambio.
+### Cerrar el Proyecto o Fase.
+Se finalizan las actividades a través de los grupos de procesos, completando formalmente el proyecto tras una revisión por parte del Director de Proyecto.
+Se establecen procedimientos de análisis y documentación.
+
++ Se toman acciones para satisfacer los criterios de terminación o salida de la fase o proyecto.
++ Además se transfieren productos o servicios resultantes del proyecto a la siguiente fase de producción.
++ Se recopila el registro del proyecto y de lo aprendido,  archivándolo para su posterior uso.
+
+![[Pasted image 20241125194908.png]]
+
+#### Destacar de las entradas
+Los activos comprenden todas las pautas o requisitos para el cierre, además de información histórica sobre el proyecto.
+#### Destacar de las salidas
+Las actualizaciones se realizan sobre los activos del proyecto, documentos de cierre y la información histórica.
+
+![[Pasted image 20241125195237.png]]

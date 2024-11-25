@@ -3,7 +3,7 @@
 [< Volver](Tareas)
 
 - [x] SIPC : Hacer mockup a papel de campus y asignatura ⏫
-- [ ] GPI : Resumir 55 diapos 🔼 🔁 every week on Monday
+- [ ] GPI : Resumir 36 diapos 🔼 🔁 every week on Monday
 - [ ] EST : Hacer apuntes 🔼
 - [ ] PRACTICA | SIPC : AÑADIR ORIENTACIÓN.
 - [x] PRACTICA | CYA : Repasar guion.
