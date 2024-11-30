@@ -1,3 +1,5 @@
+[[GPI Tema 2.pdf|PDF]]
+___
 Ciclo de vida del proyecto
 + Conjunto de fases en que se divide un proyecto.
 + Marco de referencia básico.

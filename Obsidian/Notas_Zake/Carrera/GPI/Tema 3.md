@@ -1,3 +1,5 @@
+[[GPI Tema 3.pdf|PDF]]
+___
 ## Ideas básicas
 Un **proceso** es un conjunto de acciones y actividades interrelacionales realizadas para obtener resultados. Tiene unas entradas sobre las que usa unas herramientas y técnicas para obtener salidas.
 
@@ -62,7 +64,7 @@ Procesos para realizar el trabajo definido en el PDP. Implica coordinación de p
 Tienen el objetivo de rastrear, analizar y dirigir el progreso del proyecto, controla los cambios y recomienda acciones alternativas.
 Proporciona al Director del Proyecto un conocimiento claro del estado del proyecto, además de identificar las áreas que requieren más acción y conocer el esfuerzo global.
 #### Grupo de procesos de cierre
-Procesos realizados para finalizar las actividades y dar f9in al proyecto, ocurriendo lo siguiente: Se obtiene la aceptación del cliente, se realizará una revisión del mismo y la consecuente documentación. Finalmente se archivará información relevante del proyecto y se liberarán recursos del mismo.
+Procesos realizados para finalizar las actividades y dar fin al proyecto, ocurriendo lo siguiente: Se obtiene la aceptación del cliente, se realizará una revisión del mismo y la consecuente documentación. Finalmente se archivará información relevante del proyecto y se liberarán recursos del mismo.
 
 ### Información del proyecto
 Un proyecto genera una gran cantidad de información a lo largo de su ciclo de vida que se comparte entre los trabajadores y otros interesados.

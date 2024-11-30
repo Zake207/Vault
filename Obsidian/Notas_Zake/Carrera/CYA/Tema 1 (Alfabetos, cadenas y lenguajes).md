@@ -1,3 +1,5 @@
+[[20240917_CyA-Transparencias-T1.pdf|PDF]]
+___
 ## Definiciones.
 ### Alfabetos
 Un conjunto no vacío y finito de símbolos, se representan como **Σ**

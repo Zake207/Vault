@@ -1,3 +1,5 @@
+[[20241025_CyA-Transparencias-T3.pdf|PDF]]
+___
 ## Gramáticas regulares
 Una gramática regular es una tupla G = (Σ, N, S, P )
 + Σ : alfabeto

@@ -1,3 +1,2 @@
-
 [[Objetivos]]
 [[Corto plazo]]

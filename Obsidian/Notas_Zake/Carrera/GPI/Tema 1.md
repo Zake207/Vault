@@ -1,3 +1,5 @@
+[[GPI Tema 1.pdf|PDF]]
+___
 Un proyecto es un esfuerzo temporal que se lleva a cabo para realizar un producto o servicio. Implica un desarrollo progresivo en un intervalo de tiempo.
 + Tienen un comienzo y un final, el cual será exitoso si cumple los objetivos.
 + Requiere usualmente tareas diarias realizadas por un equipo que se disuelve al finalizar el proyecto.

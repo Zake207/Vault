@@ -1,3 +1,5 @@
+[[20241011_CyA-Transparencias-T2.pdf|PDF]]
+___
 No existe ningún método para especificar todos los lenguajes sobre un alfabeto.
 ## Lenguajes regulares
 El conjunto de leguajes regulares se define como:

@@ -38,8 +38,8 @@ Este campo de la inteligencia artificial toca áreas como la estadística, la IA
 En términos de **Hardware** se requieren tarjetas gráficas, infraestructuras de aprendizaje en la nube y chips específicos.
 En lo que conscierne al **Software** los lenguajes de programación predilectos son Python, R y Matlab con las librerías PyTorch, TensorFlow o Keras.
 
-## IA Generativa
-### Características
+# IA Generativa
+## Características
 Tipo de ia que genera texto, imágenes y otros medios.
 + Generan un salida como respuesta a un prompt.
 + La respuesta se basa en sus patrones de entrenamiento, de los cuales aprenden.
@@ -62,7 +62,7 @@ Las modalidades de entrenamiento pueden ser unimodales o multimodales según los
 + Acciones
 + Modelos 3D
 
-### LLM
+## LLM
 Un ML (Modelo de lenguaje) trata de predecir la siguiente palabra de un documento. Un LLM es un ML con muchos parámetros y entrenado con grandes cantidades de texto sin etiquetar.
 
 Puede capturar gran parte de sintáxis y semántica humana, tiene capacidad de memorización. A medida que crece posibilita la aparición de habilidades emergentes.
@@ -75,7 +75,7 @@ Cuenta con varias fases:
 **Ejemplos**:
 ![[Pasted image 20241120110624.png]]
 
-### Prompting
+## Prompting
 Texto en lenguaje natural que describe la tarea a realizar. El proceso para etructurarlo se llama *Prompt Engineering*.
 El Aprendizaje en contexto permite al modelo aprender temporalmente en base a indicaciones.
 
@@ -93,4 +93,32 @@ La **solicitud de conocimiento generado** pide al LLM que cree información rela
 
 Los principales problemas de estas inteligencias artificiales son: la pérdida de empleo, Deepfakes,
 Cibercrímenes, coste de los entrenamientos, calidad del contenido, la regulación y el daño a la propiedad intelectual.
+# Red neuronal
+Es un procesador distribuido que tiende a almacenar conocimiento en base a su experiencia para usarlo posteriormente.
++ Usa un proceso de aprendizaje.
++ La fuerza de conexión entre neuronas (peso sináptico) se usa para almacenar.
+
+Una red neuronal artificial tiene ciertos puntos en común con las redes neuronales biológicas:
++ El procesamiento ocurre en elementos simples llamados neuronas.
++ Las señales se transmiten entre estas por enlaces.
++ Cada uno tiene un peso que multiplica la señal.
++ Cada neurona aplica una función de activación a su entrada de red para determinar su salida.
+
+Cuentan con un algoritmo de aprendizaje que modifica los pesos de un modo ordenado para alcanzar el objetivo deseado.
+
+A diferencia que su inspiración biológicas las redes neuronales artificiales no cuentan con muerte neuronal y están optimizadas para distintos problemas.
+
+![[Pasted image 20241127110005.png]]
+
+Las RNA poseen las siguientes capacidades
+![[Pasted image 20241127111440.png]]
+
++ Arquitectura: Sigue una estructura de capas y patrón generalizado.
++ Modelo de neurona: Función de suma y activación.
++ Algoritmo de aprendizaje: Métodos de definición de los pesos.
+
+## Neurona
+Una neurona tiene un grupo de entradas, pesos, función de suma, función de activación, una salida y una función de aprendizaje.
+
+
 

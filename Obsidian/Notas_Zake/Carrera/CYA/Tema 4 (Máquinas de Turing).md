@@ -1,3 +1,5 @@
+[[20241112_CyA-Transparencias-T4.pdf|PDF]]
+___
 ## Conceptos básicos
 #### Definición
 Una Máquina de Turing es una tupla que contiene los siguientes elementos:

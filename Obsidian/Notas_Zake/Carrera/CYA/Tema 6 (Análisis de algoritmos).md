@@ -1,3 +1,5 @@
+[[CyA - Tema 6 - Análisis de Algoritmos .pdf|PDF]]
+___
 ## Definición
 El Análisis de algoritmos estima el consumo de recursos de un algoritmo. 
 + Se debe distinguir entre el problemas y los casos. 

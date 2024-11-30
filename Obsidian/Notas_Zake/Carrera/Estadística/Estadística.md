@@ -1,4 +1,4 @@
-#índice #carrera_año3 
+#índice #carrera_año3 #cuatri_1
 ___
 ### Teoría:
 [[Carrera/Estadística/Tema 1|Tema 1]]
@@ -12,6 +12,7 @@ ___
 [[Carrera/Estadistica/Tema 5|Tema 5]]
 [[Carrera/Estadistica/Tema 6|Tema 6]]
 [[Carrera/Estadistica/Tema 7|Tema 7]]
+[[Carrera/Estadistica/Tema 8|Tema 8]]
 
 
 ### Prácticas:

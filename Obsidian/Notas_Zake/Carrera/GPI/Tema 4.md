@@ -1,3 +1,5 @@
+[[GPI Tema 4.pdf|PDF]]
+___
 La Gestión de la Integración del Proyecto incluye procesos que ayudan a identificar, definir, combinar, unificar y coordinar los procesos de la dirección de proyectos.
 
 Implica tomar decisiones sobre la asignación de recursos y gestionar interdependencias entre las áreas de conocimiento de la gestión de proyectos.
@@ -64,9 +66,9 @@ Otros planes adicionales pueden ser adaptar los cambios, generar los datos del p
 El director dirige el desempeño de las actividades planificadas. Los entregables se producen como salidas de los procesos ejecutados. A lo largo de todo el proceso se recopila información del estado de los entregables.
 
 La implementación de los cambios aprobados:
-+ Acción correctiva
-+ Acción preventiva
-+ Reparación de defectos
++ Acción correctiva (Sobre la planificación)
++ Acción preventiva (Sobre la Planificación)
++ Reparación de defectos (Sobre el producto)
 
 ![[Pasted image 20241123170634.png]]
 #### Destacar de las entradas
@@ -112,7 +114,7 @@ Los activos de los procesos de organización comprenden procedimientos de contro
 Las reuniones se llevan a cabo por un comité de cambios responsable de reunirse y revisar las solicitudes de cambio.
 #### Destacar de las salidas
 Las actualizaciones son la modificación obtenida de los planes subsidiarios afectados por los cambios ejecutados. En el documento del proyecto se lleva un registro de las solicitudes de cambio.
-### Cerrar el Proyecto o Fase.
+### 6. Cerrar el Proyecto o Fase.
 Se finalizan las actividades a través de los grupos de procesos, completando formalmente el proyecto tras una revisión por parte del Director de Proyecto.
 Se establecen procedimientos de análisis y documentación.
 
