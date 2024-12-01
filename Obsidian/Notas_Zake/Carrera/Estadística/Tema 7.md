@@ -83,8 +83,11 @@ Dada una serie de pruebas de Bernouilli independientes y con la misma probabilid
 Función de probabilidad:
 ![[Pasted image 20241129175543.png]]
 
-**Ejemplo** *La probabilidad de recibir de forma errónea un bit enviado por un canal de transmisión digital es 0.1. Supuesto que las transmisiones son independientes. Sea X nº de bits transmitidos hasta que se presenta el primero error. 
-¿Cuál es la probabilidad de se transmitan 4 bits de forma correcta? 
+**Ejemplo** *La probabilidad de recibir de forma errónea un bit enviado por un canal de transmisión digital es 0.1. Supuesto que las transmisiones son independientes. 
+
+*Sea X = nº de bits transmitidos hasta que se presenta el primero error.
+
+*¿Cuál es la probabilidad de se transmitan 4 bits de forma correcta? 
 
 *Solución: P(X=5) = 0.94 x 0.1= 0.066*
 
@@ -103,7 +106,7 @@ Su función de probabilidad:
 
 + $\mu_{X} = E[X]= \frac{n(1-p)}{p}$
 + $\sigma²_{X} = V(x) = \frac{n(1-p)}{p²}$
-+ X = Ge(p)
++ X = BiN(n,p)
 
 ## Distribución hipergeométrica
 Dado un conjunto con N objetos que contiene
