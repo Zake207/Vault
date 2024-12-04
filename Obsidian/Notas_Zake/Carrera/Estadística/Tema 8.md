@@ -88,4 +88,79 @@ Se deben aplicar los factores de corrección pertinentes.
 ![[Pasted image 20241202202445.png]]
 
 ### Relación Poisson-Normal
-Dada una variable de Poisson X = Po($\lambda$) 
+Dada una variable de Poisson X = Po($\lambda$) donde $\lambda > 5$ se puede aproximar a $$Z = \frac{X - \lambda}{\sqrt{ \lambda }}$$
+que a su vez se aproxima a una N(0,1).
+
+**Ejemplo** *Supóngase que el nº de partículas de asbesto en un centímetro cuadrado de polvo tiene un distribución Po(1000). Si se analiza un cm2 de polvo ¿Cuál es la probabilidad de encontrar menos de 950 partículas?*
+
+![[Pasted image 20241203113833.png]]
+
+## Distribución Exponencial
+Se dice que una variable aleatoria X que mide el tiempo entre dos ocurrencias sucesivas de un proceso de Poisson de media $\theta > 0$ sigue una distribución Exponencial de parámetro $\theta$.
+
+Su función de densidad es $\theta e^{-\theta x}$ para x > 0.
++ $E[X] = \frac{1}{\theta}$
++ $V(X) =\frac{1}{\theta^2}$
+
+**Propiedad de amnesia:** La probabilidad de que una componente funcione mas de a+b unidades de tiempo sabiendo que lleva funcionando a unidades equivale a calcular la probabilidad de otra variable que dure más de b unidades de tiempo.
+$$P(X \geq a+b\ \ /\ \ X\geq a) = P(X \geq b)$$
+
+## Distribución Gamma
+Dada una variable X con la siguiente función de densidad:
+![[Pasted image 20241203115328.png]]
+
+Se dice que la variable sigue una distribución Gamma con parámetros a y p con las siguientes propiedades:
++ a > 0 (1/a, parámetro de escala)
++ p > 0 (parámetro de forma)
++ $\Gamma(p) = {\int_{0}^{\infty}  \,x^{p-1}e^{-x} dx}$
++ $E[X] = \frac{p}{a}$
++ $V(X) = \frac{p}{a^{2}}$
+
+![[Pasted image 20241203120508.png]]
+
+Sean $X_1, ...,X_{n}$ n variables aleatorias e independientes entre sí y cada una distribuida como una $\Gamma(a, 1)$ tenemos:
+![[Pasted image 20241203121358.png]]
+
+Si tenemos una variable X que sigue una distribución $\Gamma(a,p)$ y una constante c, $c·X = \Gamma(a/c\ ,\ \ p)$
+## Distribución Beta
+![[Pasted image 20241203123022.png]]
+
+## Distribución Weibull
+![[Pasted image 20241203123049.png]]
+
+## Distribución Chi-Cuadrado
+Sea X = N(0,1) se define $Y = X^2$ que sigue una distribución Chi-Cuadrado con 1 grado de libertad cuya función de densidad es:
+![[Pasted image 20241203123548.png]]
+
+Si existieran n variables X aleatorias que se distribuyen con N(0,1) se dice que siguen una distribución Chi-Cuadrado con n grados de libertad $\chi_{n}^2$
+![[Pasted image 20241203123924.png]]
+
++ $\mu = n$
++ $\sigma^2 = 2n$
+
+![[Pasted image 20241203124057.png]]
+![[Pasted image 20241203124110.png]]
+
+Además se tiene que la suma de dos variables que sigan esta distribución con diferentes grados de libertad, la suma de las dos variables da como resultado una variable Chi-Cuadrado que tiene como grados de libertad la suma de los anteriores.
+
+## Distribución t de Student
+Dada dos variables aleatorias Z (que siguen una N(0,1)) e Y (que sigue una $\chi_{n}^2$) se define la variable $$t_{n} = \frac{Z}{\sqrt{ \frac{Y}{n} }}$$
+Es una t de Student con n grados de libertad.
++ $E[X] = 0$
++ $V(X) = \frac{n}{n-2}$
+
+![[Pasted image 20241203125314.png]]
+
+![[Pasted image 20241203125328.png]]
+## Dsitribución F de Fisher-Snedecor
+Dada dos variables aleatorias que siguen una distribución Chi-Cuadrado se define:
+![[Pasted image 20241203125707.png]]
+
++ $E[X] = \frac{n_{1}}{n_{1}-2}$
++ $V(X) = \frac{2n_{1}^2 (2 + n_{1} + n_{2})}{n_{2}(n_{1} - 2)^2 ·(n_{1}-4)}$
+
+Que es una distribución F de Fisher Snedecor con n1 y n2 grados de libertad.
+![[Pasted image 20241203125752.png]]
+
+Para calcular probabilidades se usa la tabla que solo muestra las $\alpha$ < 0.5 si $\alpha$ > 0 se usa lo siguiente:
+![[Pasted image 20241203130245.png]]

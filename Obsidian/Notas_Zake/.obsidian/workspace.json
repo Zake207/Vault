@@ -4,22 +4,39 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "c3a5a5dec78ef52f",
         "type": "tabs",
         "children": [
           {
             "id": "a19070305493b5be",
+=======
+        "id": "f8256acf14faa61c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e61df39459887bb",
+>>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
                 "mode": "source",
+=======
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+>>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Tema 7 (Algoritmos Voraces)"
+=======
+              "title": "Home"
+>>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
             }
           }
         ]
@@ -189,6 +206,7 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< HEAD
   "active": "a19070305493b5be",
   "lastOpenFiles": [
     "Carrera/CYA/CYA.md",
@@ -217,6 +235,27 @@
     "Carrera/Estadística/Anexos/Pasted image 20241202193921.png",
     "Carrera/Estadística/Tema 7.md",
     "Carrera/Estadística/Estadística.md",
+=======
+  "active": "6e61df39459887bb",
+  "lastOpenFiles": [
+    "Carrera/Estadística/Tema 8.md",
+    "Carrera/Estadística/Anexos/Pasted image 20241203130245.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125752.png",
+    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125707.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125328.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125314.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203124110.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203124057.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203123924.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203123548.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203123049.png",
+    "Carrera/Estadística/Estadística.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/Estadística/Tema 7.md",
+    "Carrera/IA/Inteligencia Artificial.md",
+>>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
     "Carrera/Estadística/Tema 7_Variables_Aleatorias_Discretas.pdf",
     "Carrera/Estadística/HOJA5.pdf",
     "Carrera/Estadistica/Tema 7.md",
