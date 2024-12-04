@@ -4,40 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1b8107a3f100ba24",
+        "id": "f8256acf14faa61c",
         "type": "tabs",
         "children": [
           {
-            "id": "8a13ac0f2574a2e9",
+            "id": "6e61df39459887bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/Estadística/Tema 8.md",
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 8"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d82fa4466e5829df",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7cb462bdc29a03e6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Tema 8_Variables_Aleatorias_Continuas"
+              "title": "Home"
             }
           }
         ]
@@ -207,26 +189,25 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8a13ac0f2574a2e9",
+  "active": "6e61df39459887bb",
   "lastOpenFiles": [
-    "Carrera/Estadística/Anexos/Pasted image 20241202202445.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202202426.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202201801.png",
-    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
     "Carrera/Estadística/Tema 8.md",
-    "Carrera/Estadística/Anexos/Pasted image 20241202201549.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202200228.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202200016.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202195048.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202194449.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202194006.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202193921.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202193805.png",
-    "Carrera/Estadística/Tema 7.md",
+    "Carrera/Estadística/Anexos/Pasted image 20241203130245.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125752.png",
+    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125707.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125328.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203125314.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203124110.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203124057.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203123924.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203123548.png",
+    "Carrera/Estadística/Anexos/Pasted image 20241203123049.png",
     "Carrera/Estadística/Estadística.md",
     "Recursos/Carrera.md",
-    "Carrera/IA/Inteligencia Artificial.md",
     "Recursos/Home.md",
+    "Carrera/Estadística/Tema 7.md",
+    "Carrera/IA/Inteligencia Artificial.md",
     "Carrera/Estadística/Tema 7_Variables_Aleatorias_Discretas.pdf",
     "Carrera/Estadística/HOJA5.pdf",
     "Carrera/Estadistica/Tema 7.md",
