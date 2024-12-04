@@ -4,42 +4,41 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "c3a5a5dec78ef52f",
+        "id": "27b745e41b5badad",
         "type": "tabs",
         "children": [
           {
-            "id": "a19070305493b5be",
-=======
-        "id": "f8256acf14faa61c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6e61df39459887bb",
->>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
+            "id": "c84016f72f3a9e79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
-                "mode": "source",
-=======
-                "file": "Recursos/Home.md",
+                "file": "Carrera/Estadística/Tema 8.md",
                 "mode": "preview",
->>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Tema 7 (Algoritmos Voraces)"
-=======
-              "title": "Home"
->>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
+              "title": "Tema 8"
+            }
+          },
+          {
+            "id": "9959928c593078ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Clases.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clases"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "107eb1925dd7ef98",
@@ -190,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,39 +203,13 @@
       "homepage:Open homepage": false
     }
   },
-<<<<<<< HEAD
-  "active": "a19070305493b5be",
+  "active": "9959928c593078ae",
   "lastOpenFiles": [
-    "Carrera/CYA/CYA.md",
-    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
-    "Recursos/Carrera.md",
-    "Carrera/IA/Inteligencia Artificial.md",
-    "Carrera/IA/Lógica Preposicional.md",
-    "Carrera/IA/Aprendizaje Automático.md",
-    "Carrera/IA/Introducción_IA_generativa.pdf",
     "Recursos/Home.md",
-    "Recursos/Clases.md",
-    "Recursos/Exámenes.md",
-    "Recursos/Templates/Git pull.md",
-    "Carrera/Estadística/HOJA6.pdf",
     "Carrera/Estadística/Tema 8.md",
-    "Carrera/Estadística/Anexos/Pasted image 20241202202445.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202202426.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202201801.png",
-    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
-    "Carrera/Estadística/Anexos/Pasted image 20241202201549.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202200228.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202200016.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202195048.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202194449.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202194006.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241202193921.png",
-    "Carrera/Estadística/Tema 7.md",
     "Carrera/Estadística/Estadística.md",
-=======
-  "active": "6e61df39459887bb",
-  "lastOpenFiles": [
-    "Carrera/Estadística/Tema 8.md",
+    "Recursos/Carrera.md",
+    "Carrera/Estadística/HOJA6.pdf",
     "Carrera/Estadística/Anexos/Pasted image 20241203130245.png",
     "Carrera/Estadística/Anexos/Pasted image 20241203125752.png",
     "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
@@ -250,12 +221,8 @@
     "Carrera/Estadística/Anexos/Pasted image 20241203123924.png",
     "Carrera/Estadística/Anexos/Pasted image 20241203123548.png",
     "Carrera/Estadística/Anexos/Pasted image 20241203123049.png",
-    "Carrera/Estadística/Estadística.md",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
     "Carrera/Estadística/Tema 7.md",
     "Carrera/IA/Inteligencia Artificial.md",
->>>>>>> 0f1e17783388106a4a49d839874dad583616a8fd
     "Carrera/Estadística/Tema 7_Variables_Aleatorias_Discretas.pdf",
     "Carrera/Estadística/HOJA5.pdf",
     "Carrera/Estadistica/Tema 7.md",
@@ -264,7 +231,10 @@
     "Carrera/Estadística/Tablas.zip",
     "Carrera/Estadística/Sin confirmar 107799.crdownload",
     "Carrera/Estadística/HOJA5.pdf.crdownload",
+    "Carrera/Estadistica/Anexos",
     "Carrera/Estadistica/Tema 8.md",
+    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
+    "Carrera/CYA/CYA.md",
     "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
     "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
     "Carrera/CYA/Tema 5 (Introducción a la algoritmia).md",
@@ -275,6 +245,10 @@
     "Carrera/SIPC/Sistemas de interacción.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
     "Carrera/GPI/Tema 4.md",
-    "Carrera/GPI/Tema 13.md"
+    "Carrera/GPI/Tema 13.md",
+    "Carrera/GPI/Tema 7.md",
+    "Carrera/GPI/Tema 6.md",
+    "Carrera/GPI/Tema 5.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md"
   ]
 }
