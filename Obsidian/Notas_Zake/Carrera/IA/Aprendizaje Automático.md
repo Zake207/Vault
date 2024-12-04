@@ -1,3 +1,6 @@
++ [[Introducción_sistemas_aprendizaje.pdf]]
++ [[Introducción_IA_generativa.pdf]]
+---
 ## Definición
 También llamado machine learning, trata de desarrollar computadoras que aprendan tras ciertas experiencias.
 
@@ -119,6 +122,8 @@ Las RNA poseen las siguientes capacidades
 
 ## Neurona
 Una neurona tiene un grupo de entradas, pesos, función de suma, función de activación, una salida y una función de aprendizaje.
+
+
 
 
 

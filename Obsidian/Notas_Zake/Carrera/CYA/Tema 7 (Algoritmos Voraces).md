@@ -25,8 +25,8 @@ Disponen de 3 conjuntos:
 También tienen 4 funciones:
 + Determinar si un conjunto de candidatos es una solución.
 + Determinar si un conjunto de candidatos es factible.
-+ Función de selección (selecciona de los candidatos actuales el mejor de los no seleccionados ni rechazados)
-+ Función objetivo (mide el valor de la solución)
++ Función de selección (selecciona de los candidatos actuales el mejor de los no seleccionados ni rechazados).
++ Función objetivo (mide el valor de la solución).
 
 Siguen el siguiente esquema general:
 ![[Pasted image 20241126182717.png]]

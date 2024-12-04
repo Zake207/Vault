@@ -2,22 +2,13 @@
 ___
 ### Teoría:
 [[Espacio de estados]]
-
 [[Búsquedas no informadas]]
-
 [[Búsqueda informadas]]
-
 [[Estrategias de búsqueda en juegos]]
-
 [[Agentes Lógicos]]
-
 [[Lógica Preposicional]]
-+ [[Inferencia en Logica de Predicados I.pdf|Parte I]]
-+ [[Inferencia en Logica de Predicados II.pdf|Parte II]]
-
 [[Aprendizaje Automático]]
-+ [[Introducción_sistemas_aprendizaje.pdf]]
-+ [[Introducción_IA_generativa.pdf]]
+
 ### Prácticas:
 [[Prolog]]
 

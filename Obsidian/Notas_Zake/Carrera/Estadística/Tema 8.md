@@ -1,4 +1,5 @@
 [[Tema 8_Variables_Aleatorias_Continuas.pdf|PDF]]
+[[HOJA6.pdf|PROBLEMAS]]
 ___
 ## Distribución Uniforme Continua
 Posee la siguiente función de densidad: $$f_{X}(x) = \frac{1}{b-a}\ \ \ \ a \leq x \leq b$$

@@ -1,3 +1,6 @@
++ [[Inferencia en Logica de Predicados I.pdf|Parte I]]
++ [[Inferencia en Logica de Predicados II.pdf|Parte II]]
+---
 # Parte I
 La lógica propocicional es declarativa, composicional, permite información parcial/disyuntiva/negada. Además es independiente del contexto y tiene un poder expresivo muy limitado. No es lo mismo que la lógica de predicados.
 
