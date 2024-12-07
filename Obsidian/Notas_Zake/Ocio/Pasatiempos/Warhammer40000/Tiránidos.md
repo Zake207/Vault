@@ -1,4 +1,4 @@
-## [[Historia]]
+## [[Historia (Tiránidos)|Historia]]
 ## [[Flotas Enjambre]]
 ## [[Especies tiránidas]]
 ## [[Armamento]]

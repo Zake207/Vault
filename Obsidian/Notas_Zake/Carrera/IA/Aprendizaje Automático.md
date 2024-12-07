@@ -1,5 +1,7 @@
 + [[Introducción_sistemas_aprendizaje.pdf]]
 + [[Introducción_IA_generativa.pdf]]
++ [[Redes_neuronales_parte1.pdf]]
++ [[Redes_neuronales_parte2.pdf]]
 ---
 ## Definición
 También llamado machine learning, trata de desarrollar computadoras que aprendan tras ciertas experiencias.
@@ -123,7 +125,33 @@ Las RNA poseen las siguientes capacidades
 ## Neurona
 Una neurona tiene un grupo de entradas, pesos, función de suma, función de activación, una salida y una función de aprendizaje.
 
+![[Pasted image 20241206201424.png]]
 
+![[Pasted image 20241206201449.png]]
 
+## Arquitecturas de red
++ **Según e/o/s**: Posee número y tipo de entradas, elementos ocultos, elementos de salida.
++ **Según la conectividad entre capas**: Puede ser *feedforward*,*Redes Recurrentes*, *Lattice*.
++ **Según conexión entre capas**: Pueden ser *Totalmente conectados*, *Parcialmente conectados*, *Conectados 1 a 1*.
++ **Sincronía**: Existen varios tipos como *Simultánea*, *Aleatoria* o *Según orden topológico*.
+
+![[Pasted image 20241206202532.png]]
+
+![[Pasted image 20241206202602.png]]
+
+![[Pasted image 20241206202616.png]]
+
+## Aprendizaje
+### Eventos
++ Estimulación de la red por el entorno
++ Cambios en la red por la estimulación
++ Nueva forma de responder debido a los cambios de la estructura interna, lo que repite el ciclo
+
+### Taxonomía
+### Aprendizaje supervisado
+### Aprendizaje no supervisado
+## Problemas
+## Codificación entrada salida
+## Software
 
 

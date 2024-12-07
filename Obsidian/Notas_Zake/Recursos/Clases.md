@@ -4,8 +4,8 @@
 
 - [ ] GPI : Resumir 55 diapos 🔼 🔁 every week on Monday ✅ 2024-11-28
 - [ ] EST : Repasar distribuciones continuas (ejercicios) 🔼
-- [ ] CYA : Terminar apuntes.
-- [ ] IA : Repasar ejercicios de exámen.
+- [x] CYA : Terminar apuntes. ✅ 2024-12-06
+- [x] IA : Repasar ejercicios de exámen. ✅ 2024-12-06
 - [ ] CYA : Hacer esquema de contenidos.
-- [ ] CYA : Preparar preguntas de cuestionarios.
+- [x] CYA : Preparar preguntas de cuestionarios. ✅ 2024-12-06
 - [ ] IA : Hacer apuntes faltantes.
