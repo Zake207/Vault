@@ -8,4 +8,4 @@
 - [x] IA : Repasar ejercicios de exámen. ✅ 2024-12-06
 - [ ] CYA : Hacer esquema de contenidos.
 - [x] CYA : Preparar preguntas de cuestionarios. ✅ 2024-12-06
-- [ ] IA : Hacer apuntes faltantes.
+- [x] IA : Hacer apuntes faltantes.
