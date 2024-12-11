@@ -1,4 +1,4 @@
-## [[Historia]]
+## [[Historia (Imperio)]]
 ## [[Mundos]]
 ## [[Instituciones]]
 ## [[Fuerzas Militares]]
