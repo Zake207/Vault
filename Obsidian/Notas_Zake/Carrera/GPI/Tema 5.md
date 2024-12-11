@@ -66,7 +66,6 @@ Al recopilar requisitos, algunos podrían no incluirse en el proyecto final. En 
 - **Redacción iterativa**: El enunciado se desarrolla progresivamente, integrando nueva información conforme avanza el proyecto.
 ## Crear EDT/WBS
 Consiste en subdividir los entregable y el trabajo del proyecto en componentes.
-<<<<<<< HEAD
 ![[Pasted image 20241211163641.png]]
 
 + Es una descomposición jerárquico del alcance total del trabajo.
@@ -87,22 +86,7 @@ Existen diferentes **formas para crear la EDT:**
 ![[Pasted image 20241211164534.png]]
 ![[Pasted image 20241211164544.png]]
 
-### Salidas
-Es la versión aprobada del enunciado del alcance
-=======
-![[Pasted image 20241206130712.png]]
-
-Permite definir los trabajos de forma jerárquica mediante un EDT para cumplir con los objetivos
-+ El trabajo como tal está definido en la parte inferior de la EDT, representados como resultados verificables.
-+ Los paquetes de trabajo agrupan las actividades a realizar.
-+ Cada paquete de trabajo es estimado en términos de costes y tiempo.
-+ Es un proceso de análisis, estructuración y desarrollo donde se acaba verificando si la descomposición es la adecuada.
-
-**Ejemplos de EDT**
-![[Pasted image 20241206131929.png]]
-
 Establece una línea base del alcance y sólo se podrá cambiar a través de protocolos formales de control de cambios. Esto comprende un enunciado del alcance y la propia EDT, con su consecuente Diccionario.
->>>>>>> 2236fe4a4fa005bc2273b2b8a860f450bec7b961
 ## Verificar el alcance
 Formalizar la aceptación de los entregables del proyecto que se han completado.
 ![[Pasted image 20241206132735.png]]
