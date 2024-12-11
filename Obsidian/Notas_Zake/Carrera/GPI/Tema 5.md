@@ -66,6 +66,28 @@ Al recopilar requisitos, algunos podrían no incluirse en el proyecto final. En 
 - **Redacción iterativa**: El enunciado se desarrolla progresivamente, integrando nueva información conforme avanza el proyecto.
 ## Crear EDT/WBS
 Consiste en subdividir los entregable y el trabajo del proyecto en componentes.
+![[Pasted image 20241211163641.png]]
+
++ Es una descomposición jerárquico del alcance total del trabajo.
+
++ Define el alcance total del proyecto.
+
++ En los niveles más bajos está el trabajo a realizar, representado como actividades que están contenidas en paquetes de trabajo. 
+
++ Cuanto más se descomponga mejor será la planificación pero si se descompone en exceso puede aumentar el esfuerzo de gestión.
+### Descomposición
+Divide el alcance en partes más pequeñas denominadas paquetes de trabajo, teniendo en cuenta la estructura de los entregables y el trabajo relacionado y teniendo como objetivo que el grado de la descomposición sea el adecuado.
+
+![[Pasted image 20241211164322.png]]
+
+Los **Juicios de Expertos** pueden ser requeridos para analizar la información, usar plantillas existentes o para determinar si la descomposición realizada es la que se usará.
+
+Existen diferentes **formas para crear la EDT:**
+![[Pasted image 20241211164534.png]]
+![[Pasted image 20241211164544.png]]
+
+### Salidas
+Es la versión aprobada del enunciado del alcance
 ## Verificar el alcance
 Formalizar la aceptación de los entregables del proyecto que se han completado
 ## Controlar el alcance

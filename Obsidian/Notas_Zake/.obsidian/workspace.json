@@ -4,41 +4,54 @@
     "type": "split",
     "children": [
       {
-        "id": "27b745e41b5badad",
+        "id": "98596deced49640f",
         "type": "tabs",
         "children": [
           {
-            "id": "c84016f72f3a9e79",
+            "id": "8396e9f822297d71",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Carrera/Estadística/Tema 8.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tema 8"
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
             }
           },
           {
-            "id": "9959928c593078ae",
+            "id": "de994a1752951cca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Clases.md",
+                "file": "Carrera/GPI/Tema 5.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clases"
+              "title": "Tema 5"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "6a6718ae70e05bbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a78262a45f2c3bf1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Carrera/GPI/GPI Tema 5.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "GPI Tema 5"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,10 +104,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "27e7fedbaf447b53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4fe6ef7a85ac697",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "107eb1925dd7ef98",
@@ -164,16 +194,6 @@
             }
           },
           {
-            "id": "d4fe6ef7a85ac697",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "559671c0c59948e1",
             "type": "leaf",
             "state": {
@@ -184,11 +204,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,24 +224,41 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9959928c593078ae",
+  "active": "de994a1752951cca",
   "lastOpenFiles": [
+    "Carrera/GPI/Anexos/Pasted image 20241211164544.png",
+    "Carrera/GPI/Anexos/Pasted image 20241211164534.png",
+    "Carrera/GPI/Anexos/Pasted image 20241211164322.png",
+    "Carrera/GPI/Anexos/Pasted image 20241211163641.png",
+    "Carrera/GPI/GPI Tema 5.pdf",
+    "Carrera/GPI/Tema 5.md",
+    "Carrera/GPI/Gestión de proyectos informáticos.md",
+    "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
+    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
+    "Carrera/CYA/Anexos/Pasted image 20241210185952.png",
+    "Carrera/CYA/Anexos/Pasted image 20241210184145.png",
+    "Carrera/CYA/Anexos/Pasted image 20241210184114.png",
+    "Carrera/CyA - Tema 8 - Divide-and-Conquer.pdf",
+    "Carrera/CYA/Anexos/Pasted image 20241210181401.png",
+    "Carrera/CYA/Anexos/Pasted image 20241210181343.png",
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Recursos/Ocio.md",
+    "Carrera/CYA/CYA.md",
+    "Carrera/SIPC/Sistemas de interacción.md",
+    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
+    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
+    "Recursos/Alertas/2024-12-11 Resumir GPI.md",
+    "Recursos/Clases.md",
     "Carrera/Estadística/Tema 8.md",
     "Carrera/Estadística/Estadística.md",
-    "Recursos/Carrera.md",
     "Carrera/Estadística/HOJA6.pdf",
     "Carrera/Estadística/Anexos/Pasted image 20241203130245.png",
     "Carrera/Estadística/Anexos/Pasted image 20241203125752.png",
     "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
-    "Carrera/Estadística/Anexos/Pasted image 20241203125707.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203125328.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203125314.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203124110.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203124057.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203123924.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203123548.png",
-    "Carrera/Estadística/Anexos/Pasted image 20241203123049.png",
     "Carrera/Estadística/Tema 7.md",
     "Carrera/IA/Inteligencia Artificial.md",
     "Carrera/Estadística/Tema 7_Variables_Aleatorias_Discretas.pdf",
@@ -230,25 +268,9 @@
     "Carrera/Estadística/Tablas",
     "Carrera/Estadística/Tablas.zip",
     "Carrera/Estadística/Sin confirmar 107799.crdownload",
-    "Carrera/Estadística/HOJA5.pdf.crdownload",
-    "Carrera/Estadistica/Anexos",
     "Carrera/Estadistica/Tema 8.md",
-    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
-    "Carrera/CYA/CYA.md",
-    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
-    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
     "Carrera/CYA/Tema 5 (Introducción a la algoritmia).md",
     "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
-    "Carrera/SIPC/Sistemas de interacción.md",
-    "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Carrera/GPI/Tema 4.md",
-    "Carrera/GPI/Tema 13.md",
-    "Carrera/GPI/Tema 7.md",
-    "Carrera/GPI/Tema 6.md",
-    "Carrera/GPI/Tema 5.md",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md"
+    "Carrera/CYA/Tema 3 (Gramáticas).md"
   ]
 }
