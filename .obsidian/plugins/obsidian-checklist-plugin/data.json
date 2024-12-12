@@ -1,0 +1,31 @@
+{
+  "todoPageName": "todo",
+  "showChecked": false,
+  "showAllTodos": true,
+  "autoRefresh": true,
+  "subGroups": false,
+  "groupBy": "page",
+  "sortDirectionItems": "new->old",
+  "sortDirectionGroups": "a->z",
+  "sortDirectionSubGroups": "new->old",
+  "includeFiles": "",
+  "lookAndFeel": "classic",
+  "_collapsedSections": [
+    "Recursos/Tareas proyecto.md",
+    "Recursos/Tareas Carrera.md",
+    "Recursos/Tareas.md",
+    "Recursos/Tareas urgentes.md",
+    "Recursos/Urgente.md",
+    "Ocio/Pasatiempos/Juegos de Mesa/Extensiones.md",
+    "Ocio/Social/Ideas.md",
+    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
+    "Recursos/Proyecto.md",
+    "Recursos/Exámenes.md",
+    "Recursos/FreeTime.md",
+    "Recursos/Clases.md",
+    "Recursos/Apremiante.md"
+  ],
+  "_hiddenTags": [
+    "t"
+  ]
+}
