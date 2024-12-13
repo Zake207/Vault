@@ -1,6 +1,7 @@
 [[Tema 8_Variables_Aleatorias_Continuas.pdf|PDF]]
 [[HOJA6.pdf|PROBLEMAS]]
 ___
+# Distribuciones de probabilidad continua
 ## Distribución Uniforme Continua
 Posee la siguiente función de densidad: $$f_{X}(x) = \frac{1}{b-a}\ \ \ \ a \leq x \leq b$$
 + X = U(a,b)
@@ -98,11 +99,13 @@ que a su vez se aproxima a una N(0,1).
 ## Distribución Exponencial
 Se dice que una variable aleatoria X que mide el tiempo entre dos ocurrencias sucesivas de un proceso de Poisson de media $\theta > 0$ sigue una distribución Exponencial de parámetro $\theta$.
 
+Su función de densidad es la siguiente: $$f_{x}(x) = \theta\ ·\ e^{-\theta x}\ \ \ \ \ \ \ \ x > 0$$
+
 Su función de densidad es $\theta e^{-\theta x}$ para x > 0.
 + $E[X] = \frac{1}{\theta}$
 + $V(X) =\frac{1}{\theta^2}$
 
-**Propiedad de amnesia:** La probabilidad de que una componente funcione mas de a+b unidades de tiempo sabiendo que lleva funcionando a unidades equivale a calcular la probabilidad de otra variable que dure más de b unidades de tiempo.
+**Propiedad de amnesia:** La probabilidad de que una componente funcione mas de a+b unidades de tiempo sabiendo que lleva funcionando "a" unidades equivale a calcular la probabilidad de otra variable que dure más de b unidades de tiempo.
 $$P(X \geq a+b\ \ /\ \ X\geq a) = P(X \geq b)$$
 
 ## Distribución Gamma

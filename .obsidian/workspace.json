@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b8b55f09e87b07c2",
+        "id": "fa5b61e83fad1383",
         "type": "tabs",
         "children": [
           {
-            "id": "9c14cca0ec8e126b",
+            "id": "14e0810afec6dea7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Home.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Home"
             }
           }
         ]
@@ -89,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 261,
+    "collapsed": true
   },
   "right": {
     "id": "107eb1925dd7ef98",
@@ -164,36 +170,17 @@
             "state": {
               "type": "todo",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Complemento no activo"
-            }
-          },
-          {
-            "id": "a7a32a9fd74915db",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Complemento no activo"
-            }
-          },
-          {
-            "id": "c3cc37950722efc2",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
               "icon": "checkmark",
               "title": "Todo List"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 264,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,26 +195,40 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "91ba340ae3efbf1c",
+  "active": "14e0810afec6dea7",
   "lastOpenFiles": [
-    "Recursos/Projectos.md",
+    "Carrera/Estadística/Tema 8.md",
+    "Carrera/Estadística/HOJA6.pdf",
+    "Carrera/Estadística/Tablas/Poisson_Normal.jpg",
+    "Carrera/Estadística/Tablas/FSnedecor2.jpg",
+    "Carrera/Estadística/Tablas/FSnedecor1.jpg",
+    "Carrera/Estadística/Estadística.md",
+    "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
+    "Recursos/Clases.md",
+    "Carrera/CYA/CYA.md",
+    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
+    "Carrera/CYA/CyA - Tema 8 - Divide-and-Conquer.pdf",
+    "Carrera/CYA/CyA - Tema 9 - DP.pdf",
+    "Carrera/CYA/CyA - Tema 9 - DP.pdf.crdownload",
+    "Carrera/Estadística/Tema 7.md",
+    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
+    "Carrera/Estadística/Tablas/ChiCuadrado_tStudent.png",
+    "Carrera/Estadística/Tablas/Poisson_Normal.png",
+    "Carrera/Estadística/Tablas/Poisson_Normal.gif",
+    "Carrera/Estadística/Distribuciones.pdf",
+    "Carrera/Estadística/Distribuciones.pdf.crdownload",
+    "Carrera/HORARIO TERCERO.pdf",
     "Carrera/GPI/Tema 6.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Recursos/Carrera.md",
+    "Recursos/Projectos.md",
     "Carrera/GPI/Anexos/Pasted image 20241212141654.png",
     "Carrera/GPI/Anexos/Pasted image 20241212141516.png",
     "Carrera/GPI/Anexos/Pasted image 20241212141505.png",
     "Carrera/GPI/GPI Tema 6.pdf",
     "Carrera/GPI/Anexos/Pasted image 20241212141415.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212141357.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212141346.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212141214.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212140448.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212140054.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212125756.png",
     "Recursos/Exámenes.md",
-    "Recursos/Clases.md",
     "Proyectos/Registros/Trabajo.md",
     "Recursos/Ocio.md",
     "Ocio/Social/Fechas importantes.md",
@@ -240,20 +241,6 @@
     "Ocio/Pasatiempos/Juegos/Tanques.md",
     "Ocio/Pasatiempos/Juegos/EquipoPKMN_1.md",
     "Recursos/Alertas/2024-12-16 REGALO FADI.md",
-    "Ocio/Social/Ideas.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Carrera/GPI/GPI Tema 13 Interesados.pdf",
-    "Carrera/GPI/Tema 13.md",
-    "Carrera/GPI/Tema 7.md",
-    "Carrera/GPI/GPI Tema 7.pdf",
-    "Recursos/Alertas/2024-12-20 Planificar vacaciones.md",
-    "Recursos/Alertas/2024-12-20 Código de IA.md",
-    "Carrera/IA/Redes_neuronales_parte2.pdf",
-    "Carrera/IA/Redes_neuronales_parte1.pdf",
-    "Carrera/GPI/GPI Tema 5.pdf",
-    "Carrera/CyA - Tema 8 - Divide-and-Conquer.pdf",
-    "Carrera/Estadística/HOJA6.pdf",
-    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
-    "Carrera/Estadística/Tema 7_Variables_Aleatorias_Discretas.pdf"
+    "Carrera/GPI/GPI Tema 13 Interesados.pdf"
   ]
 }

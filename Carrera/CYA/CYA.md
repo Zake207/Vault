@@ -11,6 +11,7 @@ ___
 [[Tema 6 (Análisis de algoritmos)]]
 [[Tema 7 (Algoritmos Voraces)]]
 [[Tema 8 (Divide y vencerás)]]
+[[Tema 9 (Programación Dinámica)]]
 #### Recursos adicionales
 [[Teoría de conjuntos, lógica simbólica.]]
 [[Propiedades de conjuntos]]
