@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fa5b61e83fad1383",
+        "id": "4533462f899ad9a2",
         "type": "tabs",
         "children": [
           {
-            "id": "14e0810afec6dea7",
+            "id": "b2731137359f24ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264,
-    "collapsed": true
+    "width": 264
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,39 +194,42 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "14e0810afec6dea7",
+  "active": "b2731137359f24ca",
   "lastOpenFiles": [
+    "Recursos/Clases.md",
+    "Recursos/Home.md",
+    "Recursos/Alertas/2024-12-16 Examen SIPC.md",
+    "Recursos/Alertas/2024-12-16 Presentación IA.md",
+    "Recursos/Alertas",
+    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
+    "Carrera/CYA/Anexos/Pasted image 20241216130356.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216130256.png",
+    "Carrera/CYA/CyA - Tema 9 - DP.pdf",
+    "Carrera/CYA/Anexos/Pasted image 20241216125234.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216125223.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216125213.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216104845.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216104812.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216103953.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216103928.png",
+    "Carrera/CYA/Anexos/Pasted image 20241216103131.png",
+    "Carrera/CYA/CYA.md",
+    "Recursos/Carrera.md",
     "Carrera/Estadística/Tema 8.md",
     "Carrera/Estadística/HOJA6.pdf",
-    "Carrera/Estadística/Tablas/Poisson_Normal.jpg",
-    "Carrera/Estadística/Tablas/FSnedecor2.jpg",
-    "Carrera/Estadística/Tablas/FSnedecor1.jpg",
     "Carrera/Estadística/Estadística.md",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
-    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
-    "Recursos/Clases.md",
-    "Carrera/CYA/CYA.md",
     "Carrera/CYA/Tema 8 (Divide y vencerás).md",
     "Carrera/CYA/CyA - Tema 8 - Divide-and-Conquer.pdf",
-    "Carrera/CYA/CyA - Tema 9 - DP.pdf",
     "Carrera/CYA/CyA - Tema 9 - DP.pdf.crdownload",
     "Carrera/Estadística/Tema 7.md",
     "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
-    "Carrera/Estadística/Tablas/ChiCuadrado_tStudent.png",
-    "Carrera/Estadística/Tablas/Poisson_Normal.png",
-    "Carrera/Estadística/Tablas/Poisson_Normal.gif",
     "Carrera/Estadística/Distribuciones.pdf",
     "Carrera/Estadística/Distribuciones.pdf.crdownload",
     "Carrera/HORARIO TERCERO.pdf",
     "Carrera/GPI/Tema 6.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
     "Recursos/Projectos.md",
-    "Carrera/GPI/Anexos/Pasted image 20241212141654.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212141516.png",
-    "Carrera/GPI/Anexos/Pasted image 20241212141505.png",
     "Carrera/GPI/GPI Tema 6.pdf",
-    "Carrera/GPI/Anexos/Pasted image 20241212141415.png",
     "Recursos/Exámenes.md",
     "Proyectos/Registros/Trabajo.md",
     "Recursos/Ocio.md",
@@ -239,8 +241,6 @@
     "Ocio/Pasatiempos/Juegos/EquipoPKMN_4.md",
     "Ocio/Pasatiempos/Juegos/EquipoPKMN_3.md",
     "Ocio/Pasatiempos/Juegos/Tanques.md",
-    "Ocio/Pasatiempos/Juegos/EquipoPKMN_1.md",
-    "Recursos/Alertas/2024-12-16 REGALO FADI.md",
-    "Carrera/GPI/GPI Tema 13 Interesados.pdf"
+    "Ocio/Pasatiempos/Juegos/EquipoPKMN_1.md"
   ]
 }

@@ -1,7 +1,13 @@
 #todo
 
 [< Volver](Tareas)
-- [ ] EST : Repasar distribuciones continuas (ejercicios) 🔼
-- [ ] CYA : Terminar apuntes.
-- [ ] CYA : Hacer esquema de contenidos.
-- [ ] CYA : Preparar preguntas de cuestionarios.
+- [x] EST : Repasar distribuciones continuas (ejercicios) 🔼
+- [x] CYA : Terminar apuntes. ✅ 2024-12-16
+- [x] CYA : Hacer esquema de contenidos. ✅ 2024-12-16
+- [x] CYA : Preparar preguntas de cuestionarios. ✅ 2024-12-16
+- [ ] EST : Contraste de hipótesis.
+- [ ] SIPC : Repasar examen.
+- [ ] SIPC : Hacer vídeos.
+- [ ] IA : Repasar presentación.
+- [ ] GPI : Finalizar PDP.
+
