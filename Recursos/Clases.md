@@ -6,8 +6,8 @@
 - [x] CYA : Hacer esquema de contenidos. ✅ 2024-12-16
 - [x] CYA : Preparar preguntas de cuestionarios. ✅ 2024-12-16
 - [ ] EST : Contraste de hipótesis.
-- [ ] SIPC : Repasar examen.
+- [x] SIPC : Repasar examen.
 - [ ] SIPC : Hacer vídeos.
-- [ ] IA : Repasar presentación.
+- [x] IA : Repasar presentación.
 - [ ] GPI : Finalizar PDP.
 

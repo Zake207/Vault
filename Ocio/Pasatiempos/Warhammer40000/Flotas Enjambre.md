@@ -16,8 +16,31 @@ El conflicto a seguido escalando hasta afectar a todo el **Sector Octarius,** ll
 
 Esta flota enjambre a participado en multitud de conflictos menores con multiples facciones.
 ## Behemoth
+### Esquema de color
+Las criaturas de la Flota Enjambre Behemoth tienen una coloración de piel rojiza con caparazones azulados y, salvo excepciones, armas simbióticas negras.
+### Historia
+Fue la primera flota tiránida detectada por la zona de **Tirán**, al ver una serie de mundos muertos. Surgió de la Franja Este de la galaxia y atacó por lo ancho de la franja sureste.
 
+Por el camino arrasó posiciones estratégicas como: 
++ El puesto de avanzada de **Tirán**.
++ La estación de observación de **Occulus**. 
++ La base de **Korzarioz Orkos**.
++ El Sitema **Thandros**.
++ El **Mundo Tumba Solemnace**.
++ El mundo agrícola **Prandium**.
++ El mundo fortaleza de **Sybari**.
+
+Finalmente la Flota Enjambre llegaría a [[Macrage]] donde [[Marneus Calgar]] dictaminó que la flota sería detenida ahí, donde muchas bionaves fueron destruidas y repelidas hasta que las tornas giraron a favor de los tiránidos cuando en la **Batalla de la Cordillera del Acero Frío** apareció el **Señor del Enjambre**, con el propósito de enfrentar al Señor de los [[Ultramarines]] en combate singular, el resultado fue la casi muerte del Astartes a manos del Xeno, teniendo que evacuarlo de inmediato.
+
+Tras esto [[Marneus Calgar]] lideró lo que quedaba de la flota imperial para perseguir al enemigo hasta el mundo de **Circe** donde se reveló una segunda flota que estaba escondida, la cual habría acabado con la flota imperial de no ser por la llegada de numerosos refuerzos de la **Flota de Batalla Tempestus**. Tras una encarnizada batalla, el Acorazado Clase Emperador **Dominus Astra** se sacrificó detonando sus motores disformes en el corazón de la flota enjambre.
+
+Al volver a [[Macrage]] observaron la pírrica victoria frente al enemigo, en la cual se perdió a toda la primera Compañía de Exterminadores.
 ## Kraken
+### Esquema de color
+Las criaturas de la Flota Enjambre Kraken tienen una pauta cromática de piel color hueso con caparazones rojizos. Sus armas simbióticas suelen ser de color negro o hueso.
+
+### Historia
+Fue la flota que ocasionó la Segunda Guerra Tiránida.
 ## Gorgona
 ## Kronos
 ## Naga
