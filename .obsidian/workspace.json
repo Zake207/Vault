@@ -1,37 +1,25 @@
 {
   "main": {
-    "id": "96cca2964ccd56e6",
+    "id": "8691bf3464146de5",
     "type": "split",
     "children": [
       {
-        "id": "a7e24c683de8f10b",
+        "id": "d65d00aab4f6a473",
         "type": "tabs",
         "children": [
           {
-<<<<<<< HEAD
-            "id": "de1c32af52a95b8a",
-=======
-            "id": "4d0f952dfb4fae5d",
->>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
+            "id": "cba4de05e4d6ef4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Recursos/Formatear portátil.md",
-=======
-                "file": "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
->>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Formatear portátil"
-=======
-              "title": "Flotas Enjambre"
->>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
+              "title": "Home"
             }
           }
         ]
@@ -40,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a41172be95546f95",
+    "id": "67e83b05798d5e07",
     "type": "split",
     "children": [
       {
-        "id": "bd878950d6345c99",
+        "id": "b69a186b71b4f5b7",
         "type": "tabs",
         "children": [
           {
-            "id": "91ba340ae3efbf1c",
+            "id": "35ed1975ee9cbdff",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -60,7 +48,7 @@
             }
           },
           {
-            "id": "1aa887f74d1887f7",
+            "id": "4423da6b377a2f25",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -77,7 +65,7 @@
             }
           },
           {
-            "id": "238d5dcf25774788",
+            "id": "83f621ddf23bc932",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -87,38 +75,22 @@
             }
           }
         ]
-      },
-      {
-        "id": "27e7fedbaf447b53",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d4fe6ef7a85ac697",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 261,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "107eb1925dd7ef98",
+    "id": "be25640371f52f3d",
     "type": "split",
     "children": [
       {
-        "id": "42a77fc238fc7713",
+        "id": "9bc7aa3b849b5a37",
         "type": "tabs",
         "children": [
           {
-            "id": "b3491cf6e063fb4f",
+            "id": "e1dcd52b4824418c",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -137,7 +109,7 @@
             }
           },
           {
-            "id": "c17744046ee487ac",
+            "id": "b2b11181760c1141",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -151,7 +123,7 @@
             }
           },
           {
-            "id": "ebc9ef74d7e8c492",
+            "id": "d81c58c6d625663e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -165,7 +137,7 @@
             }
           },
           {
-            "id": "a308f60740c03f60",
+            "id": "97f369860cdf2517",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -177,17 +149,17 @@
             }
           },
           {
-            "id": "559671c0c59948e1",
+            "id": "8f4464bba8f5b246",
             "type": "leaf",
             "state": {
-              "type": "todo",
+              "type": "calendar",
               "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
-            "id": "50472026d6882f44",
+            "id": "dfa44b12aa2bdfa9",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -201,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -212,79 +184,40 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
+      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-<<<<<<< HEAD
-  "active": "de1c32af52a95b8a",
+  "active": "cba4de05e4d6ef4c",
   "lastOpenFiles": [
-    "Recursos/Projectos.md",
-    "Recursos/Home.md",
-    "Recursos/Formatear portátil.md",
     "Recursos/Clases.md",
-    "Carrera/Estadística/Tablas/Poisson_Normal.jpg",
-    "Carrera/Estadística/Tablas/ChiCuadrado_tStudent.png",
-    "Carrera/Estadística/IntervalosyContrastes.pdf",
-    "Carrera/Estadística/HOJA8.pdf",
-    "Carrera/Estadística/Tema 11_Estimación_Intervalo.pdf",
-    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/CYA/CYA.md",
-    "Recursos/Carrera.md",
-    "Carrera/Estadística/Tema 11.md",
-    "Carrera/Estadística/Estadística.md",
-    "Carrera/Estadística/Distribuciones.pdf",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md",
-    "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Recursos/Ocio.md",
-    "Carrera/Estadística/HOJA7.pdf",
-    "Carrera/Estadística/IntervalosyContrastes.pdf.crdownload",
-    "Carrera/Estadística/Tema 10.md",
-    "Carrera/Estadística/HOJA8.pdf.crdownload",
-    "Carrera/Estadística/Tema 10_Estimación_Puntual.pdf",
-    "Carrera/Estadística/HOJA7.pdf.crdownload",
-    "Carrera/Estadística/Tema 9.md",
-    "Carrera/Estadística/Tema 9_Muestreo.pdf",
+    "Carrera/Estadística/HOJA9.pdf",
     "Carrera/Estadística/Tema 12.md",
-=======
-  "active": "4d0f952dfb4fae5d",
-  "lastOpenFiles": [
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-    "Ocio/Pasatiempos/Warhammer40000/Historia (Tiránidos).md",
-    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Recursos/Ocio.md",
-    "Recursos/Home.md",
-    "Recursos/Clases.md",
->>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
-    "Recursos/Alertas/2024-12-16 Examen SIPC.md",
-    "Recursos/Alertas/2024-12-16 Presentación IA.md",
-    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
-    "Carrera/CYA/Anexos/Pasted image 20241216130356.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216130256.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216125234.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216125223.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216125213.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216104845.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216104812.png",
-    "Carrera/CYA/Anexos/Pasted image 20241216103953.png",
+    "Carrera/Estadística/Tema12_Contraste de Hipótesis.pdf",
+    "Carrera/Estadística/IntervalosyContrastes.pdf",
+    "Carrera/Estadística/Estadística.md",
+    "Carrera/Estadística/Poisson_Normal.png.md",
+    "Carrera/Estadística/Distribuciones.pdf",
+    "Carrera/Estadística/Tema 1.md",
+    "Carrera/Estadística/Tablas/Poisson_Normal.jpg",
+    "Carrera/Estadística/Tablas/F-Fisher010.jpg",
+    "Carrera/Estadística/Tablas/F-Fisher005.jpg",
+    "Carrera/Estadística/Tablas/F-Fisher001.jpg",
+    "Carrera/Estadística/Tablas/Poisson_Normal.gif",
+    "Carrera/Estadística/Tablas/Poisson_Normal.png",
+    "Carrera/Estadística/Tablas/FSnedecor1.jpg",
+    "Carrera/Estadística/Tablas/ChiCuadrado_tStudent.gif",
+    "Carrera/Estadística/Tablas/FSnedecor2.gif",
+    "Carrera/Estadística/Tablas/FSnedecor1.gif",
+    "Carrera/Estadística/HOJA9.pdf.crdownload",
+    "Carrera/Estadística/HOJA8.pdf",
     "Carrera/Estadística/Tema 8.md",
-    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
-    "Carrera/Estadística/Tema 7.md",
-    "Carrera/GPI/Tema 6.md",
-    "Carrera/GPI/Gestión de proyectos informáticos.md",
-    "Recursos/Exámenes.md",
-<<<<<<< HEAD
-    "Proyectos/Registros/Trabajo.md"
-=======
-    "Proyectos/Registros/Trabajo.md",
-    "Ocio/Social/Fechas importantes.md",
-    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
-    "Ocio/Pasatiempos/Juegos/Pokémon.md",
-    "Ocio/Pasatiempos/Juegos/Monotype-Rock.md"
->>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
+    "Carrera/Estadística/Tema 8_Variables_Aleatorias_Continuas.pdf",
+    "Carrera/Estadística/Tema 10.md",
+    "Carrera/Estadística/Tema 10_Estimación_Puntual.pdf",
+    "Carrera/Estadística/Tema 11.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md"
   ]
 }

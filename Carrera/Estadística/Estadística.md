@@ -19,8 +19,6 @@ ___
 [[Tema 12]]
 #### Adicional
 [[Distribuciones.pdf]]
-[[Poisson_Normal.png]]
-
 [[IntervalosyContrastes.pdf]]
 
 ### Prácticas:
