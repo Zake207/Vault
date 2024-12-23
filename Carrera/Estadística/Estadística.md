@@ -13,9 +13,15 @@ ___
 [[Carrera/Estadística/Tema 6|Tema 6]]
 [[Carrera/Estadística/Tema 7|Tema 7]]
 [[Carrera/Estadística/Tema 8|Tema 8]]
+[[Tema 9]]
+[[Tema 10]]
+[[Tema 11]]
+[[Tema 12]]
 #### Adicional
 [[Distribuciones.pdf]]
 [[Poisson_Normal.png]]
+
+[[IntervalosyContrastes.pdf]]
 
 ### Prácticas:
 ___

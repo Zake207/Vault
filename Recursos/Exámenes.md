@@ -3,4 +3,4 @@
 [< Volver](Tareas)
 
 - [ ] PREPARAR ENERO
-- [ ] SIPC - Aprendizaje automático - 17/12/24
+- [x] SIPC - Aprendizaje automático - 17/12/24
