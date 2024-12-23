@@ -8,18 +8,30 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< HEAD
             "id": "de1c32af52a95b8a",
+=======
+            "id": "4d0f952dfb4fae5d",
+>>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Recursos/Formatear portátil.md",
+=======
+                "file": "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
+>>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Formatear portátil"
+=======
+              "title": "Flotas Enjambre"
+>>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
             }
           }
         ]
@@ -173,13 +185,24 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "50472026d6882f44",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 264
+    "width": 264,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +217,7 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< HEAD
   "active": "de1c32af52a95b8a",
   "lastOpenFiles": [
     "Recursos/Projectos.md",
@@ -224,6 +248,18 @@
     "Carrera/Estadística/Tema 9.md",
     "Carrera/Estadística/Tema 9_Muestreo.pdf",
     "Carrera/Estadística/Tema 12.md",
+=======
+  "active": "4d0f952dfb4fae5d",
+  "lastOpenFiles": [
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Ocio/Pasatiempos/Warhammer40000/Historia (Tiránidos).md",
+    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Recursos/Ocio.md",
+    "Recursos/Home.md",
+    "Recursos/Clases.md",
+>>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
     "Recursos/Alertas/2024-12-16 Examen SIPC.md",
     "Recursos/Alertas/2024-12-16 Presentación IA.md",
     "Carrera/CYA/Tema 9 (Programación Dinámica).md",
@@ -241,6 +277,14 @@
     "Carrera/GPI/Tema 6.md",
     "Carrera/GPI/Gestión de proyectos informáticos.md",
     "Recursos/Exámenes.md",
+<<<<<<< HEAD
     "Proyectos/Registros/Trabajo.md"
+=======
+    "Proyectos/Registros/Trabajo.md",
+    "Ocio/Social/Fechas importantes.md",
+    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
+    "Ocio/Pasatiempos/Juegos/Pokémon.md",
+    "Ocio/Pasatiempos/Juegos/Monotype-Rock.md"
+>>>>>>> f1752f96d45a155322eb17f36f4baf69af62ccfe
   ]
 }

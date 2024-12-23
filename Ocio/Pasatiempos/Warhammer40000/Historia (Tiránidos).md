@@ -14,7 +14,7 @@ Los cultos [[Genesteeler]] crean su propia **Mente Cría** que se encarga de con
 Aparecieron por primera vez por la franja este de la galaxia atraídos por, se cree, el resplandor psíquico del [[Pharos]] provocado en la herejía, aunque también se teoriza que su trayectoria con destino a [[Terra]] es debido a la luz del [[Astronomicón]]. Aunque la [[Inquisición]] tiene registros de Tiránidos del milenio 35.
 
 ## Primera Guerra Tiránida
-El primer conflicto con la especie fue en el planeta Tirán con la **Flota Enjambre Behemoth** la cual avanzaba hacia el puesto científico de dicho planeta dejando a su paso un rastro de mundos moribundos. El Inquisidor Kryptman fue el encargado de investigar esta raza. El avance de esta flota fue detenido en [[Macrage]]. En este conflicto [[Marneus Calgar]] fue herido de gravedad por el [[Señor del Enjambre]]. Tras muchas pérdidas y sacrificios, el acorazado Dominus Astra se acerco al centro de la flota detonando sus motores disformes y destruyendo la mayor parte de esta.
+El primer conflicto con la especie fue en el planeta Tirán con la **Flota Enjambre Behemoth** la cual avanzaba hacia el puesto científico de dicho planeta dejando a su paso un rastro de mundos moribundos. El Inquisidor Kryptman fue el encargado de investigar esta raza. El avance de esta flota fue detenido en [[Macrage]]. En este conflicto [[Marneus Calgar]] fue herido de gravedad por el **Señor del Enjambre**. Tras muchas pérdidas y sacrificios, el acorazado Dominus Astra se acerco al centro de la flota detonando sus motores disformes y destruyendo la mayor parte de esta.
 
 El segundo contacto se da cuando [[Ciaphas Cain]] descubrió tiránidos congelados en el mundo de Nusquam Fundumentibus, el enjambre se despertó y derrotado. Este hecho dejo indicios de presencia tiránida anterior al imperio. 
 
@@ -38,7 +38,7 @@ Tras casi mermar a los dos zarcillos, un tercero apareció devorando múltiples 
 
 Tras esta pésima situación se reforzaron tres sistemas que tenían un nivel de importancia críticos. La batalla derivó en la defensa del mundo **Sanctum**, el cual era defendido por el **Muro de Dorn**, un cinturón de asteroides plagado de fortalezas defensivas el cual fue mermado, pero ganando tiempo para organizar defensas que incluía a [[La Falange]].
 
-El [[Señor del Enjambre]] fue avistado en el campo de batalla, además de tres **Emisarios Norn**, los cuales tenían como misión acabar con los líderes del ejercito imperial, destruir la semilla genética de los [[Templarios Blancos]] y el tercero tenía la misión de acabar con el [[Lord Solar Leontus]]. El último casi logra su cometido de no ser por la aparición de los [[Adeptus Custodes]] acompañados de [[Trajan Valoris]], solo sobrevivió Trajan, otro custode y el propio Leontus.
+El **Señor del Enjambre** fue avistado en el campo de batalla, además de tres **Emisarios Norn**, los cuales tenían como misión acabar con los líderes del ejercito imperial, destruir la semilla genética de los [[Templarios Blancos]] y el tercero tenía la misión de acabar con el [[Lord Solar Leontus]]. El último casi logra su cometido de no ser por la aparición de los [[Adeptus Custodes]] acompañados de [[Trajan Valoris]], solo sobrevivió Trajan, otro custode y el propio Leontus.
 
 El conflicto aún continúa...
 
