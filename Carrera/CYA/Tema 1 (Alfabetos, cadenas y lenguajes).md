@@ -1,4 +1,5 @@
 [[20240917_CyA-Transparencias-T1.pdf|PDF]]
+[[20240916_CyA-Problemas-T1.pdf|PROBLEMAS]]
 ___
 ## Definiciones.
 ### Alfabetos
@@ -22,7 +23,7 @@ Un lenguaje formal es un conjunto de cadenas sobre un lenguaje.
 + A mayor cardinal, mayor dificultad de determinar sus cadenas
 + El lenguaje vacío tiene cardinal 0 mientras que un lenguaje con la cadena vacía tiene cardinal 1. Por ende, son diferentes
 	![[Pasted image 20240918094510.png]]
-+ Siendo **Σ** un lenguaje y **ω** una cadena sobre dicho lenguaje y existe un lenguaje sobre este lenguaje y contiene algunas cadenas del mismo incluyendo ω entonces: ω pertenece al lenguaje.
++ Siendo **Σ** un alfabeto y **ω** una cadena sobre dicho alfabeto y existe un lenguaje sobre este alfabeto y contiene algunas cadenas del mismo incluyendo ω entonces: ω pertenece al lenguaje.
 
 Un lenguaje universal es el lenguaje compuesto por todas las posibles cadenas del alfabeto. Se denota como **Σ**\*, este es infinito pues no hay alfabeto vacío.
 ![[Pasted image 20240918095024.png]]
@@ -52,7 +53,7 @@ x es prefijo de de w si
 
 ### Subcadenas
 Sean x, y, z, w cadenas pertenecientes a **Σ**\*
-w sera subcadena de z si existen x e y tan que z = xwy
+w sera subcadena de z si existen x e y tal que z = xwy
 ![[Pasted image 20240918121113.png]]
 
 ### Subsecuencias
@@ -71,14 +72,14 @@ Su inversa se define como:
 Ejemplo
 ![[Pasted image 20240918121957.png]]
 ## Operaciones con lenguajes
-#### Concatenación
+### Concatenación
 Produce como resultado un conjunto con todas las posibles concatenaciones de ambos lenguajes, no es conmutativo
 ![[Pasted image 20240920164049.png]]
 Ejemplo:
 ![[Pasted image 20240920164115.png]]
 + Si los lenguajes a concatenar son sobre diferentes alfabetos la concatenación será sobre la union de dichos alfabetos.
 + Concatenar un lenguaje cualquiera con un lenguaje que solo contenga la cadena vacía resulta en el lenguaje original.
-#### Potencia
+### Potencia
 Sea L⊆Σ*
 Se define su potencia como:
 ![[Pasted image 20240920164519.png]]
@@ -87,26 +88,26 @@ Ejemplo:
 + La potencia 0 del lenguaje vacío resulta en el lenguaje que contiene únicamente la cadena vacía.
 + La enésima potencia del lenguaje vacío para cualquier n mayor que 1 es igual al lenguaje vacío.
 ![[Pasted image 20240920164824.png]]
-#### Unión e Intersección.
+### Unión e Intersección.
 Sean L$_1$ ⊆ Σ* , L$_2$ ⊆ Σ*
 ![[Pasted image 20240920165408.png]]
 La Unión cumple la propiedad distributiva de la siguiente manera.
 ![[Pasted image 20240920165514.png]]
-#### Sublenguajes e igualdad
+### Sublenguajes e igualdad
 Un lenguaje es sublenguaje de otro si todas sus cadenas están en este otro lenguaje, se dice que todo lenguaje sobre el alfabeto Σ son sublenguajes de Σ*.
 
 Se dice que son iguales si contienen las misma cadenas y, por tanto, están contenidos el uno en el otro.
-#### Diferencia
+### Diferencia
 Sean L$_1$ y L$_2$ lenguajes de un alfabeto Σ la diferencia será
 ![[Pasted image 20240920173117.png]]
 Ejemplo:
 ![[Pasted image 20240920173213.png]]
-#### Complementario
+### Complementario
 Se L un lenguaje sobre un alfabeto Σ su complementario será.
 ![[Pasted image 20240920173404.png]]
 Un ejemplo de esto.
 ![[Pasted image 20240920173523.png]]
-#### Inversa
+### Inversa
 Se L un lenguaje sobre un alfabeto Σ su inverso será.
 ![[Pasted image 20240920173645.png]]
 Ejemplo:
