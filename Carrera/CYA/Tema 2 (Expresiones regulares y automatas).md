@@ -1,4 +1,5 @@
 [[20241011_CyA-Transparencias-T2.pdf|PDF]]
+[[20240916_CyA-Problemas-T2.pdf|PROBLEMAS]]
 ___
 No existe ningún método para especificar todos los lenguajes sobre un alfabeto.
 ## Lenguajes regulares
@@ -18,7 +19,7 @@ Estas expresiones regulares, aunque no sean iguales en forma pueden servir para 
 ![[Pasted image 20240926175647.png]]
 ![[Pasted image 20240926180103.png]]
 **ES ACONSEJABLE DEMOSTRARLAS**
-Existen otro operadores además de los ya nombrados.
+Existen otros operadores además de los ya nombrados.
 ![[Pasted image 20240928223455.png]]
 ![[Pasted image 20240928223524.png]]
 Algunos ejemplos son
@@ -44,7 +45,7 @@ Para representarlo se siguen los siguientes pasos:
 1. Se dibuja un nodo para cada estado
 2. Se dibujan los arcos pertinentes y después se marca con una flecha el estado de arranque y con doble trazo los estados finales
 
-Los estados finales son aquellos de los cuales no se puede salir sea cual sea la entrada y además no son estados de aceptación. Suelen ser omitidos
+Los estados de muerte son aquellos de los cuales no se puede salir sea cual sea la entrada y además no son estados de aceptación. Suelen ser omitidos
 
 La función se puede extender sobre las cadenas formadas por símbolos del alfabeto.
 ![[Pasted image 20240928230315.png]]
@@ -119,8 +120,8 @@ Tienen las siguientes características:
 Si tengo un autómata finito M existe una expresión regular R tal que: L(M) = L(R).
 Un lenguaje es regular si existe un autómata finito que lo acepta.
 
-Cualquier lenguaje finito es regular porque: se puede representar como la disyunción de REVISAR!!!
-
+*Cualquier lenguaje finito es regular porque: se puede representar como la disyunción de múltiples lenguajes de cardinalidad 1*
+**REVISAR**
 #### Lema del Bombeo
 ![[Pasted image 20241008182728.png]]
 

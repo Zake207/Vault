@@ -15,7 +15,7 @@
   "encore-settings@@encore-custom-h5@@dark": "#FF1E5F",
   "encore-settings@@encore-custom-h6@@light": "#FF003F",
   "encore-settings@@encore-custom-h6@@dark": "#FF003F",
-  "encore-settings@@encore-fancy-headers": true,
+  "encore-settings@@encore-fancy-headers": false,
   "encore-settings@@encore-coloured-tooltip": true,
   "encore-settings@@encore-mobile-oled-mode": true,
   "encore-settings@@encore-translucency-strength": 0.1,
