@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7662a93fee236ce6",
+        "id": "9997fcf675702a41",
         "type": "tabs",
         "children": [
           {
-            "id": "d8cf159791ee4c1e",
+            "id": "e4f4d9402ecb1b02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
+                "file": "Recursos/Clases.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Clases"
             }
           }
         ]
@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,14 +188,25 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d8cf159791ee4c1e",
+  "active": "e4f4d9402ecb1b02",
   "lastOpenFiles": [
     "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Recursos/Clases.md",
     "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
-    "Carrera/CYA/CYA.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
+    "Carrera/CYA/Anexos/Pasted image 20241226120557.png",
     "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
+    "Carrera/CYA/Anexos/Pasted image 20241226120542.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120524.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120505.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120332.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120315.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120245.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120226.png",
+    "Carrera/CYA/Anexos/Pasted image 20241226120206.png",
+    "Carrera/CYA/CYA.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Recursos/Clases.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
     "Proyectos/Documentación/C++.md",
     "Proyectos/Documentación/CSS.md",
     "Proyectos/Documentación/Planificación de Proyectos Software.md",
@@ -209,8 +219,6 @@
     "Recursos/Apremiante.md",
     "Recursos/gatete.md",
     "Carrera/CYA/20240916_CyA-Problemas-T2.pdf.crdownload",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
     "Carrera/Estadística/HOJA9.pdf",
     "Carrera/Estadística/HOJA8.pdf",
     "Carrera/Estadística/HOJA7.pdf",
@@ -226,15 +234,6 @@
     "Carrera/CYA/20240916_CyA-Problemas-T1.pdf",
     "Carrera/CYA/20240917_CyA-Transparencias-T1.pdf",
     "Carrera/CYA/20240916_CyA-Problemas-T1.pdf.crdownload",
-    "Carrera/Estadística/Tablas/Poisson_Normal.jpg",
-    "Carrera/Estadística/Tablas/F-Fisher010.jpg",
-    "Carrera/Estadística/Tablas/F-Fisher005.jpg",
-    "Carrera/Estadística/Tablas/F-Fisher001.jpg",
-    "Carrera/Estadística/Tablas/Poisson_Normal.gif",
-    "Carrera/Estadística/Tablas/Poisson_Normal.png",
-    "Carrera/Estadística/Tablas/FSnedecor1.jpg",
-    "Carrera/Estadística/Tablas/ChiCuadrado_tStudent.gif",
-    "Carrera/Estadística/Tablas/FSnedecor2.gif",
-    "Carrera/Estadística/Tablas/FSnedecor1.gif"
+    "Carrera/Estadística/Tablas/Poisson_Normal.jpg"
   ]
 }

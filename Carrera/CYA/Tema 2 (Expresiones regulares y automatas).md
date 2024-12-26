@@ -29,7 +29,7 @@ Los diagramas de transición están formados por nodos (estados) que apuntan a o
 
 Siempre se comienza por un estado inicial y se puede acabar en uno o varios estados de aceptación.
 ![[Pasted image 20240928224530.png]]
-#### Autómata finito
+### Autómata finito
 Para cada estado y simbolo de entrada se puede calcular el siguiente estado. Pueden ser determinista o No determinista.
 Consta de los siguientes elementos:
 + Un alfabeto de entrada Σ
@@ -69,6 +69,12 @@ A partir de ahi se itera con todos los símbolos del conjunto para cada partici�
 + Si hubiera un símbolo que provoque que los estados de una partición transiten a estados de otra partición se divide el conjunto.
 + Cuando no se pueda dividir de nuevo se tendrán todas las particiones de nodos diferentes, cada una contiene nodos de comportamiento equivalente. 
 + Basta con quedarnos con uno y redirigir las entradas de los eliminados a este.
+### Ejemplo
+![[Pasted image 20241226120505.png]]
+![[Pasted image 20241226120524.png]]
+![[Pasted image 20241226120542.png]]
+![[Pasted image 20241226120557.png]]
+
 ## NFA
 Es un autómata que para un estado se pueden hacer cero, una o mas de una transiciones con dicho símbolo.
 Estos contienen los siguientes elementos:

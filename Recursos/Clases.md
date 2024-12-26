@@ -7,5 +7,5 @@
 - [x] SIPC : Hacer comprimido de la 3 y mandarselo a Yoel.
 - [x] PLANIFICAR FECHAS DE EXAMENES.
 - [ ] CYA : Repasar tema 3.
-- [ ] CYA : Hacer ejercicios tema 2 (11 - 26).
+- [ ] CYA : Hacer ejercicios tema 2 (17 - 26).
 - [ ] CYA : Hacer ejercicios tema 3.
