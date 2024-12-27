@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e5c1147cd7814905",
+        "id": "1184f261132cd552",
         "type": "tabs",
         "children": [
           {
-            "id": "918f0fffc19f14f0",
+            "id": "e0902ef7232e816d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,27 +189,29 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "918f0fffc19f14f0",
+  "active": "e0902ef7232e816d",
   "lastOpenFiles": [
-    "Recursos/Clases.md",
-    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
-    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/CYA/CYA.md",
-    "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Recursos/Clases.md",
+    "Carrera/Estadística/Tema 7.md",
+    "Carrera/Estadística/HOJA5.pdf",
+    "Carrera/Estadística/Estadística.md",
+    "Recursos/Carrera.md",
+    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
+    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
+    "Carrera/CYA/CYA.md",
+    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
+    "Carrera/CYA/Tema 3 (Gramáticas).md",
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
     "Carrera/CYA/20240916_CyA-Problemas-T4.pdf.crdownload",
     "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
-    "Carrera/CYA/Tema 3 (Gramáticas).md",
     "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
     "Carrera/CYA/Automatas-HMU08.pdf",
     "Carrera/CYA/Propiedades de conjuntos.md",
     "Carrera/CYA/20241025_CyA-Transparencias-T3.pdf",
     "Carrera/CYA/GuillermoGonzalezCyA-Problemas-T3S6_241025_003206.pdf",
-    "Carrera/CYA/CyA_2024_2025_P5.pdf",
-    "Carrera/CYA/CyA_2024_2025_P5.pdf.crdownload",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
     "Carrera/CYA/Anexos/Pasted image 20241226120557.png",
     "Carrera/CYA/Anexos/Pasted image 20241226120542.png",
     "Carrera/CYA/Anexos/Pasted image 20241226120524.png",
@@ -233,8 +235,6 @@
     "Recursos/gatete.md",
     "Recursos/Alertas/2025-01-13 EXAMEN GPI.md",
     "Recursos/Alertas/2025-01-09 EXAMEN CYA.md",
-    "Recursos/Alertas/2025-01-17 EXAMEN IA.md",
-    "Recursos/Alertas/2025-01-18 EXAMEN EST.md",
     "Carrera/Estadística/Tablas/Poisson_Normal.jpg"
   ]
 }

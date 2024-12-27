@@ -21,7 +21,7 @@ Una máquina se queda parada si para una determinada situación no tiene una tra
 #### Conceptos
 Se define como computación a la secuencia de movimientos que conducen a la máquina desde su estado de arranque hasta una parada.
 
-Un lenguaje es aceptado por una MT es aquel que contiene cadenas que son producidas por esa MT.
+Un lenguaje es aceptado por una MT es aquel que contiene cadenas que son aceptadas por esa MT.
 
 Una función de cadena es computable si desde el estado inicial, con 0 o más transiciones puedo alcanzarla.
 
@@ -60,11 +60,11 @@ Se implementa de la siguiente manera:
 ![[Pasted image 20241108112049.png]]
 
 ## Lenguajes aceptatos por una MT
-#### Definición
+### Definición
 Un lenguaje es recursivamente enumerable si existe una MT que acepta todas sus cadenas.
 
 Es recursivo si la MT se para con toda cadena del lenguaje aceptando, si no es del lenguaje, para y rechaza. Los lenguajes recursivos son un subconjuntos de los recursivamente enumerables.
-#### MT a partir de un DFA
+### MT a partir de un DFA
 Se puede construir una MT M' ≡ (Q′, Σ′, Γ, ␢, q′ 0, F ′, δ′) de tal manera el lenguaje reconocido por dicha MT es el mismo que el que reconoce el DFA. Dicha maquina tiene la forma:
 + Q′ = Q ∪ {q′} (q′ /∈ Q) 
 + Σ′ = Σ 
@@ -74,29 +74,29 @@ Se puede construir una MT M' ≡ (Q′, Σ′, Γ, ␢, q′ 0, F ′, δ′) de
 + δ′(q, ␢) = (q′, ␢, S) ∀q ∈ F
 
 Actúa de la misma manera que el DFA, analizando la entrada de izquierda a derecha, la acepta si al llegar al final ve un blanco y se encuentra en un estado de aceptación.
-#### Lenguajes regulares e independientes del contexto
+### Lenguajes regulares e independientes del contexto
 Si $L\subseteq \Sigma^*$ es un lenguaje regular, entonces L es recursivo.
 De la misma forma ocurre con los lenguajes independientes del contexto.
-#### Lenguajes recursivos
-##### Intersección
+### Lenguajes recursivos
+#### Intersección
 **Los lenguajes recursivos son cerrados para la intersección**, puesto que dadas dos Máquina de Turing, $M_{1}$ y $M_{2}$ que reconocen $L_{1}$ y $L_{2}$ respectivamente y paran ante cualquier cadena, dada una cadena pararán en un estado de aceptación o no. 
 Por tanto se crea una Máquina de Turing con dos cintas, colocando en la primera la cadena y en la segunda se hará una copia de la misma.
 M emulará a la primera máquina, si rechaza la cadena esa cadena no pertenece a la intersección, si la acepta, pasará a comportarse como la segunda maquina en la segunda cinta, si la acepta pertenece a la intersección.
 M para ante cualquier cadena de entrada, por tanto es recursivo.
 ![[Pasted image 20241115162909.png]]
-##### Unión
+#### Unión
 **Los lenguajes recursivos son cerrados para la unión**, se puede demostrar de manera similar al anterior.
 ![[Pasted image 20241115164017.png]]
-##### Complementario
+#### Complementario
 **Los lenguajes recursivos son cerrados para la complementación**.
 Si L es recursivo existe una Máquina que acepta L y para ante cualquier entrada.
 Se puede construir una M' que pare en un estado de no aceptación cuando la cadena sea del lenguaje y pare en uno de aceptación cuando no lo es, para cualquier cadena, esta máquina nueva se para, por lo que el complementario de L es recursivo también.
 ![[Pasted image 20241115165436.png]]
-#### Lenguajes recursivamente enumerables
-##### Unión
+### Lenguajes recursivamente enumerables
+#### Unión
 **Los lenguajes recursivamente enumerables son cerrados para la unión**
 ![[Pasted image 20241115171615.png]]
-##### Complementación
+#### Complementación
 **Los lenguajes recursivamente enumerables no son cerrados para el complementario**.
 + Dado un alfabeto Σ
 + Σ* es numerable de la forma {w1, w2, w3, w4, ...}
@@ -112,26 +112,26 @@ Luego hay que desmostrar que su complementario no lo es.
 
 Pese a esto se puede afirmar que si **L y su complementario son recursivamente enumerables, L es recursivo**.
 ![[Pasted image 20241115171757.png]]
-##### Propiedades
+#### Propiedades
 Dado un lenguaje y su complementario se pueden deducir las siguientes posibilidades:
 + Los dos son recursivos
 + Ninguno es recursivamente enumerable
-+ Un es recursivamente enumerable pero no recursivo y el otro no es recursivamente enumerable.
-### Gramáticas no restringida
++ Uno es recursivamente enumerable pero no recursivo y el otro no es recursivamente enumerable.
+## Gramáticas no restringida
 Son gramáticas de la forma $\alpha \rightarrow \beta$ siendo los dos simbolos secuencias de símbolos terminales y no terminales.
 
 Esto implica que cualquier gramática regular o independiente del contexto es una no restringida.
-##### Teorema
+#### Teorema
 Si G es una gramática no restringida entonces el lenguaje generado por la gramática es recursivamente enumerable.
 
-##### Teorema
+#### Teorema
 Dado un lenguaje L $\subseteq \Sigma$* es recursivamente enumerable si y solo si es generado por una gramática no restringida.
 
-### Gramáticas sensibles al contexto
+## Gramáticas sensibles al contexto
 Son gramáticas de la forma $\alpha \rightarrow \beta$ donde |$\alpha$| $\leq$ |$\beta$| 
-##### Teorema
+#### Teorema
 Los lenguajes sensibles al contexto contienen a los independientes al contexto
-##### Teorema
+#### Teorema
 Si L es sensible al contexto entonces L es recursivo, pero no todo lenguaje recursivo es sensible al contexto.
 ![[Pasted image 20241115173601.png]]
 ## Resolubilidad
@@ -154,7 +154,7 @@ Dado un lenguaje recursivo, existe un algoritmo que determine si una cadena pert
 
 **El problema de la parada es un problema irresoluble**:
 Sea M una MT arbitraria con un alfabeto de entrada $\Sigma$, dada una cadena perteneciente al cierre de Kleene del alfabeto *¿Parará M ante cualquier w?*
-Una isntancia del problema es $Π_{HP}$ < M, w >
+Una instancia del problema es $Π_{HP}$ < M, w >
 La solución debe ser una MT que ante cualquier codificación de una instancia del problema responda SI o NO de forma correcta.
 + Dado un alfabeto, su cierre de Kleene es enumerable
 + También se sabe que las MT pueden ser descritas como binarios, por tanto también son enumerables
