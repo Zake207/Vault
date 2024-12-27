@@ -1,4 +1,5 @@
 [[20241025_CyA-Transparencias-T3.pdf|PDF]]
+[[20240916_CyA-Problemas-T3.pdf|PROBLEMAS]]
 ___
 ## Gramáticas regulares
 Una gramática regular es una tupla G = (Σ, N, S, P )
@@ -28,7 +29,7 @@ También se puede afirmar que existe un NFA M de la forma M ≡ (Q, Σ′, δ, q
 ## Gramática independiente del contexto
 Es una gramática con la siguiente forma G = (V, Σ, S, P )
 en donde:
-+ V es el conjunto de símbolos no terminales (V̸ = ∅)
++ V es el conjunto de símbolos no terminales (V $\neq$ ∅)
 + Σ es el conjunto de símbolos terminales o alfabeto de la gramática (V ∩ Σ = ∅)
 + S es un no terminal que se llama símbolo de arranque o axioma de la gramática (S ∈ V )
 + P es un conjunto de reglas de producción:
@@ -142,7 +143,7 @@ El lenguaje generado por una gramática es finito o infinito se debe hacer lo si
 
 ## Analisis sintático
 Permite determinar si una cadena es parte del lenguaje o no.
-#### Lema
+### Lema
 Dada una cadena del alfabeto $x$ para cualquier estado no terminal y cualquier subcadena de $x$ se puede determinar si $A \implies ^* \ \ w$
 Sea n la longitud de la cadena y $w_{ij}$ la subcadena que comienza en la posicion i y tiene longitud j.
 Hay que demostrar que el lema se cumple para cualquier $w_{ij}$
@@ -151,7 +152,7 @@ Hay que demostrar que el lema se cumple para cualquier $w_{ij}$
 Si se particulariza este lema para el estado inicial el lema indica que es posible determinar si $S \implies^*  w_{1n} = x$ 
 determinando que x pertenece al lenguaje.
 
-Con el algoritmo de Cocke Younger Kasami se puede derterminar la pertenencia de una cadena al lenguaje generado por una gramática en forma normal de Chomsky.
+Con el algoritmo de Cocke Younger Kasami se puede de7terminar la pertenencia de una cadena al lenguaje generado por una gramática en forma normal de Chomsky.
 ![[Pasted image 20241111170129.png]]
 
 ![[Pasted image 20241111171539.png]]
