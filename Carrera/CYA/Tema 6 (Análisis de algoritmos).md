@@ -8,7 +8,7 @@ El Análisis de algoritmos estima el consumo de recursos de un algoritmo.
 + Se tiene que establecer el dominio de definición, que son los casos que deben considerarse.
 ## Enfoques
 Hay dos enfoques para determinar la eficiencia:
-+ **Empírico** Donde se programan diferentes soluciones y se observan resultados $\rightarrow$ inviable
++ **Empírico** Donde se programan diferentes soluciones y se observan resultados $\rightarrow$ Inviable
 + **Teórico** Donde se determinan los recursos necesarios, programando solo el que menos requiera $\rightarrow$ Factible
 
 Este último no depende del ordenador usado, el lenguaje o el programador.
@@ -27,8 +27,7 @@ Existen ciertos órdenes que se dan con frecuencia:
 Hay que tener en cuenta que si la complejidad es 100n pese a que al ser lineal es mejor que la cuadrática, esto no se da hasta cierto punto:
 ![[Pasted image 20241119200544.png]]
 
-#### Ejemplo
-
+### Ejemplo
 Viendo el siguiente ejemplo:
 ![[Pasted image 20241119200634.png]]
 
@@ -73,8 +72,8 @@ Si *f(n) ∈ O(t·g(n)), t > 0*, entonces *f(n) ∈ O(g(n))*.
 Si f*1 (n) ∈ O(g1 (n)) y f2 (n) ∈ O(g2 (n))*, entonces:
 	*f1 (n) + f2 (n) ∈ O(max(g1 (n), g2 (n)))*
 #### Bucles
-Si *f1 (n) ∈ O(g1 (n)) y f2 (n) ∈ O(g2 (n))*, entonces.
-	*f1 (n) · f2 (n) ∈ O(g1 (n) · g2 (n))*
+Si *f1 (n) ∈ O(g1 (n)) y f2 (n) ∈ O(g2 (n))*, entonces:
+	*f1(n) · f2(n) ∈ O(g1(n) · g2(n))*
 ### Análisis
 Se realiza de dentro hacia fuera:
 1. Se determina el tiempo requerido por las instrucciones individuales.

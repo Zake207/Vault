@@ -4,12 +4,11 @@ ___
 Subdivide el problema inicial en partes pequeñas que aborda por separado, tras esto combina todas las soluciones para resolver el problema principal.
 *Ad hoc* es un subalgoritmo básico dado un problema arbitrario.
 ### Análisis
-#### Ejemplo
 ![[Pasted image 20241129111816.png]]
 
-Hay que ser cuidadoso a la hora de llamar un subalgoritmo en vez de usar recursividad.
+Hay que ser cuidadoso a la hora de llamar un sub-algoritmo en vez de usar recursividad.
 La descomposición y recomposición debe ser suficientemente eficiente.
-Los subproblemas deben ser aproximadamente del mismo tamaño, dividiendo el tamaño n del problema entre una constante d para obtener p subproblemas.
+Los subproblemas deben ser aproximadamente del mismo tamaño, dividiendo el tamaño n del problema entre una constante d para obtener p sub-problemas.
 Este enfoque permite un análisis casi automático del problema.
 
 Dado $f(n) = Θ(n^k)$ el tiempo de un algoritmo DyV para descomponer y recomponer problemas de tamaño n.

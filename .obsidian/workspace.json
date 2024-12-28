@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
+                "file": "Carrera/CYA/Tema 9 (Programación Dinámica).md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Tema 9 (Programación Dinámica)"
             }
           }
         ]
@@ -191,27 +191,31 @@
   },
   "active": "e0902ef7232e816d",
   "lastOpenFiles": [
+    "Carrera/CYA/CYA.md",
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
+    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
+    "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
+    "Carrera/CYA/CyA-ProblemasT2(13-20)-GuillermoGonzalez_241010_225226.pdf",
+    "Carrera/CYA/CyA-ProblemasT2(13-20)-GuillermoGonzalez_241010_225226.pdf.crdownload",
+    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
+    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
+    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
+    "Carrera/CYA/Tema 3 (Gramáticas).md",
+    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
+    "Carrera/CYA/CyA - Tema 6 - Análisis de Algoritmos .pdf",
+    "Recursos/Carrera.md",
     "Recursos/Home.md",
     "Recursos/Clases.md",
     "Carrera/Estadística/Tema 7.md",
     "Carrera/Estadística/HOJA5.pdf",
     "Carrera/Estadística/Estadística.md",
-    "Recursos/Carrera.md",
     "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
     "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
-    "Carrera/CYA/CYA.md",
     "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
     "Carrera/CYA/20240916_CyA-Problemas-T4.pdf.crdownload",
-    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
-    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
-    "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
-    "Carrera/CYA/Automatas-HMU08.pdf",
     "Carrera/CYA/Propiedades de conjuntos.md",
-    "Carrera/CYA/20241025_CyA-Transparencias-T3.pdf",
-    "Carrera/CYA/GuillermoGonzalezCyA-Problemas-T3S6_241025_003206.pdf",
     "Carrera/CYA/Anexos/Pasted image 20241226120557.png",
     "Carrera/CYA/Anexos/Pasted image 20241226120542.png",
     "Carrera/CYA/Anexos/Pasted image 20241226120524.png",
@@ -231,10 +235,6 @@
     "Recursos/Tareas.md",
     "Recursos/FreeTime.md",
     "Recursos/Banner.md",
-    "Recursos/Apremiante.md",
-    "Recursos/gatete.md",
-    "Recursos/Alertas/2025-01-13 EXAMEN GPI.md",
-    "Recursos/Alertas/2025-01-09 EXAMEN CYA.md",
     "Carrera/Estadística/Tablas/Poisson_Normal.jpg"
   ]
 }

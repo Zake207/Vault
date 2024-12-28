@@ -1,4 +1,4 @@
-[[CyA - Tema 9 - DP.pdf]]
+[[CyA - Tema 9 - DP.pdf|PDF]]
 ___
 ## Definición
 Cuando en programación dinámica se generan sub-problemas solapados, el hecho de resolverlos de una sola vez y evitar tener que calcular dos veces el mismo resultado los vuelve más eficientes.
@@ -25,9 +25,9 @@ En ciertos escenarios un algoritmo voraz no permite encontrar la solución ópti
 Suponemos un sistema monetario *M*, con *m* tipos de monedas, cada una con un valor *v*. Se debe devolver una cantidad *n* que sea el cambio con el menor número de monedas posible.
 
 Se prepara una tabla con una fila por cada valor de moneda y una columna por cada cantidad desde 0 hasta *n*.
-opera de la siguiente manera:
+Opera de la siguiente manera:
 + Se inicializa C\[i, 0] = 0
-+ Si se añaden una moneda el número de estas es 1 más el número de monedas necesario para cubrir el valor anterior menos el valor de la moneda añadida.**C\[i, j] = 1 + C\[i, j - vi] **
++ Si se añaden una moneda el número de estas es 1 más el número de monedas necesario para cubrir el valor anterior menos el valor de la moneda añadida.**C\[i, j] = 1 + C\[i, j - vi]**
 + Si no se añaden **C\[i, j] = C\[i - 1, j]**
 
 De esas dos decisiones se escoge el mínimo de las dos.
@@ -44,4 +44,3 @@ Pero de ahí, la cantidad n, especifíca el número de monedas a escoger, cuales
 ![[Pasted image 20241216130356.png]]
 
 La complejidad de este algoritmo es de $\Theta(m·n)$
-## Problema: El problema de la mochila.
