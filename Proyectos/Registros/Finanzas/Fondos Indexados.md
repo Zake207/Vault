@@ -1,0 +1,1 @@
+Para mantener/aumentar el poder adquisitivo se necesita comprar **activos reales**
