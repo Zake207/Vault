@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7b817a0adc11b52d",
+        "id": "827e6272ece4852e",
         "type": "tabs",
         "children": [
           {
-            "id": "a1fb5648d3662fa5",
+            "id": "a7956b3eb7f0b4d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,23 +181,31 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
       "templater-obsidian:Templater": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-full-calendar:Open Full Calendar": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "a1fb5648d3662fa5",
+  "active": "a7956b3eb7f0b4d8",
   "lastOpenFiles": [
     "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
     "Carrera/CYA/CYA.md",
     "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
     "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
-    "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Recursos/Carrera.md",
+    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
+    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
+    "Recursos/Ocio.md",
     "Recursos/Proyecto.md",
+    "Recursos/Clases.md",
+    "Recursos/Tareas.md",
+    "Recursos/Exámenes.md",
+    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
+    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
+    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
+    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
     "Proyectos/Registros/Finanzas/Fondos Indexados.md",
     "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230014013.png",
     "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230013901.png",
@@ -217,22 +225,14 @@
     "Carrera/Estadística/Tema 7.md",
     "Carrera/Estadística/HOJA5.pdf",
     "Recursos/Apremiante.md",
-    "Recursos/Tareas.md",
-    "Recursos/Clases.md",
     "Ocio/Pasatiempos/Juegos/No man's sky.md",
     "Ocio/Pasatiempos/Juegos/EXONAVES.md",
     "Ocio/Pasatiempos/Juegos/NANITES.md",
     "Ocio/Pasatiempos/Juegos/FRAGATAS.md",
     "Ocio/Pasatiempos/Juegos/CARGUERO.md",
     "Ocio/Pasatiempos/Juegos/DINERO.md",
-    "Ocio/Pasatiempos/Juegos/MODULOS DE MEJORA.md",
-    "Ocio/Pasatiempos/Juegos/Corto plazo.md",
-    "Ocio/Pasatiempos/Juegos/Objetivos.md",
-    "Proyectos/Documentación/Conceptos.md",
     "Proyectos/Registros/Finanzas/Anexos",
-    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
     "Proyectos/Registros/Finanzas",
-    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf.crdownload",
-    "Carrera/Estadística/HOJA9.pdf"
+    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf.crdownload"
   ]
 }

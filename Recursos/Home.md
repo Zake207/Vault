@@ -8,9 +8,9 @@ banner_y: 0.598
 ```contributionGraph
 title: Contributions
 graphType: default
-dateRangeValue: 12
+dateRangeValue: 7
 dateRangeType: LATEST_MONTH
-startOfWeek: 0
+startOfWeek: "1"
 showCellRuleIndicators: true
 titleStyle:
   textAlign: center
@@ -24,27 +24,28 @@ dataSource:
 fillTheScreen: true
 enableMainContainerShadow: false
 cellStyleRules:
-  - id: Ocean_a
-    color: "#8dd1e2"
+  - id: default_b
+    color: "#a76fd9ff"
     min: 1
     max: 2
-  - id: Ocean_b
-    color: "#63a1be"
+  - id: default_c
+    color: "#7c44adff"
     min: 2
-    max: 3
-  - id: Ocean_c
-    color: "#376d93"
-    min: 3
     max: 5
-  - id: Ocean_d
-    color: "#012f60"
+  - id: default_d
+    color: "#5a238aff"
     min: 5
-    max: 9999
+    max: 10
+  - id: default_e
+    color: "#3c0d65ff"
+    min: 10
+    max: 999
 mainContainerStyle:
   backgroundColor: "#6b059600"
 cellStyle:
-  minWidth: 9px
-  minHeight: 9px
+  minWidth: 15px
+  minHeight: 15px
+  borderRadius: 0%
 
 ```
 

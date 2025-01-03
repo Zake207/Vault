@@ -5,9 +5,8 @@ ________________________________________________________________________
 [[Minecraft]]
 [[Terraria]]
 [[Pokémon]]
+[[Call Of Duty: Zombies]]
 ________________________________________________________________________
 ### Lista de deseos.
-- [ ] Core Keeper
 - [ ] Ultrakill
 - [ ] Space Marines 2
-- [ ] Astroneer

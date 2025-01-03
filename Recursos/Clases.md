@@ -2,4 +2,7 @@
 
 [< Volver](Tareas)
 
-- [ ] PLANIFICAR FECHAS DE EXAMENES.
+- [ ] REPASAR CYA
+- [ ] REVISAR CODIGO IA
+- [ ] ESTUIAR GPI
+- [ ] ESTUDIAR EST

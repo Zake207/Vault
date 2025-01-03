@@ -4,4 +4,4 @@
 
 - [ ] Practicar postres
 - [ ] Limpiar PS4
-- [ ] Revisar Codexs
+- [x] Revisar Codexs

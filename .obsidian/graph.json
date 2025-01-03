@@ -39,20 +39,20 @@
       "query": "path:Recursos  ",
       "color": {
         "a": 1,
-        "rgb": 0
+        "rgb": 8061152
       }
     }
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 1.2,
-  "nodeSizeMultiplier": 1.171875,
-  "lineSizeMultiplier": 2.44791666666667,
+  "textFadeMultiplier": 0.2,
+  "nodeSizeMultiplier": 1.19739583333333,
+  "lineSizeMultiplier": 2.11614583333333,
   "collapse-forces": false,
   "centerStrength": 0.505208333333333,
   "repelStrength": 6.04166666666667,
   "linkStrength": 0.864583333333333,
   "linkDistance": 30,
-  "scale": 0.30519478990051363,
+  "scale": 0.4025207905525202,
   "close": false
 }
