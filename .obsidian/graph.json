@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:Ocio/Pasatiempos/Warhammer40000  ",
+      "color": {
+        "a": 1,
+        "rgb": 16771584
+      }
+    },
+    {
       "query": "path:Carrera",
       "color": {
         "a": 1,
@@ -19,13 +26,6 @@
       "color": {
         "a": 1,
         "rgb": 1179392
-      }
-    },
-    {
-      "query": "path:Ocio/Pasatiempos/Warhammer40000  ",
-      "color": {
-        "a": 1,
-        "rgb": 16540414
       }
     },
     {
@@ -49,10 +49,10 @@
   "nodeSizeMultiplier": 1.171875,
   "lineSizeMultiplier": 2.44791666666667,
   "collapse-forces": false,
-  "centerStrength": 0.5625,
-  "repelStrength": 8.85416666666667,
-  "linkStrength": 0.307291666666667,
+  "centerStrength": 0.505208333333333,
+  "repelStrength": 6.04166666666667,
+  "linkStrength": 0.864583333333333,
   "linkDistance": 30,
-  "scale": 0.27268602688356713,
+  "scale": 0.30519478990051363,
   "close": false
 }

@@ -51,6 +51,54 @@ De nuevo hay dos tipos de fondos gestionados:
 **PROBLEMAS** Suelen ser ofrecidas por los bancos los cuales cobran bastantes comisiones por diferentes motivos: mantenimiento, venta, compra, etc...
 
 ## Fondos indexados
+Menos comisiones y mayor rentabilidad a la larga, se indexa a un índice (SP500, IBEX, etc...).
+
+La cantidad de acciones de una empresa en estos fondos depende de su *Market Cap*, que es el precio de sus acciones multiplicado por la cantidad de estas. Cuanto mayor sea, mayor peso tendrá en el fondo.
+## ETF
+Existen de múltiples tipos.
+Menos diversificación = más riesgo.
+
+Para aumentar la diversificación se puede variar en el ámbito geográfico
+y sectorial, reduciendo la volatilidad.
+
+Hay que tener en cuenta los siguientes factores:
+![[Pasted image 20241230010847.png]]
+
+A largo plazo es más interesante escoger un ETF de acumulación, con un gran AUM y un buen coste.
+### Índices de renta variable
+![[Pasted image 20241230011037.png]]
+### Índices de renta fija
++ Prestas el dinero, recibes un documento a modo de pagaré y al cabo de un tiempo te devuelven el dinero inicial más unos intereses (Bonos, letras del tesoro, etc...).
++ Los índices de renta fija no tienen fecha de vencimiento, no garantizan la devolución del capital y su valor varía en base a varios factores.
+
+![[Pasted image 20241230012128.png]]
+
+### Otros índices
+![[Pasted image 20241230012235.png]]
+
+### Conclusiones
+A largo plazo lo más rentable es la renta variable, sin embargo, también acarrea mayor riesgo.
+![[Pasted image 20241230012531.png]]
+![[Pasted image 20241230012640.png]]
+
+## Obtención
+**Banco** mayor cantidad de comisiones
+**Broker regulado** como *Trade Republic*, comisiones bajas. **PREFERENTE**
+
+## Impuestos
+En España solo se cobran si se ha ganado dinero con la inversión, vendiéndola.
+![[Pasted image 20241230013606.png]]
+
+Si invirtiera en un ETF de distribución tendría que pagar impuestos en cada reparto de dividendos.
+
+Es recomendado contratar un gestor.
+
+Los tramos impositivos son:
+![[Pasted image 20241230013826.png]]
+![[Pasted image 20241230013901.png]]
+
+## Recomendaciones
+![[Pasted image 20241230014013.png]]
 
 ## Fuentes
 [Video de Adrián Sáens](https://www.youtube.com/watch?v=LfusDfTljo4)
