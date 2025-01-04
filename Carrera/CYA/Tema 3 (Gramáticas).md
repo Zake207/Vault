@@ -70,16 +70,13 @@ Una gramática es ambigua si existe alguna cadena para la cual hay más de un AA
 ## Simplificación de gramáticas
 Un símbolo X ∈ (Σ ∪ V) si existe una derivación que resulte un una cadena.
 ![[Pasted image 20241018182555.png]]
-
 ### Símbolos inútiles
 Para eliminar símbolos y producciones inútiles se siguen dos etapas.
 + Etapa 1: Eliminar no terminales que no deriven en una cadena de Σ* y las producciones en las que aparezca.
 ![[Pasted image 20241018183535.png]]
 + Etapa 2: Eliminar no terminales los cuales sean inaccesibles.
 ![[Pasted image 20241018184118.png]]
-
 ![[Pasted image 20241018184617.png]]
-
 ### Producciones vacías
 Una producción es vacía si es de la forma A → ε.
 Para eliminarlas se sigue el siguiente algoritmo, eliminando todas las producciones vacías y teniendo en cuenta que si el estado inicial produce la cadena vacía es que esta puede ser generada por la gramática y por tanto es parte del lenguaje.
@@ -129,19 +126,18 @@ Si la longitud de la cadena es mayor a $2^m$ entonces el camino más largo desde
 ## Lema del bombeo
 
 Sea L un lenguaje independiente del contexto el cual es generado por una gramática y no contiene la cadena vacía existe un entero $k \in N$ para el cual, teniendo una cadena del lenguaje $z$ cuya longitud es mayor que k tenemos lo siguiente:
-![[Pasted image 20241111150029.png]]
 ![[Pasted image 20241111150408.png]]
-
+![[Pasted image 20250104162756.png]]
 ![[Pasted image 20241111150427.png]]
 
 ## Lenguaje vacío
 Hay un algoritmo para determinar si un lenguaje independiente del contexto es vacío. Si en la primera parte del proceso de eliminación de símbolos inútiles se elimina $S$ este lenguaje será vacío.
 
 ## Lenguaje finito o infinito
-El lenguaje generado por una gramática es finito o infinito se debe hacer lo siguiente, se escribe esta en forma normal de Chomsky. Se debe construir un grafo dirigido para todos los símbolos no terminales, cada producción que produzca un no terminal es un arco, si no hay ciclos se dice que el lenguaje es finito.
+El lenguaje generado por una gramática es finito o infinito se debe hacer lo siguiente, **se escribe esta en forma normal de Chomsky**. Se debe construir un grafo dirigido para todos los símbolos no terminales, cada producción que produzca un no terminal es un arco, si no hay ciclos se dice que el lenguaje es finito.
 ![[Pasted image 20241111152425.png]]
 
-## Analisis sintático
+## Análisis sintáctico
 Permite determinar si una cadena es parte del lenguaje o no.
 ### Lema
 Dada una cadena del alfabeto $x$ para cualquier estado no terminal y cualquier subcadena de $x$ se puede determinar si $A \implies ^* \ \ w$

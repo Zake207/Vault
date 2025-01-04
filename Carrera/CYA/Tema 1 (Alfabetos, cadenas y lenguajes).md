@@ -6,16 +6,16 @@ ___
 Un conjunto no vacío y finito de símbolos, se representan como **Σ**
 Si **σ** esta en Σ es entonces un símbolo del alfabeto
 ![[Pasted image 20240918091854.png]]
-### Una cadena
+### Cadenas
 Es una secuencia finita de símbolos del alfabeto. Estas cadenas carecen de significado (123 no es ciento veintitrés, es uno dos tres).
 Cada símbolo de un alfabeto es una cadena sobre dicho alfabeto.
 ![[Pasted image 20240918091925.png]]
 
 La longitud se denota por |ω|
-+ Dos cadenas de diferente longitud siempre serán diferentes
-+ Dos cadenas de igual longitud pero diferente orden en sus elementos siempre serán diferentes
++ Dos cadenas de diferente longitud siempre serán diferentes,
++ Dos cadenas de igual longitud pero diferente orden en sus elementos siempre serán diferentes.
 + Existe una cadena vacía la cual se representa como **ε**, |**ε**| = 0. Dicha cadena es una cadena sobre cualquier alfabeto.
-### Lenguaje
+### Lenguajes
 Un lenguaje formal es un conjunto de cadenas sobre un lenguaje.
 ![[Pasted image 20240918092533.png]]
 + Todo alfabeto es un lenguaje con cadenas de un único símbolo
@@ -36,7 +36,6 @@ w = abra
 z = cadabra
 wz = abracadabra
 **ε** es la identidad de la concatenación **ε**\*w = w\***ε** = w
-
 ### Repeticiones
 Consiste en concatenar una cadena consigo misma n veces
 ![[Pasted image 20240918102556.png]]
@@ -89,7 +88,7 @@ Ejemplo:
 + La enésima potencia del lenguaje vacío para cualquier n mayor que 1 es igual al lenguaje vacío.
 ![[Pasted image 20240920164824.png]]
 ### Unión e Intersección.
-Sean L$_1$ ⊆ Σ* , L$_2$ ⊆ Σ*
+Sean L$_1$ ⊆ Σ* , L$_2$ ⊆ Σ*.
 ![[Pasted image 20240920165408.png]]
 La Unión cumple la propiedad distributiva de la siguiente manera.
 ![[Pasted image 20240920165514.png]]
@@ -108,7 +107,7 @@ Se L un lenguaje sobre un alfabeto Σ su complementario será.
 Un ejemplo de esto.
 ![[Pasted image 20240920173523.png]]
 ### Inversa
-Se L un lenguaje sobre un alfabeto Σ su inverso será.
+Sea L un lenguaje sobre un alfabeto Σ su inverso será.
 ![[Pasted image 20240920173645.png]]
 Ejemplo:
 ![[Pasted image 20240920173832.png]]

@@ -5,6 +5,8 @@ No existe ningún método para especificar todos los lenguajes sobre un alfabeto
 ## Lenguajes regulares
 El conjunto de leguajes regulares se define como:
 ![[Pasted image 20240926174843.png]]
+
+Todo lenguaje finito es regular.
 ## Expresiones regulares
 Son mecanismos formales que permiten especificar lenguajes regulares.
 ![[Pasted image 20240926175039.png]]
@@ -30,7 +32,7 @@ Los diagramas de transición están formados por nodos (estados) que apuntan a o
 Siempre se comienza por un estado inicial y se puede acabar en uno o varios estados de aceptación.
 ![[Pasted image 20240928224530.png]]
 ### Autómata finito
-Para cada estado y simbolo de entrada se puede calcular el siguiente estado. Pueden ser determinista o No determinista.
+Para cada estado y símbolo de entrada se puede calcular el siguiente estado. Pueden ser determinista o No determinista.
 Consta de los siguientes elementos:
 + Un alfabeto de entrada Σ
 + Una colección finita de estados Q
@@ -87,9 +89,9 @@ Las tablas de transición son ahora de la siguiente forma.
 ![[Pasted image 20241006203823.png]]
 La función de transición funciona ahora con conjuntos de estados.
 ![[Pasted image 20241006203955.png]]
-#### ε − transicion
+### ε − transición
 Es una transición que no consume símbolos de la entrada.
-Por tanto se puede decir que un estado (q0) con una ε − transicion a otro estado (q1) implica que al estar en q0 también se está en q1, si de este hubiera una ε − transicion a q2, estando en q0 se estaría tambien en q1 y q2
+Por tanto se puede decir que un estado (q0) con una ε − transición a otro estado (q1) implica que al estar en q0 también se está en q1, si de este hubiera una ε − transición a q2, estando en q0 se estaría también en q1 y q2.
 
 Para obtener todos los estados accesibles desde un estado sin consumir símbolo de la entrada se hace la ε − clausura.
 ![[Pasted image 20241006205308.png]]
@@ -106,7 +108,7 @@ Un DFA es un caso particular de NFA, dado un NFA es posible definir un DFA.
 Se utiliza el siguiente algoritmo para pasar de un NFA M ≡ (Q, Σ, δ, q0, F) a un DFA M′ ≡ (Q′, Σ, δ′, q′0, F′).
 ![[Pasted image 20241006210004.png]]
 
-#### Ejemplo
+### Ejemplo
 ![[Pasted image 20241006210103.png]]
 ![[Pasted image 20241006210131.png]]![[Pasted image 20241006210148.png]]
 ![[Pasted image 20241006210207.png]]
@@ -121,14 +123,17 @@ Tienen las siguientes características:
 + Tiene a lo sumo el doble de estados que de símbolos que en R
 + Tiene un único estado de aceptación el cual no tiene transiciones salientes
 + Cada estado tiene a lo sumo dos transiciones salientes.
+![[Pasted image 20250104202333.png]]
+![[Pasted image 20250104202403.png]]
+![[Pasted image 20250104202423.png]]
+![[Pasted image 20250104202443.png]]
 
-#### Teorema de Kleene
+### Teorema de Kleene
 Si tengo un autómata finito M existe una expresión regular R tal que: L(M) = L(R).
 Un lenguaje es regular si existe un autómata finito que lo acepta.
 
 *Cualquier lenguaje finito es regular porque: se puede representar como la disyunción de múltiples lenguajes de cardinalidad 1*
-**REVISAR**
-#### Lema del Bombeo
+### Lema del Bombeo
 ![[Pasted image 20241008182728.png]]
 
 Para demostrarlo:
