@@ -19,7 +19,8 @@ titleStyle:
 dataSource:
   type: PAGE
   value: ""
-  dateField: {}
+  dateField:
+    type: FILE_CTIME
   filters: []
 fillTheScreen: true
 enableMainContainerShadow: false
