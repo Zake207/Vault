@@ -28,12 +28,16 @@ Los procesos son adaptables y su rigor dependerá de cada proyecto. Cada proyect
 ### Grupos de Procesos de Dirección de Proyectos.
 ◼ Grupo del Proceso de Iniciación: 
 + Procesos para definir un nuevo proyecto o una nueva fase.  
+
 ◼ Grupo del Proceso de Planificación:
 + Procesos requeridos para establecer el alcance del proyecto, refinar los objetivos y definir los pasos para realizar el proyecto. 
+
 ◼ Grupo del Proceso de Ejecución:
 + Procesos realizados para completar el trabajo definido en el plan. 
+
 ◼ Grupo del Proceso de Seguimiento y Control:
 + Procesos para monitorear, analizar y regular el progreso del proyecto 
+
 ◼ Grupo del Proceso de Cierre: 
 + Procesos realizados para finalizar todas las actividades del proyecto.
 

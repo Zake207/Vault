@@ -1,11 +1,11 @@
 [[GPI Tema 1.pdf|PDF]]
 ___
 Un proyecto es un esfuerzo temporal que se lleva a cabo para realizar un producto o servicio. Implica un desarrollo progresivo en un intervalo de tiempo.
-+ Tienen un comienzo y un final, el cual será exitoso si cumple los objetivos.
++ Tienen un comienzo y un final, el cual **será exitoso si cumple los objetivos**.
 + Requiere usualmente tareas diarias realizadas por un equipo que se disuelve al finalizar el proyecto.
-+ El producto o servicio no se ha realizado hasta el momento
++ El producto o servicio no se ha realizado hasta el momento.
 
-La insertidumbre son una serie de preguntas sobre la estimación en tiempo y costes de un proyecto así como del ámbito.
+La incertidumbre son una serie de preguntas sobre la estimación en tiempo y costes de un proyecto así como del ámbito.
 
 La dirección de proyectos planifica, dirige y controla el desarrollo de un proyecto con un coste mínimo en un tiempo específico. Aplica conocimientos, habilidades y herramientas para las siguientes tareas:
 1. Identificar requisitos.
