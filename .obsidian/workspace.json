@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cf3571161f8f3ac8",
+        "id": "162a1811906f8314",
         "type": "tabs",
         "children": [
           {
-            "id": "8e494de0e4bd6727",
+            "id": "746d25df50c73acf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/CYA/Tema 8 (Divide y vencerás).md",
+                "file": "Recursos/Home.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tema 8 (Divide y vencerás)"
+              "title": "Home"
             }
           }
         ]
@@ -187,31 +187,34 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8e494de0e4bd6727",
+  "active": "746d25df50c73acf",
   "lastOpenFiles": [
-    "Carrera/CYA/CYA.md",
-    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
     "Recursos/Home.md",
+    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
+    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
+    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
+    "Carrera/CYA/CYA.md",
+    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
+    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
     "Recursos/Carrera.md",
+    "Carrera/CYA/Tema 3 (Gramáticas).md",
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
+    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
+    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
+    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
+    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
     "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md",
     "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
     "Recursos/Ocio.md",
     "Ocio/Social/Fechas importantes.md",
-    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
-    "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
     "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
     "Carrera/CYA/Anexos/Pasted image 20250104202443.png",
     "Carrera/CYA/Anexos/Pasted image 20250104202423.png",
     "Carrera/CYA/Anexos/Pasted image 20250104202403.png",
     "Carrera/CYA/Anexos/Pasted image 20250104202333.png",
     "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
-    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
-    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
     "Carrera/CYA/20241025_CyA-Transparencias-T3.pdf",
     "Carrera/CYA/Anexos/Pasted image 20250104162756.png",
-    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
     "Ocio/Pasatiempos/Juegos/Videojuegos.md",
     "Recursos/Proyecto.md",
     "Recursos/Clases.md",
@@ -228,11 +231,7 @@
     "Carrera/Estadística/Tema 8.md",
     "Carrera/Estadística/HOJA6.pdf",
     "Carrera/Estadística/Estadística.md",
-    "Carrera/Estadística/Tema 7.md",
     "Carrera/Estadística/HOJA5.pdf",
-    "Recursos/Apremiante.md",
-    "Ocio/Pasatiempos/Juegos/No man's sky.md",
-    "Ocio/Pasatiempos/Juegos/EXONAVES.md",
     "Proyectos/Registros/Finanzas/Anexos",
     "Proyectos/Registros/Finanzas"
   ]

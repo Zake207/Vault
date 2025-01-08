@@ -61,7 +61,9 @@ Se implementa de la siguiente manera:
 ### Definición
 Un lenguaje es recursivamente enumerable si existe una MT que acepta todas sus cadenas.
 
-Es recursivo si la MT se para con toda cadena del lenguaje aceptando, si no es del lenguaje, para y rechaza. Los lenguajes recursivos son un subconjunto de los recursivamente enumerables.
+Es recursivo si la MT se para con toda cadena del lenguaje aceptando, si no es del lenguaje, para y rechaza. 
+
+Los lenguajes recursivos son un subconjunto de los recursivamente enumerables.
 ### MT a partir de un DFA
 Se puede construir una MT M' ≡ (Q′, Σ′, Γ, ␢, q′ 0, F ′, δ′) de tal manera el lenguaje reconocido por dicha MT es el mismo que el que reconoce el DFA. Dicha maquina tiene la forma:
 + Q′ = Q ∪ {q′} (q′ /∈ Q) 

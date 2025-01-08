@@ -133,7 +133,7 @@ Si tengo un autómata finito M existe una expresión regular R tal que: L(M) = L
 Un lenguaje es regular si existe un autómata finito que lo acepta.
 
 *Cualquier lenguaje finito es regular porque: se puede representar como la disyunción de múltiples lenguajes de cardinalidad 1*
-### Lema del Bombeo
+## Lema del Bombeo
 ![[Pasted image 20241008182728.png]]
 
 Para demostrarlo:
