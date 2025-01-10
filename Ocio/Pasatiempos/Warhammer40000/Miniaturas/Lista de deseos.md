@@ -21,9 +21,15 @@ apostol oscuro
 principes demonios: alado, no alado
 chosen
 kill team legionarios
++ hombraras
++ cascos
 hechicero marines espaciales del chaos
 señor del caos
 cultistas
+exterminadores catapraxi
+legion praetor tartaros 
+arguel tal
+
 ## Hijos del emperador
 Fulgrim (2024)
 ## Guardia de la muerte

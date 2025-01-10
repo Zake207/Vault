@@ -1,41 +1,25 @@
 {
   "main": {
-    "id": "8691bf3464146de5",
+    "id": "411a12d074c51b0f",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "162a1811906f8314",
+        "id": "3239301dea61f187",
         "type": "tabs",
         "children": [
           {
-            "id": "746d25df50c73acf",
-=======
-        "id": "f3b85dbc10888e8f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f6d69860137a6b58",
->>>>>>> f3a36d052dbe6461d5ede83906ac5ef9d75f4306
+            "id": "ab276b907abf368d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Recursos/Home.md",
-=======
-                "file": "Carrera/CYA/CYA.md",
->>>>>>> f3a36d052dbe6461d5ede83906ac5ef9d75f4306
+                "file": "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Home"
-=======
-              "title": "CYA"
->>>>>>> f3a36d052dbe6461d5ede83906ac5ef9d75f4306
+              "title": "Tema 4 (Máquinas de Turing)"
             }
           }
         ]
@@ -44,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "67e83b05798d5e07",
+    "id": "c04ccafca9d0aedf",
     "type": "split",
     "children": [
       {
-        "id": "b69a186b71b4f5b7",
+        "id": "850602e1982c26a5",
         "type": "tabs",
         "children": [
           {
-            "id": "35ed1975ee9cbdff",
+            "id": "3dd9f66cd7a31dc3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -64,7 +48,7 @@
             }
           },
           {
-            "id": "4423da6b377a2f25",
+            "id": "7b646be11d03ccf9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -81,7 +65,7 @@
             }
           },
           {
-            "id": "83f621ddf23bc932",
+            "id": "7d76a57ad725e082",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,23 +78,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "be25640371f52f3d",
+    "id": "15e5ba0c9b5ef5a6",
     "type": "split",
     "children": [
       {
-        "id": "9bc7aa3b849b5a37",
+        "id": "54ce066c6f15f3be",
         "type": "tabs",
         "children": [
           {
-            "id": "e1dcd52b4824418c",
+            "id": "4cd05f07c3b7286d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Home"
+              "title": "Enlaces entrantes de Lista de deseos"
             }
           },
           {
-            "id": "b2b11181760c1141",
+            "id": "99aededc079808af",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Home"
+              "title": "Enlaces salientes de Lista de deseos"
             }
           },
           {
-            "id": "d81c58c6d625663e",
+            "id": "52cdc9190e0d3529",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -152,19 +137,19 @@
             }
           },
           {
-            "id": "97f369860cdf2517",
+            "id": "e7d07a9f6d3f02bd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md"
               },
               "icon": "lucide-list",
-              "title": "Esquema de Home"
+              "title": "Esquema de Lista de deseos"
             }
           },
           {
-            "id": "8f4464bba8f5b246",
+            "id": "6cc4413174ea24f5",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -174,7 +159,7 @@
             }
           },
           {
-            "id": "dfa44b12aa2bdfa9",
+            "id": "9be9f039bddf0149",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -188,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,73 +183,26 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "templater-obsidian:Templater": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-<<<<<<< HEAD
-  "active": "746d25df50c73acf",
+  "active": "ab276b907abf368d",
   "lastOpenFiles": [
-    "Recursos/Home.md",
-    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
-    "Carrera/CYA/20241112_CyA-Transparencias-T4.pdf",
-    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
     "Carrera/CYA/CYA.md",
-    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
-    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
-    "Recursos/Carrera.md",
     "Carrera/CYA/Tema 3 (Gramáticas).md",
     "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
-    "Carrera/CYA/20240916_CyA-Problemas-T4.pdf",
-    "Carrera/CYA/20240916_CyA-Problemas-T2.pdf",
-    "Carrera/CYA/20240916_CyA-Problemas-T3.pdf",
-=======
-  "active": "f6d69860137a6b58",
-  "lastOpenFiles": [
-    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
-    "Carrera/CYA/CYA.md",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
+    "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
+    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
+    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
     "Carrera/CYA/Tema 6 (Análisis de algoritmos).md",
->>>>>>> f3a36d052dbe6461d5ede83906ac5ef9d75f4306
     "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md",
     "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Recursos/Ocio.md",
-    "Ocio/Social/Fechas importantes.md",
-    "Carrera/CYA/20241011_CyA-Transparencias-T2.pdf",
-    "Carrera/CYA/Anexos/Pasted image 20250104202443.png",
-    "Carrera/CYA/Anexos/Pasted image 20250104202423.png",
-    "Carrera/CYA/Anexos/Pasted image 20250104202403.png",
-    "Carrera/CYA/Anexos/Pasted image 20250104202333.png",
-    "Carrera/CYA/Tema 1 (Alfabetos, cadenas y lenguajes).md",
-    "Carrera/CYA/20241025_CyA-Transparencias-T3.pdf",
-    "Carrera/CYA/Anexos/Pasted image 20250104162756.png",
-    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
-    "Recursos/Proyecto.md",
-    "Recursos/Clases.md",
-    "Recursos/Tareas.md",
-    "Recursos/Exámenes.md",
-    "Proyectos/Registros/Finanzas/Fondos Indexados.md",
-    "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230014013.png",
-    "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230013901.png",
-    "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230013826.png",
-    "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230013606.png",
-    "Proyectos/Registros/Finanzas/Anexos/Pasted image 20241230012640.png",
-    "Proyectos/Registros/Finanzas/Finanzas.md",
-    "Recursos/Projectos.md",
-    "Carrera/Estadística/Tema 8.md",
-    "Carrera/Estadística/HOJA6.pdf",
-    "Carrera/Estadística/Estadística.md",
-    "Carrera/Estadística/HOJA5.pdf",
-<<<<<<< HEAD
-=======
-    "Recursos/Apremiante.md",
-    "Ocio/Pasatiempos/Juegos/No man's sky.md",
->>>>>>> f3a36d052dbe6461d5ede83906ac5ef9d75f4306
-    "Proyectos/Registros/Finanzas/Anexos",
-    "Proyectos/Registros/Finanzas"
+    "Recursos/Ocio.md"
   ]
 }
