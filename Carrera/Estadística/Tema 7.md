@@ -83,11 +83,11 @@ Dada una serie de pruebas de Bernouilli independientes y con la misma probabilid
 Función de probabilidad:
 ![[Pasted image 20241129175543.png]]
 
-**Ejemplo** *La probabilidad de recibir de forma errónea un bit enviado por un canal de transmisión digital es 0.1. Supuesto que las transmisiones son independientes. 
+**Ejemplo** *La probabilidad de recibir de forma errónea un bit enviado por un canal de transmisión digital es 0.1. Supuesto que las transmisiones son independientes.*
 
-*Sea X = nº de bits transmitidos hasta que se presenta el primero error.
+*Sea X = nº de bits transmitidos hasta que se presenta el primero error.*
 
-*¿Cuál es la probabilidad de se transmitan 4 bits de forma correcta? 
+*¿Cuál es la probabilidad de se transmitan 4 bits de forma correcta?*
 
 *Solución: P(X=5) = 0.94 x 0.1= 0.066*
 
