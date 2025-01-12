@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94e1825d1138d0c7",
+        "id": "e3527efbc0894f03",
         "type": "tabs",
         "children": [
           {
-            "id": "d6e674ec4364beb1",
+            "id": "1d4d0eb484a0e537",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,7 +189,7 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "d6e674ec4364beb1",
+  "active": "1d4d0eb484a0e537",
   "lastOpenFiles": [
     "Carrera/Estadística/HOJA6.pdf",
     "Carrera/Estadística/Tema 8.md",
