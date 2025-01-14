@@ -28,7 +28,7 @@ Las entradas de la ACP son:
 + **Enunciado del Trabajo del Proyecto (ETP)**: Descripción de los entregables del proyecto, está es ofrecida o proporcionada por el cliente.
 + **Caso de negocio**: Información respectiva a la perspectiva comercial que determina si la inversión es adecuada, con un estudio coste-beneficio.
 + **Contrato**: Acuerdo entre ambas partes.
-+ **Factores ambientales de la empresa**: Normas y leyes, además de lña estructura de la organización.
++ **Factores ambientales de la empresa**: Normas y leyes, además de la estructura de la organización.
 + **Activos de los procesos de Organización**: Procesos de la organización, plantillas y otros documentos.
 
 Las herramientas utilizadas son:
@@ -38,7 +38,7 @@ Las herramientas utilizadas son:
 Las salidas son:
 + Resúmenes del cronograma, presupuesto, requisitos.
 + Objetivos
-+ Proposito y justificación
++ Propósito y justificación
 + Asignación del director.
 
 ### 2. Desarrollar el PDP
@@ -59,14 +59,14 @@ El PDP puede presentarse de manera resumida o detallada. Una vez establecido sol
 Las líneas del cronograma abarcan la del cronograma, el desempeño de costos y alcance.
 
 Los planes subsidiarios abarcan el alcance, requisitos, costos, calidad, cronograma, recursos y riesgos, además de otros.
-### 3.Dirigir y gestionar el Trabajo
+### 3. Dirigir y gestionar el Trabajo
 Ejecución del trabajo definido por el PDP. El cual se compone de actividades necesarias para cumplir los requisitos y crear los entregables del proyecto, reuniendo y coordinando a los miembros del equipo, gestionando los recursos y los planes de comunicación.
 Otros planes adicionales pueden ser adaptar los cambios, generar los datos del proyecto y gestionar los riesgos.
 
 El director dirige el desempeño de las actividades planificadas. Los entregables se producen como salidas de los procesos ejecutados. A lo largo de todo el proceso se recopila información del estado de los entregables.
 
 La implementación de los cambios aprobados:
-+ Acción correctiva (Sobre la planificación)
++ Acción correctiva (Sobre la Planificación)
 + Acción preventiva (Sobre la Planificación)
 + Reparación de defectos (Sobre el producto)
 

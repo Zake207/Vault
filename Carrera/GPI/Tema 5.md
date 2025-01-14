@@ -25,7 +25,8 @@ Los interesados deben participar activamente en la definición, los requisitos i
 **Clasificación**
 + Soluciones de negocio
 + Soluciones técnicas
-**Categorias específicas**
+
+**Categorías específicas**
 + Requisitos del negocio (necesidades de alto nivel)
 + Requisitos de los interesados (necesidades de los que se relacionan con el sistema)
 + Requisitos de las soluciones (Funcionales y no funcionales)

@@ -1,7 +1,7 @@
 [[GPI Tema 6.pdf|PDF]]
 ___
 # Gestión de Tiempo
-tiene como objetivo administrar la finalización del proyecto a tiempo. Cuando se trata de proyectos menores, todos lo procesos relacionados se tratan como un único proceso.
+Tiene como objetivo administrar la finalización del proyecto a tiempo. Cuando se trata de proyectos menores, todos lo procesos relacionados se tratan como un único proceso.
 
 El modelo de programación representa el plan a ejecutar las actividades, estimación de recursos y duración.
 
