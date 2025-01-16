@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "45071e197025f633",
+        "id": "cc75bfa40ab00ed1",
         "type": "tabs",
         "children": [
           {
-            "id": "c26fdd0205d49564",
+            "id": "ca9b70efc9d815c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,16 +189,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c26fdd0205d49564",
+  "active": "ca9b70efc9d815c4",
   "lastOpenFiles": [
+    "Carrera/Estadística/Pregunta 2 Est_T.pdf",
+    "Carrera/Estadística/Estadística.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/Estadística/Pregunta 3 Est_T.pdf",
+    "Carrera/Estadística/Tema 6.md",
+    "Carrera/Estadística/Tema 9.md",
+    "Carrera/Estadística/Tema 5.md",
+    "Carrera/Estadística/Tema 3.md",
+    "Carrera/Estadística/Tema 2.md",
+    "Carrera/Estadística/Pregunta 1 Est_T.pdf",
+    "Carrera/Estadística/Pregunta 1 Est_T.pdf.crdownload",
+    "Carrera/2º cuatrimestre.pdf",
+    "Carrera/2º cuatrimestre.pdf.crdownload",
     "Carrera/Estadística/HOJA6.pdf",
     "Carrera/Estadística/Tema 7.md",
-    "Carrera/Estadística/Estadística.md",
     "Carrera/Estadística/Tema 8.md",
     "Carrera/Estadística/Tema 12.md",
     "Carrera/Estadística/HOJA9.pdf",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
     "Carrera/Estadística/Tema 11.md",
     "Carrera/Estadística/HOJA8.pdf",
     "Carrera/GPI/Tema 4.md",
@@ -211,16 +222,9 @@
     "Carrera/GPI/Tema 1.md",
     "Carrera/GPI/Tema 6.md",
     "Carrera/GPI/Tema 2.md",
-    "Carrera/GPI/GPI Tema 5.pdf",
-    "Carrera/Estadística/Tema 9.md",
-    "Carrera/Estadística/HOJA5.pdf",
     "Carrera/CYA/Tema 4 (Máquinas de Turing).md",
     "Carrera/CYA/CYA.md",
     "Carrera/CYA/Tema 3 (Gramáticas).md",
-    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md",
-    "Carrera/CYA/Tema 9 (Programación Dinámica).md",
-    "Carrera/CYA/Tema 8 (Divide y vencerás).md",
-    "Carrera/CYA/Tema 7 (Algoritmos Voraces).md",
-    "Carrera/CYA/Tema 6 (Análisis de algoritmos).md"
+    "Carrera/CYA/Tema 2 (Expresiones regulares y automatas).md"
   ]
 }

@@ -21,6 +21,9 @@ ___
 [[Distribuciones.pdf]]
 [[IntervalosyContrastes.pdf]]
 
+[[Pregunta 1 Est_T.pdf]]
+[[Pregunta 2 Est_T.pdf]]
+[[Pregunta 3 Est_T.pdf]]
 ### Prácticas:
 ___
 ### Evaluación:
