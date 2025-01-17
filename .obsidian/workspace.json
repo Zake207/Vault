@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cc75bfa40ab00ed1",
+        "id": "5931548dd440179b",
         "type": "tabs",
         "children": [
           {
-            "id": "ca9b70efc9d815c4",
+            "id": "06037fc9e3c95ec2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,7 +189,7 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ca9b70efc9d815c4",
+  "active": "06037fc9e3c95ec2",
   "lastOpenFiles": [
     "Carrera/Estadística/Pregunta 2 Est_T.pdf",
     "Carrera/Estadística/Estadística.md",
