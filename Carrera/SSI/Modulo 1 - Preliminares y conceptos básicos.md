@@ -42,5 +42,4 @@ Cifrado de Vignere generaliza el cifrado por desplazamiento. Usando una tabla y 
 
 ## Aritmética modular
 Usa un conjunto finito de enteros para realizar calculos complejos y permite calcular la inversa de varias operaciones.
-
 # Tema 2
