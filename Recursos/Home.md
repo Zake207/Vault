@@ -1,10 +1,8 @@
 ---
 banner: "![[Pasted image 20241006174625.png]]"
-banner_y: 0.71
----
 ---
 
-
+---
 ```contributionGraph
 title: Contributions
 graphType: default

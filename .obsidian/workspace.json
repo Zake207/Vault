@@ -4,17 +4,29 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "c7cd86a0d8f3ea03",
         "type": "tabs",
         "children": [
           {
             "id": "d008bdea62181ec8",
+=======
+        "id": "036f42a6349c35dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4531dd3985f1a93",
+>>>>>>> 18d19c0457ab027614a641d4c1d4edddfbaf2033
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Recursos/Carrera.md",
+<<<<<<< HEAD
                 "mode": "source",
+=======
+                "mode": "preview",
+>>>>>>> 18d19c0457ab027614a641d4c1d4edddfbaf2033
                 "backlinks": false,
                 "source": false
               },
@@ -188,12 +200,21 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< HEAD
   "active": "d008bdea62181ec8",
   "lastOpenFiles": [
     "Recursos/Home.md",
     "Carrera/SSI/Modulo 1 - Preliminares y conceptos básicos.md",
     "Carrera/SSI/Seguridad en sistemas informáticos.md",
     "Recursos/Carrera.md",
+=======
+  "active": "f4531dd3985f1a93",
+  "lastOpenFiles": [
+    "Carrera/SSI/Seguridad en sistemas informáticos.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/SSI/Modulo 1 - Preliminares y conceptos básicos.md",
+>>>>>>> 18d19c0457ab027614a641d4c1d4edddfbaf2033
     "Carrera/SSI",
     "Carrera/Estadística/Pregunta 2 Est_T.pdf",
     "Carrera/Estadística/Estadística.md",
