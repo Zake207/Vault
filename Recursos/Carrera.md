@@ -8,7 +8,7 @@ list from "Carrera" and #índice and #carrera_año2
 list from "Carrera" and #índice and #carrera_año3 and #cuatri_1 
 ```
 
-[[2º cuatrimestre.pdf]]
+[[2º cuatrimestre.pdf|2º cuatrimestre]]
 ``` dataview
 list from "Carrera" and #índice and #carrera_año3 and #cuatri_2 
 ```
