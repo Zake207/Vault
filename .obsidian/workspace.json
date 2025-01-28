@@ -4,36 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "ef15e82689473fac",
+        "id": "13e77082e74ee105",
         "type": "tabs",
         "children": [
           {
-            "id": "d335d9d12b4ece82",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "4ef396a0d116d45a",
+            "id": "95f2459fa1ef7b5a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Carrera.md",
-                "mode": "source",
+                "file": "Recursos/Home.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Carrera"
+              "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0da68be1ba6b8eb",
@@ -199,10 +189,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4ef396a0d116d45a",
+  "active": "95f2459fa1ef7b5a",
   "lastOpenFiles": [
-    "Recursos/Home.md",
     "Carrera/SSI/Modulo 1 - Preliminares y conceptos básicos.md",
-    "Carrera/SSI/Seguridad en sistemas informáticos.md"
+    "Carrera/SSI/Anexos/Pasted image 20250128184333.png",
+    "Carrera/SSI/Anexos/Pasted image 20250128184201.png",
+    "Carrera/SSI/Anexos",
+    "Carrera/SSI/1SSIConceptosHistoria (1).pdf",
+    "Carrera/SSI/Seguridad en sistemas informáticos.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Carrera/SSI/1SSIConceptosHistoria (1).pdf.crdownload",
+    "Carrera/DSI"
   ]
 }
