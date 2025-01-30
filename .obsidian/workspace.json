@@ -4,11 +4,19 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "e9ebfe04741afd9a",
         "type": "tabs",
         "children": [
           {
             "id": "74ff3bdbb2b0d96c",
+=======
+        "id": "950c1372ff2816e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ea8840c94b80c36",
+>>>>>>> 170285a23a0f68e65a1844ea6318daae7ee10846
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,6 +196,7 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< HEAD
   "active": "0bf6fbdd9b861662",
   "lastOpenFiles": [
     "Carrera/FORMACIÓN BÁSICA",
@@ -195,13 +204,28 @@
     "Carrera/UA/Usabilidad y Accesibilidad.md",
     "Carrera/UA",
     "Recursos/Home.md",
+=======
+  "active": "0ea8840c94b80c36",
+  "lastOpenFiles": [
+    "Recursos/Ocio.md",
+    "Ocio/Social/Fechas importantes.md",
+    "Recursos/Home.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Recursos/Carrera.md",
+>>>>>>> 170285a23a0f68e65a1844ea6318daae7ee10846
     "Carrera/SSI/Modulo 1 - Preliminares y conceptos básicos.md",
     "Carrera/SSI/Anexos/Pasted image 20250128184333.png",
     "Carrera/SSI/Anexos/Pasted image 20250128184201.png",
     "Carrera/SSI/Anexos",
     "Carrera/SSI/1SSIConceptosHistoria (1).pdf",
     "Carrera/SSI/Seguridad en sistemas informáticos.md",
+<<<<<<< HEAD
     "Carrera/FORMACIÓN BÁSICA/DSI/Desarrollo de Sistemas Informáticos.md",
+=======
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+>>>>>>> 170285a23a0f68e65a1844ea6318daae7ee10846
     "Carrera/SSI/1SSIConceptosHistoria (1).pdf.crdownload",
     "Carrera/FORMACIÓN BÁSICA/DSI"
   ]
