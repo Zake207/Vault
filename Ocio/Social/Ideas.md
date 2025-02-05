@@ -12,10 +12,13 @@ ___
 # Sitios
 
 - [ ] Siam Park
-- [ ] Loro Park
 ___
-# Reminder
-- [ ] Carta
-- [ ] Rosas y tulipanes
-- [ ] Collares pulseras de cadenas de oro o plata de verdad que si no se le irrita la piel
-- [ ] Picnic puesta de sol
+# San Valentín
+- [ ] Carta con poema.
+- [ ] Ramo de flores (rosas y tulipanes mínimo).
+- [ ] Regalo personalizado -> tienda de la laguna.
+- [ ] Mirar sitios para hacer merienda/picnic.
+- [ ] Bombones.
+- [ ] Vídeo editado.
+
+REVISAR ESTO A CONCIENCIA

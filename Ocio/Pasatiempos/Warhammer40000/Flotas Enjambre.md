@@ -30,17 +30,19 @@ Por el camino arrasó posiciones estratégicas como:
 + El mundo agrícola **Prandium**.
 + El mundo fortaleza de **Sybari**.
 
-Finalmente la Flota Enjambre llegaría a [[Macrage]] donde [[Marneus Calgar]] dictaminó que la flota sería detenida ahí, donde muchas bionaves fueron destruidas y repelidas hasta que las tornas giraron a favor de los tiránidos cuando en la **Batalla de la Cordillera del Acero Frío** apareció el **Señor del Enjambre**, con el propósito de enfrentar al Señor de los [[Ultramarines]] en combate singular, el resultado fue la casi muerte del Astartes a manos del Xeno, teniendo que evacuarlo de inmediato.
+Finalmente la Flota Enjambre llegaría a [[Macragge]] donde [[Marneus Calgar]] dictaminó que la flota sería detenida ahí, donde muchas bionaves fueron destruidas y repelidas hasta que las tornas giraron a favor de los tiránidos cuando en la **Batalla de la Cordillera del Acero Frío** apareció el **Señor del Enjambre**, con el propósito de enfrentar al Señor de los [[Ultramarines]] en combate singular, el resultado fue la casi muerte del Astartes a manos del Xeno, teniendo que evacuarlo de inmediato.
 
 Tras esto [[Marneus Calgar]] lideró lo que quedaba de la flota imperial para perseguir al enemigo hasta el mundo de **Circe** donde se reveló una segunda flota que estaba escondida, la cual habría acabado con la flota imperial de no ser por la llegada de numerosos refuerzos de la **Flota de Batalla Tempestus**. Tras una encarnizada batalla, el Acorazado Clase Emperador **Dominus Astra** se sacrificó detonando sus motores disformes en el corazón de la flota enjambre.
 
-Al volver a [[Macrage]] observaron la pírrica victoria frente al enemigo, en la cual se perdió a toda la primera Compañía de Exterminadores.
+Al volver a [[Macragge]] observaron la pírrica victoria frente al enemigo, en la cual se perdió a toda la primera Compañía de Exterminadores.
 ## Kraken
 ### Esquema de color
 Las criaturas de la Flota Enjambre Kraken tienen una pauta cromática de piel color hueso con caparazones rojizos. Sus armas simbióticas suelen ser de color negro o hueso.
 
 ### Historia
-Fue la flota que ocasionó la Segunda Guerra Tiránida.
+Fue la flota que ocasionó la Segunda Guerra Tiránida, 250 años después de la primera, tras la cual se determinó que los recién nombrados [[Genesteeler]], descubiertos en las lunas de **Ymgarl** eran de naturaleza **Tiránida** por lo que mandaron al capítulo de los [[Salamandras]] para purgarlas.
+
+
 ## Gorgona
 ## Kronos
 ## Naga

@@ -2,7 +2,5 @@
 
 [< Volver](Tareas)
 
-- [ ] REPASAR CYA
-- [ ] REVISAR CODIGO IA
-- [ ] ESTUIAR GPI
-- [ ] ESTUDIAR EST
+- [ ] DSI : Resumir teoría.
+- [ ] DSI : Practicar código.
