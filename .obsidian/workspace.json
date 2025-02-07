@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbcca63d6edc319d",
+        "id": "651645eade8a661f",
         "type": "tabs",
         "children": [
           {
-            "id": "9b4cd40cc73ad571",
+            "id": "511b62fb19ad952b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -76,11 +76,53 @@
             }
           }
         ]
+      },
+      {
+        "id": "ac5569450dc7b3e0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "921e611cd73c4cfa",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Recursos/Home.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.4545695522580766,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de Home"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "14691980be4dd965",
@@ -143,24 +185,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md"
+                "file": "Recursos/Home.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Esquema de Home"
             }
           },
           {
-            "id": "b2cb83d286d3fd16",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "2466df1e10069c22",
+            "id": "315f335c2bdfd044",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -170,12 +205,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 291
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,25 +224,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9b4cd40cc73ad571",
+  "active": "315f335c2bdfd044",
   "lastOpenFiles": [
-    "Carrera/DSI/Tema 1 - Typescrypt.md",
-    "Recursos/Clases.md",
-    "Carrera/RC/Anotaciones.md",
-    "Carrera/RC/Redes de computadores.md",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
-    "Recursos/Exámenes.md",
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
     "Recursos/Tareas.md",
-    "Recursos/FreeTime.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Recursos/Proyecto.md",
+    "Recursos/Home.md",
+    "Carrera/FORMACIÓN BÁSICA/Admin/FreeIPA.md",
+    "Carrera/FORMACIÓN BÁSICA/Admin/Administración de Sistemas.md",
+    "Recursos/Carrera.md",
+    "Recursos/Projectos.md",
     "Recursos/Ocio.md",
     "Ocio/Social/Ideas.md",
     "Ocio/Social/Fechas importantes.md",
+    "Carrera/FORMACIÓN BÁSICA/IA/Agentes Lógicos.md",
+    "Carrera/FORMACIÓN BÁSICA/IA/Inteligencia Artificial.md",
+    "Carrera/DSI/PDF2.pdf",
+    "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/PDF3.pdf",
+    "Carrera/DSI/pdf24_converted.pdf",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Carrera/DSI/PDF1.pdf",
+    "Carrera/DSI",
+    "Carrera/RC/Anotaciones.md",
+    "Carrera/RC/Redes de computadores.md",
+    "Recursos/Clases.md",
+    "Recursos/Exámenes.md",
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Recursos/FreeTime.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
     "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
     "Carrera/UA/Tema 2 -Accesibilidad.md",
@@ -217,20 +261,11 @@
     "Carrera/UA/Tema 1 - Diseño y desarrollo de aplicaciones.md",
     "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf",
     "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf.crdownload",
-    "Carrera/DSI/PDF2.pdf",
     "Carrera/DSI/PDF3.pdf.crdownload",
-    "Carrera/DSI/PDF2.pdf.crdownload",
-    "Carrera/DSI/PDF1.pdf",
-    "Carrera/DSI/PDF1.pdf.crdownload",
-    "Ocio/Pasatiempos/Warhammer40000/Macragge.md",
-    "Carrera/LR/Laboratorio de redes.md",
-    "Carrera/LR/Conceptos básicos.md",
-    "Carrera/SSI/Seguridad en sistemas informáticos.md",
     "Carrera/SSI/Anexos/Pasted image 20250130130307.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130247.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130112.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130050.png",
-    "Carrera/SSI/Anexos/Pasted image 20250130125813.png",
-    "Carrera/FORMACIÓN BÁSICA/CYA/CYA.md"
+    "Carrera/SSI/Anexos/Pasted image 20250130125813.png"
   ]
 }

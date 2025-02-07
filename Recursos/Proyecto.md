@@ -4,6 +4,6 @@
 
 - [ ] Aprender principios Solid.
 - [ ] Estudiar entornos virtuales.
-- [ ] Estudiar Lintens
+- [ ] Estudiar Linters
 - [ ] Estudiar github.
 - [ ] Curso de FastAPI.
