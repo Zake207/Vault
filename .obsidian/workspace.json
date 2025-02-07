@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "651645eade8a661f",
+        "id": "a9eeddbe36dafebf",
         "type": "tabs",
         "children": [
           {
-            "id": "511b62fb19ad952b",
+            "id": "1083757bc23a304e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -122,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 232.99999618530273
   },
   "right": {
     "id": "14691980be4dd965",
@@ -203,13 +203,24 @@
               "icon": "checkmark",
               "title": "Todo List"
             }
+          },
+          {
+            "id": "ed2cdbfe8cb06c7b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 291
+    "width": 225,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,14 +235,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "315f335c2bdfd044",
+  "active": "1083757bc23a304e",
   "lastOpenFiles": [
+    "Carrera/DSI/Tema 1 - Typescrypt.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/RC/Anotaciones.md",
+    "Carrera/RC/Redes de computadores.md",
     "Recursos/Tareas.md",
     "Recursos/Proyecto.md",
-    "Recursos/Home.md",
     "Carrera/FORMACIÓN BÁSICA/Admin/FreeIPA.md",
     "Carrera/FORMACIÓN BÁSICA/Admin/Administración de Sistemas.md",
-    "Recursos/Carrera.md",
     "Recursos/Projectos.md",
     "Recursos/Ocio.md",
     "Ocio/Social/Ideas.md",
@@ -239,14 +254,10 @@
     "Carrera/FORMACIÓN BÁSICA/IA/Agentes Lógicos.md",
     "Carrera/FORMACIÓN BÁSICA/IA/Inteligencia Artificial.md",
     "Carrera/DSI/PDF2.pdf",
-    "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/PDF3.pdf",
     "Carrera/DSI/pdf24_converted.pdf",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
     "Carrera/DSI/PDF1.pdf",
     "Carrera/DSI",
-    "Carrera/RC/Anotaciones.md",
-    "Carrera/RC/Redes de computadores.md",
     "Recursos/Clases.md",
     "Recursos/Exámenes.md",
     "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",

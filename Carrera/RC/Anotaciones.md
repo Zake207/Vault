@@ -1,3 +1,17 @@
+# Preguntas de examen
+Saber relacionar información.
+Como funcionan y para que sirven.
+___
++ Diferencias entre router y switch.
++ resumen de asignatura.
++ Gráfico de asignatura.
++ Tecnologías de la capa 1 y 2
++ Puede ocurrir que al enviar paquetes fragmentados todos cojan el mismo camino? **Si**
++ El precio de circuito permanente y conmutado en conmutacion puede ser le mismo? **Si**
++ Te lo pueden regalar el circuito virtual? **Si**
++ Que son las tecnicas de acceso al medio **Tecnologías usadas para acceder al medio de manera ordenada y evitando colisiones**
++ Porque existen diferentes técnicas de conmutación **Para adaptarse a las diferentes situaciones**
++ Definir las técnicas de conmutación
 # 31/01/2025
 Eficaz: Realiza las acciones correctas
 Eficiente: Realiza las acciones correctas correctamentes
@@ -67,3 +81,17 @@ Los canales puedes tenerlos abiertos de manera ininterrumpida pero suele tener u
 Redes de Difusión.
 
 **Tecnologías simétricas y asimétricas**: Se baja mas info de la que se sube, la tecnología asimétrica permite aumentar el tamaño del camino de bajada, en la subida se usa simétrica.
+
+# 07/02/2025
+**Gráfico**: Hacer tipico gráfico A <--> B con la nuve en medio, poner las capas de OSI con sus niveles, los direccionamientos que usa cada una.
+En el diagrama indicar cuales son redes de acceso y de transporte y que dispositivos se usa en cada una y los metodos usados (conmutación conmutación). Indicando la dimensión de las redes (LAN MAN WAN).
+
+Puede haber varias tecnologías para un mismo nivel.
+
+Por la via de conmutación van paquetes troceados en diferentes tamaños:
+**Datagrama**: se lanza con una cabecera de origen y destino con su correspondiente info, en orden, cuando llegan al destino se reordena la información en el destino. Al fragmentarla se consigue mejor equilibrio en la red. En el caso de que haya un error en la red y no lleguen los paquetes B le dice a A que reenvie todo de nuevo o solo lo que le falta.
+
+**Circuito virtual**: Es una especie de via privada de un punto a otro, reservas una vía "privada" para enviar tus paquetes. Esto es, darte prioridad sobre una vía de comunicación al adquirirla, al enviar algo se te prioriza a ti y cuando liberas esa vía para otros usuarios. Ya no se requieren la fragmentación ni las cabeceras pues al conectarte a esta vía ya se sabe a donde se va.
++ Conmutado SVC: se te reserva una via, si está ocupada te aseguran otra, tiene una via asegurada pero no necesariamente es la misma
++ Permanente PVC:: Se te asegura la misma vía fija siempre (más cara).
+
