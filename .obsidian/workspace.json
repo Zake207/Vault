@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a9eeddbe36dafebf",
+        "id": "323ab991834be791",
         "type": "tabs",
         "children": [
           {
-            "id": "1083757bc23a304e",
+            "id": "68195ff194b97119",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -235,20 +235,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "1083757bc23a304e",
+  "active": "68195ff194b97119",
   "lastOpenFiles": [
+    "Recursos/Projectos.md",
+    "Proyectos/Documentación/Leguajes.md",
+    "Recursos/Home.md",
+    "Recursos/Carrera.md",
+    "Recursos/Ocio.md",
     "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
     "Carrera/RC/Anotaciones.md",
     "Carrera/RC/Redes de computadores.md",
     "Recursos/Tareas.md",
     "Recursos/Proyecto.md",
     "Carrera/FORMACIÓN BÁSICA/Admin/FreeIPA.md",
     "Carrera/FORMACIÓN BÁSICA/Admin/Administración de Sistemas.md",
-    "Recursos/Projectos.md",
-    "Recursos/Ocio.md",
     "Ocio/Social/Ideas.md",
     "Ocio/Social/Fechas importantes.md",
     "Carrera/FORMACIÓN BÁSICA/IA/Agentes Lógicos.md",
@@ -269,7 +270,6 @@
     "Carrera/UA/Tema 2 -Accesibilidad.md",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf.crdownload",
     "Carrera/UA/Usabilidad y Accesibilidad.md",
-    "Carrera/UA/Tema 1 - Diseño y desarrollo de aplicaciones.md",
     "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf",
     "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf.crdownload",
     "Carrera/DSI/PDF3.pdf.crdownload",
