@@ -2,7 +2,5 @@
 
 [< Volver](Tareas)
 
-- [ ] Practicar postres
-- [ ] Limpiar PS4
-- [ ] Organizar San Valentin
-- [x] Revisar Codexs
+- [ ] Hacer collage para cuadro
+- [ ] Hacer poema

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "17285d1721191d04",
+        "id": "fbcca63d6edc319d",
         "type": "tabs",
         "children": [
           {
-            "id": "5af61d8bfc3a3224",
+            "id": "9b4cd40cc73ad571",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -190,13 +190,25 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5af61d8bfc3a3224",
+  "active": "9b4cd40cc73ad571",
   "lastOpenFiles": [
-    "Carrera/DSI/PDF3.pdf",
     "Carrera/DSI/Tema 1 - Typescrypt.md",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Recursos/Clases.md",
+    "Carrera/RC/Anotaciones.md",
+    "Carrera/RC/Redes de computadores.md",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Recursos/Exámenes.md",
+    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+    "Recursos/Tareas.md",
+    "Recursos/FreeTime.md",
+    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Recursos/Ocio.md",
+    "Ocio/Social/Ideas.md",
+    "Ocio/Social/Fechas importantes.md",
+    "Carrera/DSI/PDF3.pdf",
     "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
     "Carrera/UA/Tema 2 -Accesibilidad.md",
@@ -205,22 +217,11 @@
     "Carrera/UA/Tema 1 - Diseño y desarrollo de aplicaciones.md",
     "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf",
     "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf.crdownload",
-    "Recursos/FreeTime.md",
-    "Recursos/Exámenes.md",
-    "Recursos/Clases.md",
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Recursos/Ocio.md",
-    "Carrera/RC/Anotaciones.md",
-    "Carrera/RC/Redes de computadores.md",
     "Carrera/DSI/PDF2.pdf",
     "Carrera/DSI/PDF3.pdf.crdownload",
     "Carrera/DSI/PDF2.pdf.crdownload",
     "Carrera/DSI/PDF1.pdf",
     "Carrera/DSI/PDF1.pdf.crdownload",
-    "Ocio/Social/Ideas.md",
-    "Ocio/Social/Fechas importantes.md",
     "Ocio/Pasatiempos/Warhammer40000/Macragge.md",
     "Carrera/LR/Laboratorio de redes.md",
     "Carrera/LR/Conceptos básicos.md",

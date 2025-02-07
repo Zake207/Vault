@@ -2,5 +2,5 @@
 
 [< Volver](Tareas)
 
-- [ ] DSI : Resumir teoría.
-- [ ] DSI : Practicar código.
+- [ ] \-
+- [ ] PRACTICA | DSI
