@@ -2,6 +2,7 @@
 ___
 ### Teoría:
 [[Modulo 1 - Preliminares y conceptos básicos]]
+[[Módulo 2 - Comunicaciones Seguras]]
 
 ___
 ### Prácticas:

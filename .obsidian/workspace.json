@@ -1,25 +1,25 @@
 {
   "main": {
-    "id": "5679cab39c6dd842",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "323ab991834be791",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "68195ff194b97119",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Home.md",
-                "mode": "preview",
+                "file": "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Módulo 2 - Comunicaciones Seguras"
             }
           }
         ]
@@ -87,7 +87,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Recursos/Home.md",
+                "file": "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -115,14 +115,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Home"
+              "title": "Gráfico de Módulo 2 - Comunicaciones Seguras"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 232.99999618530273
+    "width": 232.99999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "14691980be4dd965",
@@ -195,16 +196,6 @@
             }
           },
           {
-            "id": "315f335c2bdfd044",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {},
-              "icon": "checkmark",
-              "title": "Todo List"
-            }
-          },
-          {
             "id": "ed2cdbfe8cb06c7b",
             "type": "leaf",
             "state": {
@@ -213,9 +204,19 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "ff06f07d5a50e102",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -235,12 +236,19 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "68195ff194b97119",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Carrera/SSI/Anexos/Pasted image 20250210130738.png",
+    "Carrera/SSI/2SSICifradoenFlujosinRC4niE0.pdf",
+    "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
+    "Carrera/SSI/Seguridad en sistemas informáticos.md",
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/SSI/2SSICifradoenFlujosinRC4niE0.pdf.crdownload",
+    "Carrera/FORMACIÓN BÁSICA/CYA/20241025_CyA-Transparencias-T3.pdf",
+    "Carrera/SSI/Modulo 1 - Preliminares y conceptos básicos.md",
     "Recursos/Projectos.md",
     "Proyectos/Documentación/Leguajes.md",
-    "Recursos/Home.md",
-    "Recursos/Carrera.md",
     "Recursos/Ocio.md",
     "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
@@ -264,15 +272,8 @@
     "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
     "Recursos/FreeTime.md",
     "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
-    "Ocio/Pasatiempos/Warhammer40000/Flotas Enjambre.md",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
-    "Carrera/UA/Tema 2 -Accesibilidad.md",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf.crdownload",
-    "Carrera/UA/Usabilidad y Accesibilidad.md",
-    "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf",
-    "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf.crdownload",
-    "Carrera/DSI/PDF3.pdf.crdownload",
     "Carrera/SSI/Anexos/Pasted image 20250130130307.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130247.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130112.png",
