@@ -1,8 +1,8 @@
 ## Vanila
-- [ ] Munchkin 2: Hacha descomunal.
+- [x] Munchkin 2: Hacha descomunal. ✅ 2025-02-09
 - [x] Munchkin 3: Pifias clericales. ✅ 2024-10-08
 - [x] Munchkin 4: ¡Qué locura de montura!. ✅ 2024-10-08
-- [ ] Munchkin 5: Exploradores explotadores.
+- [x] Munchkin 5: Exploradores explotadores. ✅ 2025-02-09
 - [ ] Munchkin 6: Mazmorras majaretas.
 - [ ] Munchkin 6.5: Tumbas terroríficas.
 - [ ] Munchkin 7: Trampas a dos manos.
