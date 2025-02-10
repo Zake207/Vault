@@ -3,4 +3,4 @@
 [< Volver](Tareas)
 
 - [ ] \-
-- [ ] PRACTICA | DSI
+- [x] PRACTICA | DSI

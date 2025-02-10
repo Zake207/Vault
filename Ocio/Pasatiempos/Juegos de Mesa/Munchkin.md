@@ -1,2 +1,2 @@
-[[Reglas]]
+[[Reglas Munchkin]]
 [[Extensiones]]

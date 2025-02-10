@@ -4,22 +4,38 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
             "id": "e7a7b303c61786dc",
+=======
+        "id": "c40a565d306e0a8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf87008e316aeae2",
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
+=======
+                "file": "Ocio/Pasatiempos/Juegos de Mesa/Reglas Munchkin.md",
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Módulo 2 - Comunicaciones Seguras"
+=======
+              "title": "Reglas Munchkin"
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
             }
           }
         ]
@@ -87,7 +103,11 @@
             "state": {
               "type": "localgraph",
               "state": {
+<<<<<<< HEAD
                 "file": "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
+=======
+                "file": "Ocio/Pasatiempos/Juegos de Mesa/Reglas Munchkin.md",
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -115,7 +135,11 @@
                 }
               },
               "icon": "lucide-git-fork",
+<<<<<<< HEAD
               "title": "Gráfico de Módulo 2 - Comunicaciones Seguras"
+=======
+              "title": "Gráfico de Reglas Munchkin"
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
             }
           }
         ]
@@ -220,8 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225,
-    "collapsed": true
+    "width": 225
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,6 +259,7 @@
       "homepage:Open homepage": false
     }
   },
+<<<<<<< HEAD
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Carrera/SSI/Anexos/Pasted image 20250210130738.png",
@@ -250,6 +274,22 @@
     "Recursos/Projectos.md",
     "Proyectos/Documentación/Leguajes.md",
     "Recursos/Ocio.md",
+=======
+  "active": "bf87008e316aeae2",
+  "lastOpenFiles": [
+    "Ocio/Pasatiempos/Juegos de Mesa/Munchkin.md",
+    "Ocio/Pasatiempos/Juegos de Mesa/Juegos de mesa.md",
+    "Ocio/Pasatiempos/Juegos de Mesa/Extensiones.md",
+    "Ocio/Pasatiempos/Juegos de Mesa/Reglas Munchkin.md",
+    "Ocio/Pasatiempos/Juegos de Mesa/munchkin_reglas_Zacatrus.pdf",
+    "Ocio/Pasatiempos/Juegos de Mesa/D&D.md",
+    "Recursos/FreeTime.md",
+    "Recursos/Ocio.md",
+    "Recursos/Home.md",
+    "Recursos/Projectos.md",
+    "Proyectos/Documentación/Leguajes.md",
+    "Recursos/Carrera.md",
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
     "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
     "Carrera/RC/Anotaciones.md",
@@ -270,10 +310,17 @@
     "Recursos/Clases.md",
     "Recursos/Exámenes.md",
     "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
+<<<<<<< HEAD
     "Recursos/FreeTime.md",
     "Ocio/Pasatiempos/Warhammer40000/Lore.md",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
     "Carrera/UA/Clase 2.1. Accesibilidad.pdf.crdownload",
+=======
+    "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
+    "Carrera/UA/Clase 2.1. Accesibilidad.pdf.crdownload",
+    "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf",
+    "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf.crdownload",
+>>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
     "Carrera/SSI/Anexos/Pasted image 20250130130307.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130247.png",
     "Carrera/SSI/Anexos/Pasted image 20250130130112.png",

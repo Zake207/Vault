@@ -2,5 +2,5 @@
 
 [< Volver](Tareas)
 
-- [ ] Hacer collage para cuadro
-- [ ] Hacer poema
+- [ ] -
+- [ ] Crear reglas del munchkin
