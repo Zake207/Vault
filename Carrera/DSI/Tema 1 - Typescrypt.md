@@ -4,6 +4,10 @@
 [[PDF1.pdf|PDF]]
 ___
 ## Depuración de proyectos
+
+**Formatear Código**
+npx prettier --write .
+
 Para depurar se debe generar un fichero en la parte de configuración launch.json, luego en dicho fichero cambiar el target al .js
 
 Se puede activar una opción de mapeo para que depurando el .js, te muestre la equivalencia en el .ts
@@ -597,3 +601,11 @@ addAndDoSomething(1, 7, (num) => {
 Las funciones anónimas pasadas por parámetro deben tener una forma en concreta, si se llaman a estas con más parámetros de los que indica la declaración, o con variables de tipo diferente al especificado en la misma, se produce un error.
 
 Un detalle importante es que la función anónima que tiene como anotación de resultado void, omitirá todo return que se le añada.
+
+# Contenedores
+## Array
+## Tuplas
+## Enumerados
+**Buena practica tener las etiquetas en mayusculas**
+
+live preview

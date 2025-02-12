@@ -4,38 +4,22 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
         "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
             "id": "e7a7b303c61786dc",
-=======
-        "id": "c40a565d306e0a8e",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bf87008e316aeae2",
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
-=======
-                "file": "Ocio/Pasatiempos/Juegos de Mesa/Reglas Munchkin.md",
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
+                "file": "Carrera/DSI/Tema 1 - Typescrypt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Módulo 2 - Comunicaciones Seguras"
-=======
-              "title": "Reglas Munchkin"
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
+              "title": "Tema 1 - Typescrypt"
             }
           }
         ]
@@ -44,15 +28,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7b947c16204d8dfe",
+    "id": "f2c5d38f53ec2270",
     "type": "split",
     "children": [
       {
-        "id": "67e62b0644296280",
+        "id": "e2d288676c339291",
         "type": "tabs",
         "children": [
           {
-            "id": "00a0e7f19baf64c0",
+            "id": "976129aa4ea5481c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +49,7 @@
             }
           },
           {
-            "id": "d09d556cff882094",
+            "id": "2cb19373211f3c77",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,7 +66,7 @@
             }
           },
           {
-            "id": "315b7b68121bf6d9",
+            "id": "c52ec6434d3b06d2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,78 +76,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "ac5569450dc7b3e0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "921e611cd73c4cfa",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-<<<<<<< HEAD
-                "file": "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
-=======
-                "file": "Ocio/Pasatiempos/Juegos de Mesa/Reglas Munchkin.md",
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.4545695522580766,
-                  "close": true
-                }
-              },
-              "icon": "lucide-git-fork",
-<<<<<<< HEAD
-              "title": "Gráfico de Módulo 2 - Comunicaciones Seguras"
-=======
-              "title": "Gráfico de Reglas Munchkin"
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 232.99999618530273,
+    "width": 300,
     "collapsed": true
   },
   "right": {
-    "id": "14691980be4dd965",
+    "id": "c603108fc1c7a502",
     "type": "split",
     "children": [
       {
-        "id": "d9d044dba09003c4",
+        "id": "85dc2e49e04caca5",
         "type": "tabs",
         "children": [
           {
-            "id": "d26beb64ff872e0d",
+            "id": "6a8166ae3b077dac",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,25 +105,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Home"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "be2ac0411e5dbf00",
+            "id": "1ce6b369a80525d8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Home"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "c456720879ba0528",
+            "id": "060acb4dcdc3650d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -205,22 +136,21 @@
             }
           },
           {
-            "id": "48898cab79297e76",
+            "id": "83f05ca03a4bf516",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Home"
+              "title": "Esquema"
             }
           },
           {
-            "id": "ed2cdbfe8cb06c7b",
+            "id": "a5c73c206cadc68e",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -230,7 +160,7 @@
             }
           },
           {
-            "id": "ff06f07d5a50e102",
+            "id": "c71a0ef869fc778e",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -244,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,77 +185,16 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
+      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "homepage:Open homepage": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-<<<<<<< HEAD
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Carrera/SSI/Anexos/Pasted image 20250210130738.png",
-    "Carrera/SSI/2SSICifradoenFlujosinRC4niE0.pdf",
-    "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
-    "Carrera/SSI/Seguridad en sistemas informáticos.md",
-    "Recursos/Carrera.md",
-    "Recursos/Home.md",
-    "Carrera/SSI/2SSICifradoenFlujosinRC4niE0.pdf.crdownload",
-    "Carrera/FORMACIÓN BÁSICA/CYA/20241025_CyA-Transparencias-T3.pdf",
-    "Carrera/SSI/Modulo 1 - Preliminares y conceptos básicos.md",
-    "Recursos/Projectos.md",
-    "Proyectos/Documentación/Leguajes.md",
-    "Recursos/Ocio.md",
-=======
-  "active": "bf87008e316aeae2",
-  "lastOpenFiles": [
-    "Ocio/Pasatiempos/Juegos de Mesa/Munchkin.md",
-    "Ocio/Pasatiempos/Juegos de Mesa/Juegos de mesa.md",
-    "Ocio/Pasatiempos/Juegos de Mesa/Extensiones.md",
-    "Ocio/Pasatiempos/Juegos de Mesa/Reglas Munchkin.md",
-    "Ocio/Pasatiempos/Juegos de Mesa/munchkin_reglas_Zacatrus.pdf",
-    "Ocio/Pasatiempos/Juegos de Mesa/D&D.md",
-    "Recursos/FreeTime.md",
-    "Recursos/Ocio.md",
-    "Recursos/Home.md",
-    "Recursos/Projectos.md",
-    "Proyectos/Documentación/Leguajes.md",
-    "Recursos/Carrera.md",
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
-    "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
-    "Carrera/RC/Anotaciones.md",
-    "Carrera/RC/Redes de computadores.md",
-    "Recursos/Tareas.md",
-    "Recursos/Proyecto.md",
-    "Carrera/FORMACIÓN BÁSICA/Admin/FreeIPA.md",
-    "Carrera/FORMACIÓN BÁSICA/Admin/Administración de Sistemas.md",
-    "Ocio/Social/Ideas.md",
-    "Ocio/Social/Fechas importantes.md",
-    "Carrera/FORMACIÓN BÁSICA/IA/Agentes Lógicos.md",
-    "Carrera/FORMACIÓN BÁSICA/IA/Inteligencia Artificial.md",
-    "Carrera/DSI/PDF2.pdf",
-    "Carrera/DSI/PDF3.pdf",
-    "Carrera/DSI/pdf24_converted.pdf",
-    "Carrera/DSI/PDF1.pdf",
-    "Carrera/DSI",
-    "Recursos/Clases.md",
-    "Recursos/Exámenes.md",
-    "Ocio/Pasatiempos/Warhammer40000/Tiránidos.md",
-<<<<<<< HEAD
-    "Recursos/FreeTime.md",
-    "Ocio/Pasatiempos/Warhammer40000/Lore.md",
-    "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
-    "Carrera/UA/Clase 2.1. Accesibilidad.pdf.crdownload",
-=======
-    "Carrera/UA/Clase 2.1. Accesibilidad.pdf",
-    "Carrera/UA/Clase 2.1. Accesibilidad.pdf.crdownload",
-    "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf",
-    "Carrera/UA/Clase 1.1. Diseño, desarrollo e implementación de sistemas, aplicaciones y servicios.pdf.crdownload",
->>>>>>> afdb065b801cdbc83068e578f25a54cfac3568b7
-    "Carrera/SSI/Anexos/Pasted image 20250130130307.png",
-    "Carrera/SSI/Anexos/Pasted image 20250130130247.png",
-    "Carrera/SSI/Anexos/Pasted image 20250130130112.png",
-    "Carrera/SSI/Anexos/Pasted image 20250130130050.png",
-    "Carrera/SSI/Anexos/Pasted image 20250130125813.png"
+    "Recursos/Carrera.md",
+    "Recursos/Home.md",
+    "Carrera/DSI/Tema 1 - Typescrypt.md"
   ]
 }
