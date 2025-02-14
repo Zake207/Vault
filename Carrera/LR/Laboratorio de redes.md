@@ -4,6 +4,7 @@ ___
 [[Conceptos básicos]]
 ___
 ### Prácticas:
+[[Lab.Redes - Practica 1 (Introducción)]]
 ___
 ### Evaluación:
 + Prácticas semanales : 25%

@@ -6,12 +6,24 @@ ___
 + resumen de asignatura.
 + Gráfico de asignatura.
 + Tecnologías de la capa 1 y 2
+
 + Puede ocurrir que al enviar paquetes fragmentados todos cojan el mismo camino? **Si**
 + El precio de circuito permanente y conmutado en conmutacion puede ser le mismo? **Si**
 + Te lo pueden regalar el circuito virtual? **Si**
 + Que son las tecnicas de acceso al medio **Tecnologías usadas para acceder al medio de manera ordenada y evitando colisiones**
 + Porque existen diferentes técnicas de conmutación **Para adaptarse a las diferentes situaciones**
 + Definir las técnicas de conmutación
+
++ Para que sirve una protocolo orientado a conexión
++ Diferencias entre TCP y UDP
++ Para que sirve el nivel de transporte(nivel 4) **Para multiplexar procesos**
++ Me das un servicio no orientado a conexión, se puede desarrollar orientado a conexión
++ Una red tipo bus(recto) se puede hacer que funcione como anillo? **Sí se le asigna un número a cada componente, entonces el 1 solo manda al 2 ... y el 5 solo manda al 1 además es más ligero**
++ Puedes tener una centralita combinada en la nube con otra fisica? **Sí** 
++ ¿Cual es la mejor topología? **Depende**
++ ¿Cual es la más extendida? **No se puede decir con exactitud pero la estella es muy usada**
++ Una centralita puede conectar conexiones analógicas con modernas? **Sí**
++ En el mcdonald hay concurrencia? **Si**
 # 31/01/2025
 Eficaz: Realiza las acciones correctas
 Eficiente: Realiza las acciones correctas correctamentes
@@ -71,8 +83,7 @@ Un método determinista pregunta uno por uno a todas las conexiones si va a tran
 
 tren de bits == tecnología digital síncrono.
 
-**Bridge** limita los entornos de conexión
-mientras no haya un mensaje para la otra parte no se abre el puente.
+**Bridge** limita los entornos de conexión, mientras no haya un mensaje para la otra parte no se abre el puente.
 Por ende se puede conectar servidores e interfaces directamente a un bridge, lo cual es un birdge multipuerto, es decir, un switch.
 
 Redes de Conmutación. puede usar conmutadores (no todos son de ethernet) para cerrar interrumptores que no vayan al destino, creando el canal de comunicación.
@@ -95,3 +106,67 @@ Por la via de conmutación van paquetes troceados en diferentes tamaños:
 + Conmutado SVC: se te reserva una via, si está ocupada te aseguran otra, tiene una via asegurada pero no necesariamente es la misma
 + Permanente PVC:: Se te asegura la misma vía fija siempre (más cara).
 
+# 13/02/2025
+Las tecnologías de conmutación de paquetes son ATM, Frame Relay o X-25
++ **Protocolo orientado a conexión**
++ **Protocolo no orientado a conexión**
+
+Topologías físicas : Por donde van los cables
+Topologías lógicas : Como fluye la información
+
+Un Token es un testigo usado en un anillo
+
+Un bus funciona de manera probabilistica
+Un bus circular funciona de manera determinista (igual que el anillo), también conocido como 8024 Token
+
+Es más sólido el circular, el más usado actualmente es una topología de estrella, pero para comunicaciones telefónicas se usa una estrella distribuida.
+
+Puedes pagar un servicio que permita tener centralitas en la nube, aunque siguen existiendo las físicas
+
+**VLANS** ==> 
+
+En dos LAN conectadas privadas, si fueran centralitas, se debe pagar por enlace hacia el exterior, 
+
+Las centralitas tienen un límite, cuando muchas estaciones acceden a esta a la vez sufre congestión, para evitar esto se debe estudiar la dimensión de la red
+
+Tipos de enlace:
++ Simplex
++ Semi-duplex
++ Duplex
+
+En los dos segundos los enlaces pueden ser simétricos o asimétricos según el perfil de los usuarios.
+Se suelen usar duplex simétricos.
+
+Primero se elige la tecnología y en base a esta se escoge la topología, siempre hay que ir holgados en términos de recursos otorgados
+
+# 14/02/2025
+*A Felix le gusta que a la hora de asumir cosas se asuman de manera absoluta, un A implica B quiere que pienses que A siempre en cualquier situación va a implicar B, hay que pensar exagerado en este tipo de preguntas*
+
+*Se pueden hacer asteriscos para tu aclarar en el examen lo que entiendes del enunciado, ayuda a facilitar la pregunta: Considero que un nodo activo es un nodo encendido y que tenga tráfico*
+
+*Por poder se puede, la pregunta es seria si pregunta si lo harías o no y el porqué*
+
+**Preguntas A**
+1. ATM es un protocolo exclusivo de nivel 3 **Falso**
+2. Es posible multiplexar la comunicación a nivel de transporte **Verdad**
+3. El nivel de transporte no controla errores **Falso**
+4. Los niveles 2 y 3 han de estar siempre presentes en una comunicación **Falso**
+5. Una MAN no puede ser parte de una WAN **Falso**
+**Preguntas B**
+1. La carga de una red no depende de la topología de la misma **Verdad, será más rápido o mas lento, pero la carga es la misma**
+2. La carga de una red depende del número de nodos activos **Falso**
+3. La carga de una red depende del método de acceso empleado **Verdad**
+4. La carga de una red siempre se mejora con un cambio de tecnología de red **Falso**
+5. El empleo de los diferentes protocolos de comunicaciones está limitado por el valor MTU *La MTU es unidad máxima de transmisión* **Falso**
+**Preguntas C**
+1. No es posible realizar broadcast en redes de anillo **Falso**
+2. Para una red ATM los tiempos de espera medios son altos en condiciones de baja carga **Falso**
+3. No es posible obtener concurrencia en tipo de red Fast Ethernet **Falso**
+4. Es posible obtener concurrencia en una red de tipo 802.3 (Ethernet) **Verdad**
+5. Todas las redes disponen de nivel de distribución **No lo hemos dado**
+**Preguntas D*
+1. Las redes troncales que dan servicios de cable usan combinaciones de fibra y coaxial **Falso**
+2. La dimensión de una red que usa CSMA/CD (método de acceso) es independiente del tiempo de propagación **Falso**
+3. Un dispositivo "hotswap" significa que soporta altas temperaturas **Falso**
+4. Un acceso básico de RDSI incluye un canal E2 **No lo hemos dado pero Falso**
+5. Un router trabaja más rápido que un bridge **Falso**

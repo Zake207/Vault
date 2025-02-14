@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/DSI/Tema 1 - Typescrypt.md",
+                "file": "Carrera/RC/Anotaciones.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tema 1 - Typescrypt"
+              "title": "Anotaciones"
             }
           }
         ]
@@ -192,9 +192,15 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Carrera/RC/Redes de computadores.md",
     "Recursos/Carrera.md",
     "Recursos/Home.md",
-    "Carrera/DSI/Tema 1 - Typescrypt.md"
+    "Carrera/LR/Lab.Redes - Practica 1 (Introducción).md",
+    "Carrera/LR/pr_intro.pdf",
+    "Carrera/pr_intro.pdf",
+    "Carrera/LR/Laboratorio de redes.md",
+    "Carrera/RC/Anotaciones.md",
+    "Carrera/DSI/Tema 1 - Typescrypt.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md"
   ]
 }
