@@ -174,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,10 +191,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Recursos/Home.md",
     "Carrera/DSI/Tema 1 - Typescrypt.md",
     "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
     "Recursos/Carrera.md",
-    "Recursos/Home.md",
     "Recursos/Clases.md",
     "Carrera/RC/Anotaciones.md",
     "Carrera/RC/Redes de computadores.md",
