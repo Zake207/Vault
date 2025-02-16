@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,16 +192,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Recursos/Clases.md",
+    "Carrera/DSI/Tema 1 - Typescrypt.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Recursos/Carrera.md",
     "Recursos/Home.md",
+    "Recursos/Clases.md",
     "Carrera/RC/Anotaciones.md",
     "Carrera/RC/Redes de computadores.md",
-    "Recursos/Carrera.md",
     "Carrera/LR/Lab.Redes - Practica 1 (Introducción).md",
     "Carrera/LR/pr_intro.pdf",
     "Carrera/pr_intro.pdf",
-    "Carrera/LR/Laboratorio de redes.md",
-    "Carrera/DSI/Tema 1 - Typescrypt.md",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md"
+    "Carrera/LR/Laboratorio de redes.md"
   ]
 }
