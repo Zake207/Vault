@@ -2,6 +2,7 @@
   "todoPageName": "todo",
   "showChecked": false,
   "showAllTodos": true,
+  "showOnlyActiveFile": false,
   "autoRefresh": true,
   "subGroups": false,
   "groupBy": "page",
@@ -20,7 +21,6 @@
     "Ocio/Social/Ideas.md",
     "Ocio/Pasatiempos/Juegos/Videojuegos.md",
     "Recursos/Apremiante.md",
-    "Recursos/Exámenes.md",
     "Recursos/Proyecto.md"
   ],
   "_hiddenTags": [
