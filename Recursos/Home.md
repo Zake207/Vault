@@ -1,7 +1,6 @@
 ---
 banner: "![[Pasted image 20241006174625.png]]"
 ---
-
 ---
 ```contributionGraph
 title: Contributions

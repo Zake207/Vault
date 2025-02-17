@@ -602,10 +602,80 @@ Las funciones anónimas pasadas por parámetro deben tener una forma en concreta
 
 Un detalle importante es que la función anónima que tiene como anotación de resultado void, omitirá todo return que se le añada.
 
-# Contenedores
+# 4. Contenedores
 ## Array
+Pueden contener elementos de cualquier tipo y de tamaño variable.
+Si se hace una anotación de tipo a un array, este solo podrá contener elementos de dicho tipo, el compilador de TypeScrypt muestra un error en caso de intentarlo.
+```ts title:example.ts
+let MyArray: number[] | string[] = ["hola", 23, 5, "11", 012]
+console.log(MyArray)
+```
+
+**Buena práctica** Para recorrer las listas es preferente usar el método de los arrays forEach
+
+Si no se es suficientemente explícito a la hora de definir un array que no tiene anotaciones de tipo el compilador puede inferir el tipo de dato any, lo cual no es deseable pues se pierde control sobre lo que se está desarrollando, habilitar `StrictNullChecks` en las opciones del compilador ayuda a eliminar la posibilidad de generar estos vectores mal definidos.
 ## Tuplas
+Son un tipo de dato proporcionado por TypeScrypt que se trata como array en JavaScrypt pero que funciona como un vector de tamaño fijo
+```ts title:example.ts
+let bankActivities: [string, number][] =
+  [["Trail Shop", 23.45], ["Coffee Shop", 15.43]];
+
+bankActivities.forEach((activity) => {
+  console.log(`I spent ${activity[1]} euros at ${activity[0]}`);
+});
+
+bankActivities[0] = ["Supermarket"];
+bankActivities[1][1] = "15.43";
+bankActivities.push(["Pub", "Tons of beers", 15, 16]);
+```
+Ante el ejemplo anterior, el compilador de TypeScript informará de los siguientes errores:
+
+```ts title:compilator_error
+src/index.ts:8:1 - error TS2322: Type '[string]' is not assignable to type '[string, number]'.
+  Source has 1 element(s) but target requires 2.
+
+8 bankActivities[0] = ["Supermarket"];
+  ~~~~~~~~~~~~~~~~~
+
+src/index.ts:9:1 - error TS2322: Type 'string' is not assignable to type 'number'.
+
+9 bankActivities[1][1] = "15.43";
+  ~~~~~~~~~~~~~~~~~~~~
+
+src/index.ts:10:29 - error TS2322: Type 'string' is not assignable to type 'number'.
+
+10 bankActivities.push(["Pub", "Tons of beers", 15, 16]);
+                               ~~~~~~~~~~~~~~~
+
+
+Found 3 errors in the same file, starting at: src/index.ts:8
+```
+Se pueden deserializar igual que los arrays
+```ts title:example.ts
+type BankActivity = [string, number];
+
+let bankActivities: BankActivity[] =
+  [["Trail Shop", 23.45], ["Coffee Shop", 15.43]];
+
+bankActivities.forEach((activity) => {
+  const [activityName, activityPrice] = activity;
+  console.log(`I spent ${activityPrice} euros at ${activityName}`);
+});
+```
+Tambien pueden contener elementos opcionales como se muestra en el siguiente ejemplo:
+```ts title:example.ts
+type BankActivity = [string, number, string?];
+```
+Por lo que se puede deducir que tambien permiten almacenar elementos de tipo rest
+
 ## Enumerados
-**Buena practica tener las etiquetas en mayusculas**
+Permite definir etiquetas con una constante numérica asociada
+**Buena practica** tener las etiquetas en mayúsculas
+
+Las eitquetas numéricas por defector empiezan por 0 y las etiquetas posteriores toman valores consecutivos, aunque se les pueden asignar valores por defecto.
+
+Si se le dan valores numéricos duplicados pueden ocurrir errores.
+
+Cabe destacar que las claves también pueden ser cadenas de caracteres
 
 live preview

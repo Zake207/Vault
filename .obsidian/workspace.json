@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c603108fc1c7a502",
@@ -184,23 +183,27 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "yet-another-obsidian-synchronizer:YAOS": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Recursos/Home.md",
+<<<<<<< HEAD
+=======
+    "Carrera/DSI/Tema 1 - Typescrypt.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Recursos/Carrera.md",
+>>>>>>> bceb9b8a63367263dd02c7708a04ef213c301d9c
     "Recursos/Clases.md",
     "Carrera/RC/Anotaciones.md",
     "Carrera/RC/Redes de computadores.md",
-    "Recursos/Carrera.md",
     "Carrera/LR/Lab.Redes - Practica 1 (Introducción).md",
     "Carrera/LR/pr_intro.pdf",
     "Carrera/pr_intro.pdf",
-    "Carrera/LR/Laboratorio de redes.md",
-    "Carrera/DSI/Tema 1 - Typescrypt.md",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md"
+    "Carrera/LR/Laboratorio de redes.md"
   ]
 }
