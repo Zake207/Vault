@@ -183,9 +183,10 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "yet-another-obsidian-synchronizer:YAOS": false,
+      "homepage:Open homepage": false
     }
   },
   "active": "e7a7b303c61786dc",
