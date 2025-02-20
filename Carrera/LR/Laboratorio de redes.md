@@ -4,7 +4,8 @@ ___
 [[Conceptos básicos]]
 ___
 ### Prácticas:
-[[Lab.Redes - Practica 1 (Introducción)]]
+[[Lab.Redes - Práctica 1 (Introducción)]]
+[[Lab. Redes - Práctica 2 (VLANS)]]
 ___
 ### Evaluación:
 + Prácticas semanales : 25%

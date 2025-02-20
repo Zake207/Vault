@@ -24,7 +24,10 @@ ___
 + ¿Cual es la más extendida? **No se puede decir con exactitud pero la estella es muy usada**
 + Una centralita puede conectar conexiones analógicas con modernas? **Sí**
 + En el mcdonald hay concurrencia? **Si**
++ Pueden existir tecnologías de comunicacion por el aire? **Si, con láseres (FSO)**
++ Diferencia entre Baudios y Bits por segundos?**Cuantos bits salen por segundos, los baudios limite de cambios de transmisión soportada por línea**
 # 31/01/2025
+
 Eficaz: Realiza las acciones correctas
 Eficiente: Realiza las acciones correctas correctamentes
 
@@ -57,6 +60,7 @@ Sin embargo aún se usan otras tecnologías menos generalizadas como ATM o ADSL,
 **Diferencia entre "red de accesp" y una "red de transporte"**
 
 # 06/02/2025
+
 Redes segun alcance: LAN, MAN, WAN
 Redes según Tecnología: Broadcast, punto a punto.
 
@@ -94,6 +98,7 @@ Redes de Difusión.
 **Tecnologías simétricas y asimétricas**: Se baja mas info de la que se sube, la tecnología asimétrica permite aumentar el tamaño del camino de bajada, en la subida se usa simétrica.
 
 # 07/02/2025
+
 **Gráfico**: Hacer tipico gráfico A <--> B con la nuve en medio, poner las capas de OSI con sus niveles, los direccionamientos que usa cada una.
 En el diagrama indicar cuales son redes de acceso y de transporte y que dispositivos se usa en cada una y los metodos usados (conmutación conmutación). Indicando la dimensión de las redes (LAN MAN WAN).
 
@@ -107,6 +112,7 @@ Por la via de conmutación van paquetes troceados en diferentes tamaños:
 + Permanente PVC:: Se te asegura la misma vía fija siempre (más cara).
 
 # 13/02/2025
+
 Las tecnologías de conmutación de paquetes son ATM, Frame Relay o X-25
 + **Protocolo orientado a conexión**
 + **Protocolo no orientado a conexión**
@@ -140,6 +146,7 @@ Se suelen usar duplex simétricos.
 Primero se elige la tecnología y en base a esta se escoge la topología, siempre hay que ir holgados en términos de recursos otorgados
 
 # 14/02/2025
+
 *A Felix le gusta que a la hora de asumir cosas se asuman de manera absoluta, un A implica B quiere que pienses que A siempre en cualquier situación va a implicar B, hay que pensar exagerado en este tipo de preguntas*
 
 *Se pueden hacer asteriscos para tu aclarar en el examen lo que entiendes del enunciado, ayuda a facilitar la pregunta: Considero que un nodo activo es un nodo encendido y que tenga tráfico*
@@ -170,3 +177,9 @@ Primero se elige la tecnología y en base a esta se escoge la topología, siempr
 3. Un dispositivo "hotswap" significa que soporta altas temperaturas **Falso**
 4. Un acceso básico de RDSI incluye un canal E2 **No lo hemos dado pero Falso**
 5. Un router trabaja más rápido que un bridge **Falso**
+
+# 20/02/2024
+Hay diferentes espectros de frecuencias
++ ? Repasar diapos del dia de hoy
+
+Teorema de Fourier, sirve para descomponer cualquier onda en un sumatorio de ondas

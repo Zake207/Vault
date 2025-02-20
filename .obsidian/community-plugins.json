@@ -1,16 +1,16 @@
 [
-  "dataview",
   "obsidian-banners",
-  "homepage",
-  "obsidian-tasks-plugin",
-  "multi-column-markdown",
   "calendar",
-  "contribution-graph",
+  "obsidian-checklist-plugin",
   "code-styler",
   "templater-obsidian",
-  "obsidian-checklist-plugin",
-  "obsidian-full-calendar",
+  "obsidian-tasks-plugin",
   "obsidian-style-settings",
+  "multi-column-markdown",
+  "obsidian-list-callouts",
   "obsidian-latex-suite",
-  "obsidian-list-callouts"
+  "homepage",
+  "obsidian-full-calendar",
+  "dataview",
+  "contribution-graph"
 ]

@@ -1,6 +1,7 @@
+#### Recursos
 [[pr_intro.pdf|PDF]]
 
-**Máquinas**
+## Máquinas
 4 arriba switches
 3 abajo routers
 
@@ -39,12 +40,27 @@ ___
 > system identity set name=R1
 
 **Añadir rutas estáticas**
-> ip route
-+ ? Falta completar
+> ip route add dst-address=10.2.0.0/24 gateway=10.0.0.1
 
 ___
 **Conectarme al switch**
+> screen \/dev\/ttyUSB0 38400
+
 **Modo privilegiado**
+> enable
+
 **Modo Configuración**
+>configure
+
 **Reseteo del switch**
+> reset
++ Debe realizarse en modo privilegiado
 **Mostrar configuración**
+> show running-config
++ Debe realizarse en modo privilegiado
+**Guardar configuración**
+> copy runnnig-config startup-config
++ Debe realizarse en modo privilegiado
+**Fijar el nombre del dispositivo**
+> hostname S1
++ Debe realizarse en modo configuración

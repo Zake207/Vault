@@ -1,5 +1,6 @@
 # 1. Anotaciones básicas sobre proyectos
 
+
 **Recursos**
 [[PDF1.pdf|PDF]]
 ___
@@ -14,7 +15,10 @@ Se puede activar una opción de mapeo para que depurando el .js, te muestre la e
 
 **ANOTACIÓN -> USAR === SOBRE == EN COMPROBACIONES, ES MEJOR EN TS Y JS**
 
++ ? Mirar vitest run --coverage --converage.includes .src/ Este genera un directorio que no es necesario someterlo a control de versiones, la primera vez se debe instalar una dependencia
+
 # 2. Tipos de variables
+
 
 **Recursos**
 [[PDF2.pdf|PDF]]
@@ -357,9 +361,11 @@ let myResult: number | string = div(1, 2, true)!;
 La cual consiste en añadir `!` al final de la linea donde se desea hacer la afirmación de tipo.
 # 3. Funciones
 
-#### Recursos
+
+**Recursos**
 [[PDF3.pdf|PDF]]
 ___
+## Intro
 Para empezar se asume que se parte de un fichero tsconfig.json con las siguientes características.
 ```json title:tsconfig.json
 {
@@ -603,6 +609,7 @@ Las funciones anónimas pasadas por parámetro deben tener una forma en concreta
 Un detalle importante es que la función anónima que tiene como anotación de resultado void, omitirá todo return que se le añada.
 
 # 4. Contenedores
+
 ## Array
 Pueden contener elementos de cualquier tipo y de tamaño variable.
 Si se hace una anotación de tipo a un array, este solo podrá contener elementos de dicho tipo, el compilador de TypeScrypt muestra un error en caso de intentarlo.
@@ -678,4 +685,454 @@ Si se le dan valores numéricos duplicados pueden ocurrir errores.
 
 Cabe destacar que las claves también pueden ser cadenas de caracteres
 
-live preview
+# 5. OPP
+
+## Declaración de objetos
+El nombre y tipo de las propiedades de un objeto se denomina **forma**, esta es usada por el compilador para determinar el tipo del dato.
+```ts title:example.ts
+let rectangle = {
+  name: "Rectangle",
+  sides: 4,
+};
+
+let pentagon = {
+  name: "Pentagon",
+};
+```
+
+Si se hiciera un array con estos dos objetos, el compilador hace una unión de tipo diciendo que el array contiene strings, al ser una unión no se podrá acceder a la propiedad sides pues no pertenece a la union de tipos
+
+Para solucionar esto se debe usar un guardián de tipos:
+```ts title:example.ts
+const figures = [rectangle, triangle, hexagon, pentagon];
+
+figures.forEach((figure) => {
+	if ('sides' in figures)
+	  console.log(`I am a ${figure.name} and I have ${figure.sides} sides`);
+});
+```
+
+O también se puede anotar el tipo del array de la siguiente manera
+```ts title:exmaple.ts
+const figures: { name: string; sides: number }[] = []
+```
+
+El el caso de que un objeto tenga propiedades adicionales a las especificadas en la anotación de tipos del array, estos podrán ser almacenados. 
+
+Otra opción es añadir una propiedad aleatoria a la anotación de tipo del array de la siguiente manera:
+```ts title:example.ts
+const figures: { name: string; sides: number; color?: string }[] = [
+  rectangle,
+  triangle,
+  hexagon,
+  pentagon,
+];
+```
+
+Si activamos la opción del compilador StrictNullChecks el compilador avisa de que los valores podrían ser NULL o undefined
+## Métodos de objetos
+Se pueden declarar de las siguiente manera:
+```ts title:example.ts
+let rectangle = {
+  name: "Rectangle",
+  sides: 4,
+  area: (base: number, height: number) => base * height,
+};
+
+let triangle = {
+  name: "Triangle",
+  sides: 3,
+  area: (base: number, height: number) => (base * height) / 2,
+};
+
+let circle = {
+  name: "Circle",
+  area: (radius: number) => Math.PI * Math.pow(radius, 2),
+};
+
+const figures: {
+  name: string;
+  sides?: number;
+  area(...params: number[]): number;
+}[] = [rectangle, triangle, circle];
+
+figures.forEach((figure) => {
+  console.log(
+    `I am a ${figure.name}, I have ${figure.sides} sides and my area is ${figure.area(3, 5)}`,
+  );
+});
+```
+
+Si pusieramos un método como opcional daría un error en tiempo de ejecución
+## Alias de tipos
+Usualmente se usan Alias de tipos para específicar el tipo de los objetos a definir.
+```ts title:example.ts
+type Figure = {
+  name: string;
+  sides?: number;
+  area(...params: number[]): number;
+};
+
+let rectangle: Figure = {
+  name: "Rectangle",
+  sides: 4,
+  area: (base, height) => base * height,
+};
+```
+Cabe destacar que al haber anotado en la definición del tipo figura que los operandos son de tipo number, no es necesario anotar el tipo en la instancia en rectangle. 
+
+Como triangle y cicle tienen la misma forma que Figure pues permite introducir estos al array de figures.
+
+Sin embargo si añadimos una propiedad adicional como 'color' a triangle, por ejemplo, estos ya no tienen la misma forma que un figure.
+
+**Buena práctica:** Usar la opción del compilador strict.
+
+## Uniones de tipos
+```ts title:example.ts
+type TwoDimensionalFigure = {
+  name: string;
+  sides?: number;
+  area(...params: number[]): number;
+};
+
+type ThreeDimensionalFigure = {
+  name: string;
+  volume(...params: number[]): number;
+};
+
+let rectangle: TwoDimensionalFigure = {
+  name: "Rectangle",
+  sides: 4,
+  area: (base, height) => base * height,
+};
+
+let cube: ThreeDimensionalFigure = {
+  name: "Cube",
+  volume: (base, height, depth) => base * height * depth,
+};
+
+const figures: (TwoDimensionalFigure | ThreeDimensionalFigure)[] = [
+  rectangle,
+  cube,
+];
+
+figures.forEach((figure) => {
+  console.log(`I am a ${figure.name}`);
+});
+```
+
+Conservan solo las propiedades que comparten ambos tipos por lo que el compilador peta cuando intenta invocar el método área, la solucion: Un guardián de tipos.
+```ts title:example.ts
+figures.forEach((figure) => {
+  if ("area" in figure) {
+    console.log(
+      `I am a ${figure.name} and my area is ${figure.area(5, 4).toFixed(2)}`,
+    );
+  } else if ("volume" in figure) {
+    console.log(
+      `I am a ${figure.name} and my volume is ${figure.volume(5, 4, 7).toFixed(2)}`,
+    );
+  }
+});
+```
+
+O usar funciones que comprueben el tipo de las funciones:
+```ts title:example.ts
+
+function isTwoDimensionalFigure(myObj: any): myObj is TwoDimensionalFigure {
+  return myObj.area !== undefined;
+}
+
+function isThreeDimensionalFigure(myObj: any): myObj is ThreeDimensionalFigure {
+  return myObj.volume !== undefined;
+}
+
+figures.forEach((figure) => {
+  if (isTwoDimensionalFigure(figure)) {
+    console.log(
+      `I am a ${figure.name} and my area is ${figure.area(5, 4).toFixed(2)}`,
+    );
+  } else if (isThreeDimensionalFigure(figure)) {
+    console.log(
+      `I am a ${figure.name} and my volume is ${figure.volume(5, 4, 7).toFixed(2)}`,
+    );
+  }
+});
+```
+
+## Intersecciones de tipos
+Permite unir las propiedades de los objetos:
+```ts title:example.ts
+type TwoDimensionalFigure = {
+  name: string;
+  area(...params: number[]): number;
+};
+
+type TwoDimensionalFigureWithSides = {
+  name: string;
+  sides: number;
+};
+
+const rectangle = {
+  name: "Rectangle",
+  sides: 4,
+  area: (base: number, height: number) => base * height,
+};
+
+const triangle = {
+  name: "Triangle",
+  sides: 3,
+  area: (base: number, height: number) => (base * height) / 2,
+};
+
+const figures: (TwoDimensionalFigure & TwoDimensionalFigureWithSides)[] = [
+  rectangle,
+  triangle,
+];
+
+figures.forEach((figure) => {
+  console.log(
+    `I am a ${figure.name}, I have ${figure.sides} sides and my area is ${figure.area(5, 4).toFixed(2)}`,
+  );
+});
+```
+
+En cada ciclo del bucle puedo acceder a cualquier propiedad, si algun objeto del array tuviera una propiedad que no sigue la forma de ninguno de los dos, hay un error porque el compilador no detecta que triangle tiene la misma forma que el resto.
+Si se hace la intersección de dos tipos con propiedades:
++ Mismo nombre y tipo: no pasa nada
++ Mismo nombre y tipo diferente: dara la intersección de tipos en aquellas propiedades con el mismo nombre, resultando en un tipo imposible (da error).
++ Métodos con el mismo nombre: Locura (en palabras del profe), pues se hace una intersección entre las signaturas y no se sabe lo que puede pasar.
+
+## Clases
+Hay que modificar el compilador para que sea
+```json title:package.json
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "declaration": true,
+    "outDir": "./dist",
+  }
+}
+```
+
+Hay una manera de crear una función que funciones como constructor:
+```ts title:example.ts
+let TwoDimensionalFigure = function(name: string, sides: number,
+    area: (...params: number[]) => number) {
+  this.name = name;
+  this.sides = sides;
+  this.area = area;
+};
+
+let rectangle =
+  new TwoDimensionalFigure("Rectangle", 4, (base, height) => base * height);
+
+let triangle =
+  new TwoDimensionalFigure("Triangle", 3, (base, height) => base * height / 2);
+
+let figures = [rectangle, triangle];
+
+figures.forEach((figure) => {
+  console.log(`I am a ${figure.name}, I have ${figure.sides} sides and my area is ${figure.area(5, 4).toFixed(2)}`);
+});
+```
+
+Lo mejor es el uso de clases:
+```ts title:example.ts
+class TwoDimensionalFigure {
+  name: string;
+  sides: number;
+  area: (...params: number[]) => number;
+
+  constructor(name: string, sides: number,
+      area: (...params: number[]) => number) {
+    this.name = name;
+    this.sides = sides;
+    this.area = area;
+  }
+}
+
+let rectangle =
+  new TwoDimensionalFigure("Rectangle", 4, (base, height) => base * height);
+
+let triangle =
+  new TwoDimensionalFigure("Triangle", 3, (base, height) => base * height / 2);
+
+let figures = [rectangle, triangle];
+
+figures.forEach((figure) => {
+  console.log(`I am a ${figure.name}, I have ${figure.sides} sides and my area is ${figure.area(5, 4).toFixed(2)}`);
+});
+```
+
+Las propiedades de una clase pueden tener niveles de acceso:
++ public: Acceso libre y por defecto
++ private: suelen ir precedidos de '\_' y solo puede ser accedido desde dentro de la clase
++ protected: pueden acceder las clases hijas de la misma
+
+Además se pueden definir getters y setters
+```ts title:example.ts
+class TwoDimensionalFigure {
+  public name: string;
+  private _sides: number;
+  public area: (...params: number[]) => number;
+
+  constructor(name: string, sides: number,
+      area: (...params: number[]) => number) {
+    this.name = name;
+    this._sides = sides;
+    this.area = area;
+  }
+
+  get sides() {
+    return this._sides;
+  }
+
+  set sides(sides) {
+    this._sides = sides;
+  }
+}
+```
+
+Al usar los getters y setters no es necesario añadir el paréntesis pues simulan el acceso a la propiedad
+
+Si no se declara solo el getter la propiedad será de solo lectura. El setter debe ser igual de accesible que el getter
+
++ ? Realmente un private es un soft private, por lo que se puede acceder a traves de las comillas, si se quiere hacer uso de un privado estricto se debe declarar `#atribute`
+
++ ? public readonly name: string Establece esta variable como readonly
+
+## Constructor simplificado
+```ts title:example.ts
+class TwoDimensionalFigure {
+  constructor(public readonly name: string, private _sides: number,
+      public area: (...params: number[]) => number) {
+  }
+
+  get sides() {
+    return this._sides;
+  }
+
+  set sides(sides) {
+    this._sides = sides;
+  }
+}
+```
+
+Permite congregar el constructor y la declaración de atributos en un solo código.
+
+## Herencia
+```ts title:example.ts
+class TwoDimensionalFigure {
+  constructor(public readonly name: string, public readonly sides: number,
+    public color: string) {
+  }
+}
+
+class Rectangle extends TwoDimensionalFigure {
+  constructor(public readonly name: string, public readonly sides: number,
+    public color: string) {
+    super(name, sides, color);
+  }
+
+  getArea(base: number, height: number) {
+    return base * height;
+  }
+}
+
+class Triangle extends TwoDimensionalFigure {
+  constructor(public readonly name: string, public readonly sides: number,
+    public color: string) {
+    super(name, sides, color);
+  }
+
+  getArea(base: number, height: number) {
+    return base * height / 2;
+  }
+}
+
+let rectangle =
+  new Rectangle("RedRectangle", 4, "red");
+
+let triangle =
+  new Triangle("BlueTriangle", 3, "blue");
+
+let figures = [rectangle, triangle];
+
+figures.forEach((figure) => {
+  console.log(`I am a ${figure.name}, I have ${figure.sides} sides ` +
+              `and my area is ${figure.getArea(5, 4).toFixed(2)}`);
+});
+```
+
+En el caso del array este sería del tipo triangle | rectangle
+pero es mejor anotarlo con la clase más abstracta posible
+
+## Clase abstracta
+Declara métodos abstractos que obliga a que sus hijos lo implementen, estas clases no permiten la creación de objetos
+
+```ts title:example.ts
+abstract class TwoDimensionalFigure {
+  constructor(public readonly name: string, public readonly sides: number,
+    public color: string) {
+  }
+
+  abstract getArea(...params: number[]): number;
+}
+```
+
+Si no se implementan los métodos abstractos en las clases herederas da un error de compilación.
+
+## Interfaces
+Permite declarar la forma de un objeto:
+```ts title:example.ts
+interface TwoDimensionalFigure {
+  name: string;
+  sides: number;
+  color: string;
+  getArea(): number;
+}
+
+class Rectangle implements TwoDimensionalFigure {
+  constructor(public readonly name: string, public readonly sides: number,
+    public color: string, public base: number, public height: number) {
+  }
+
+  getArea() {
+    return this.base * this.height;
+  }
+}
+```
+
+Ademas se pueden implementar varias interfaces, no hay ventajas o desventajas sobre usar herencia. 
+
+Además se puede hacer una herencia de interfaces, permitiendo heredar la menos abstracta para implementar el resto de funcionalidades de la interfaz abstracta.
+
+```ts title:example.ts
+interface TwoDimensionalFigure {
+  name: string;
+  sides: number;
+  color: string;
+  getArea(): number;
+}
+
+interface PrintableTwoDimensionalFigure extends TwoDimensionalFigure {
+  print(): void;
+}
+```
+
+Además de interfaces abstractas
+```ts title:example.ts
+abstract class PrintableRedTwoDimensionalFigure implements TwoDimensionalFigure {
+  abstract name: string;
+  abstract sides: number;
+  abstract getArea(): number;
+  abstract print(): void;
+  color = "red";
+}
+```
+
++ ? Terminar de resumir
+
