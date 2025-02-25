@@ -79,3 +79,34 @@ El método SNOW3G consta de un LFSR y una máquina de estados finitos FSM.
 Las dos multiplicaciones son en módulo x⁸ + x⁷ + x⁵ + x³ + 1
 o lo que es lo mismo, desplazamientos de bytes y XORs con 10101001
 ![[Pasted image 20250218112523.png]]
+
+## Cifrado en bloque
+Divide el mensaje en bloques sobre los que se aplica el algoritmo
+Usa cifrados tipo Feistel, que divide en dos mitades un bloque de N bits y opera con la clave solo en una mitad. Es bastante usado en el cifrado Kasumi que usa 40 claves de 16 bits, el cual es usado en 3G
+
+El cifrado AES o Rijndael, usa:
++ BLoques de 128 bits
++ La clave de 128, 192 y 256 bits
++ Iteraciones 10, 12, 14
++ Las operaciones son a nivel de byte.
+
+El estado se representa como una matriz de 4x4 de 8 bits al igual que la clave
++ ? Cae en examen
+### Iteración 0
+XOR entre el bloque y la clave
+
+### Bucle
+1. ByteSub : sustitución no lineal, usa una S-box
+2. ShiftRow : Usa desplazamientos circulares
+3. MixColumn : Realiza multiplicaciones entre cada columna y una matriz.
+4. Sum : hace una xor entre la matriz y la clave
+
+Usa una expansión de claves que consiste en dividir una clave de 128 bits en bloques de 32 y sobre el último se realiza una rotación cíclica izquierda y una sustitución. También se usan constantes
+
+Para el descifrado se deben realizar operaciones diferentes
+
+Hay diferentes modos de cifrado en bloque
++ ECB : mantiene la estructura, no se usa por obvias razones
++ CFB : Cada bloque de texto esta cifrado con realimentación, usa un vector de inicialización. En caso de que el mensaje a cifrar(N) sea mayor que el vector de inicialización(Q) se realizaran las operaciones de realimentación N/Q veces.
++ OFB : Igual que el anterior pero la realimentación se realiza antes del xor en lugar de después
++ CBC : Se realiza la xor antes de entrar en el algoritmo de encriptado

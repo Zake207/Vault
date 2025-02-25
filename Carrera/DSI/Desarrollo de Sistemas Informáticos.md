@@ -2,6 +2,7 @@
 ___
 ### Teoría:
 [[Tema 1 - Typescrypt]]
+[[Tema 2 - Principios SOLID]]
 ___
 ### Prácticas:
 

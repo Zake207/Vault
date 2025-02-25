@@ -6,6 +6,7 @@ ___
 ### Prácticas:
 [[Lab.Redes - Práctica 1 (Introducción)]]
 [[Lab. Redes - Práctica 2 (VLANS)]]
+[[Lab. Redes - Práctica 3 (Spanning tree)]]
 ___
 ### Evaluación:
 + Prácticas semanales : 25%

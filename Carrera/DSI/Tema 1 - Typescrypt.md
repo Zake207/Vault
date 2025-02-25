@@ -1,8 +1,7 @@
+#### Recursos
+[Repositorio](https://ull-esit-inf-dsi-2425.github.io/typescript-theory/docs/)
 # 1. Anotaciones básicas sobre proyectos
 
-
-**Recursos**
-[[PDF1.pdf|PDF]]
 ___
 ## Depuración de proyectos
 
@@ -20,8 +19,6 @@ Se puede activar una opción de mapeo para que depurando el .js, te muestre la e
 # 2. Tipos de variables
 
 
-**Recursos**
-[[PDF2.pdf|PDF]]
 ___
 ## Conceptos
 Usa tipado dinámico, por lo que cambia según lo que se le asigne.
@@ -361,9 +358,6 @@ let myResult: number | string = div(1, 2, true)!;
 La cual consiste en añadir `!` al final de la linea donde se desea hacer la afirmación de tipo.
 # 3. Funciones
 
-
-**Recursos**
-[[PDF3.pdf|PDF]]
 ___
 ## Intro
 Para empezar se asume que se parte de un fichero tsconfig.json con las siguientes características.
@@ -763,7 +757,7 @@ figures.forEach((figure) => {
 });
 ```
 
-Si pusieramos un método como opcional daría un error en tiempo de ejecución
+Si pusiéramos en el array el método como opcional y añadiésemos hexagon, el compilador no da fallos pero da un error en tiempo de ejecución debido a que intenta ejecutar un método que no existe para hexagon. Evitar esto es conseguido activando a strictNullChecks
 ## Alias de tipos
 Usualmente se usan Alias de tipos para específicar el tipo de los objetos a definir.
 ```ts title:example.ts
@@ -783,9 +777,9 @@ Cabe destacar que al haber anotado en la definición del tipo figura que los ope
 
 Como triangle y cicle tienen la misma forma que Figure pues permite introducir estos al array de figures.
 
-Sin embargo si añadimos una propiedad adicional como 'color' a triangle, por ejemplo, estos ya no tienen la misma forma que un figure.
+Sin embargo si añadimos una propiedad adicional como 'color' a triangle, por ejemplo, estos ya no tienen la misma forma que un figure, dando un error de compilación.
 
-**Buena práctica:** Usar la opción del compilador strict.
+**Buena práctica:** Usar la opción del compilador strictNullCheck.
 
 ## Uniones de tipos
 ```ts title:example.ts
@@ -898,6 +892,7 @@ figures.forEach((figure) => {
 ```
 
 En cada ciclo del bucle puedo acceder a cualquier propiedad, si algun objeto del array tuviera una propiedad que no sigue la forma de ninguno de los dos, hay un error porque el compilador no detecta que triangle tiene la misma forma que el resto.
+
 Si se hace la intersección de dos tipos con propiedades:
 + Mismo nombre y tipo: no pasa nada
 + Mismo nombre y tipo diferente: dara la intersección de tipos en aquellas propiedades con el mismo nombre, resultando en un tipo imposible (da error).
@@ -938,6 +933,8 @@ figures.forEach((figure) => {
   console.log(`I am a ${figure.name}, I have ${figure.sides} sides and my area is ${figure.area(5, 4).toFixed(2)}`);
 });
 ```
+
+Esto dará un error de compilación debido a que el compilador con la opción noImplicitAny detecta que el compilador esta infiriendo el tipo any para estas declaraciones.
 
 Lo mejor es el uso de clases:
 ```ts title:example.ts
@@ -996,11 +993,14 @@ class TwoDimensionalFigure {
 }
 ```
 
+
+Si se intenta acceder a una propiedad privada se da un error de compilación, si en el set no se anota el tipo se infiere por el tipo de retorno del get
 Al usar los getters y setters no es necesario añadir el paréntesis pues simulan el acceso a la propiedad
 
 Si no se declara solo el getter la propiedad será de solo lectura. El setter debe ser igual de accesible que el getter
 
-+ ? Realmente un private es un soft private, por lo que se puede acceder a traves de las comillas, si se quiere hacer uso de un privado estricto se debe declarar `#atribute`
++ ? Realmente un private es un soft private, por lo que se puede acceder a través de las comillas, si se quiere hacer uso de un privado estricto se debe declarar `#atribute`, al intentar acceder, acceder a este atributo da un error de compilación.
+**Buena práctica** Activar `strictPropertyInitialization` y `strictNullCheck` 
 
 + ? public readonly name: string Establece esta variable como readonly
 
@@ -1083,8 +1083,7 @@ abstract class TwoDimensionalFigure {
 }
 ```
 
-Si no se implementan los métodos abstractos en las clases herederas da un error de compilación.
-
+Si no se implementan los métodos abstractos en las clases herederas da dos error de compilación.
 ## Interfaces
 Permite declarar la forma de un objeto:
 ```ts title:example.ts
@@ -1106,7 +1105,9 @@ class Rectangle implements TwoDimensionalFigure {
 }
 ```
 
-Ademas se pueden implementar varias interfaces, no hay ventajas o desventajas sobre usar herencia. 
+Ademas se pueden implementar varias interfaces, no hay ventajas o desventajas sobre usar herencia.
+
+Si no se implementa todo lo que dicta en las interfaces, da un error de compilador
 
 Además se puede hacer una herencia de interfaces, permitiendo heredar la menos abstracta para implementar el resto de funcionalidades de la interfaz abstracta.
 
@@ -1134,5 +1135,110 @@ abstract class PrintableRedTwoDimensionalFigure implements TwoDimensionalFigure 
 }
 ```
 
-+ ? Terminar de resumir
+Pese a no tener mucho sentido, se pueden declarar propiedades opcionales 
+Además se dice que una interfaz es abstracta si es implementada en una clase abstracta
 
+También se puede hacer uso de guardianes de tipo para filtrar las interfaces.
+```ts title:example.ts
+figures.forEach((figure) => {
+  if ('getArea' in figure) {
+    console.log(`Figure: ${figure.name}; Area: ${figure.getArea()}`);
+  } else if ('getVolume' in figure) {
+    console.log(`Figure: ${figure.name}; Volume: ${figure.getVolume()}`);
+  }
+});
+```
+
+
+Haciendo uso de una asignación indexada se puede asignar dinámicamente objetos a un tipo, por ejemplo, observese el siguiente ejemplo:
+```ts title:example.ts
+class TwoDimensionalFiguresSet {
+  constructor(...twoDimensionalFigures: [string, TwoDimensionalFigure][]) {
+    twoDimensionalFigures.forEach((figure) => {
+      this[figure[0]] = figure[1];
+    });
+  }
+
+  [propertyName: string]: TwoDimensionalFigure;
+}
+
+let figures = new TwoDimensionalFiguresSet(
+    ['rectangle', new Rectangle('rectangle', 4, 'red', 5, 4)],
+    ['triangle', new Triangle('triangle', 3, 'yellow', 10, 15)],
+);
+
+// It dinamically assigns to the object figures a property named
+// "circle" whose value is a new Circle
+figures.circle = new Circle('circle', 'green', 6);
+```
+
+Si se intentase acceder a una propiedad inexistente por este método se da un error en tiempo de ejecución, para evitar este error se deben habilitar las siguientes opciones del compilador: `strictNullChecks` y `noUncheckedIndexedAccess`
+
+Y finalmente para solucionar este problema se puede comprobar si la instancia hexagon existe:
+``` ts title:example.ts
+if ('hexagon' in figures) {
+  figures.hexagon.print();
+}
+```
+# 6. Clases e interfaces genéricas.
+
+## Clase genérica
+Son usados para aumentar la escalabilidad del código, son basicamente, templates del lenguaje C++: 
+```ts title:example.ts
+class FigureCollection<T> {
+  constructor(private figures: T[]) {
+  }
+
+  addFigure(newFigure: T) {
+    this.figures.push(newFigure);
+  }
+
+  getNumberOfFigures() {
+    return this.figures.length;
+  }
+
+  getFigure(index: number) {
+    return this.figures[index];
+  }
+
+  /* print() {
+    this.figures.forEach((figure) => {
+      figure.print();
+    });
+  } */
+}
+```
+Print está comentado debido a que el compilador no puede garantizar que el objeto de tipo T tenga este método.
+
+Si usamos extends dentro de las flechas seguido de los tipos que deseo que tenga, estamos retringiendo para que el tipo genérico asignado sea del que le indicas después del extends
+```ts title:example.ts
+class FigureCollection<T extends (TwoDimensionalFigure | ThreeDimensionalFigure)>
+```
+
+En el caso de que se le asigne un tipo que no esta permitido por el extends dara un error de compilación.
+
+Se le puede asignar condiciones al extends, es decir, que cumpla lo que se le indica, como que tenga un método print: 
+```ts title:example.ts
+class FigureCollection<T extends { print: () => void }>
+```
+
+
+También se le puede asignar varios tipos genericos y a estos se les puede aplicar el extends, véase el siguiente ejemplo:
+```ts title:example.ts
+class FigureCollection<T extends TwoDimensionalFigure, U extends ThreeDimensionalFigure>
+```
+
++ ? Tener en cuenta que al restringir, se retringe a la forma del objeto, si hubiera un objeto que no fuera el especificado con la misma forma podría pasar.
+
+Las clases genéricas pueden presentar herencia, en estos casos el tipo genérico puede ser manejado de las siguientes maneras:
++ Añadir funcionalidad adicional a la clase original.
++ Fijar los parámetros genéricos
++ Restringir los parámetros de tipo genéricos
+## Interfaces genéricas
+``` ts example.ts
+interface CollectionInterface<T> {
+  addItem(newItem: T): void;
+  getItem(index: number): T;
+  getNumberOfItems(): number;
+}
+```

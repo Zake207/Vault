@@ -178,8 +178,31 @@ Primero se elige la tecnología y en base a esta se escoge la topología, siempr
 4. Un acceso básico de RDSI incluye un canal E2 **No lo hemos dado pero Falso**
 5. Un router trabaja más rápido que un bridge **Falso**
 
-# 20/02/2024
+# 20/02/2025
 Hay diferentes espectros de frecuencias
 + ? Repasar diapos del dia de hoy
 
 Teorema de Fourier, sirve para descomponer cualquier onda en un sumatorio de ondas
+# 21/02/2025
+Teorema de Nyquist: 
+
+Relacion señal ruido: SR = 36 dB, por lo que la señal es de $10^{3,6}$ = 3981 veces mayor que el ruido
+
+Existen diferentes capacidades de transferencia a cada cual más complejo electrónicamente que el anterior.
+
+Teorema de muestreo, coger el doble del rango capturado puntos de la onda.
++ ! REVISAR
+
+**PDH** (tecnología): Sistema que describe la desincronía en las comunicaciones internacionales
+
+**RDSI** (tecnología): Te preparas un bucle digital en local y la compañía te oferta dos canales de 64Kib para su uso, además tiene de un canal de control D de 16Kib
+
+Tecnología que no para (sincrono), es jerarquica y acumulativa, además de digital, es compleja cuando se añaden muchas ramas al árbol jerárquico, con trenes de bits
+
+**ATM** (tecnología): Usa por debajo la jerarquía digital síncrona dividiendo la información en "vagones" de 52
+
+**ADSL** (tecnología): funciona muchisimo mejor que el RDSI pues daban un canal de 4Mib y no hace cambiar el cable, se trato de exprimir al máximo mejorando su rendimiento pero siempre limitado por el cable de cobre
+
+**FTTH** (tecnología): fibra hasta la casa, mejor incluso que el ADSL, pero esta vez se cambia el cobre (categoría 3) por el cable de fibra (categoría 6)
+
+**Modulación** Manda una señal analógica super acelerada para quedarse con la envolvente de la señal, permitiendo tener la señal digital

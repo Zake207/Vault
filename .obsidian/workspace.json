@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "8bcc23f61916032a",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "c989fa1aac89e410",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 222.99999618530273
   },
   "right": {
     "id": "27e43e43851e9df9",
@@ -190,28 +189,35 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c989fa1aac89e410",
   "lastOpenFiles": [
+    "Carrera/DSI/Tema 1 - Typescrypt.md",
+    "Proyectos/Registros/Pokedex con asistente de IA.md",
+    "Proyectos/Documentación/Python.md",
+    "Proyectos/Documentación/Leguajes.md",
     "Recursos/Projectos.md",
-    "Proyectos/Registros/Aplicación del juego de la vida..md",
     "Recursos/Home.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
     "Recursos/Carrera.md",
-    "Carrera/LR/Lab.Redes - Práctica 1 (Introducción).md",
+    "Carrera/DSI/Tema 2 - Principios SOLID.md",
     "Carrera/LR/Lab. Redes - Práctica 2 (VLANS).md",
     "Carrera/LR/pr_vlans.pdf",
     "Carrera/LR/Laboratorio de redes.md",
-    "Carrera/RC/Redes de computadores.md",
+    "Carrera/LR/Lab. Redes - Práctica 3 (Spanning tree).md",
+    "Carrera/LR/pr_spanning.pdf",
+    "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
+    "Carrera/SSI/Seguridad en sistemas informáticos.md",
     "Carrera/RC/Anotaciones.md",
+    "Carrera/RC/Redes de computadores.md",
+    "Carrera/LR/Conceptos básicos.md",
+    "Proyectos/Registros/Aplicación del juego de la vida..md",
+    "Carrera/LR/Lab.Redes - Práctica 1 (Introducción).md",
     "Carrera/RC/Redes de computadores - Tarea 1.md",
-    "Carrera/DSI/Tema 1 - Typescrypt.md",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
     "Recursos/Clases.md",
     "Carrera/LR/pr_vlans.pdf.crdownload",
     "Carrera/LR/pr_intro.pdf",
     "Recursos/FreeTime.md",
     "Carrera/SSI/2SSICifradoenFlujosinRC4niE0.pdf",
-    "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
-    "Carrera/SSI/Seguridad en sistemas informáticos.md",
     "Carrera/SSI/Anexos/Pasted image 20250218112523.png",
     "Carrera/SSI/Anexos/Pasted image 20250218110632.png",
     "Carrera/SSI/Anexos/Pasted image 20250218110558.png",
