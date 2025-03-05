@@ -206,3 +206,23 @@ Tecnología que no para (sincrono), es jerarquica y acumulativa, además de digi
 **FTTH** (tecnología): fibra hasta la casa, mejor incluso que el ADSL, pero esta vez se cambia el cobre (categoría 3) por el cable de fibra (categoría 6)
 
 **Modulación** Manda una señal analógica super acelerada para quedarse con la envolvente de la señal, permitiendo tener la señal digital
+# 28/02/2025
+digitalización, tiene varios pasos:
++ Muestreo
++ Cuantificación
++ Códificación
+
+Las tecnologías además de sacar la señal las codifica para facilitar las cosas al receptor
+
+Existen patrones determinados que dependiendo de su forma binaria el receptor entiende que debe ejecutar diferentes ordenes
+
+**OSI**
+**Nivel 1**: cables y demás (cobre, fibra, etc...) usa un bucle de abonado y funciona en sistemas de red local suelen usar hilos trenzados de los caules hay diferentes tipos, cabe destacar que no es lo mismo los bits que salen del cable que la frecuencia con la que salen, el coste de instalación y de reemplazo es exorbitante, por lo que se trata de mantener todo lo posible la tecnología instalada Se usan cables coaxiales, también hay diferentes tipos de fibra óptica: por led y por láser(+caro +preciso) también varian en función del cable (multimodo o monomodo) en la fibra la luz se dispersa
++ ? revisar diapos
+
+longitud de onda = distancia de cresta a cresta, al haber diferentes tipos de luces se sobrentiende que debido a esto también varían los tipo de fibras, en concreto se usan rangos:
++ 1º ventana
++ 2º ventana
++ 3º ventana
+
+existen gráficos que decubren cuales son las luces que más les gustan a determinada fibra óptica, de la que sacamos que es mejor tener una baja atenuación y que las que tienen un rango de longitud de onda más estable son las segunda y tercera ventana

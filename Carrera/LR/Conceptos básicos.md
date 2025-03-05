@@ -36,7 +36,22 @@ El protocolo de enrutamiento permite tener alta disponibilidad en capa 3. Si emb
 
 Para solucionar esto se usa VRRP (Virtual Router Redundancy Protocol) o HSRP. Esto Crea un router virtual que compila los dos router con una ip que sea la puerta de enlace a la red local, uno de los router de este router virtual es el master, si este falla, los paquetes son redirigidos a los router backups
 
-El master dentro del router virtual esta activo indicando que es el master constantemente, cuando falle, este deja de emitir, el siguiente en la jerarquía se convierte en master y la red local no se ha enterado de nada. La jerarquía se establece con un nivel de prioridad, siempre es master el de mayor prioridad
+El master dentro del router virtual esta activo indicando que es el master constantemente, cuando falle, este deja de emitir, el siguiente en la jerarquía se convierte en master y la red local no se ha enterado de nada. La jerarquía se establece con un nivel de prioridad, siempre es master el de mayor prioridad.
+
+Sistema autónomo, se comunican dentro de este con protocolos de pasarela interior(RIP, OSPF) y entre otros sistemas autónomos con protocolos de pasarela exterior, tiene los siguientes tipos:
++ Strub
++ Tránsito
++ Multihomed
++ Internet Exchange Point
+
+BGP usa tcp como protocolo de transprote en el puerto 179, a la hora de conectarse dos router BGP se realizan diferentes pasos:
++ OPEN
++ UPDATE
++ KEEPALIVE
++ NOTIFICATION
+
+Tiene una serie de atributos: AS-PATH es una lista, NEXT-HOP es la ip del proximo salto...
+Usa vectores de caminos, que no es otra cosa que el AS-PATH, que se rellena a medida que se reciben mensajes de updates, esto en cierto modo mapea los sitemas autónomos pues los mensajes de UPDATE no siempre recorren la misma ruta
 
 
 
