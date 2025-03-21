@@ -4,9 +4,11 @@ ___
 [[Conceptos básicos]]
 ___
 ### Prácticas:
-[[Lab.Redes - Práctica 1 (Introducción)]]
+[[Lab. Redes - Práctica 1 (Introducción)]]
 [[Lab. Redes - Práctica 2 (VLANS)]]
 [[Lab. Redes - Práctica 3 (Spanning tree)]]
+[[Lab. Redes - Práctica 4 (OSPF)]]
+
 ___
 ### Evaluación:
 + Prácticas semanales : 25%

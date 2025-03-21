@@ -1242,3 +1242,17 @@ interface CollectionInterface<T> {
   getNumberOfItems(): number;
 }
 ```
+
+
+# 7. Módulos
+
+Todo fichero que contiene las sentencias import o export. En este ámbito es importante recalcar la importacia de la sintáxis, La resolución de módulos y la carga y ejecución de los mismos.
+
+Cada uno de estos 3 campos principales tienen sus características expuestas en los apuntes.
+
+La sintáxis usada en typescrpyt no es la misma que la del código que se va a generar en javascrypt, la manera en la que se va a generar se puede definir en el compilador con la opción "type": "commonjs" o "type": "module", para esta ultima el campo node se debe cambiar al estandar a es2016 o es2018, **RECOMENDABLE ESTO ULTIMO**, además hay que añadir ciertos paquetes.
+
+**Buenas Prácticas** Clases/interfaces similares en ficheros separados
+
+Esto liga muy bien con los espacios de nombres, los cuales definen tipos y suelen almacenarse en otros ficheros
+

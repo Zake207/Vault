@@ -53,8 +53,33 @@ BGP usa tcp como protocolo de transprote en el puerto 179, a la hora de conectar
 Tiene una serie de atributos: AS-PATH es una lista, NEXT-HOP es la ip del proximo salto...
 Usa vectores de caminos, que no es otra cosa que el AS-PATH, que se rellena a medida que se reciben mensajes de updates, esto en cierto modo mapea los sitemas autónomos pues los mensajes de UPDATE no siempre recorren la misma ruta
 
+### Firewall
+Si un paquete esta destinado para alguna dirección del router, pasa por la cadena input
 
+Si sale de alguna dirección del router pasa por la cadena output
 
+Si no pasa por ninguna de ellas pasa por output
+
+Los firewall de filtrado comprueban las siguientes areas
+in-interface
+out-interface
+dst-address
+src-address
+dst-port
+src-port
+protocol (TCP o UDP)
+
+Sin embargo si una fuente fiable mandase un troyano en la carga útil no se detectaria aqui, se debe tener un firewall de capa 7
+
+Se pueden aplicar diseños con firewalls unicos o firewall duales
+
+En los ataques DoS Se suelen emascarar las ip, para evitar esto:
++ direcciones privadas de las red (10.0.0.0/8, 172.0.0.0/12, 192.0.0.0/16)
++ direcciones multicast (224.0.0.0/4)
++ direcciones loopback (127.0.0.0/8)
++ direcciones de clase E (240.0.0.0/4)
+
+Estas direcciones se usan para filtrar direcciones, no evitan ataques de ip spoofing pero los restringe
 
 
 

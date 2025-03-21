@@ -34,7 +34,7 @@ Después toca comunicarme con la inteligencia artificial se debe instalar la lib
 Finalmente la opción que utilice fue usar una de las APIs proporcionadas por *openrouter* en concreto 
 
 ### Funcionalidades
-1. Dar dato de pókemon aleatorio
+1. Dar dato de pokemon aleatorio
 2. Buscar pokemon con opciones de filtrado
 3. Sugerir estrategias al asistente de IA
 4. Guardar un historial de búsquedas que se pueda mostrar

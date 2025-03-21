@@ -2,6 +2,6 @@
 
 [< Volver](Tareas)
 
-- [ ] -
+- [ ] \- 
 - [ ] Crear reglas del munchkin
-- [ ] No Mans Sky : Expedición 17
+- [x] No Mans Sky : Expedición 17

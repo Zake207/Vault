@@ -26,6 +26,8 @@ ___
 + En el mcdonald hay concurrencia? **Si**
 + Pueden existir tecnologías de comunicacion por el aire? **Si, con láseres (FSO)**
 + Diferencia entre Baudios y Bits por segundos?**Cuantos bits salen por segundos, los baudios limite de cambios de transmisión soportada por línea**
+
++ 
 # 31/01/2025
 
 Eficaz: Realiza las acciones correctas
@@ -226,3 +228,25 @@ longitud de onda = distancia de cresta a cresta, al haber diferentes tipos de lu
 + 3º ventana
 
 existen gráficos que decubren cuales son las luces que más les gustan a determinada fibra óptica, de la que sacamos que es mejor tener una baja atenuación y que las que tienen un rango de longitud de onda más estable son las segunda y tercera ventana
+
+# 13/03/2025
+
+Tecnologías de voz (SONET/SDH) tienen diferentes topologías y demás
++ ? Mirar diapos debido a que faltaste la semana pasada.
+
+**Cableado estructurado** como mucho se pueden tener enlaces de 100 metros, pero recomendable no pasar de 90, del ordenador va a una roseta con un latiguillo, de aqui usa el enlace para conectarse a un patch panel, el cual se encarga de gestionar sus conexiones.
+
+Lo *lógico* es tener menos bocas gigabit que puertos en el patch panel 
+(*no entiendo esto*) 
+
+En el replanteo se revisa en persona con los planos el edificio para comprobar si se debe hacer modificaciones
+
+Se pueden usar bytes inteligentes, estos usan un mapeado que permiten habilitar y deshabilitar las redes a distancia
+
+El salto vertical suele ser en fibra, pero puede hacerse en fibra, usando un LIU
+
+La electrónica de acceso es las que se pude colocar en cada planta, la de distribución une todas estas dentro de una edificio, y la electrónica de core une estas últimas, el backbone (zona más sensible al daño, la columna vertebral) suelen ser los cores con las uniones entre estos
+
+La parte troncal de una red dentro del edificio sería la parte de distribución
+
+Los cores se conectan a los firewalls, estos por tener todas las reglas no quiere decir que sean mejores, esto pasa más en redes grandes. El internet que pasa al router, debe pasar por el filtro del firewall para poder acceder a la red
