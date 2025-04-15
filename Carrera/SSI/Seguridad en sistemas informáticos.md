@@ -3,6 +3,7 @@ ___
 ### Teoría:
 [[Modulo 1 - Preliminares y conceptos básicos]]
 [[Módulo 2 - Comunicaciones Seguras]]
+[[Módulo 3 - Clave Pública]]
 
 ___
 ### Prácticas:

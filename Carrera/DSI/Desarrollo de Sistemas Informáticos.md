@@ -3,6 +3,8 @@ ___
 ### Teoría:
 [[Tema 1 - Typescrypt]]
 [[Tema 2 - Principios SOLID]]
+[[Tema 3 - Patrones de Diseño]]
+[[Tema 4 - Node.js]]
 ___
 ### Prácticas:
 

@@ -250,3 +250,43 @@ La electrónica de acceso es las que se pude colocar en cada planta, la de distr
 La parte troncal de una red dentro del edificio sería la parte de distribución
 
 Los cores se conectan a los firewalls, estos por tener todas las reglas no quiere decir que sean mejores, esto pasa más en redes grandes. El internet que pasa al router, debe pasar por el filtro del firewall para poder acceder a la red
+
+# 27/03/2025
+
+Un centro de comunicaciones en un sistema complejo, con multiples edificios y demás, se puede poner en cualquier sitio, sin embargo debería colocarse en el core del sistema, uno de los que tenga la salida
+
+La propuesta de cambio tecnológico depende de las tecnologías actuales de la empresa, un ejemplo es cambiar los enlaces de la empresa
+
+# 28/03/2025
+**Defina todos los pasos de interés para abordar un proyecto de cableado estructurado que interconecte dos edificios (1000 personas cada uno). Además defina con valores realistas todos aquellos datos que no se aporten problema (distancias, velocidades, plantas, conexiones externas, seguridad, etc...)**
+
+1. Analizar donde se deben colocarl las bocas de los edificios, mediante planos y demás
+2. Saber donde ubicar y colocar los Racks/salas
+3. Realizar un replanteamiento de los planos e ideas planteadas, reviso como de fieles son estas ideas respecto de la realidad
+4. Eliges la tecnologías a utilizar **en la capa 1** basándose en las rectificaciones hechas en el replanteo (fibra, cobre, etc...) lo normal es tener cobre y fibra en las verticales del edificio, la fibra al usarse en pocas distancias se usaría en multimodo.
+5. Ahora eliges las tecnologías de la **capa 2**, la cual sería Ethernet y derivados, especificando que son bocas gigabit, a cada boca se le puede poner de 1 gigabit (el escalado es 1, 10, 100)
+6. Suponiendo edificios de 4 plantas, a 250 usuarios en cada una y teniendo en cuenta que se desea una escalabilidad razonable (de un 20%) se puede tener 50 bocas extra en cada planta (tener un total de 1200 por edificio), los switches de acceso serán 3 de 96 bocas y uno de 24 por planta.
+7. Cada switch debe llegar al de distribución, el cual, dadas las características definidas debe tener 16 bocas, lo normalizado es de 24 entonces sobran 8 bocas con lo que se gana cierta escalabilidad, esto se hace en los 2 edificios
+8. Para unir los dos edificios sirve con unirlos con cable y que uno de los dos haga de de core, hasta se podría usar solo el cable dado que la complejidad del problema no sugiere que se deba usar un core, sin embargo es recomendable incluirlo.
+9. Llegado a este punto se puede presupuestar el proyecto, aprox 600.000 euros, más la escalabilidad el precio aumenta, a 300 euros por boca
+
+# 04/04/2025
+Resumen de la asignatura hasta el momento:
++ Clásico diseño de A - B, nombras las tecnologías de acceso (RDSI, ADSL), las de transporte (ATM, SONET)
++ Imaginar que los puntos a conectar son edificios con plantas, cada uno tiene un core con cableado estructurado, especificar la tecnologías que se usan
++ Nombrar Internet, router, firewall, dentro
++ Nombrar en los edificios los conceptos de gigabit en las bocas, que depende, etc etc etc
++ Nombrar la escalabilidad, porcentajes en las bocas, como hacer un proyecto escalable (con un poco más espacio siempre, etc)
++ Hay que tener más de un centro de intercambio de tráfico
+
+Tipo test:
+**A)**
+1. V (circuitos virtuales)
+2. V (conmutacion de paquetes)
+3. V (datagrama)
+4. F 
+5. V *F, siempre? naa eso no es lógico*
+6. V *Interoperabilidad es menos escalable que integrar, pues no tengo claro lo que es, pero siempre siempre?? naa F*
+7. F 
+
+**El asterisco usarlo para cuando tienes dudas, hacerla más verdadera, no más falsa**

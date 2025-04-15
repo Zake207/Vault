@@ -26,12 +26,18 @@ Crear una aplicación de escritorio en python que realice las siguientes tareas:
 # Desarrollo
 ## Elección de herramientas y tecnologías
 ### Lenguaje y frameworks
+Para empezar se usarán entornos virtuales para la instalación de paquetes, en concreto el entorno creado a partir del módulo de python llamado *virtualenv*
+
+La documentación de este proyecto se llevará a cabo con el módulo *Sphinx*, el cual sigue el formato de comentario *reStructuredText*, para ver ejemplos de este formato de comentado ver el siguiente [[Proyectos/Registros/Anexos/Documento de ejemplo de reStructuredText|documento]]
+
+
+
 Se usará **Python** para desarrollar el proyecto, este usará librerías de uso común como *numpy, collections, etc...* además para desarrollar la aplicación de escritorio usará la librería *PyQT* debido a que es una de las más populares, aunque *PySide* es una opción viable debido a problemas de licencias que se pueda tener a futuro.
 
 Para comunicarme con una API, y aprender como funcionan estas debo desarrollar una API sencilla que se comunique con las otras APIs por esto descargaré *FastAPI* y *uvicorn*
 
 Después toca comunicarme con la inteligencia artificial se debe instalar la librería *openai* o realizar consultas a deepseek, sin embargo esta requiere de una suscripcion por lo que tengo en cuenta opciones como *ollama* o *llm studio* sin embargo la primera no es eficiente en terminos de uso, tengo que investigar otras opciones.
-Finalmente la opción que utilice fue usar una de las APIs proporcionadas por *openrouter* en concreto 
+Finalmente la opción que utilice fue usar una de las APIs proporcionadas por *openrouter* en concreto el modelo siguiente: *google/gemma-2-9b-it:free"*
 
 ### Funcionalidades
 1. Dar dato de pokemon aleatorio
