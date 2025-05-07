@@ -8,5 +8,5 @@ list from "Proyectos/Documentación" and #índice
 ```
 
 ## Ideas
-[[Formatear portátil]]
+[[Migración a Arch (portátil)]]
 

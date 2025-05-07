@@ -2,6 +2,17 @@
 ___
 ### Teoría:
 [[Conceptos básicos]]
+[[Lab. Redes - Áreas OSPF]]
+[[Lab. Redes - BGP]]
+[[Lab. Redes - DHCP]]
+[[Lab. Redes - DNS]]
+[[Lab. Redes - VLAN]]
+[[Lab. Redes - FireWall]]
+[[Lab. Redes - VRRP]]
+[[Lab. Redes - Redistribución]]
+
+[[Lab. Redes - Comandos]]
+
 ___
 ### Prácticas:
 [[Lab. Redes - Práctica 1 (Introducción)]]
@@ -9,6 +20,7 @@ ___
 [[Lab. Redes - Práctica 3 (Spanning tree)]]
 [[Lab. Redes - Práctica 4 (OSPF)]]
 [[Lab. Redes - Práctica 6 (BGP)]]
+[[Lab. Redes - Proyecto]]
 
 ___
 ### Evaluación:

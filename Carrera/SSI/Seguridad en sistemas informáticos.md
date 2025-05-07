@@ -4,6 +4,8 @@ ___
 [[Modulo 1 - Preliminares y conceptos básicos]]
 [[Módulo 2 - Comunicaciones Seguras]]
 [[Módulo 3 - Clave Pública]]
+[[Módulo 4 - Certificación de claves]]
+[[Módulo 5 - Sistemas de autenticación]]
 
 ___
 ### Prácticas:

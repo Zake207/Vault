@@ -290,3 +290,12 @@ Tipo test:
 7. F 
 
 **El asterisco usarlo para cuando tienes dudas, hacerla más verdadera, no más falsa**
+
+# 24/04/25
+**importante mirar el fichero de como pasar la asignatura**
+No abusar del asterisco
+Las tecnologías para el examen se puede usar la tabla
+
+proyectos tochos donde hay demasiada teoría no se debe revisar demasiado, solo quedarse con lo importante, hacer resumen rapidito
+
+apuntes de refuerzo son clave para ilustrarte mejor en la tabla
