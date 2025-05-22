@@ -1,3 +1,4 @@
+# Traidores
 ## Guerreros de hierro
 tyrant siege terminators
 legionarios legion negra:
@@ -13,15 +14,13 @@ haarken reclamamundos
 contekar terminators
 legion praetor
 legion praetor in terminator armour
-rapaces del caos
 chaos lord with jumping pack
 ## Portadores de la palabra
-Poseídos
 apostol oscuro
 principes demonios: alado, no alado
 chosen
 kill team legionarios
-+ hombraras
++ hombreras
 + cascos
 hechicero marines espaciales del chaos
 señor del caos
@@ -32,6 +31,9 @@ arguel tal
 
 ## Hijos del emperador
 Fulgrim (2024)
+Lucius
+Marines ruidosos
+señor kakofonista
 ## Guardia de la muerte
 lord felthius y la cohorte contaminada
 cirujano de la peste
@@ -43,5 +45,23 @@ maestro de ejecuciones
 lord invocatus
 chacales
 devorador en montura
+nuevos octojurados
 ## Mil hijos
 señor hechicero con armadura de exterminador
+ahrimann 30k
+## Legion negra
+Abbadon
+Un poco de todo del catalogo de 40k relacionado
+## Titanes Caóticos
+
+
+# Marines leales
+## Ultramarines
+## Angeles oscuros
+## Angeles sangrientos
+## Salamandras
+## Puños imperiales
+## Guardia del cuervo
+## Manos de Hierro
+## Lobos espaciales
+## Cicatrices blancas

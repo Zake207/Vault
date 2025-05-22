@@ -23,7 +23,7 @@ Sin embargo estos pueden provocar tormentas de broadcast debido a los bucles cre
 
 El protocolo Spanning Tree conecta todos los dispositivos sin ciclos, bloqueando los caminos redundantes mientras el principal este operativo.
 Se usan diferentes versiones:
-+ **STP** Versión original que usa un algoritmo de árbol de exapnsión.
++ **STP** Versión original que usa un algoritmo de árbol de expansión.
 + **RSTP** Mejora que permite una mejor convergencia, minimiza el tiempo de inactividad.
 + **MSTP** Extensión de RSTP permite crear multiples instancias de árboles de expansión para diferentes Vlans
 

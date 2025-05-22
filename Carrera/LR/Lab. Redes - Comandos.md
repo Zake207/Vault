@@ -1,11 +1,3 @@
-[[Presentación práctica 1.pdf]]
-[[Presentación práctica 2.pdf]]
-[[Presentación práctica 3.pdf]]
-[[Presentación práctica 4.pdf]]
-[[Presentación práctica 5.pdf]]
-[[Presentación práctica 6.pdf]]
-[[Presentación práctica 7.pdf]]
-[[Presentación práctica 8.pdf]]
 
 ---
 
@@ -54,13 +46,12 @@ S1(config-if)# no switchport general allowed vlan 1 (quitar)
 
 **VLAN de gestión**
 S2(config)# ip management-vlan 99
-*Siempre hay que poner una dirección IP para el acceso* S1(config)# interface vlan 99 
+*Siempre hay que poner una dirección IP para el acceso* 
+S1(config)# interface vlan 99 
 S1(config-if)# ip address 10.10.10.3 255.255.255.0
 
-**Crear interfaz virtual**
-R1> interface vlan add interface=ether1 name=ether1.10 vlan-id=10
-
-**Asignar direcciones** 
+**Crear interfaz virtual y asignarle una dirección**
+R1> interface vlan add interface=ether1 name=ether1.10 vlan-id=10 
 R1> ip address add address=192.168.0.1/24 interface=ether1.10
 
 ## Tercera práctica
@@ -81,19 +72,19 @@ S(config)# show spanning-tree interface
 S(config)# spanning-tree priority 0
 
 **Activar RSTP** 
-S(config)#spanning-tree mode rstp 
-S(config)#spanning-tree
+S(config)# spanning-tree mode rstp 
+S(config)# mspanning-tree
 
 **Activar MSTP** 
 S(config)# spanning-tree mode mstp 
-S(config)#spanning-tree mst configuration 
-S(config-mst)#name 1 (nombre de región) 
-S(config-mst)#revision 100 (nombre de revisión) 
-S(config-mst)#instance 1 vlan 99 
-S(config-mst)#instance 2 vlan 10,20 
+S(config)# spanning-tree mstp configuration 
+S(config-mst)# name 1 (nombre de región) 
+S(config-mst)# revision 100 (nombre de revisión) 
+S(config-mst)# instance 1 vlan 99 
+S(config-mst)# instance 2 vlan 10,20 
 
 **Forzar raíz en MSTP** 
-S(config)#spanning-tree mst instance 2 priority 0 
+S(config)#spanning-tree mstp instance 2 priority 0 
 
 **Ver estado de MSTP** 
 S(config)#show spanning-tree mst instance 2
@@ -115,68 +106,98 @@ R> routing ospf neighbor print (ver vecinos ospf)
 R> routing ospf area range add area=area1 range=10.1.0.0/16
 
 ## Quinta práctica
-Activar RIP en FRR 
+**Activar RIP en FRR** 
 R(config)# router rip 
 R(config-router)# network 192.168.1.0/26 
 R(config-router)# network 192.168.1.128/30 
 
-Redistribuir rutas aprendidas por OSPF en zona RIP 
+**Redistribuir rutas aprendidas por OSPF en zona RIP** 
 R(config)# router rip 
 R(config-router)# redistribute ospf metric 1 
 
-Ver información RIP 
-R# show ip rip R# show ip rip status
+**Ver información RIP** 
+R# show ip rip 
+R# show ip rip status
 
-Activar OSPF 
+**Activar OSPF** 
 R(config)# router ospf 
 R(config-router)# network 10.0.0.4/30 area 0 
 R(config-router)# network 10.0.0.0/30 area 0 
 
-Convertir área en stub (en todos) y nssa stub (sólo ABR) R1(config)# router ospf R1(config-router)# area 1 stub 
+**Convertir área en stub (en todos) y nssa stub (sólo ABR)** 
+R1(config)# router ospf 
+R1(config-router)# area 1 stub 
 … 
 R2(config)# router ospf 
 R2(config-router)# area 2 nssa no-summary 
 
-Sumarizar redes (sólo ABR) 
+**Sumarizar redes (sólo ABR)** 
 R(config-router)# area 2 range 10.2.0.0/23 
 R(config-router)# area 1 range 10.1.0.0/23
 
-Activar OSPF (la instancia default y el área 0 ya existen) 
+**Activar OSPF (la instancia default y el área 0 ya existen)** 
 R> routing ospf instance add name=default 
 R> routing ospf area add name=area1 area-id=0.0.0.1 
 R> routing ospf network add network=10.0.g.0/24 area=backbone 
 
-Ver estado OSPF 
+**Ver estado OSPF** 
 R> routing ospf route print (ver rutas) 
 R> routing ospf neighbor print (ver vecinos ospf)
 
-Activar VRRP, creando interfaz virtual (asignar IP) 
-interface vrrp add interface=ether1 vrid=51 
+**Activar VRRP, creando interfaz virtual (asignar IP)** 
+interface vrrp add interface=ether1 vrid=51 name=vrrp1
 
-Ver estado VRRP 
+**Ver estado VRRP** 
 interface vrrp print detail 
 
-Incrementar prioridad (mayor valor es más prioritario) de un router físico en VRRP para convertirlo en maestro 
+**Incrementar prioridad (mayor valor es más prioritario) de un router físico en VRRP para convertirlo en maestro** 
 interface vrrp set vrrp1 priority=150
 ## Sexta práctica
-Activar sesiones BGP entre peers (en los 2) 
+**Activar sesiones BGP entre peers (en los 2)** 
 router bgp ID
-neighbor remote-as 
+neighbor IP remote-as NUMBER
 
-Poner NEXT-HOP a IP de un router 
-neighbor next-hop-self 
+**Poner NEXT-HOP a IP de un router** 
+neighbor IP next-hop-self 
 
-Anunciar un prefijo de red 
+**Anunciar un prefijo de red** 
 router bgp ID
-network 
+network ADDRESS
 aggregate-address 20.0.1.0/24 summary-only 
 
-Comprobar vecinos y prefijos de red conocidos show bgp neighbors show bgp ipv4 unicast Forzar sync de políticas (soft) # clear ip bgp * soft
+**Comprobar vecinos y prefijos de red conocidos** 
+show bgp neighbors 
+show bgp ipv4 unicast 
 
-Distribuir salida redundante por RIP router rip default-information originate … ip route 0.0.0.0/0 20.0.0.1 Túneles GRE ip tunnel add gre1 mode gre remote 20.0.1.6 local 20.0.1.1 ttl 255 ip link set gre1 up ip addr add 10.10.10.1/24 dev gre1 Reajustar vecindad con túneles router bgp 100 no neigbor 20.0.1.6 neighbor 10.10.10.2 remote-as 100 neighbor 10.10.10.2 next-hop-self
+**Forzar sync de políticas (soft)** 
+\# clear ip bgp * soft
 
-Ingeniería de tráfico (políticas de routing) (config)# route-map AS300-entrada permit 10 (config-route-map)# set local-preference 200 (config)# router bgp 100 (config-router)# neighbor 20.0.0.1 route-map AS300-entrada in (config)# ip as-path access-list 1 permit ^$ (config)# route-map AS300-salida permit 10 (config-route-map)# match as-path 1 (config)# router bgp 100 (config-router)# neighbor 20.0.0.1 route-map AS300-salida out
-## Séptima práctica
-EDITAR FICHEROS
-## Octava práctica
+**Distribuir salida redundante por RIP**
+router rip 
+default-information originate 
+… 
+ip route 0.0.0.0/0 20.0.0.1 
+
+**Túneles GRE** 
+ip tunnel add gre1 mode gre remote 20.0.1.6 local 20.0.1.1 ttl 255 
+ip link set gre1 up 
+ip addr add 10.10.10.1/24 dev gre1 
+
+**Reajustar vecindad con túneles** 
+router bgp 100 
+no neigbor 20.0.1.6 
+neighbor 10.10.10.2 remote-as 100 
+neighbor 10.10.10.2 next-hop-self
+
+**Ingeniería de tráfico (políticas de routing)** 
+(config)# route-map AS300-entrada permit 10 
+(config-route-map)# set local-preference 200 
+(config)# router bgp 100 
+(config-router)# neighbor 20.0.0.1 route-map AS300-entrada in 
+
+(config)# ip as-path access-list 1 permit ^$ 
+(config)# route-map AS300-salida permit 10 
+(config-route-map)# match as-path 1 
+(config)# router bgp 100 
+(config-router)# neighbor 20.0.0.1 route-map AS300-salida out
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Carrera/LR/Lab. Redes - Comandos.md",
-                "mode": "preview",
+                "file": "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Lab. Redes - Comandos"
+              "title": "Lista de deseos"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 222.99999618530273
+    "width": 222.99999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "27e43e43851e9df9",
@@ -101,10 +102,10 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Backlinks"
             }
           },
           {
@@ -179,8 +180,7 @@
               "title": "Todo List"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,43 +202,43 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Carrera/LR/Transparencias-20250428/Presentación práctica 3.pdf",
-    "Carrera/LR/Lab. Redes - Comandos.md",
-    "Carrera/LR/Transparencias-20250428/Presentación práctica 2.pdf",
-    "Carrera/LR/Transparencias-20250428/Presentación práctica 1.pdf",
-    "Carrera/LR/Transparencias-20250428/Presentación práctica 4.pdf",
-    "Carrera/LR/Transparencias-20250428/Presentación práctica 7.pdf",
-    "Carrera/LR/Laboratorio de redes.md",
-    "Recursos/Carrera.md",
+    "Ocio/Pasatiempos/Warhammer40000/Warhammer40K.md",
+    "Recursos/Ocio.md",
     "Recursos/Home.md",
-    "Carrera/DSI/Tema 4 - Node.js.md",
-    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
-    "Carrera/LR/Lab. Redes - VLAN.md",
-    "Carrera/LR/Lab. Redes - Áreas OSPF.md",
+    "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Lista de deseos.md",
+    "Carrera/LR/Lab. Redes - Comandos.md",
+    "Carrera/LR/Laboratorio de redes.md",
     "Carrera/LR/Lab. Redes - DHCP.md",
     "Carrera/LR/Lab. Redes - BGP.md",
-    "Carrera/LR/Lab. Redes - DNS.md",
-    "Carrera/LR/Lab. Redes - FireWall.md",
-    "Carrera/LR/Lab. Redes - VRRP.md",
-    "Carrera/LR/Lab. Redes - Redistribución.md",
-    "Proyectos/Migración a Arch (portátil).md",
+    "Carrera/LR/Lab. Redes - Áreas OSPF.md",
+    "Recursos/Carrera.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/Libros WH40K.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/FULGRIM.md",
+    "Ocio/Pasatiempos/Warhammer40000/Libros/HORUS, SEÑOR DE LA GUERRA.md",
+    "Ocio/Pasatiempos/Libros/Libros.md",
+    "Ocio/Pasatiempos/Warhammer40000/Miniaturas/Listas.md",
     "Recursos/Projectos.md",
+    "Carrera/LR/Transparencias-20250428/Presentación práctica 1.pdf",
+    "Carrera/LR/Lab. Redes - DNS.md",
+    "Carrera/LR/Lab. Redes - Práctica 2 (VLANS).md",
+    "Carrera/LR/Transparencias-20250428/DNS.pdf",
+    "Carrera/LR/Transparencias-20250428/Presentación práctica 5.pdf",
+    "Carrera/LR/Transparencias-20250428/Presentación práctica 4.pdf",
+    "Carrera/LR/Transparencias-20250428/Presentación práctica 3.pdf",
+    "Carrera/LR/Transparencias-20250428/Presentación práctica 2.pdf",
+    "Carrera/LR/Transparencias-20250428/VRRP.pdf",
+    "Carrera/LR/Lab. Redes - Redistribución.md",
+    "Carrera/LR/Lab. Redes - VRRP.md",
+    "Carrera/LR/Lab. Redes - FireWall.md",
+    "Carrera/LR/Lab. Redes - VLAN.md",
+    "Carrera/LR/2SSICifradoenFlujosinRC4niE0.pdf",
+    "Carrera/LR/Transparencias-20250428/Presentación práctica 7.pdf",
+    "Carrera/DSI/Tema 4 - Node.js.md",
+    "Carrera/DSI/Desarrollo de Sistemas Informáticos.md",
+    "Proyectos/Migración a Arch (portátil).md",
     "Carrera/SSI/2SSICifradoenFlujosinRC4niE0.pdf",
     "Carrera/SSI/Módulo 2 - Comunicaciones Seguras.md",
-    "Carrera/SSI/Seguridad en sistemas informáticos.md",
-    "Carrera/SSI/Módulo 3 - Clave Pública.md",
-    "Carrera/LR/Transparencias-20250428/redistribucion.pdf",
-    "Carrera/SSI/Módulo 4 - Certificación de claves.md",
-    "Carrera/LR/Transparencias-20250428/FIREWALL-NAT.pdf",
-    "Carrera/LR/Lab. Redes - Proyecto.md",
     "Carrera/LR/Anexos/Pasted image 20250429152210.png",
-    "Carrera/LR/Anexos",
-    "Carrera/LR/Transparencias-20250428/VLANs.pdf",
-    "Ocio/Pasatiempos/Juegos/Videojuegos.md",
-    "Ocio/Pasatiempos/Juegos/Minecraft.md",
-    "Ocio/Pasatiempos/Juegos/Terraria.md",
-    "Ocio/Pasatiempos/Juegos/Tanques.md",
-    "Carrera/LR/Transparencias-20250428/VRRP.pdf",
     "Carrera/SSI/Anexos/Pasted image 20250407130002.png",
     "Carrera/SSI/Anexos/Pasted image 20250407125840.png",
     "Carrera/SSI/Anexos/Pasted image 20250407125702.png",
