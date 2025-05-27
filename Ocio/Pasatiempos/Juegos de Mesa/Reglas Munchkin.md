@@ -1,4 +1,3 @@
-[[munchkin_reglas_Zacatrus.pdf]]
 ## Problemas de muchas expansiones
 + Mazo de cartas demasiado grande (tanto de tesoros como de puertas)
 + A medida que se obtienen tesoros el poder aumenta por lo que llegar a nivel 10 es muy rápido

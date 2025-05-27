@@ -3,7 +3,9 @@
   "cssTheme": "Encore",
   "enabledCssSnippets": [
     "dashboard",
-    "dashboard_wideview"
+    "dashboard_wideview",
+    "Untitled-1",
+    "menu"
   ],
   "interfaceFontFamily": "Courier New",
   "textFontFamily": "Courier New",

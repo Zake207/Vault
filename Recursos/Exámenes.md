@@ -3,4 +3,4 @@
 [< Volver](Tareas)
 
 - [ ] \-
-- [ ] 24 Marzo: SSI
+- [x] 24 Marzo: SSI

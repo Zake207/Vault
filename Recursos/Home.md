@@ -49,25 +49,46 @@ cellStyle:
   borderRadius: 0%
 
 ```
+---
+# Carrera
 
---- start-multi-column: ID_soga
-
-```column-settings
-Number of Columns: 3
-Largest Column: standard
+## 2 año
+``` dataview
+list from "Carrera" and #índice and #carrera_año2 
+```
+## 3 año
+[[1º cuatri_tercero.pdf|1º cuatrimestre]]
+``` dataview
+list from "Carrera" and #índice and #carrera_año3 and #cuatri_1 
 ```
 
-# [[Carrera]]
+[[2º cuatri_tercero.pdf|2º cuatrimestre]]
+``` dataview
+list from "Carrera" and #índice and #carrera_año3 and #cuatri_2 
+```
+## 4 año
+``` dataview
+list from "Carrera" and #índice and #carrera_año4 
+```
 
---- column-break ---
+# Ocio
 
-# [[Ocio]]
+``` dataview
+list from "Ocio/Pasatiempos" and #índice
+```
 
---- column-break ---
+# Proyectos
+## Proyectos
+``` dataview
+list from "Proyectos/Registros" and #project
+```
+## Recursos adicionales
+```dataview
+list from "Proyectos/Documentación" and #índice 
+```
 
-# [[Projectos]]
+## Ideas
+[[Migración a Arch (portátil)]]
 
---- end-multi-column
 
-#### [Añadir tareas](Tareas.md)
 

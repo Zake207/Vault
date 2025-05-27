@@ -44,5 +44,23 @@
       ],
       "key": "T"
     }
+  ],
+  "audio-recorder:stop": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "audio-recorder:start": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
   ]
 }
