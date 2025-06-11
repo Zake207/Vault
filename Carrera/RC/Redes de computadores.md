@@ -1,7 +1,21 @@
 #índice #carrera_año3 #cuatri_2
 ___
 ### Teoría:
+[[2025-01-xx_RDC_guia_rapida_para_superar_la_asignatura_v1.0.pdf|Tutorial.]]
+
 [[Anotaciones]]
+
+[[2025-01-xx_RDC_contenido_parte_1.pdf|Tema 1.]] - [[RC - Resumen 1]]
+[[2025-01-xx_RDC_contenido_parte_2.pdf|Tema 2.]] - [[RC - Resumen 2]]
+[[2025-01-xx_RDC_contenido_parte_3.pdf|Tema 3.]] - [[RC - Resumen 3]]
+[[2025-01-xx_RDC_contenido_parte_4.pdf|Tema 4.]]
+
+### Recursos adicionales:
+[[RC - Clasificación de redes]]
+[[RC - Telefonía]]
+[[RC - LTE]]
+[[RC - Wifi]]
+
 ___
 ### Prácticas:
 [[Redes de computadores - Tarea 1]]

@@ -9,5 +9,6 @@
 - [ ] Munchkin 8: Centauros de la mazmorra.
 - [x] Munchkin 9: Jurásico sarcástico. ✅ 2024-10-08
 - [ ] Munchkin destruye la Navidad.
+- [ ] Munchkinomicon
 - [x] Munchkin tesoros ocultos. ✅ 2024-10-08
 - [x] Munchkin dragones molones. ✅ 2024-10-08

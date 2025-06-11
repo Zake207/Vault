@@ -89,6 +89,6 @@ list from "Proyectos/Documentación" and #índice
 
 ## Ideas
 [[Migración a Arch (portátil)]]
-
+[[Aniversario]]
 
 

@@ -3,4 +3,5 @@
 + [[Fondos Indexados]]
 + [[Acciones]]
 + [[Bitcoin]]
++ [[Ingresos por ias]]
 ## Ideas

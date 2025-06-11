@@ -31,7 +31,7 @@ ___
 # 31/01/2025
 
 Eficaz: Realiza las acciones correctas
-Eficiente: Realiza las acciones correctas correctamentes
+Eficiente: Realiza las acciones correctas correctamente
 
 Hay dos tipos de redes
 + Red de telecomunicación: 
@@ -63,7 +63,7 @@ Sin embargo aún se usan otras tecnologías menos generalizadas como ATM o ADSL,
 
 # 06/02/2025
 
-Redes segun alcance: LAN, MAN, WAN
+Redes según alcance: LAN, MAN, WAN
 Redes según Tecnología: Broadcast, punto a punto.
 
 **Anotar tabla de las diapos**

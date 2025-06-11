@@ -42,6 +42,10 @@ Las criaturas de la Flota Enjambre Kraken tienen una pauta cromática de piel co
 ### Historia
 Fue la flota que ocasionó la Segunda Guerra Tiránida, 250 años después de la primera, tras la cual se determinó que los recién nombrados [[Genesteeler]], descubiertos en las lunas de **Ymgarl** eran de naturaleza **Tiránida** por lo que mandaron al capítulo de los [[Salamandras]] para purgarlas.
 
+Tras Behemoth se estableció un régimen militar en la franja sureste de la galaxia, zona de entrada de la Flota Enjambre, sin embargo comenzaron una serie de disturbios y motines en contra del régimen por lo que iniciaron investigaciones en el [[Segmentum Ultima]] purgando a supuestos traidores inclusive en [[Terra]].
+
+Mientras eso ocurría la flota enjambre atacó como un solo organismo diferentes mundos imperiales y mediante flotas menores amplió el alcance de la sombra en la disformidad, debido a eso se tardo en transmitir los primeros informes de ataques invasores.
+
 
 ## Gorgona
 ## Kronos
