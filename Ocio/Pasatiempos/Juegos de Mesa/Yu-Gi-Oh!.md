@@ -1,7 +1,12 @@
 ##
 [[Reglas de Juego]]
 
-## Structure decks
-[[Renacimiento de los dragones verdaderos]]
-[[Emperador de la Oscuridad]]
+## Decks
++ [[Blue-Eyes]]
++ [[Cyber-Style]]
++ [[Fire Kings]]
++ [[Purrely]]
++ [[Monarchs]]
++ [[Red Dragon Archifiend]]
++ [[Dragon Ruler]]
 ## Mazos
